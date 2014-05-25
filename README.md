@@ -10,4 +10,4 @@ Armenian radio stations that are broadcasting online.
 The plugin should be available in the official XBMC addon repository. You can
 install it within XBMC.
 
-Contact: <hakgagik@yahoo.com> or [Gagik](hakgagik) on Skype.
+Contact: <hakgagik@yahoo.com> or hakgagik on Skype.
