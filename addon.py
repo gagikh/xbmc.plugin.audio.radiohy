@@ -40,29 +40,9 @@ plugin.register_module(playlist, url_prefix='/_playlist')
 def get_streams():
     resp = [
             {
-                "Name":"Lav Radio(FM-107)",
-                "URLStream":"http://streams4.museter.com:8218/",
-                "Icon":"http://www.fm107.am/images/logo.jpg"
-            },
-            {
-                "Name":"Armenian Pulse Radio",
-                "URLStream":"http://50.7.96.210:8134/",
-                "Icon":"http://www.armenianpulse.com/wp-content/themes/eGamer/images/radiopage/pulse_radio.jpg"
-            },
-            {
                 "Name":"Ar Radio Intercontinental",
                 "URLStream":"http://199.195.194.92:8029/",
                 "Icon":"http://www.arradio.am/images/m_01.gif"
-            },
-            {
-                "Name":"Radio AVOL",
-                "URLStream":"http://64.150.176.192:8250/stream",
-                "Icon":"http://radioavol.org/uploads/donates/donate1x1.png"
-            },
-            {
-                "Name":"Radio Jan",
-                "URLStream":"http://streams4.museter.com:8216/",
-                "Icon":"http://www.arm-radio.com/wp-content/uploads/2014/02/radio-jan-logo.png"
             },
             {
                 "Name":"Armenian Patriotic Radio",
@@ -70,9 +50,49 @@ def get_streams():
                 "Icon":"http://www.imarmenian.com/association2/wp-content/uploads/2011/12/ARF-Logo-Red.png"
             },
             {
+                "Name":"Armenian Pulse Radio",
+                "URLStream":"http://50.7.96.210:8134/",
+                "Icon":"http://www.armenianpulse.com/wp-content/themes/eGamer/images/radiopage/pulse_radio.jpg"
+            },
+            {
+                "Name":"Lav Radio(FM-107)",
+                "URLStream":"http://streams4.museter.com:8218/",
+                "Icon":"http://www.fm107.am/images/logo.jpg"
+            },
+            {
+                "Name":"Radio Armenie",
+                "URLStream":"http://radioarmenie.relay-network.com:8032/",
+                "Icon":"http://www.radioarmenie.com/templates/theme475/images/logo.gif"
+            },
+            {
+                "Name":"Radio AVOL",
+                "URLStream":"http://64.150.176.192:8250/stream",
+                "Icon":"http://radioavol.org/uploads/donates/donate1x1.png"
+            },
+            {
+                "Name":"Radio AYP",
+                "URLStream":"http://stric6.streamakaci.com/radioayp.mp3",
+                "Icon":"http://radio-aypfm.com/images/bientot_en_direct.jpg"
+            },
+            {
+                "Name":"Radio Jan",
+                "URLStream":"http://streams4.museter.com:8216/",
+                "Icon":"http://www.arm-radio.com/wp-content/uploads/2014/02/radio-jan-logo.png"
+            },
+            {
                 "Name":"Radio YAN ARMENIAN",
                 "URLStream":"http://5.35.246.210:8000/stream",
                 "Icon":"http://www.imarmenian.com/association2/wp-content/uploads/2011/11/radioyan-300x97.jpg"
+            },
+            {
+                "Name":"Radio YAN FOLK",
+                "URLStream":"http://5.35.246.210:8002/stream",
+                "Icon":"http://old.hooys.com/banasdeghzootyoon/55_P20_Dare_Zadooroghli_a.jpg"
+            },
+            {
+                "Name":"Yerevan Nights",
+                "URLStream":"mms://radio.yerevannights.com/YerevanNights",
+                "Icon":"http://t2.gstatic.com/images?q=tbn:ANd9GcT_gI2q43Rgxs0Exa6JcZr9X3usmX5fGs2Do6_JDDmSrJ2sva3o"
             }
     ]
     return resp
