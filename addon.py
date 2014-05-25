@@ -57,6 +57,11 @@ def get_streams():
                 "Name":"Radio AVOL",
                 "URLStream":"http://64.150.176.192:8250/stream",
                 "Icon":"http://radioavol.org/uploads/donates/donate1x1.png"
+            },
+            {
+                "Name":"Lratvakan Radio",
+                "URLStream":"http://212.34.233.78:8000/",
+                "Icon":"http://lratvakan.am/img/logo.png"
             }
     ]
     return resp
