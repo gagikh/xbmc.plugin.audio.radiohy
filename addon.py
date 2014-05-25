@@ -59,9 +59,9 @@ def get_streams():
                 "Icon":"http://radioavol.org/uploads/donates/donate1x1.png"
             },
             {
-                "Name":"Lratvakan Radio",
-                "URLStream":"http://212.34.233.78:8000/",
-                "Icon":"http://lratvakan.am/img/logo.png"
+                "Name":"Radio Jan",
+                "URLStream":"http://streams4.museter.com:8216/",
+                "Icon":"http://www.arm-radio.com/wp-content/uploads/2014/02/radio-jan-logo.png"
             }
     ]
     return resp
