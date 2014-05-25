@@ -18,6 +18,9 @@ from xbmcswift import Plugin, download_page
 from xbmcswift.ext.playlist import playlist
 from BeautifulSoup import BeautifulSoup as BS, SoupStrainer as SS
 
+import os
+import sys
+
 try:
     import json
 except ImportError:
@@ -33,16 +36,14 @@ plugin.register_module(playlist, url_prefix='/_playlist')
 
 
 def get_streams():
-    url = 'http://radiohy.am/radiohyxbmc/radios.json'
-    #gagik:
-    #src = '[{"ID":"0","Name":"Armenian Public Radio","URLStream":"http:\/\/streams4.museter.com:8218\/","Infos":"128kbps","Icon":"http:\/\/www.armradio.am\/hy\/wp-content\/uploads\/2012\/09\/logo_up_arm.png"}]'
-    src = '[{"ID":"0","Name":"Lav Radio(FM-107)","URLStream":"http:\/\/streams4.museter.com:8218\/","Infos":"128kbps","Icon":"http://www.fm107.am/images/logo.jpg"}]'
+    #url = 'http://radiohy.am/radiohyxbmc/radios.json'
+    
+    src = '[{"ID":"0","Name":"Lav Radio(FM-107)","URLStream":"http:\/\/streams4.museter.com:8218\/","Infos":"128kbps","Icon":"http://www.fm107.am/images/logo.jpg"},{"ID":"1","Name":"Armenian Pulse Radio","URLStream":"http://50.7.96.210:8134/","Infos":"128kbps","Icon":"http://www.armenianpulse.com/wp-content/themes/eGamer/images/radiopage/pulse_radio.jpg"}]'
     resp = json.loads(src)
+    
     #src = download_page(url)
-    #esp = json.loads(src)
     #Return a JSON list of the streams
     return resp
-
 
 #### Plugin Views ####
 
