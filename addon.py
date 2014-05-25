@@ -1,4 +1,5 @@
 #!/usr/bin/env python
+
 # -*- coding: UTF-8 -*-
 # Copyright 2014 Gagik Hakobyan
 #
@@ -62,6 +63,11 @@ def get_streams():
                 "Name":"Radio Jan",
                 "URLStream":"http://streams4.museter.com:8216/",
                 "Icon":"http://www.arm-radio.com/wp-content/uploads/2014/02/radio-jan-logo.png"
+            },
+            {
+                "Name":"Armenian Patriotic Radio",
+                "URLStream":"http://5.35.246.210:8001/stream",
+                "Icon":"http://www.imarmenian.com/association2/wp-content/uploads/2011/12/ARF-Logo-Red.png"
             }
     ]
     return resp
