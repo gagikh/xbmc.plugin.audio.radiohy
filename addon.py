@@ -38,7 +38,7 @@ plugin.register_module(playlist, url_prefix='/_playlist')
 def get_streams():
     #url = 'http://radiohy.am/radiohyxbmc/radios.json'
     
-    src = '[{"ID":"0","Name":"Lav Radio(FM-107)","URLStream":"http:\/\/streams4.museter.com:8218\/","Infos":"128kbps","Icon":"http://www.fm107.am/images/logo.jpg"},{"ID":"1","Name":"Armenian Pulse Radio","URLStream":"http://50.7.96.210:8134/","Infos":"128kbps","Icon":"http://www.armenianpulse.com/wp-content/themes/eGamer/images/radiopage/pulse_radio.jpg"}]'
+    src = '[{"ID":"0","Name":"Lav Radio(FM-107)","URLStream":"http:\/\/streams4.museter.com:8218\/","Infos":"128kbps","Icon":"http://www.fm107.am/images/logo.jpg"},{"ID":"1","Name":"Armenian Pulse Radio","URLStream":"http://50.7.96.210:8134/","Infos":"128kbps","Icon":"http://www.armenianpulse.com/wp-content/themes/eGamer/images/radiopage/pulse_radio.jpg"},{"ID":"2","Name":"Ar Radio Intercontinental","URLStream":"http://199.195.194.92:8029/","Infos":"128kbps","Icon":"http://www.arradio.am/images/m_01.gif"}]'
     resp = json.loads(src)
     
     #src = download_page(url)
