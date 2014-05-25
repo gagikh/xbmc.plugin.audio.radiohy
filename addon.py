@@ -80,6 +80,11 @@ def get_streams():
                 "Icon":"http://www.arm-radio.com/wp-content/uploads/2014/02/radio-jan-logo.png"
             },
             {
+                "Name":"Radio Sevan",
+                "URLStream":"http://sevan.bitwize.me:8018/",
+                "Icon":"http://cdn9.staztic.com/app/a/991/991430/radio-sevan-live-1-0-s-156x156.jpg"
+            },
+            {
                 "Name":"Radio YAN ARMENIAN",
                 "URLStream":"http://5.35.246.210:8000/stream",
                 "Icon":"http://www.imarmenian.com/association2/wp-content/uploads/2011/11/radioyan-300x97.jpg"
