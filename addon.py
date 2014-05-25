@@ -60,6 +60,16 @@ def get_streams():
                 "Icon":"http://www.fm107.am/images/logo.jpg"
             },
             {
+                "Name":"HayFM",
+                "URLStream":"http://hayfm.am:8000/",
+                "Icon":""
+            },
+            {
+                "Name":"Nor Radyo",
+                "URLStream":"http://norradyo.com:8000/live",
+                "Icon":"http://www.ermenikultur.org/wp-content/uploads/2013/10/Nor_Radyo__g_rsel.jpg"
+            },
+            {
                 "Name":"Radio Armenie",
                 "URLStream":"http://radioarmenie.relay-network.com:8032/",
                 "Icon":"http://www.radioarmenie.com/templates/theme475/images/logo.gif"
@@ -73,6 +83,11 @@ def get_streams():
                 "Name":"Radio AYP",
                 "URLStream":"http://stric6.streamakaci.com/radioayp.mp3",
                 "Icon":"http://radio-aypfm.com/images/bientot_en_direct.jpg"
+            },
+            {
+                "Name":"Radio Hay",
+                "URLStream":"http://mix.am:8000/rhyerevan",
+                "Icon":""
             },
             {
                 "Name":"Radio Jan",
@@ -110,8 +125,15 @@ def show_homepage():
     Streams = get_streams()
     items = []
     for Station in Streams:
-        items.append({'label': Station['Name'], 'url': plugin.url_for('startplay', URLStream=Station['URLStream'], Name=Station['Name'], Icon=Station['Icon']), 'thumbnail':Station['Icon']})
-    items    
+        items.append({
+                        'label': Station['Name'], 
+                        'url': plugin.url_for(
+                                'startplay', 
+                                URLStream=Station['URLStream'], 
+                                Name=Station['Name'], 
+                                Icon=Station['Icon']), 
+                        'thumbnail':Station['Icon']})
+
     return plugin.add_items(items)
 
 @plugin.route('/live/<Name>/<URLStream>/<Icon>')
