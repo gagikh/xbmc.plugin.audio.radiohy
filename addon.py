@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 # -*- coding: UTF-8 -*-
-# Copyright 2011 Ayoub DARDORY.
+# Copyright 2014 Gagik Hakobyan
 #
 # This program is free software: you can redistribute it and/or modify
 # it under the terms of the GNU General Public License as published by
@@ -14,6 +14,7 @@
 #
 # You should have received a copy of the GNU General Public License
 # along with this program.  If not, see <http://www.gnu.org/licenses/>.
+
 from xbmcswift import Plugin, download_page
 from xbmcswift.ext.playlist import playlist
 from BeautifulSoup import BeautifulSoup as BS, SoupStrainer as SS
@@ -36,13 +37,28 @@ plugin.register_module(playlist, url_prefix='/_playlist')
 
 
 def get_streams():
-    #url = 'http://radiohy.am/radiohyxbmc/radios.json'
-    
-    src = '[{"ID":"0","Name":"Lav Radio(FM-107)","URLStream":"http:\/\/streams4.museter.com:8218\/","Infos":"128kbps","Icon":"http://www.fm107.am/images/logo.jpg"},{"ID":"1","Name":"Armenian Pulse Radio","URLStream":"http://50.7.96.210:8134/","Infos":"128kbps","Icon":"http://www.armenianpulse.com/wp-content/themes/eGamer/images/radiopage/pulse_radio.jpg"},{"ID":"2","Name":"Ar Radio Intercontinental","URLStream":"http://199.195.194.92:8029/","Infos":"128kbps","Icon":"http://www.arradio.am/images/m_01.gif"}]'
-    resp = json.loads(src)
-    
-    #src = download_page(url)
-    #Return a JSON list of the streams
+    resp = [
+            {
+                "Name":"Lav Radio(FM-107)",
+                "URLStream":"http://streams4.museter.com:8218/",
+                "Icon":"http://www.fm107.am/images/logo.jpg"
+            },
+            {
+                "Name":"Armenian Pulse Radio",
+                "URLStream":"http://50.7.96.210:8134/",
+                "Icon":"http://www.armenianpulse.com/wp-content/themes/eGamer/images/radiopage/pulse_radio.jpg"
+            },
+            {
+                "Name":"Ar Radio Intercontinental",
+                "URLStream":"http://199.195.194.92:8029/",
+                "Icon":"http://www.arradio.am/images/m_01.gif"
+            },
+            {
+                "Name":"Radio AVOL",
+                "URLStream":"http://64.150.176.192:8250/stream",
+                "Icon":"http://radioavol.org/uploads/donates/donate1x1.png"
+            }
+    ]
     return resp
 
 #### Plugin Views ####
@@ -54,7 +70,7 @@ def show_homepage():
     items = []
     for Station in Streams:
         items.append({'label': Station['Name'], 'url': plugin.url_for('startplay', URLStream=Station['URLStream'], Name=Station['Name'], Icon=Station['Icon']), 'thumbnail':Station['Icon']})
-        
+    items    
     return plugin.add_items(items)
 
 @plugin.route('/live/<Name>/<URLStream>/<Icon>')
