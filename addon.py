@@ -68,6 +68,11 @@ def get_streams():
                 "Name":"Armenian Patriotic Radio",
                 "URLStream":"http://5.35.246.210:8001/stream",
                 "Icon":"http://www.imarmenian.com/association2/wp-content/uploads/2011/12/ARF-Logo-Red.png"
+            },
+            {
+                "Name":"Radio YAN ARMENIAN",
+                "URLStream":"http://5.35.246.210:8000/stream",
+                "Icon":"http://www.imarmenian.com/association2/wp-content/uploads/2011/11/radioyan-300x97.jpg"
             }
     ]
     return resp
