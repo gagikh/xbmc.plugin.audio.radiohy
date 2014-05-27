@@ -65,7 +65,7 @@ def get_streams():
             {
                 "Name":     "Armenian Pulse Radio",
                 "Url":      "http://50.7.96.210:8134/",
-                "Icon":     "http://www.armenianpulse.com/wp-content/themes/eGamer/images/radiopage/pulse_radio.jpg"
+                "Icon":     "http://www.armenianpulse.com/wp-content/themes/eGamer/images/radiopage/pulse_radio.jpg",
                 "Email":    "content@armenianpulse.com",
                 "Country":  "",
                 "Phone":    "",
@@ -74,7 +74,7 @@ def get_streams():
             {
                 "Name":     "Lav Radio(FM-107)",
                 "Url":      "http://streams4.museter.com:8218/",
-                "Icon":     "http://www.fm107.am/images/logo.jpg"
+                "Icon":     "http://www.fm107.am/images/logo.jpg",
                 "Email":    "",
                 "Country":  "Armenia",
                 "Phone":    "+374-10-36-86-45",
@@ -83,7 +83,7 @@ def get_streams():
             {
                 "Name":     "Nor Radyo",
                 "Url":      "http://norradyo.com:8000/live",
-                "Icon":     "http://www.ermenikultur.org/wp-content/uploads/2013/10/Nor_Radyo__g_rsel.jpg"
+                "Icon":     "http://www.ermenikultur.org/wp-content/uploads/2013/10/Nor_Radyo__g_rsel.jpg",
                 "Email":    "",
                 "Country":  "Turkey",
                 "Phone":    "",
