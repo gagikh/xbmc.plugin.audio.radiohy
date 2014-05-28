@@ -16,26 +16,23 @@
 # You should have received a copy of the GNU General Public License
 # along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
-from xbmcswift import Plugin, download_page
-from xbmcswift.ext.playlist import playlist
-from BeautifulSoup import BeautifulSoup as BS, SoupStrainer as SS
+from xbmcswift import Plugin
 
 import os
 import sys
 
-try:
-    import json
-except ImportError:
-    import simplejson as json
 from xbmcswift import xbmc, xbmcgui
+import xbmcaddon
 
-__plugin__ = 'RadioHY'
-__plugin_id__ = 'plugin.audio.radiohy'
+_settings   = xbmcaddon.Addon()
 
-plugin = Plugin(__plugin__, __plugin_id__, __file__)
+_id         = _settings.getAddonInfo('id')
+_name       = _settings.getAddonInfo('name')
+_version    = _settings.getAddonInfo('version')
+_path       = xbmc.translatePath( _settings.getAddonInfo('path') ).decode('utf-8')
+_lib        = xbmc.translatePath( os.path.join( _path, 'resources', 'lib' ) )
 
-plugin.register_module(playlist, url_prefix='/_playlist')
-
+plugin = Plugin(_name, _id, __file__)
 
 def get_streams():
     #{
@@ -182,25 +179,26 @@ def show_homepage():
     items = []
     for Station in Streams:
         items.append({
-                        'label': Station['Name'], 
+                        'label': Station['Name'],
                         'url': plugin.url_for(
-                                'startplay', 
-                                Url=Station['Url'], 
-                                Name=Station['Name'], 
-                                Icon=Station['Icon']), 
+                                'startplay',
+                                Url=Station['Url'],
+                                Name=Station['Name'],
+                                Icon=Station['Icon'],
+                                Country=Station['Country']),
                         'thumbnail':Station['Icon']})
 
     return plugin.add_items(items)
 
-@plugin.route('/live/<Name>/<Url>/<Icon>')
-def startplay(Url, Name, Icon):
+@plugin.route('/live/<Name>/<Url>/<Icon>/<Country>')
+def startplay(Url, Name, Icon, Country):
     rtmpurl = Url
     Thumb = Icon
     li = xbmcgui.ListItem(Name, Name, Thumb, Thumb)
     li.setInfo('music', {'Title':Name})
+    li.setProperty('Path', Url)
+    li.setProperty('Country', Country)
     xbmc.Player(xbmc.PLAYER_CORE_MPLAYER).play(rtmpurl, li)
-    # Return an empty list so we can test with plugin.crawl() 
-    # and plugin.interactive()
     return []
 
 if __name__ == '__main__': 
