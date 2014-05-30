@@ -103,7 +103,7 @@ def get_streams():
             {
                 "Name":     "Radio Arax",
                 "Url":      "http://radioarmenie.relay-network.com:8032/",
-                "Icon":     "http://www.radioarax.com/logo.jpg"
+                "Icon":     "http://www.radioarax.com/logo.jpg",
                 "Email":    "armenia@adinet.com.uy",
                 "Country":  "Uruguay",
                 "Phone":    "+598-90-09-69-09",
