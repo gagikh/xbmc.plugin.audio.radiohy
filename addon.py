@@ -87,6 +87,15 @@ def get_streams():
                 "WebPage":  "http://www.norradyo.com/"
             },
             {
+                "Name":     "Radio Arax",
+                "Url":      "http://radioarmenie.relay-network.com:8032/",
+                "Icon":     "http://www.radioarax.com/logo.jpg"
+                "Email":    "armenia@adinet.com.uy",
+                "Country":  "Uruguay",
+                "Phone":    "+598-90-09-69-09",
+                "WebPage":  "http://www.radioarax.com/"
+            },
+            {
                 "Name":     "Radio Armenie",
                 "Url":      "http://radioarmenie.relay-network.com:8032/",
                 "Icon":     "http://www.radioarmenie.com/templates/theme475/images/logo.gif",
