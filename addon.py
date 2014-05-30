@@ -213,6 +213,7 @@ class MessageDlg(xbmcgui.WindowXMLDialog):
 
             li.setProperty('Url', Url)
             li.setProperty('Country', Country)
+            li.setProperty('Icon', Icon)
             station_list.append(li)
 
         self.list.addItems( station_list )
