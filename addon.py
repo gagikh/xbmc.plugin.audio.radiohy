@@ -17,6 +17,9 @@
 # along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 from xbmcswift import Plugin
+from pprint import pprint
+
+import xbmcplugin
 
 import os
 import sys
@@ -32,7 +35,18 @@ _version    = _settings.getAddonInfo('version')
 _path       = xbmc.translatePath( _settings.getAddonInfo('path') ).decode('utf-8')
 _lib        = xbmc.translatePath( os.path.join( _path, 'resources', 'lib' ) )
 
+_skin                   = _settings.getSetting('skin')
+_format                 = _settings.getSetting('format')
+_thumbnail_artwork      = _settings.getSetting('thumbnail_artwork')
+_sort_stations          = _settings.getSetting('sort_stations')
+_auto_start             = _settings.getSetting('auto_start')
+
+sys.path.append (_lib)
+
+STATION_LIST_ID = 200
+
 plugin = Plugin(_name, _id, __file__)
+gui = ''
 
 def get_streams():
     #{
@@ -170,36 +184,55 @@ def get_streams():
     ]
     return resp
 
-#### Plugin Views ####
+class MessageDlg(xbmcgui.WindowXMLDialog):
+    #def __init__(self, strXMLname, strFallbackPath, strDefaultName, forceFallback = True):
+    #    pass
+
+    def onInit(self):
+        self.list = self.getControl( 200 )
+        items = []
+        station_list = []
+        Streams = get_streams()
+        for Station in Streams:
+            Name = Station['Name']
+            Icon = Station['Icon']
+            Url = Station['Url']
+            Country = Station['Country']
+
+            li = xbmcgui.ListItem(Name, Name, Icon, Icon)
+            li.setInfo('music', {'Title': Name})
+
+            li.setProperty('Url', Url)
+            li.setProperty('Country', Country)
+            station_list.append(li)
+
+        self.list.addItems( station_list )
+    
+    def onAction(self, action):
+        #self.close()
+        pass
+    
+    def onClick(self, controlID):
+        # station list control
+
+        print >> sys.stderr, controlID
+        if (controlID == STATION_LIST_ID):
+            selItem = self.list.getSelectedItem()
+            Url = selItem.getProperty("Url");
+            xbmc.Player(xbmc.PLAYER_CORE_MPLAYER).play(Url)
+        else:
+            #xbmc.Player.stop(self)
+            self.close()
+    
+    def onFocus(self, controlID):
+        pass
+	
 
 # Default View
 @plugin.route('/', default=True)
 def show_homepage():
-    Streams = get_streams()
-    items = []
-    for Station in Streams:
-        items.append({
-                        'label': Station['Name'],
-                        'url': plugin.url_for(
-                                'startplay',
-                                Url=Station['Url'],
-                                Name=Station['Name'],
-                                Icon=Station['Icon'],
-                                Country=Station['Country']),
-                        'thumbnail':Station['Icon']})
-
-    return plugin.add_items(items)
-
-@plugin.route('/live/<Name>/<Url>/<Icon>/<Country>')
-def startplay(Url, Name, Icon, Country):
-    rtmpurl = Url
-    Thumb = Icon
-    li = xbmcgui.ListItem(Name, Name, Thumb, Thumb)
-    li.setInfo('music', {'Title':Name})
-    li.setProperty('Path', Url)
-    li.setProperty('Country', Country)
-    xbmc.Player(xbmc.PLAYER_CORE_MPLAYER).play(rtmpurl, li)
-    return []
+    gui = MessageDlg('script-pandora.xml', _path, _skin, '720p');
+    gui.doModal()
 
 if __name__ == '__main__': 
     plugin.run()
