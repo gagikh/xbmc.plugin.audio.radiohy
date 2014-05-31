@@ -29,11 +29,11 @@ import xbmcaddon
 
 _settings   = xbmcaddon.Addon()
 
-_id         = _settings.getAddonInfo('id')
-_name       = _settings.getAddonInfo('name')
-_version    = _settings.getAddonInfo('version')
-_path       = xbmc.translatePath( _settings.getAddonInfo('path') ).decode('utf-8')
-_lib        = xbmc.translatePath( os.path.join( _path, 'resources', 'lib' ) )
+_id                     = _settings.getAddonInfo('id')
+_name                   = _settings.getAddonInfo('name')
+_version                = _settings.getAddonInfo('version')
+_path                   = xbmc.translatePath( _settings.getAddonInfo('path') ).decode('utf-8')
+_lib                    = xbmc.translatePath( os.path.join( _path, 'resources', 'lib' ) )
 
 _skin                   = _settings.getSetting('skin')
 _format                 = _settings.getSetting('format')
@@ -43,7 +43,15 @@ _auto_start             = _settings.getSetting('auto_start')
 
 sys.path.append (_lib)
 
-STATION_LIST_ID = 200
+# <!-- 100 = list group -->
+# <!-- 200 = back -->
+# <!-- 300 = play -->
+# <!-- 400 = next -->
+
+STATION_LIST_ID = 100
+BACK_BUTTON_ID  = 200
+PLAY_BUTTON_ID  = 300
+NEXT_BUTTON_ID  = 400
 
 plugin = Plugin(_name, _id, __file__)
 gui = ''
@@ -194,11 +202,9 @@ def get_streams():
     return resp
 
 class WindowBox(xbmcgui.WindowXMLDialog):
-    #def __init__(self, strXMLname, strFallbackPath, strDefaultName, forceFallback = True):
-    #    pass
-
+    
     def onInit(self):
-        self.list = self.getControl( 200 )
+        self.list = self.getControl( STATION_LIST_ID )
         items = []
         station_list = []
         Streams = get_streams()
