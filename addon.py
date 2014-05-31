@@ -193,7 +193,7 @@ def get_streams():
     ]
     return resp
 
-class MessageDlg(xbmcgui.WindowXMLDialog):
+class WindowBox(xbmcgui.WindowXMLDialog):
     #def __init__(self, strXMLname, strFallbackPath, strDefaultName, forceFallback = True):
     #    pass
 
@@ -241,7 +241,7 @@ class MessageDlg(xbmcgui.WindowXMLDialog):
 # Default View
 @plugin.route('/', default=True)
 def show_homepage():
-    gui = MessageDlg('script-pandora.xml', _path, _skin, '720p');
+    gui = WindowBox('skin.xml', _path, _skin, '720p');
     gui.doModal()
 
 if __name__ == '__main__': 

@@ -45,7 +45,7 @@
 					<width>25</width>
 					<height>25</height>
 					<aspectratio>keep</aspectratio>
-					<texture>pandora-p.png</texture>
+					<texture>p.png</texture>
 				</control>
 			</control>
 			<control type="group">
@@ -57,7 +57,7 @@
 					<posy>00</posy>
 					<width>1280</width>
 					<height>720</height>
-					<texture border="20,10,10,30">pandora-panel.png</texture>
+					<texture border="20,10,10,30">panel.png</texture>
 					<aspectratio>stretch</aspectratio>
 				</control>
 			<!--HTPC GUY Modifications-->
@@ -68,7 +68,7 @@
 					<posy>158</posy>
 					<width>440</width>
 					<height>535</height>
-					<texture>pandora-stations-list.png</texture>
+					<texture>stations-list.png</texture>
 					<aspectratio>keep</aspectratio>
 				</control>
 			<!--END HTPC GUY Modifications-->
@@ -161,7 +161,7 @@
 							<posy>233</posy>
 							<width>550</width>
 							<height>255</height>
-							<texture>pandora-buttons-bg.png</texture>
+							<texture>buttons-bg.png</texture>
 							<aspectratio>keep</aspectratio>
 						</control>
 						<!--END Button Background Border-->
@@ -228,8 +228,8 @@
 							<onright>337</onright>
 							<ondown>335</ondown>
 							<aspectratio>keep</aspectratio>
-							<texturefocus>pandora-thumb-down.png</texturefocus>
-							<texturenofocus>pandora-thumb-down-nofocus.png</texturenofocus>
+							<texturefocus>thumb-down.png</texturefocus>
+							<texturenofocus>thumb-down-nofocus.png</texturenofocus>
 						</control>
 						<control type="button" id="337">
 							<description>thumbs down</description>
@@ -242,8 +242,8 @@
 							<onright>331</onright>
 							<ondown>335</ondown>
 							<aspectratio>keep</aspectratio>
-							<texturefocus>pandora-thumb-down-dislike.png</texturefocus>
-							<texturenofocus>pandora-thumb-down-nofocus-dislike.png</texturenofocus>
+							<texturefocus>thumb-down-dislike.png</texturefocus>
+							<texturenofocus>thumb-down-nofocus-dislike.png</texturenofocus>
 						</control>
 						<control type="button" id="331">
 							<description>thumbs up</description>
@@ -256,8 +256,8 @@
 							<onright>338</onright>
 							<ondown>335</ondown>
 							<aspectratio>keep</aspectratio>
-							<texturefocus>pandora-thumb-up.png</texturefocus>
-							<texturenofocus>pandora-thumb-up-nofocus.png</texturenofocus>
+							<texturefocus>thumb-up.png</texturefocus>
+							<texturenofocus>thumb-up-nofocus.png</texturenofocus>
 						</control>
 						<control type="button" id="338">
 							<description>thumbs up</description>
@@ -270,8 +270,8 @@
 							<onright>332</onright>
 							<ondown>335</ondown>
 							<aspectratio>keep</aspectratio>
-							<texturefocus>pandora-thumb-up-like.png</texturefocus>
-							<texturenofocus>pandora-thumb-up-nofocus-like.png</texturenofocus>
+							<texturefocus>thumb-up-like.png</texturefocus>
+							<texturenofocus>thumb-up-nofocus-like.png</texturenofocus>
 						</control>
 						<control type="togglebutton" id="332">
 							<description>play</description>
@@ -284,11 +284,11 @@
 							<onright>333</onright>
 							<ondown>335</ondown>
 							<aspectratio>keep</aspectratio>
-							<texturefocus>pandora-play.png</texturefocus>
-							<texturenofocus>pandora-play-nofocus.png</texturenofocus>
+							<texturefocus>play.png</texturefocus>
+							<texturenofocus>play-nofocus.png</texturenofocus>
 							<usealttexture>Player.Playing</usealttexture>
-							<alttexturefocus>pandora-pause.png</alttexturefocus>
-							<alttexturenofocus>pandora-pause-nofocus.png</alttexturenofocus>
+							<alttexturefocus>pause.png</alttexturefocus>
+							<alttexturenofocus>pause-nofocus.png</alttexturenofocus>
 							<onclick>XBMC.PlayerControl(Play)</onclick>
 						</control>
 						<control type="button" id="333">
@@ -301,8 +301,8 @@
 							<onright>336</onright>
 							<ondown>335</ondown>
 							<aspectratio>keep</aspectratio>
-							<texturefocus>pandora-skip.png</texturefocus>
-							<texturenofocus>pandora-skip-nofocus.png</texturenofocus>
+							<texturefocus>skip.png</texturefocus>
+							<texturenofocus>skip-nofocus.png</texturenofocus>
 						</control>
 						<control type="button" id="336">
 							<description>Tired</description>
@@ -313,8 +313,8 @@
 							<onleft>333</onleft>
 							<ondown>335</ondown>
 							<aspectratio>keep</aspectratio>
-							<texturefocus>pandora-tired.png</texturefocus>
-							<texturenofocus>pandora-tired-nofocus.png</texturenofocus>
+							<texturefocus>tired.png</texturefocus>
+							<texturenofocus>tired-nofocus.png</texturenofocus>
 						</control>
 						<control type="button" id="335">
 							<description>hide</description>
@@ -326,8 +326,8 @@
 							<onright>334</onright>
 							<onup>332</onup>
 							<aspectratio>keep</aspectratio>
-							<texturefocus>pandora-hide.png</texturefocus>
-							<texturenofocus>pandora-hide-nofocus.png</texturenofocus>
+							<texturefocus>hide.png</texturefocus>
+							<texturenofocus>hide-nofocus.png</texturenofocus>
 							<onclick>Skin.SetBool(PandoraVis)</onclick>
 						</control>
 					</control>

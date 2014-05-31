@@ -43,7 +43,7 @@
 					<width>50</width>
 					<height>50</height>
 					<aspectratio>keep</aspectratio>
-					<texture>pandora-p.png</texture>
+					<texture>p.png</texture>
 				</control>
 			</control>
 			<control type="group">
@@ -55,7 +55,7 @@
 					<posy>0</posy>
 					<width>730</width>
 					<height>500</height>s
-					<texture border="20,10,10,30">pandora-panel.png</texture>
+					<texture border="20,10,10,30">panel.png</texture>
 					<aspectratio>stretch</aspectratio>
 				</control>
 				<control type="group" id="3000">
@@ -191,8 +191,8 @@
 							<onright>331</onright>
 							<ondown>335</ondown>
 							<aspectratio>keep</aspectratio>
-							<texturefocus>pandora-thumb-down.png</texturefocus>
-							<texturenofocus>pandora-thumb-down-nofocus.png</texturenofocus>
+							<texturefocus>thumb-down.png</texturefocus>
+							<texturenofocus>thumb-down-nofocus.png</texturenofocus>
 						</control>
 						<control type="button" id="331">
 							<description>thumbs up</description>
@@ -204,8 +204,8 @@
 							<onright>332</onright>
 							<ondown>335</ondown>
 							<aspectratio>keep</aspectratio>
-							<texturefocus>pandora-thumb-up.png</texturefocus>
-							<texturenofocus>pandora-thumb-up-nofocus.png</texturenofocus>
+							<texturefocus>thumb-up.png</texturefocus>
+							<texturenofocus>thumb-up-nofocus.png</texturenofocus>
 						</control>
 						<control type="togglebutton" id="332">
 							<description>play</description>
@@ -218,11 +218,11 @@
 							<onright>333</onright>
 							<ondown>335</ondown>
 							<aspectratio>keep</aspectratio>
-							<texturefocus>pandora-play.png</texturefocus>
-							<texturenofocus>pandora-play-nofocus.png</texturenofocus>
+							<texturefocus>play.png</texturefocus>
+							<texturenofocus>play-nofocus.png</texturenofocus>
 							<usealttexture>Player.Playing</usealttexture>
-							<alttexturefocus>pandora-pause.png</alttexturefocus>
-							<alttexturenofocus>pandora-pause-nofocus.png</alttexturenofocus>
+							<alttexturefocus>pause.png</alttexturefocus>
+							<alttexturenofocus>pause-nofocus.png</alttexturenofocus>
 							<onclick>XBMC.PlayerControl(Play)</onclick>
 						</control>
 						<control type="button" id="333">
@@ -235,8 +235,8 @@
 							<onright>334</onright>
 							<ondown>335</ondown>
 							<aspectratio>keep</aspectratio>
-							<texturefocus>pandora-skip.png</texturefocus>
-							<texturenofocus>pandora-skip-nofocus.png</texturenofocus>
+							<texturefocus>skip.png</texturefocus>
+							<texturenofocus>skip-nofocus.png</texturenofocus>
 						</control>
 						<control type="button" id="334">
 							<description>info</description>
@@ -247,8 +247,8 @@
 							<onleft>333</onleft>
 							<ondown>335</ondown>
 							<aspectratio>keep</aspectratio>
-							<texturefocus>pandora-info.png</texturefocus>
-							<texturenofocus>pandora-info-nofocus.png</texturenofocus>
+							<texturefocus>info.png</texturefocus>
+							<texturenofocus>info-nofocus.png</texturenofocus>
 						</control>
 						<control type="button" id="335">
 							<description>hide</description>
@@ -260,8 +260,8 @@
 							<onright>334</onright>
 							<onup>332</onup>
 							<aspectratio>keep</aspectratio>
-							<texturefocus>pandora-hide.png</texturefocus>
-							<texturenofocus>pandora-hide-nofocus.png</texturenofocus>
+							<texturefocus>hide.png</texturefocus>
+							<texturenofocus>hide-nofocus.png</texturenofocus>
 							<onclick>Skin.SetBool(PandoraVis)</onclick>
 						</control>
 					</control>
