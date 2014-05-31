@@ -53,6 +53,9 @@ BACK_BUTTON_ID  = 200
 PLAY_BUTTON_ID  = 300
 NEXT_BUTTON_ID  = 400
 
+# actions
+ACTION_PREVIOUS_MENU = 10
+
 plugin = Plugin(_name, _id, __file__)
 gui = ''
 
@@ -208,6 +211,7 @@ class WindowBox(xbmcgui.WindowXMLDialog):
         items = []
         station_list = []
         Streams = get_streams()
+        idx = 0
         for Station in Streams:
             Name = Station['Name']
             Icon = Station['Icon']
@@ -220,29 +224,73 @@ class WindowBox(xbmcgui.WindowXMLDialog):
             li.setProperty('Url', Url)
             li.setProperty('Country', Country)
             li.setProperty('Icon', Icon)
+            li.setProperty('ID', str(idx))
             station_list.append(li)
+            idx = idx + 1;
 
         self.list.addItems( station_list )
-    
+        self.play = 0
+        self.focusedID = 0
+        self.size = len(Streams)
+        self.list.selectItem(focusedID)
+   
+    def closeWindow(self):
+        #if (0 != self.play):
+        self.close()
+
     def onAction(self, action):
-        #self.close()
-        pass
+        print >> sys.stderr, 'onAction'
+        print >> sys.stderr, action 
+        if action == ACTION_PREVIOUS_MENU:
+            self.closeWindow()
     
     def onClick(self, controlID):
         # station list control
 
+        print >> sys.stderr, 'onClick'
         print >> sys.stderr, controlID
-        if (controlID == STATION_LIST_ID):
+        if STATION_LIST_ID == controlID:
             selItem = self.list.getSelectedItem()
             Url = selItem.getProperty("Url");
-            xbmc.Player(xbmc.PLAYER_CORE_MPLAYER).play(Url)
-        else:
-            #xbmc.Player.stop(self)
-            self.close()
+            self.playStation(Url)
+        elif BACK_BUTTON_ID == controlID:
+            idx = self.wrapID(self.focusedID - 1)
+            item = self.list.getListItem(idx)
+            Url = item.getProperty("Url");
+            self.list.selectItem(idx)
+            self.focusedID = idx
+            self.playStation(Url)
+        elif NEXT_BUTTON_ID == controlID:
+            idx = self.wrapID(self.focusedID + 1)
+            item = self.list.getListItem(idx)
+            Url = item.getProperty("Url");
+            self.list.selectItem(idx)
+            self.focusedID = idx
+            self.playStation(Url)
     
+    def playStation(self, Url):
+        xbmc.Player(xbmc.PLAYER_CORE_MPLAYER).play(Url)
+        self.play = 1
+        print >> sys.stderr, dir(self.list)
+        print >> sys.stderr, (self.list.size())
+
+    def wrapID(self, id):
+        n = self.size
+        if (id < 0):
+            return n - 1
+        elif (id > n - 1):
+            return 0
+        else:
+            return id
+
     def onFocus(self, controlID):
-        pass
-	
+        print >> sys.stderr, 'onFocus'
+        print >> sys.stderr, controlID
+        if (STATION_LIST_ID == controlID):
+            selItem = self.list.getSelectedItem()
+            self.focusedID = int(selItem.getProperty("ID"))
+            print >> sys.stderr, 'selecting'
+            print >> sys.stderr, self.focusedID
 
 # Default View
 @plugin.route('/', default=True)
