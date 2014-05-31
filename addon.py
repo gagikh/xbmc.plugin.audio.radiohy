@@ -52,11 +52,13 @@ print >> sys.stderr, keys.ACTION_PREVIOUS_MENU
 # <!-- 200 = back -->
 # <!-- 300 = play -->
 # <!-- 400 = next -->
+# <!-- 500 = station logo -->
 
 STATION_LIST_ID = 100
 BACK_BUTTON_ID  = 200
 PLAY_BUTTON_ID  = 300
 NEXT_BUTTON_ID  = 400
+STATION_LOGO    = 500
 
 plugin = Plugin(_name, _id, __file__)
 
@@ -79,6 +81,8 @@ class WindowBox(xbmcgui.WindowXMLDialog):
 
             li = xbmcgui.ListItem(str(idx) + ") " + Name, Name, Icon, Icon)
             li.setInfo('music', {'Title': Name})
+            li.setThumbnailImage(Icon)
+            li.setIconImage(Icon)
 
             li.setProperty('Url',       Url)
             li.setProperty('Country',   Country)
@@ -89,14 +93,13 @@ class WindowBox(xbmcgui.WindowXMLDialog):
             idx = idx + 1;
 
         self.list.addItems( station_list )
-        self.play = 0
         self.focusedID = 0
         self.size = len(Streams)
         self.list.selectItem(self.focusedID)
    
     def closeWindow(self):
-        if (self.play):
-            pass
+        #if (xbmc.Player.isPlaying()):
+        #    pass
         self.close()
 
     def onAction(self, action):
@@ -117,25 +120,30 @@ class WindowBox(xbmcgui.WindowXMLDialog):
         if STATION_LIST_ID == controlID:
             selItem = self.list.getSelectedItem()
             Url = selItem.getProperty("Url");
-            self.playStation(Url)
+            Icon = selItem.getProperty("Icon");
+            self.playStation(Url, Icon)
         elif BACK_BUTTON_ID == controlID:
             idx = self.wrapID(self.focusedID - 1)
             item = self.list.getListItem(idx)
             Url = item.getProperty("Url");
+            Icon = selItem.getProperty("Icon");
             self.list.selectItem(idx)
             self.focusedID = idx
-            self.playStation(Url)
+            self.playStation(Url, Icon)
         elif NEXT_BUTTON_ID == controlID:
             idx = self.wrapID(self.focusedID + 1)
             item = self.list.getListItem(idx)
             Url = item.getProperty("Url");
+            Icon = selItem.getProperty("Icon");
             self.list.selectItem(idx)
             self.focusedID = idx
-            self.playStation(Url)
+            self.playStation(Url, Icon)
     
-    def playStation(self, Url):
-        xbmc.Player(xbmc.PLAYER_CORE_MPLAYER).play(Url)
-        self.play = 1
+    def playStation(self, Url, Icon):
+        self.list = self.getControl( STATION_LIST_ID )
+        logo = self.getControl( STATION_LOGO )
+        logo.setImage(Icon)
+        xbmc.Player(xbmc.PLAYER_CORE_AUTO).play(Url)
 
     def wrapID(self, id):
         n = self.size
