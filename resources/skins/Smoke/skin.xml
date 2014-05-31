@@ -4,11 +4,10 @@
 	<defaultresolutionwide>NTSC</defaultresolutionwide>
 	<version>1.0</version>
 
-<!-- amount to zoom skin to remove overscan compensation -->
 	<zoom>0</zoom>
 
 	<credits>
-		<skinname>Grunge</skinname>
-		<name>Pandora</name>
+		<skinname>Smoke</skinname>
+		<name>RadioHY</name>
 	</credits>
 </skin>

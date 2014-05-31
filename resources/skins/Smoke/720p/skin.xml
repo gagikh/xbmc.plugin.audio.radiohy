@@ -28,7 +28,7 @@
 			<posy>0</posy>
 			<texturenofocus>-</texturenofocus>
 			<texturefocus>-</texturefocus>
-			<onfocus>Skin.Reset(PandoraVis)</onfocus>
+			<onfocus>Skin.Reset(0)</onfocus>
 			<onfocus>SetFocus(2000)</onfocus>
 			<ondown>200</ondown>
 			<onup>200</onup>
@@ -37,19 +37,6 @@
 		</control>
 		<control type="group" id="2000">
 			<control type="group">
-				<visible>Skin.HasSetting(PandoraVis)</visible>
-				<animation effect="fade" pulse="true" time="5000" start="0" end="75" tween="sine" condition="true">Conditional</animation>
-				<control type="image" id="100">
-					<posx>20</posx>
-					<posy>30</posy>
-					<width>25</width>
-					<height>25</height>
-					<aspectratio>keep</aspectratio>
-					<texture>p.png</texture>
-				</control>
-			</control>
-			<control type="group">
-				<visible>!Skin.HasSetting(PandoraVis)</visible>
 				<animation effect="fade" time="300">VisibleChange</animation>
 				<control type="image">
 					<description>panel</description>
@@ -217,34 +204,6 @@
 							<info>Player.Progress</info>
 						</control>
 						<!--Control Buttons-->
-						<control type="button" id="330">
-							<description>thumbs down</description>
-							<visible>True</visible>
-							<posx>53</posx>
-							<posy>300</posy>
-							<height>75</height>
-							<width>75</width>
-							<onleft>200</onleft>
-							<onright>337</onright>
-							<ondown>335</ondown>
-							<aspectratio>keep</aspectratio>
-							<texturefocus>thumb-down.png</texturefocus>
-							<texturenofocus>thumb-down-nofocus.png</texturenofocus>
-						</control>
-						<control type="button" id="337">
-							<description>thumbs down</description>
-							<visible>True</visible>
-							<posx>53</posx>
-							<posy>300</posy>
-							<height>75</height>
-							<width>75</width>
-							<onleft>330</onleft>
-							<onright>331</onright>
-							<ondown>335</ondown>
-							<aspectratio>keep</aspectratio>
-							<texturefocus>thumb-down-dislike.png</texturefocus>
-							<texturenofocus>thumb-down-nofocus-dislike.png</texturenofocus>
-						</control>
 						<control type="button" id="331">
 							<description>thumbs up</description>
 							<visible>True</visible>
@@ -303,32 +262,6 @@
 							<aspectratio>keep</aspectratio>
 							<texturefocus>skip.png</texturefocus>
 							<texturenofocus>skip-nofocus.png</texturenofocus>
-						</control>
-						<control type="button" id="336">
-							<description>Tired</description>
-							<posx>494</posx>
-							<posy>300</posy>
-							<height>75</height>
-							<width>75</width>
-							<onleft>333</onleft>
-							<ondown>335</ondown>
-							<aspectratio>keep</aspectratio>
-							<texturefocus>tired.png</texturefocus>
-							<texturenofocus>tired-nofocus.png</texturenofocus>
-						</control>
-						<control type="button" id="335">
-							<description>hide</description>
-							<posx>273</posx>
-							<posy>405</posy>
-							<height>37</height>
-							<width>75</width>
-							<onleft>330</onleft>
-							<onright>334</onright>
-							<onup>332</onup>
-							<aspectratio>keep</aspectratio>
-							<texturefocus>hide.png</texturefocus>
-							<texturenofocus>hide-nofocus.png</texturenofocus>
-							<onclick>Skin.SetBool(PandoraVis)</onclick>
 						</control>
 					</control>
 				</control>

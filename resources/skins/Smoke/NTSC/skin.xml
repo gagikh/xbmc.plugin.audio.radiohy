@@ -26,7 +26,7 @@
 			<posy>0</posy>
 			<texturenofocus>-</texturenofocus>
 			<texturefocus>-</texturefocus>
-			<onfocus>Skin.Reset(PandoraVis)</onfocus>
+			<onfocus>Skin.Reset(0)</onfocus>
 			<onfocus>SetFocus(2000)</onfocus>
 			<ondown>200</ondown>
 			<onup>200</onup>
@@ -35,19 +35,6 @@
 		</control>
 		<control type="group" id="2000">
 			<control type="group">
-				<visible>Skin.HasSetting(PandoraVis)</visible>
-				<animation effect="fade" pulse="true" time="3000" start="0" end="75" tween="sine" condition="true">Conditional</animation>
-				<control type="image">
-					<posx>20</posx>
-					<posy>50</posy>
-					<width>50</width>
-					<height>50</height>
-					<aspectratio>keep</aspectratio>
-					<texture>p.png</texture>
-				</control>
-			</control>
-			<control type="group">
-				<visible>!Skin.HasSetting(PandoraVis)</visible>
 				<animation effect="fade" time="300">VisibleChange</animation>
 				<control type="image">
 					<description>panel</description>
@@ -262,7 +249,7 @@
 							<aspectratio>keep</aspectratio>
 							<texturefocus>hide.png</texturefocus>
 							<texturenofocus>hide-nofocus.png</texturenofocus>
-							<onclick>Skin.SetBool(PandoraVis)</onclick>
+							<onclick>Skin.SetBool(0)</onclick>
 						</control>
 					</control>
 				</control>
