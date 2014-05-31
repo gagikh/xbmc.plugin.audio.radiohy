@@ -204,20 +204,6 @@
 							<info>Player.Progress</info>
 						</control>
 						<!--Control Buttons-->
-						<control type="button" id="331">
-							<description>back</description>
-							<visible>True</visible>
-							<posx>163</posx>
-							<posy>300</posy>
-							<height>75</height>
-							<width>75</width>
-							<onleft>337</onleft>
-							<onright>338</onright>
-							<ondown>335</ondown>
-							<aspectratio>keep</aspectratio>
-							<texturefocus>back.png</texturefocus>
-							<texturenofocus>back-nofocus.png</texturenofocus>
-						</control>
 						<control type="button" id="338">
 							<description>back</description>
 							<visible>True</visible>

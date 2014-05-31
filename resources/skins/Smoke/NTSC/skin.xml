@@ -167,22 +167,8 @@
 							<height>15</height>
 							<info>Player.Progress</info>
 						</control>
-						<!--Control Buttons-->
-						<control type="button" id="330">
-							<description>thumbs down</description>
-							<posx>30</posx>
-							<posy>200</posy>
-							<height>50</height>
-							<width>50</width>
-							<onleft>200</onleft>
-							<onright>331</onright>
-							<ondown>335</ondown>
-							<aspectratio>keep</aspectratio>
-							<texturefocus>thumb-down.png</texturefocus>
-							<texturenofocus>thumb-down-nofocus.png</texturenofocus>
-						</control>
 						<control type="button" id="331">
-							<description>thumbs up</description>
+							<description>back</description>
 							<posx>92</posx>
 							<posy>200</posy>
 							<height>50</height>
@@ -191,8 +177,8 @@
 							<onright>332</onright>
 							<ondown>335</ondown>
 							<aspectratio>keep</aspectratio>
-							<texturefocus>thumb-up.png</texturefocus>
-							<texturenofocus>thumb-up-nofocus.png</texturenofocus>
+							<texturefocus>back.png</texturefocus>
+							<texturenofocus>back-nofocus.png</texturenofocus>
 						</control>
 						<control type="togglebutton" id="332">
 							<description>play</description>
@@ -224,32 +210,6 @@
 							<aspectratio>keep</aspectratio>
 							<texturefocus>skip.png</texturefocus>
 							<texturenofocus>skip-nofocus.png</texturenofocus>
-						</control>
-						<control type="button" id="334">
-							<description>info</description>
-							<posx>278</posx>
-							<posy>200</posy>
-							<height>50</height>
-							<width>50</width>
-							<onleft>333</onleft>
-							<ondown>335</ondown>
-							<aspectratio>keep</aspectratio>
-							<texturefocus>info.png</texturefocus>
-							<texturenofocus>info-nofocus.png</texturenofocus>
-						</control>
-						<control type="button" id="335">
-							<description>hide</description>
-							<posx>154</posx>
-							<posy>270</posy>
-							<height>25</height>
-							<width>50</width>
-							<onleft>330</onleft>
-							<onright>334</onright>
-							<onup>332</onup>
-							<aspectratio>keep</aspectratio>
-							<texturefocus>hide.png</texturefocus>
-							<texturenofocus>hide-nofocus.png</texturenofocus>
-							<onclick>Skin.SetBool(0)</onclick>
 						</control>
 					</control>
 				</control>
