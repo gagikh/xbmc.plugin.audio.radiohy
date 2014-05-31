@@ -205,7 +205,7 @@
 						</control>
 						<!--Control Buttons-->
 						<control type="button" id="331">
-							<description>thumbs up</description>
+							<description>back</description>
 							<visible>True</visible>
 							<posx>163</posx>
 							<posy>300</posy>
@@ -215,11 +215,11 @@
 							<onright>338</onright>
 							<ondown>335</ondown>
 							<aspectratio>keep</aspectratio>
-							<texturefocus>thumb-up.png</texturefocus>
-							<texturenofocus>thumb-up-nofocus.png</texturenofocus>
+							<texturefocus>back.png</texturefocus>
+							<texturenofocus>back-nofocus.png</texturenofocus>
 						</control>
 						<control type="button" id="338">
-							<description>thumbs up</description>
+							<description>back</description>
 							<visible>True</visible>
 							<posx>163</posx>
 							<posy>300</posy>
@@ -229,8 +229,8 @@
 							<onright>332</onright>
 							<ondown>335</ondown>
 							<aspectratio>keep</aspectratio>
-							<texturefocus>thumb-up-like.png</texturefocus>
-							<texturenofocus>thumb-up-nofocus-like.png</texturenofocus>
+							<texturefocus>back.png</texturefocus>
+							<texturenofocus>back-nofocus.png</texturenofocus>
 						</control>
 						<control type="togglebutton" id="332">
 							<description>play</description>
