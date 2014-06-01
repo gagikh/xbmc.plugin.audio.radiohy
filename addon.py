@@ -77,13 +77,12 @@ class WindowBox(xbmcgui.WindowXMLDialog):
             Phone   = Station['Phone']
             WebPage = Station['WebPage']
 
-            li = xbmcgui.ListItem(str(idx) + ") " + Name, Name, Icon, Icon)
+            li = xbmcgui.ListItem(str(idx) + ") " + Name, Name)
             li.setInfo('music', {'Title': Name})
-            li.setThumbnailImage(Icon)
-            li.setIconImage(Icon)
 
             li.setProperty('Name',      Name)
             li.setProperty('Url',       Url)
+            li.setProperty('Icon',      Icon)
             li.setProperty('Email',     Email)
             li.setProperty('Country',   Country)
             li.setProperty('Phone',     Phone)
@@ -97,10 +96,14 @@ class WindowBox(xbmcgui.WindowXMLDialog):
         self.focusedID = 0
         self.size = len(Streams)
         self.list.selectItem(self.focusedID)
+        self.player = xbmc.Player(xbmc.PLAYER_CORE_AUTO)
+        self.start = 0
    
     def closeWindow(self):
         #if (xbmc.Player.isPlaying()):
         #    pass
+        if 0 == self.start:
+            self.player.stop()
         self.close()
 
     def onAction(self, action):
@@ -160,7 +163,8 @@ class WindowBox(xbmcgui.WindowXMLDialog):
         self.list = self.getControl( STATION_LIST_ID )
         logo = self.getControl( STATION_LOGO )
         logo.setImage(Icon)
-        xbmc.Player(xbmc.PLAYER_CORE_AUTO).play(Url)
+        self.player.play(Url)
+        self.start = 1;
 
     def wrapID(self, id):
         n = self.size

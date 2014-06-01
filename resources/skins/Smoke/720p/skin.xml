@@ -84,7 +84,7 @@
 									<info>ListItem.Label</info>
 								</control>
 							</itemlayout>
-							<focusedlayout height="35">
+							<focusedlayout height="32">
 								<control type="image">
 									<width>375</width>
 									<height>30</height>
