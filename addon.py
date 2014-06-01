@@ -46,8 +46,6 @@ sys.path.append (_lib)
 import keys
 import stations
 
-print >> sys.stderr, keys.ACTION_PREVIOUS_MENU
-
 # <!-- 100 = list group -->
 # <!-- 200 = back -->
 # <!-- 300 = play -->
@@ -84,9 +82,12 @@ class WindowBox(xbmcgui.WindowXMLDialog):
             li.setThumbnailImage(Icon)
             li.setIconImage(Icon)
 
+            li.setProperty('Name',      Name)
             li.setProperty('Url',       Url)
+            li.setProperty('Email',     Email)
             li.setProperty('Country',   Country)
-            li.setProperty('Icon',      Icon)
+            li.setProperty('Phone',     Phone)
+            li.setProperty('WebPage',   WebPage)
             li.setProperty('ID',        str(idx))
 
             station_list.append(li)
@@ -107,12 +108,28 @@ class WindowBox(xbmcgui.WindowXMLDialog):
         buttonCode =  action.getButtonCode()
         actionID   =  action.getId()
         
+        print >> sys.stderr, actionID
+
         if (actionID in ( \
             keys.ACTION_PREVIOUS_MENU, \
             keys.ACTION_NAV_BACK, \
             keys.ACTION_PARENT_DIR, \
             keys.KEY_BUTTON_BACK)):
             self.closeWindow()
+        if (actionID == keys.ACTION_SHOW_INFO):
+            selItem = self.list.getSelectedItem()
+            dialog = xbmcgui.Dialog()
+            Name    = selItem.getProperty('Name')
+            Email   = selItem.getProperty('Email')
+            Country = selItem.getProperty('Country')
+            Phone   = selItem.getProperty('Phone')
+            WebPage = selItem.getProperty('WebPage')
+
+            info  = '\nCountry: ' + Country + \
+                    '\nEmail:   ' + Email + \
+                    '\nPhone:   ' + Phone + \
+                    '\nWebPage: ' + WebPage;
+            dialog.ok(Name, info)
     
     def onClick(self, controlID):
         # station list control
@@ -126,7 +143,7 @@ class WindowBox(xbmcgui.WindowXMLDialog):
             idx = self.wrapID(self.focusedID - 1)
             item = self.list.getListItem(idx)
             Url = item.getProperty("Url");
-            Icon = selItem.getProperty("Icon");
+            Icon = item.getProperty("Icon");
             self.list.selectItem(idx)
             self.focusedID = idx
             self.playStation(Url, Icon)
@@ -134,7 +151,7 @@ class WindowBox(xbmcgui.WindowXMLDialog):
             idx = self.wrapID(self.focusedID + 1)
             item = self.list.getListItem(idx)
             Url = item.getProperty("Url");
-            Icon = selItem.getProperty("Icon");
+            Icon = item.getProperty("Icon");
             self.list.selectItem(idx)
             self.focusedID = idx
             self.playStation(Url, Icon)
@@ -155,9 +172,10 @@ class WindowBox(xbmcgui.WindowXMLDialog):
             return id
 
     def onFocus(self, controlID):
-        if (STATION_LIST_ID == controlID):
-            selItem = self.list.getSelectedItem()
-            self.focusedID = int(selItem.getProperty("ID"))
+        #if (STATION_LIST_ID == controlID):
+        #    selItem = self.list.getSelectedItem()
+        #    self.focusedID = int(selItem.getProperty("ID"))
+        pass
 
 # Default View
 @plugin.route('/', default=True)
