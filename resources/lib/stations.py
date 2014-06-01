@@ -54,6 +54,15 @@ def getStations():
                 "WebPage":  "http://www.norradyo.com/"
             },
             {
+                "Name":     "Radio Aga",
+                "Url":      "http://50.7.77.114:8111/autodj",
+                "Icon":     "http://www.armenianvoice.com/SiteImages/ArmenianVoice.jpg",
+                "Email":    "info@Armenianvoice.com",
+                "Country":  "",
+                "Phone":    "",
+                "WebPage":  "http://www.armenianvoice.com/"
+            },
+            {
                 "Name":     "Radio Arax",
                 "Url":      "http://radioarmenie.relay-network.com:8032/",
                 "Icon":     "http://www.radioarax.com/logo.jpg",
@@ -81,6 +90,15 @@ def getStations():
                 "WebPage":  "http://radioavol.org/"
             },
             {
+                "Name":     "Radio Avrora",
+                "Url":      "http://www.radioaurora.am/hdvideo/",
+                "Icon":     "http://www.radioaurora.am/images/white_logo.png",
+                "Email":    "radioaurora@radioaurora.am",
+                "Country":  "Armenia",
+                "Phone":    "+374-10-25-10-07",
+                "WebPage":  "http://www.radioaurora.am/"
+            },
+            {
                 "Name":     "Radio AYP",
                 "Url":      "http://stric6.streamakaci.com/radioayp.mp3",
                 "Icon":     "http://radio-aypfm.com/images/bientot_en_direct.jpg",
@@ -90,7 +108,16 @@ def getStations():
                 "WebPage":  "http://radio-aypfm.com/"
             },
             {
-                "Name":     "Radio Hay",
+                "Name":     "Radio Hay (5 achok)",
+                "Url":      "http://mix.am:8000/5achok",
+                "Icon":     "",
+                "Email":    "",
+                "Country":  "Armenia",
+                "Phone":    "",
+                "WebPage":  "http://live.mix.am/"
+            },
+            {
+                "Name":     "Radio Hay(Yerevan)",
                 "Url":      "http://mix.am:8000/rhyerevan",
                 "Icon":     "",
                 "Email":    "",
@@ -108,6 +135,15 @@ def getStations():
                 "WebPage":  "http://www.radiojan.am/"
             },
             {
+                "Name":     "Radio Toot",
+                "Url":      "http://87.117.201.159:8110/",
+                "Icon":     "http://radiotoot.com/eng/wp-content/uploads/2013/06/logosmall32.png",
+                "Email":    "",
+                "Country":  "Armenia",
+                "Phone":    "",
+                "WebPage":  "http://radiotoot.com/"
+            },
+            {
                 "Name":     "Radio Sevan",
                 "Url":      "http://sevan.bitwize.me:8018/",
                 "Icon":     "http://cdn9.staztic.com/app/a/991/991430/radio-sevan-live-1-0-s-156x156.jpg",
@@ -115,6 +151,15 @@ def getStations():
                 "Country":  "Beirut",
                 "Phone":    "+961-1-567161/2/3",
                 "WebPage":  "http://www.radiosevan.com/"
+            },
+            {
+                "Name":     "Radio Van",
+                "Url":      "http://radiovan.am:8000/32_stereo",
+                "Icon":     "http://www.radiovan.am/assets/pictures/logo.png",
+                "Email":    "radiovan@radiovan.am",
+                "Country":  "Armenia",
+                "Phone":    "+374-10-54-00-01",
+                "WebPage":  "http://radiovan.am"
             },
             {
                 "Name":     "Radio YAN ARMENIAN",
@@ -133,6 +178,15 @@ def getStations():
                 "Country":  "France",
                 "Phone":    "+961-3-274-847",
                 "WebPage":  "http://www.radioyan.com/"
+            },
+            {
+                "Name":     "Radio Yeraz",
+                "Url":      "http://50.7.173.162:8233/",
+                "Icon":     "http://radioyeraz.com/yeraz/wp-content/uploads/2013/12/radiologo.png",
+                "Email":    "radioyan@imarmenian.com",
+                "Country":  "Armenia",
+                "Phone":    "",
+                "WebPage":  "http://radioyeraz.com/"
             },
             {
                 "Name":     "Yerevan Nights",
