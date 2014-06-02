@@ -63,6 +63,15 @@ def getStations():
                 "WebPage":  "http://www.norradyo.com/"
             },
             {
+                "Name":     "Radio A",
+                "Url":      "http://91.121.62.121:7250/",
+                "Icon":     "http://votreradiosurlenet.com/player/img/radioa.gif",
+                "Email":    "radio.a@wanadoo.fr",
+                "Country":  "France",
+                "Phone":    "00-33-4-75-56-18-33",
+                "WebPage":  "http://radioa.net/"
+            },
+            {
                 "Name":     "Radio Aga",
                 "Url":      "http://50.7.77.114:8111/autodj",
                 "Icon":     "http://www.armenianvoice.com/SiteImages/ArmenianVoice.jpg",
@@ -226,11 +235,11 @@ def getStations():
             },
             {
                 "Name":     "Voice of Van",
-                "Url":      "NOP",
-                "Icon":     "NOP",
-                "Email":    "NOP",
-                "Country":  "NOP",
-                "Phone":    "NOP",
+                "Url":      "http://www.voiceofvan.net/player/player.swf",
+                "Icon":     "http://www.voiceofvan.net/sites/all/themes/layout6/images/header-object.png",
+                "Email":    "",
+                "Country":  "Lebanon",
+                "Phone":    "+961-1-241-199 ",
                 "WebPage":  "http://www.voiceofvan.net/"
             },
             {
