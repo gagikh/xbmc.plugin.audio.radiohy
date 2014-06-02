@@ -31,8 +31,8 @@ _settings   = xbmcaddon.Addon()
 _id                     = _settings.getAddonInfo('id')
 _name                   = _settings.getAddonInfo('name')
 _version                = _settings.getAddonInfo('version')
-_path                   = xbmc.translatePath( _settings.getAddonInfo('path') ).decode('utf-8')
-_lib                    = xbmc.translatePath( os.path.join( _path, 'resources', 'lib' ) )
+_path                   = xbmc.translatePath(_settings.getAddonInfo('path') ).decode('utf-8')
+_lib                    = xbmc.translatePath(os.path.join( _path, 'resources', 'lib' ))
 
 _skin                   = _settings.getSetting('skin')
 _format                 = _settings.getSetting('format')
@@ -108,8 +108,6 @@ class WindowBox(xbmcgui.WindowXMLDialog):
         buttonCode =  action.getButtonCode()
         actionID   =  action.getId()
         
-        #print >> sys.stderr, actionID
-
         if (actionID in ( \
             keys.ACTION_PREVIOUS_MENU, \
             keys.ACTION_NAV_BACK, \
@@ -118,7 +116,7 @@ class WindowBox(xbmcgui.WindowXMLDialog):
             self.closeWindow()
         if (actionID == keys.ACTION_SHOW_INFO):
             selItem = self.list.getSelectedItem()
-            dialog = xbmcgui.Dialog()
+            dialog  = xbmcgui.Dialog()
             Name    = selItem.getProperty('Name')
             Email   = selItem.getProperty('Email')
             Country = selItem.getProperty('Country')
@@ -133,22 +131,22 @@ class WindowBox(xbmcgui.WindowXMLDialog):
     
     def onClick(self, controlID):
         # station list control
-
+        flag = 0
+        idx = 0
         if STATION_LIST_ID == controlID:
             selItem = self.list.getSelectedItem()
             Url = selItem.getProperty("Url");
             Icon = selItem.getProperty("Icon");
             self.playStation(Url, Icon)
         elif BACK_BUTTON_ID == controlID:
-            idx = self.wrapID(self.focusedID - 1)
-            item = self.list.getListItem(idx)
-            Url = item.getProperty("Url");
-            Icon = item.getProperty("Icon");
-            self.list.selectItem(idx)
-            self.focusedID = idx
-            self.playStation(Url, Icon)
+            idx = self.focusedID - 1
+            flag = 1
         elif NEXT_BUTTON_ID == controlID:
-            idx = self.wrapID(self.focusedID + 1)
+            idx = self.focusedID + 1
+            flag = 1
+
+        if flag:
+            idx = self.wrapID(idx + 1)
             item = self.list.getListItem(idx)
             Url = item.getProperty("Url");
             Icon = item.getProperty("Icon");
