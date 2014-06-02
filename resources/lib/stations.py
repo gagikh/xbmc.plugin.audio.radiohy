@@ -18,6 +18,15 @@ def getStations():
                 "WebPage":  "http://www.arradio.am"
             },
             {
+                "Name":     "Armenian Christian Radio",
+                "Url":      "http://fire.wavestreamer.com:5643",
+                "Icon":     "http://bashde.org/images/logo-4e.png",
+                "Email":    "info@bashde.org",
+                "Country":  "",
+                "Phone":    "",
+                "WebPage":  "http://bashde.org/"
+            },
+            {
                 "Name":     "Armenian Patriotic Radio",
                 "Url":      "http://5.35.246.210:8001/stream",
                 "Icon":     "http://www.imarmenian.com/association2/wp-content/uploads/2011/12/ARF-Logo-Red.png",
@@ -72,6 +81,15 @@ def getStations():
                 "WebPage":  "http://www.radioarax.com/"
             },
             {
+                "Name":     "Radio Arc",
+                "Url":      "http://radioarc.serverroom.us:4082",
+                "Icon":     "http://www.radioarc.com/images/logo-anim.gif",
+                "Email":    "info@radioarc.com",
+                "Country":  "",
+                "Phone":    "",
+                "WebPage":  "http://www.radioarc.com/"
+            },
+            {
                 "Name":     "Radio Armenie",
                 "Url":      "http://radioarmenie.relay-network.com:8032/",
                 "Icon":     "http://www.radioarmenie.com/templates/theme475/images/logo.gif",
@@ -108,6 +126,15 @@ def getStations():
                 "WebPage":  "http://radio-aypfm.com/"
             },
             {
+                "Name":     "NOP",
+                "Url":      "http://ws.irib.ir/player/mediaplayer/player.swf",
+                "Icon":     "NOP",
+                "Email":    "NOP",
+                "Country":  "NOP",
+                "Phone":    "NOP",
+                "WebPage":  "http://armenianradioboston.com/"
+            },
+            {
                 "Name":     "Radio Hay (5 achok)",
                 "Url":      "http://mix.am:8000/5achok",
                 "Icon":     "",
@@ -133,6 +160,15 @@ def getStations():
                 "Country":  "Armenia",
                 "Phone":    "+374-96-01-08-55",
                 "WebPage":  "http://www.radiojan.am/"
+            },
+            {
+                "Name":     "Radio Jazz",
+                "Url":      "NOP",
+                "Icon":     "http://radiojazz.am/wp-content/themes/ari/images/logo.png",
+                "Email":    "",
+                "Country":  "Armenia",
+                "Phone":    "",
+                "WebPage":  "http://radiojazz.am/"
             },
             {
                 "Name":     "Radio Toot",
@@ -187,6 +223,15 @@ def getStations():
                 "Country":  "Armenia",
                 "Phone":    "",
                 "WebPage":  "http://radioyeraz.com/"
+            },
+            {
+                "Name":     "Voice of Van",
+                "Url":      "NOP",
+                "Icon":     "NOP",
+                "Email":    "NOP",
+                "Country":  "NOP",
+                "Phone":    "NOP",
+                "WebPage":  "http://www.voiceofvan.net/"
             },
             {
                 "Name":     "Yerevan Nights",

@@ -17,7 +17,6 @@
 # along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 from xbmcswift import Plugin
-from pprint import pprint
 
 import xbmcplugin
 
@@ -100,9 +99,7 @@ class WindowBox(xbmcgui.WindowXMLDialog):
         self.start = 0
    
     def closeWindow(self):
-        #if (xbmc.Player.isPlaying()):
-        #    pass
-        if 0 == self.start:
+        if 1 == self.start:
             self.player.stop()
         self.close()
 
@@ -111,7 +108,7 @@ class WindowBox(xbmcgui.WindowXMLDialog):
         buttonCode =  action.getButtonCode()
         actionID   =  action.getId()
         
-        print >> sys.stderr, actionID
+        #print >> sys.stderr, actionID
 
         if (actionID in ( \
             keys.ACTION_PREVIOUS_MENU, \
