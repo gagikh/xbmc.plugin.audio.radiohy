@@ -11,3 +11,5 @@ The plugin should be available in the official XBMC addon repository. You can
 install it within XBMC.
 
 Contact: <hakgagik@yahoo.com> or hakgagik on Skype.
+
+Special thanks to the developers of [Pandora](https://github.com/rivy/xbmc-script.audio.pandora) and [RadioMA](https://github.com/apolikamixitos/xbmc.plugin.audio.radioma) plugins.
