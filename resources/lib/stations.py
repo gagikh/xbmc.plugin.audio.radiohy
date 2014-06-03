@@ -16,7 +16,7 @@ def getStations():
                 "Country":  "Armenia",
                 "Address":  "0025 Yerevan, Alex Manoogian 5 str",
                 "Phone":    "+374-10-55-11-43",
-                "Director": "Armen Amiryan"
+                "Director": "Armen Amiryan",
                 "WebPage":  "http://www.arradio.am"
             },
             {
@@ -146,7 +146,7 @@ def getStations():
                 "Icon":     "http://www.radioaurora.am/images/white_logo.png",
                 "Email":    "radioaurora@radioaurora.am",
                 "Country":  "Armenia",
-                "Address":  "Ереван, улица Наири Зарьяна 22, этажи 7,9, 0051",
+                "Address":  "Yerevan, Nairi Zaryan 22, 0051",
                 "Phone":    "+374-10-25-10-07",
                 "Director": "",
                 "WebPage":  "http://www.radioaurora.am/"
@@ -157,7 +157,7 @@ def getStations():
                 "Icon":     "http://radio-aypfm.com/images/bientot_en_direct.jpg",
                 "Email":    "",
                 "Country":  "France",
-                "Address":  "41 rue des écoles, 94140 Alfortville",
+                "Address":  "41 rue des ecolses, 94140 Alfortville",
                 "Phone":    "01-43-53-19-90",
                 "Director": "",
                 "WebPage":  "http://radio-aypfm.com/"
@@ -300,7 +300,7 @@ def getStations():
                 "Icon":     "http://www.radiovan.am/assets/pictures/logo.png",
                 "Email":    "radiovan@radiovan.am",
                 "Country":  "Armenia",
-                "Address":  "0100, Армения, Ереван, Ханджян 13а, 7ой этаж, Радио «Ван»",
+                "Address":  "Yerevan, Xandjyan 13a",
                 "Phone":    "+374-10-54-00-01",
                 "Director": "",
                 "WebPage":  "http://radiovan.am"
