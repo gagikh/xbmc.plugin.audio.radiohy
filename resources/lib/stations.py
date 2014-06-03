@@ -7,6 +7,8 @@ def getStations():
     #    "Url":"http://hayfm.am:8000/",
     #    "Icon":""
     #},
+    #cityfm, http://www.cityfm.am/
+    #radio vem, http://www.vem.am/
     resp = [
             { # verified
                 "Name":     "Ar Radio Intercontinental",
@@ -20,6 +22,17 @@ def getStations():
                 "WebPage":  "http://www.arradio.am"
             },
             {
+                "Name":     "Armenian Bible Study",
+                "Url":      "",
+                "Icon":     "http://www.armenianbiblestudy.com/img/abslogo.png",
+                "Email":    "feedback@armenianbiblestudy.com",
+                "Country":  "",
+                "Address":  "",
+                "Phone":    "",
+                "Director": "",
+                "WebPage":  "http://www.armenianbiblestudy.com/"
+            },
+            {
                 "Name":     "Armenian Christian Radio",
                 "Url":      "http://fire.wavestreamer.com:5643",
                 "Icon":     "http://bashde.org/images/logo-4e.png",
@@ -29,6 +42,17 @@ def getStations():
                 "Phone":    "",
                 "Director": "",
                 "WebPage":  "http://bashde.org/"
+            },
+            {
+                "Name":     "Armenian Net Radio",
+                "Url":      "http://50.117.8.242:1126/Live",
+                "Icon":     "http://www.armnetradio.com/images/logosmall.png",
+                "Email":    "",
+                "Country":  "Armenia",
+                "Address":  "",
+                "Phone":    "",
+                "Director": "",
+                "WebPage":  "http://www.armnetradio.com/"
             },
             {
                 "Name":     "Armenian Patriotic Radio",
@@ -64,6 +88,17 @@ def getStations():
                 "WebPage":  "http://www.fm107.am/"
             },
             {
+                "Name":     "Lav Radio Mix",
+                "Url":      "http://195.154.181.100:8000/stream",
+                "Icon":     "http://www.lavradio.am/img/big_logo.png",
+                "Email":    "info@lavradio.am",
+                "Country":  "Armenia",
+                "Address":  "",
+                "Phone":    "",
+                "Director": "",
+                "WebPage":  "http://www.lavradio.am/"
+            },
+            {
                 "Name":     "Nor Radyo",
                 "Url":      "http://norradyo.com:8000/live",
                 "Icon":     "http://www.ermenikultur.org/wp-content/uploads/2013/10/Nor_Radyo__g_rsel.jpg",
@@ -84,6 +119,50 @@ def getStations():
                 "Phone":    "00-33-4-75-56-18-33",
                 "Director": "",
                 "WebPage":  "http://radioa.net/"
+            },
+            {
+                "Name":     "Radio Ardzaganq",
+                "Url":      "http://www.ardzagank.com/home.swf",
+                "Icon":     "http://www.ardzagank.com/img/logo_3.jpg",
+                "Email":    "ardzagank@ardzagank.com",
+                "Country":  "Armenia",
+                "Address":  "Frunze 13, Yerevan, Armenia",
+                "Phone":    "",
+                "Director": "",
+                "WebPage":  "http://www.ardzagank.com/"
+            },
+            {
+                "Name":     "Radio Fama",
+                "Url":      "http://195.154.181.100:8036/",
+                "Icon":     "http://www.radiofama.am/wp-content/uploads/lg8.png",
+                "Email":    "",
+                "Country":  "Armenia",
+                "Address":  "375010 ՀՀ, Երևան Տիգրան Մեծի 17",
+                "Phone":    "+3741-59-70-00",
+                "Director": "",
+                "WebPage":  "http://radiofama.am"
+            },
+            {
+                "Name":     "Radio Gayan",
+                "Url":      "",
+                "Icon":     "",
+                "Email":    "",
+                "Country":  "",
+                "Address":  "",
+                "Phone":    "",
+                "Director": "",
+                "WebPage":  "http://radiogayan.com/"
+            },
+            {
+                "Name":     "Radio Spyurq",
+                "Url":      "http://192.184.9.79:8174/",
+                "Icon":     "",
+                "Email":    "",
+                "Country":  "Armenia",
+                "Address":  "",
+                "Phone":    "",
+                "Director": "",
+                "WebPage":  "http://www.radiospurk.com/"
             },
             {
                 "Name":     "Armenian Voice",
@@ -337,6 +416,17 @@ def getStations():
                 "Phone":    "",
                 "Director": "",
                 "WebPage":  "http://radioyeraz.com/"
+            },
+            {
+                "Name":     "Trik Trak",
+                "Url":      "http://64.118.88.39:8010/",
+                "Icon":     "http://triktrak.ca/wp-content/uploads/2011/09/triklogo31.jpg",
+                "Email":    "",
+                "Country":  "",
+                "Address":  "",
+                "Phone":    "",
+                "Director": "",
+                "WebPage":  "http://triktrak.ca/"
             },
             {
                 "Name":     "Voice of Van",
