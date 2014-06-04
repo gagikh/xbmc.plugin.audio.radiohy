@@ -137,7 +137,7 @@ def getStations():
                 "Icon":     "http://www.radiofama.am/wp-content/uploads/lg8.png",
                 "Email":    "",
                 "Country":  "Armenia",
-                "Address":  "375010 ՀՀ, Երևան Տիգրան Մեծի 17",
+                "Address":  "375010, Yerevan, Tigran Mec 17",
                 "Phone":    "+3741-59-70-00",
                 "Director": "",
                 "WebPage":  "http://radiofama.am"

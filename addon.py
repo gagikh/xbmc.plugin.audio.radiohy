@@ -117,9 +117,12 @@ class WindowBox(xbmcgui.WindowXMLDialog):
         if (actionID == keys.ACTION_SHOW_INFO):
             selItem = self.list.getSelectedItem()
             dialog  = xbmcgui.Dialog()
-            Name    = selItem.getProperty('Name')
-            Email   = selItem.getProperty('Email')
+
+            Address = selItem.getProperty('Address')
             Country = selItem.getProperty('Country')
+            Director= selItem.getProperty('Director')
+            Email   = selItem.getProperty('Email')
+            Name    = selItem.getProperty('Name')
             Phone   = selItem.getProperty('Phone')
             WebPage = selItem.getProperty('WebPage')
 
