@@ -198,12 +198,23 @@ def getStations():
                 "WebPage":  "http://www.radioarc.com/"
             },
             {
+                "Name":     "Radio Armenia",
+                "Url":      "",
+                "Icon":     "http://radioarmenia.com/radio2/images/small_logo.jpg",
+                "Email":    "info@armenianmusic.com",
+                "Country":  "+323-664-3365",
+                "Address":  "",
+                "Phone":    "",
+                "Director": "",
+                "WebPage":  "http://radioarmenia.com/"
+            },
+            {
                 "Name":     "Radio Armenie",
                 "Url":      "http://radioarmenie.relay-network.com:8032/",
                 "Icon":     "http://www.radioarmenie.com/templates/theme475/images/logo.gif",
                 "Email":    "",
                 "Country":  "France",
-                "Address":  "",
+                "Address":  "4 rue Marcellin Berthelot 69150 DECINES FRANCE",
                 "Phone":    "04-78-49-52-74",
                 "Director": "",
                 "WebPage":  "http://www.radioarmenie.com/"
@@ -452,4 +463,3 @@ def getStations():
             }
     ]
     return resp
-
