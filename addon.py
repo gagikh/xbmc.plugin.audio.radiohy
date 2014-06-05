@@ -16,14 +16,14 @@
 # You should have received a copy of the GNU General Public License
 # along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
-from xbmcswift import Plugin
+from xbmcswift2 import Plugin
 
 import xbmcplugin
 
 import os
 import sys
 
-from xbmcswift import xbmc, xbmcgui
+from xbmcswift2 import xbmc, xbmcgui
 import xbmcaddon
 
 _settings   = xbmcaddon.Addon()
@@ -180,7 +180,7 @@ class WindowBox(xbmcgui.WindowXMLDialog):
         pass
 
 # Default View
-@plugin.route('/', default=True)
+@plugin.route('/')
 def show_homepage():
     gui = WindowBox('skin.xml', _path, _skin, '720p');
     gui.doModal()

@@ -4,7 +4,7 @@
         <import addon="xbmc.python" version="2.1.0"/>
         <import addon="service.skin.widgets" version="2.1.0"/>
         <import addon="xbmc.gui" version="2.1.0"/>
-        <import addon="script.module.xbmcswift" version="2.1.0"/>
+        <import addon="script.module.xbmcswift2" version="2.1.0"/>
     </requires>
     <extension point="xbmc.python.pluginsource" library="addon.py">
         <provides>audio</provides>
