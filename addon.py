@@ -38,7 +38,9 @@ _skin                   = _settings.getSetting('skin')
 _format                 = _settings.getSetting('format')
 _thumbnail_artwork      = _settings.getSetting('thumbnail_artwork')
 _sort_stations          = _settings.getSetting('sort_stations')
-_auto_start             = _settings.getSetting('auto_start')
+
+_auto_start             = bool(_settings.getSetting('auto_start'))
+_last_station_id        = int(_settings.getSetting('last_station_id'))
 
 sys.path.append (_lib)
 
@@ -105,11 +107,10 @@ class WindowBox(xbmcgui.WindowXMLDialog):
         self.stationsCount = len(Streams)
         self.list.selectItem(self.focusedID)
         self.player = xbmc.Player(xbmc.PLAYER_CORE_AUTO)
-        self.start = 0
+        if (_auto_start):
+            self.runPlayer(_last_station_id)
    
     def closeWindow(self):
-        #if 1 == self.start:
-        #    self.player.stop()
         self.close()
 
     def onAction(self, action):
@@ -155,20 +156,23 @@ class WindowBox(xbmcgui.WindowXMLDialog):
             flag = 0
 
         if flag:
-            idx = self.wrapID(idx, self.stationsCount)
-            item = self.list.getListItem(idx)
-            Url = item.getProperty("Url");
-            Icon = item.getProperty("Icon");
-            self.list.selectItem(idx)
-            self.focusedID = idx
-            self.playStation(Url, Icon)
+            self.runPlayer(idx)
+    
+    def runPlayer(self, idx):
+        idx = self.wrapID(idx, self.stationsCount)
+        item = self.list.getListItem(idx)
+        Url = item.getProperty("Url");
+        Icon = item.getProperty("Icon");
+        self.list.selectItem(idx)
+        self.focusedID = idx
+        self.playStation(Url, Icon)
+        _settings.setSetting('last_station_id', str(idx))
     
     def playStation(self, Url, Icon):
         self.list = self.getControl( STATION_LIST_ID )
         logo = self.getControl( STATION_LOGO )
         logo.setImage(Icon)
         self.player.play(Url)
-        self.start = 1;
 
     def wrapID(self, idx, n):
         resp = 0;
