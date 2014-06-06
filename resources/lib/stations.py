@@ -44,6 +44,17 @@ def getStations():
                 "WebPage":  "http://bashde.org/"
             },
             {
+                "Name":     "Armenian Independent Broadcasting of Boston",
+                "Url":      "http://ws.irib.ir/player/mediaplayer/player.swf",
+                "Icon":     "http://armenianradioboston.com/images/ABB-Bannerad.jpg",
+                "Email":    "Yevgine@aol.com",
+                "Country":  "USA",
+                "Address":  "PO Box 46, Watertown, Massachusetts 02471",
+                "Phone":    "+1-617-926-6268",
+                "Director": "Yevgine Gharibian",
+                "WebPage":  "http://armenianradioboston.com/"
+            },
+            {
                 "Name":     "Armenian Net Radio",
                 "Url":      "http://50.117.8.242:1126/Live",
                 "Icon":     "http://www.armnetradio.com/images/logosmall.png",
@@ -77,6 +88,17 @@ def getStations():
                 "WebPage":  "http://www.armenianpulse.com/"
             },
             {
+                "Name":     "Armenian Voice",
+                "Url":      "http://50.7.77.114:8111/autodj",
+                "Icon":     "http://www.armenianvoice.com/SiteImages/ArmenianVoice.jpg",
+                "Email":    "info@Armenianvoice.com",
+                "Country":  "",
+                "Address":  "",
+                "Phone":    "",
+                "Director": "",
+                "WebPage":  "http://www.armenianvoice.com/"
+            },
+            {
                 "Name":     "Lav Radio(FM-107)",
                 "Url":      "http://streams4.museter.com:8218/",
                 "Icon":     "http://www.fm107.am/images/logo.jpg",
@@ -108,6 +130,17 @@ def getStations():
                 "Phone":    "",
                 "Director": "",
                 "WebPage":  "http://www.norradyo.com/"
+            },
+            {
+                "Name":     "Public Radio of Armenia",
+                "Url":      "http://195.154.181.100:8052/",
+                "Icon":     "http://www.armradio.am/hy/wp-content/uploads/2012/09/logo_up_arm.png",
+                "Email":    "aa@arradio.am",
+                "Country":  "Armenia",
+                "Address":  "Yerevan 25, Aleq Manukyan 5",
+                "Phone":    "+374-10-55-11-43",
+                "Director": "Armen Amiryan",
+                "WebPage":  "http://www.armradio.am/"
             },
             {
                 "Name":     "Radio A",
@@ -163,17 +196,6 @@ def getStations():
                 "Phone":    "",
                 "Director": "",
                 "WebPage":  "http://www.radiospurk.com/"
-            },
-            {
-                "Name":     "Armenian Voice",
-                "Url":      "http://50.7.77.114:8111/autodj",
-                "Icon":     "http://www.armenianvoice.com/SiteImages/ArmenianVoice.jpg",
-                "Email":    "info@Armenianvoice.com",
-                "Country":  "",
-                "Address":  "",
-                "Phone":    "",
-                "Director": "",
-                "WebPage":  "http://www.armenianvoice.com/"
             },
             {
                 "Name":     "Radio Arax",
@@ -251,17 +273,6 @@ def getStations():
                 "Phone":    "01-43-53-19-90",
                 "Director": "",
                 "WebPage":  "http://radio-aypfm.com/"
-            },
-            {
-                "Name":     "Armenian Independent Broadcasting of Boston",
-                "Url":      "http://ws.irib.ir/player/mediaplayer/player.swf",
-                "Icon":     "http://armenianradioboston.com/images/ABB-Bannerad.jpg",
-                "Email":    "Yevgine@aol.com",
-                "Country":  "USA",
-                "Address":  "PO Box 46, Watertown, Massachusetts 02471",
-                "Phone":    "+1-617-926-6268",
-                "Director": "Yevgine Gharibian",
-                "WebPage":  "http://armenianradioboston.com/"
             },
             {
                 "Name":     "Radio Hay (starfm)",
