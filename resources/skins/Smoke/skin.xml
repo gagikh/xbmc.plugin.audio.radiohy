@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <skin>
-	<defaultresolution>NTSC</defaultresolution>
-	<defaultresolutionwide>NTSC</defaultresolutionwide>
+	<defaultresolution>720p</defaultresolution>
+	<defaultresolutionwide>720p</defaultresolutionwide>
 	<version>1.0</version>
 
 	<zoom>0</zoom>

@@ -142,7 +142,7 @@ class WindowBox(xbmcgui.WindowXMLDialog):
             dialog.ok(Name, info)
     
     def onClick(self, controlID):
-        flag = 0
+        flag = 1
         idx = 0
         if STATION_LIST_ID == controlID:
             selItem = self.list.getSelectedItem()
