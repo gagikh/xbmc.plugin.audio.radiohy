@@ -79,8 +79,8 @@ class WindowBox(xbmcgui.WindowXMLDialog):
             Url     = Station['Url']
             WebPage = Station['WebPage']
 
-            if not Url:
-                continue
+            #if not Url:
+            #    continue
 
             li = xbmcgui.ListItem(str(idx) + ") " + Name, Name)
             li.setInfo('music', {'Title': Name})
@@ -102,7 +102,7 @@ class WindowBox(xbmcgui.WindowXMLDialog):
 
         self.list.addItems( station_list )
         self.focusedID = 0
-        self.size = len(Streams)
+        self.stationsCount = len(Streams)
         self.list.selectItem(self.focusedID)
         self.player = xbmc.Player(xbmc.PLAYER_CORE_AUTO)
         self.start = 0
@@ -146,7 +146,7 @@ class WindowBox(xbmcgui.WindowXMLDialog):
         idx = 0
         if STATION_LIST_ID == controlID:
             selItem = self.list.getSelectedItem()
-            idx = selItem.getProperty("Id")
+            idx = int(selItem.getProperty("Id"))
         elif BACK_BUTTON_ID == controlID:
             idx = self.focusedID - 1
         elif NEXT_BUTTON_ID == controlID:
@@ -155,7 +155,7 @@ class WindowBox(xbmcgui.WindowXMLDialog):
             flag = 0
 
         if flag:
-            idx = self.wrapID(idx)
+            idx = self.wrapID(idx, self.stationsCount)
             item = self.list.getListItem(idx)
             Url = item.getProperty("Url");
             Icon = item.getProperty("Icon");
@@ -170,19 +170,17 @@ class WindowBox(xbmcgui.WindowXMLDialog):
         self.player.play(Url)
         self.start = 1;
 
-    def wrapID(self, id):
-        n = self.size
-        if (id < 0):
-            return n - 1
-        elif (id > n - 1):
-            return 0
+    def wrapID(self, idx, n):
+        resp = 0;
+        if (idx < 0):
+            resp = n - 1
+        elif (idx > n - 1):
+            resp = 0
         else:
-            return id
+            resp = idx
+        return resp
 
     def onFocus(self, controlID):
-        #if (STATION_LIST_ID == controlID):
-        #    selItem = self.list.getSelectedItem()
-        #    self.focusedID = int(selItem.getProperty("Id"))
         pass
 
 # Default View
