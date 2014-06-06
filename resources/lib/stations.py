@@ -370,7 +370,7 @@ def getStations():
                 "Country":  "Armenia",
                 "Address":  "",
                 "Phone":    "",
-                "Address":  "",
+                "Director": "",
                 "WebPage":  "http://radiotoot.com/"
             },
             {

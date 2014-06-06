@@ -63,30 +63,39 @@ class WindowBox(xbmcgui.WindowXMLDialog):
     
     def onInit(self):
         self.list = self.getControl( STATION_LIST_ID )
+
         items = []
         station_list = []
         Streams = stations.getStations()
         idx = 0
         for Station in Streams:
-            Name    = Station['Name']
-            Url     = Station['Url']
-            Icon    = Station['Icon']
-            Email   = Station['Email']
+            Address = Station['Address']
             Country = Station['Country']
+            Director= Station['Director']
+            Email   = Station['Email']
+            Icon    = Station['Icon']
+            Name    = Station['Name']
             Phone   = Station['Phone']
+            Url     = Station['Url']
             WebPage = Station['WebPage']
+
+            if not Url:
+                continue
 
             li = xbmcgui.ListItem(str(idx) + ") " + Name, Name)
             li.setInfo('music', {'Title': Name})
 
-            li.setProperty('Name',      Name)
-            li.setProperty('Url',       Url)
-            li.setProperty('Icon',      Icon)
-            li.setProperty('Email',     Email)
+            li.setProperty('Address',   Address)
             li.setProperty('Country',   Country)
+            li.setProperty('Director',  Director)
+            li.setProperty('Email',     Email)
+            li.setProperty('Icon',      Icon)
+            li.setProperty('Name',      Name)
             li.setProperty('Phone',     Phone)
+            li.setProperty('Url',       Url)
             li.setProperty('WebPage',   WebPage)
-            li.setProperty('ID',        str(idx))
+
+            li.setProperty('Id',        str(idx))
 
             station_list.append(li)
             idx = idx + 1;
@@ -99,8 +108,8 @@ class WindowBox(xbmcgui.WindowXMLDialog):
         self.start = 0
    
     def closeWindow(self):
-        if 1 == self.start:
-            self.player.stop()
+        #if 1 == self.start:
+        #    self.player.stop()
         self.close()
 
     def onAction(self, action):
@@ -114,7 +123,7 @@ class WindowBox(xbmcgui.WindowXMLDialog):
             keys.ACTION_PARENT_DIR, \
             keys.KEY_BUTTON_BACK)):
             self.closeWindow()
-        if (actionID == keys.ACTION_SHOW_INFO):
+        elif (actionID == keys.ACTION_SHOW_INFO):
             selItem = self.list.getSelectedItem()
             dialog  = xbmcgui.Dialog()
 
@@ -133,23 +142,20 @@ class WindowBox(xbmcgui.WindowXMLDialog):
             dialog.ok(Name, info)
     
     def onClick(self, controlID):
-        # station list control
         flag = 0
         idx = 0
         if STATION_LIST_ID == controlID:
             selItem = self.list.getSelectedItem()
-            Url = selItem.getProperty("Url");
-            Icon = selItem.getProperty("Icon");
-            self.playStation(Url, Icon)
+            idx = selItem.getProperty("Id")
         elif BACK_BUTTON_ID == controlID:
             idx = self.focusedID - 1
-            flag = 1
         elif NEXT_BUTTON_ID == controlID:
             idx = self.focusedID + 1
-            flag = 1
+        else:
+            flag = 0
 
         if flag:
-            idx = self.wrapID(idx + 1)
+            idx = self.wrapID(idx)
             item = self.list.getListItem(idx)
             Url = item.getProperty("Url");
             Icon = item.getProperty("Icon");
@@ -176,7 +182,7 @@ class WindowBox(xbmcgui.WindowXMLDialog):
     def onFocus(self, controlID):
         #if (STATION_LIST_ID == controlID):
         #    selItem = self.list.getSelectedItem()
-        #    self.focusedID = int(selItem.getProperty("ID"))
+        #    self.focusedID = int(selItem.getProperty("Id"))
         pass
 
 # Default View
