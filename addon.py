@@ -39,7 +39,7 @@ _format                 = _settings.getSetting('format')
 _thumbnail_artwork      = _settings.getSetting('thumbnail_artwork')
 _sort_stations          = _settings.getSetting('sort_stations')
 
-_auto_start             = bool(_settings.getSetting('auto_start'))
+_auto_start             = "true" == (_settings.getSetting('auto_start'))
 _last_station_id        = int(_settings.getSetting('last_station_id'))
 
 sys.path.append (_lib)
@@ -68,7 +68,7 @@ class WindowBox(xbmcgui.WindowXMLDialog):
 
         items = []
         station_list = []
-        Streams = stations.getStations()
+        Streams = stations.getStations(_sort_stations)
         idx = 0
         for Station in Streams:
             Address = Station['Address']

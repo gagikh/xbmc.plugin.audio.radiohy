@@ -1,7 +1,8 @@
 
 # returns the current list of known stations
+import operator
 
-def getStations():
+def getStations(sortingKey):
     #{
     #    "Name":"HayFM",
     #    "Url":"http://hayfm.am:8000/",
@@ -473,4 +474,5 @@ def getStations():
                 "WebPage":  "http://www.yerevannights.com/"
             }
     ]
+    resp.sort(key=operator.itemgetter(sortingKey))
     return resp
