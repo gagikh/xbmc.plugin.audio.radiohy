@@ -11,8 +11,12 @@
     </extension>
     <extension point="xbmc.addon.metadata">
         <platform>all</platform>
-        <summary>Listen to the Armenian radio stations online.</summary>
-        <description>With this plugin you'll be able to listen to the all Armenian radio stations that are broadcasting online.</description>
+        <summary lang="en">Listen to the Armenian radio stations online.</summary>
+
+        <description lang="en">With this plugin you'll be able to listen to the all Armenian radio stations that are broadcasting online.</description>
+
+        <description lang="hy">Այս ծրագրային հավելման միջոցով դուք կկարողանաք լսել հայերեն լեզվով սփռվող առցանց ռադիոհաղորդումները։</description>
+            
         <email>hakgagik@yahoo.com</email>
     </extension>
     <extension point="xbmc.gui.skin" debugging="true" effectslowdown="0.75">

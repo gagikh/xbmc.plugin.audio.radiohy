@@ -78,8 +78,8 @@
 									<height>30</height>
 									<font>font12</font>
 									<aligny>center</aligny>
-									<textcolor>FF000040</textcolor>
-									<selectedcolor>FFe2ff43</selectedcolor>
+									<textcolor>FF000000</textcolor>
+									<selectedcolor>FFA60000</selectedcolor>
 									<align>left</align>
 									<info>ListItem.Label</info>
 								</control>
