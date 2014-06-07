@@ -46,7 +46,7 @@ def getStations(sortingKey):
             },
             {
                 "Name":     "Armenian Independent Broadcasting of Boston",
-                "Url":      "http://ws.irib.ir/player/mediaplayer/player.swf",
+                "Url":      "http://armenianradioboston.com/audio/player.swf",
                 "Icon":     "http://armenianradioboston.com/images/ABB-Bannerad.jpg",
                 "Email":    "Yevgine@aol.com",
                 "Country":  "USA",
