@@ -1,0 +1,58 @@
+# XBMC Media Center language file
+# Addon Name: RadioHY
+msgid ""
+msgstr ""
+"Project-Id-Version: RadioHY\n"
+"Report-Msgid-Bugs-To: hakgagik@yahoo.com\n"
+"POT-Creation-Date: 2014-06-07 09:31+0000\n"
+"PO-Revision-Date: 2014-06-07 09:31+0000\n\n"
+"Last-Translator: Gagik Hakobyan <hakgagik@yahoo.com>\n"
+"Language-Team: "
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: en\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgctxt "Addon Summary"
+msgid "Listen to the Armenian radio stations online."
+msgstr "Écoutez les stations de radio en ligne arméniens."
+
+msgctxt "Addon Description"
+msgid ""
+"With this plugin you'll be able to listen to the all Armenian radio "
+"stations that are broadcasting online."
+msgstr ""
+"Avec ce plugin, vous serez en mesure d'écouter les stations de radio arméniens qui diffusent en ligne."
+
+msgctxt "#31000"
+msgid "RadioHY"
+msgstr "RaduoHY"
+
+msgctxt "#31001"
+msgid "Name"
+msgstr "Nom"
+
+msgctxt "#31002"
+msgid "Email"
+msgstr "Email"
+
+msgctxt "#31003"
+msgid "Country"
+msgstr "État"
+
+msgctxt "#31004"
+msgid "Address"
+msgstr "Adresse"
+
+msgctxt "#31005"
+msgid "Phone"
+msgstr "Téléphone"
+
+msgctxt "#31006"
+msgid "Director"
+msgstr "Directeur"
+
+msgctxt "#31007"
+msgid "Web Page"
+msgstr "Page Web"
