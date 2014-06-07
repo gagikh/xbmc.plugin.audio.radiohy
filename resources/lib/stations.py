@@ -156,7 +156,7 @@ def getStations(sortingKey):
             },
             {
                 "Name":     "Radio Ardzaganq",
-                "Url":      "http://www.ardzagank.com/home.swf",
+                "Url":      "http://de1.fananoon.com:7000",
                 "Icon":     "http://www.ardzagank.com/img/logo_3.jpg",
                 "Email":    "ardzagank@ardzagank.com",
                 "Country":  "Armenia",
