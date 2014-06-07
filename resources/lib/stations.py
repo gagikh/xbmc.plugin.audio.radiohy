@@ -451,6 +451,17 @@ def getStations(sortingKey):
                 "Director": "",
                 "WebPage":  "http://triktrak.ca/"
             },
+             {
+                "Name":     "Vem Radio,
+                "Url":      "http://vem.am//upload/February_Musical%20pearls_1361952495544.mp3",
+                "Icon":     "http://www.vem.am/img/logo_pop.gifg",
+                "Email":    "",
+                "Country":  "Armenia",
+                "Address":  "19 Koriun Street,Yerevan 0009",
+                "Phone":    "+374-10-54-15-95",
+                "Director": "",
+                "WebPage":  "http://www.vem.am/"
+            },
             {
                 "Name":     "Voice of Van",
                 "Url":      "http://www.voiceofvan.net/player/player.swf",
