@@ -12,8 +12,10 @@
     <extension point="xbmc.addon.metadata">
         <platform>all</platform>
         <summary lang="en">Listen to the Armenian radio stations online.</summary>
+        <summary lang="fr">Écoutez les stations de radio en ligne arméniens.</summary>
 
         <description lang="en">With this plugin you'll be able to listen to the all Armenian radio stations that are broadcasting online.</description>
+        <description lang="fr">Avec ce plugin, vous serez en mesure d'écouter les stations de radio arméniens qui diffusent en ligne.</description>
 
         <description lang="hy">Այս ծրագրային հավելման միջոցով դուք կկարողանաք լսել հայերեն լեզվով սփռվող առցանց ռադիոհաղորդումները։</description>
             

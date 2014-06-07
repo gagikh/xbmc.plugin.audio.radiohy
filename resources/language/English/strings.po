@@ -57,3 +57,19 @@ msgstr "Director"
 msgctxt "#31007"
 msgid "Web Page"
 msgstr "Web Page"
+
+msgctxt "#31008"
+msgid "Language"
+msgstr "Web Page"
+
+msgctxt "#31009"
+msgid "Skin"
+msgstr "Skin"
+
+msgctxt "#31010"
+msgid "Sort Stations"
+msgstr "Sort Stations"
+
+msgctxt "#31011"
+msgid "Automatically start playing from previously selected station"
+msgstr "Automatically start playing from previously selected station"

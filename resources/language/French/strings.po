@@ -14,11 +14,11 @@ msgstr ""
 "Language: en\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-msgctxt "Addon Summary"
+msgctxt "#32000"
 msgid "Listen to the Armenian radio stations online."
 msgstr "Écoutez les stations de radio en ligne arméniens."
 
-msgctxt "Addon Description"
+msgctxt "#32001"
 msgid ""
 "With this plugin you'll be able to listen to the all Armenian radio "
 "stations that are broadcasting online."
@@ -56,3 +56,19 @@ msgstr "Directeur"
 msgctxt "#31007"
 msgid "Web Page"
 msgstr "Page Web"
+
+msgctxt "#31008"
+msgid "Language"
+msgstr "Langue"
+
+msgctxt "#31009"
+msgid "Skin"
+msgstr "Thème"
+
+msgctxt "#31010"
+msgid "Sort Stations"
+msgstr "Trier les stations"
+
+msgctxt "#31011"
+msgid "Automatically start playing from previously selected station"
+msgstr "Commencer automatiquement la lecture de la station précédemment sélectionnée"
