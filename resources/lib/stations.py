@@ -24,7 +24,7 @@ def getStations(sortingKey):
             },
             {
                 "Name":     "Armenian Bible Study",
-                "Url":      "",
+                "Url":      "http://sc7.mystreamserver.com:8036/",
                 "Icon":     "http://www.armenianbiblestudy.com/img/abslogo.png",
                 "Email":    "feedback@armenianbiblestudy.com",
                 "Country":  "",
@@ -178,7 +178,7 @@ def getStations(sortingKey):
             },
             {
                 "Name":     "Radio Gayan",
-                "Url":      "",
+                "Url":      "http://radiogayan.com:8000",
                 "Icon":     "",
                 "Email":    "",
                 "Country":  "",
@@ -190,9 +190,9 @@ def getStations(sortingKey):
             {
                 "Name":     "Radio Spyurq",
                 "Url":      "http://192.184.9.79:8174/",
-                "Icon":     "",
-                "Email":    "",
-                "Country":  "Armenia",
+                "Icon":     "http://d1i6vahw24eb07.cloudfront.net/s195991q.png",
+                "Email":    "http://static.wixstatic.com/media/9badce_2edb315888ac483287408d2d6d0d3d48.jpg_srz_p_171_87_75_22_0.50_1.20_0.00_jpg_srz",
+                "Country":  "Lebanon",
                 "Address":  "",
                 "Phone":    "",
                 "Director": "",
@@ -200,7 +200,7 @@ def getStations(sortingKey):
             },
             {
                 "Name":     "Radio Arax",
-                "Url":      "",
+                "Url":      "http://www.radioarax.com/programas/RadioArax-727-DO-20140601.mp3",
                 "Icon":     "http://www.radioarax.com/logo.jpg",
                 "Email":    "armenia@adinet.com.uy",
                 "Country":  "Uruguay",
@@ -222,12 +222,12 @@ def getStations(sortingKey):
             },
             {
                 "Name":     "Radio Armenia",
-                "Url":      "",
+                "Url":      "http://radioarmenia.com/radio2/radio.swf",
                 "Icon":     "http://radioarmenia.com/radio2/images/small_logo.jpg",
                 "Email":    "info@armenianmusic.com",
-                "Country":  "+323-664-3365",
+                "Country":  "",
                 "Address":  "",
-                "Phone":    "",
+                "Phone":    "+323-664-3365",
                 "Director": "",
                 "WebPage":  "http://radioarmenia.com/"
             },
