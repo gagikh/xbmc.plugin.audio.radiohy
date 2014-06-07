@@ -41,6 +41,7 @@ _sort_stations          = _settings.getSetting('sort_stations')
 
 _auto_start             = "true" == (_settings.getSetting('auto_start'))
 _last_station_id        = int(_settings.getSetting('last_station_id'))
+_last_focused_station_id= int(_settings.getSetting('last_focused_station_id'))
 _languag_name           = _settings.getSetting('language_name')
 
 sys.path.append (_lib)
@@ -110,6 +111,8 @@ class WindowBox(xbmcgui.WindowXMLDialog):
         self.player = xbmc.Player(xbmc.PLAYER_CORE_AUTO)
         if (_auto_start):
             self.runPlayer(_last_station_id)
+        else:
+            self.list.selectItem(_last_focused_station_id)
    
     def closeWindow(self):
         self.close()
@@ -149,6 +152,10 @@ class WindowBox(xbmcgui.WindowXMLDialog):
                     "\n" + phoneStr   + ": " + Phone + \
                     "\n" + webStr     + ": " + WebPage;
             dialog.ok(Name, info)
+        else:
+            selItem = self.list.getSelectedItem()
+            idx = selItem.getProperty("Id")
+            _settings.setSetting('last_focused_station_id', idx)
     
     def onClick(self, controlID):
         flag = 1
