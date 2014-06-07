@@ -452,7 +452,7 @@ def getStations(sortingKey):
                 "WebPage":  "http://triktrak.ca/"
             },
              {
-                "Name":     "Vem Radio,
+                "Name":     "Vem Radio",
                 "Url":      "http://vem.am//upload/February_Musical%20pearls_1361952495544.mp3",
                 "Icon":     "http://www.vem.am/img/logo_pop.gifg",
                 "Email":    "",
