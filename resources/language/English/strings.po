@@ -53,3 +53,7 @@ msgstr "Phone"
 msgctxt "#31006"
 msgid "Director"
 msgstr "Director"
+
+msgctxt "#31007"
+msgid "Web Page"
+msgstr "Web Page"

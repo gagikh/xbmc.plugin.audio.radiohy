@@ -41,6 +41,7 @@ _sort_stations          = _settings.getSetting('sort_stations')
 
 _auto_start             = "true" == (_settings.getSetting('auto_start'))
 _last_station_id        = int(_settings.getSetting('last_station_id'))
+_languag_name           = _settings.getSetting('language_name')
 
 sys.path.append (_lib)
 
@@ -135,11 +136,18 @@ class WindowBox(xbmcgui.WindowXMLDialog):
             Name    = selItem.getProperty('Name')
             Phone   = selItem.getProperty('Phone')
             WebPage = selItem.getProperty('WebPage')
+            
+            emailStr    = _settings.getLocalizedString(31002)
+            countryStr  = _settings.getLocalizedString(31003)
+            addressStr  = _settings.getLocalizedString(31004)
+            phoneStr    = _settings.getLocalizedString(31005)
+            directorrStr= _settings.getLocalizedString(31006)
+            webStr      = _settings.getLocalizedString(31007)
 
-            info  = '\nCountry: ' + Country + \
-                    '\nEmail:   ' + Email + \
-                    '\nPhone:   ' + Phone + \
-                    '\nWebPage: ' + WebPage;
+            info  = "\n" + countryStr + ": " + Country + \
+                    "\n" + emailStr   + ": " + Email + \
+                    "\n" + phoneStr   + ": " + Phone + \
+                    "\n" + webStr     + ": " + WebPage;
             dialog.ok(Name, info)
     
     def onClick(self, controlID):
