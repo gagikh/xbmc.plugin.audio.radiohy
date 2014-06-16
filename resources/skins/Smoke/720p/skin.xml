@@ -113,6 +113,7 @@
 									<selectedcolor>FF000000</selectedcolor>
 									<align>left</align>
 									<info>ListItem.Label</info>
+                                    <!--info>ListItem.getProperty(Time)</info-->
 								</control>
 							</focusedlayout>
 						</control>
@@ -128,8 +129,6 @@
 							<width>217</width>
 							<height>217</height>
 							<aspectratio>keep</aspectratio>
-							<!--texture background="true">$INFO[MusicPlayer.cover]</texture-->
-							<!--texture background="true">$INFO[ListItem.Thumb]</texture-->
 						</control>
 						<!--Added Button Background Border-->
 						<control type="image">

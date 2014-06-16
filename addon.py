@@ -16,15 +16,14 @@
 # You should have received a copy of the GNU General Public License
 # along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
-from xbmcswift2 import Plugin
-
 import xbmcplugin
+import xbmcaddon
 
 import os
 import sys
 
 from xbmcswift2 import xbmc, xbmcgui
-import xbmcaddon
+from xbmcswift2 import Plugin
 
 _settings   = xbmcaddon.Addon()
 
@@ -72,6 +71,7 @@ class WindowBox(xbmcgui.WindowXMLDialog):
         station_list = []
         Streams = stations.getStations(_sort_stations)
         idx = 0
+
         for Station in Streams:
             Address = Station['Address']
             Country = Station['Country']
@@ -80,11 +80,9 @@ class WindowBox(xbmcgui.WindowXMLDialog):
             Icon    = Station['Icon']
             Name    = Station['Name']
             Phone   = Station['Phone']
+            Time    = Station['Time']
             Url     = Station['Url']
             WebPage = Station['WebPage']
-
-            #if not Url:
-            #    continue
 
             li = xbmcgui.ListItem(str(idx) + ") " + Name, Name)
             li.setInfo('music', {'Title': Name})
@@ -98,6 +96,7 @@ class WindowBox(xbmcgui.WindowXMLDialog):
             li.setProperty('Phone',     Phone)
             li.setProperty('Url',       Url)
             li.setProperty('WebPage',   WebPage)
+            li.setProperty('Time',      Time)
 
             li.setProperty('Id',        str(idx))
 
