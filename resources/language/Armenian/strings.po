@@ -72,3 +72,7 @@ msgstr "Դասավորել կայաններն ըստ"
 msgctxt "#31011"
 msgid "Automatically start playing from previously selected station"
 msgstr "Ինքնաբերաբար սկել վերջին ընտրված ռադիոկայանից"
+
+msgctxt "#31012"
+msgid "Time"
+msgstr "Ժամանակ"

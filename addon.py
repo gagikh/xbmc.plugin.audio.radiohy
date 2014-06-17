@@ -138,18 +138,22 @@ class WindowBox(xbmcgui.WindowXMLDialog):
             Name    = selItem.getProperty('Name')
             Phone   = selItem.getProperty('Phone')
             WebPage = selItem.getProperty('WebPage')
+            Time    = selItem.getProperty('Time')
             
             emailStr    = _settings.getLocalizedString(31002)
             countryStr  = _settings.getLocalizedString(31003)
             addressStr  = _settings.getLocalizedString(31004)
             phoneStr    = _settings.getLocalizedString(31005)
-            directorrStr= _settings.getLocalizedString(31006)
+            directorStr = _settings.getLocalizedString(31006)
             webStr      = _settings.getLocalizedString(31007)
+            timeStr     = _settings.getLocalizedString(31012)
 
             info  = "\n" + countryStr + ": " + Country + \
                     "\n" + emailStr   + ": " + Email + \
                     "\n" + phoneStr   + ": " + Phone + \
-                    "\n" + webStr     + ": " + WebPage;
+                    "\n" + directorStr+ ": " + Director + \
+                    "\n" + webStr     + ": " + WebPage + \
+                    "\n" + timeStr    + ": " + Time;
             dialog.ok(Name, info)
         else:
             selItem = self.list.getSelectedItem()
