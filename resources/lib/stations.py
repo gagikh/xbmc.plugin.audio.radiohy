@@ -504,6 +504,18 @@ def getStations(sortingKey):
                     "WebPage":  "http://radiohay.am/"
                     },
             {
+                    "Address":  "1617Colorado Blvd. Ste#2, Los Angeles, CA 90041",
+                    "Country":  "USA",
+                    "Director": "JOSEPH KRIKORIAN",
+                    "Email":    "josephkmusic@gmail.com",
+                    "Icon":     "http://www.josephkmusic.com/wp-content/themes/theme1418/images/logo.png",
+                    "Name":     "Radio Hayeren",
+                    "Phone":    "+1 818 355 0603",
+                    "Time":     "* * * * * *",
+                    "Url":      "http://199.189.111.28:8303/stream",
+                    "WebPage":  "http://www.josephkmusic.com/"
+                    },
+            {
                     "Address":  "",
                     "Country":  "Armenia",
                     "Director": "",
