@@ -201,11 +201,30 @@ class WindowBox(xbmcgui.WindowXMLDialog):
     def onFocus(self, controlID):
         pass
 
+def parse_argv():
+    print >> sys.stderr, sys.argv
+
+    try:
+        params = dict( arg.split( "=" ) for arg in sys.argv[ 1 ].split( "&" ) )
+    except:
+        params = {}
+    mode  = params.get( "mode", "run" )
+    value = params.get( "value","{[* * * * * *],0}" )
+    return (mode, value)
+
 # Default View
 @plugin.route('/')
 def show_homepage():
-    gui = WindowBox('skin.xml', _path, _skin, '720p');
-    gui.doModal()
+    mode, value = parse_argv()
+
+    print >> sys.stderr, mode
+    print >> sys.stderr, value
+    if ("check_time" == parse_argv()):
+        return "True"
+    else:
+        gui = WindowBox('skin.xml', _path, _skin, '720p');
+        gui.doModal()
+    return
 
 if __name__ == '__main__': 
     plugin.run()
