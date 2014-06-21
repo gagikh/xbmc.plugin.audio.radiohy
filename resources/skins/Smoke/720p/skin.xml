@@ -83,7 +83,6 @@
                                     <align>left</align>
                                     <visible>True</visible>
                                     <info>ListItem.Label</info>
-                                    <info>RunScript(plugin.audio.radiohy,mode=check_time,value=saqo)</info>
                                 </control>
                             </itemlayout>
                             <focusedlayout height="32">

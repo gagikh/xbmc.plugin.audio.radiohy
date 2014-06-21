@@ -21,6 +21,7 @@ import xbmcaddon
 
 import os
 import sys
+import datetime
 
 from xbmcswift2 import xbmc, xbmcgui
 from xbmcswift2 import Plugin
@@ -120,7 +121,6 @@ class WindowBox(xbmcgui.WindowXMLDialog):
 
         buttonCode =  action.getButtonCode()
         actionID   =  action.getId()
-        print >> sys.stderr, "action id = " + str(actionID)
         
         if (actionID in ( \
             keys.ACTION_PREVIOUS_MENU, \
@@ -180,15 +180,22 @@ class WindowBox(xbmcgui.WindowXMLDialog):
     def runPlayer(self, idx):
         idx = self.wrapID(idx, self.stationsCount)
         item = self.list.getListItem(idx)
-        Url = item.getProperty("Url");
-        Icon = item.getProperty("Icon");
-        self.list.selectItem(idx)
-        self.focusedID = idx
-        self.playStation(Url, Icon)
-        _settings.setSetting('last_station_id', str(idx))
+        value = item.getProperty('Time')
+        flag = self.check_time(value)
+
+        if flag:
+            Url = item.getProperty("Url");
+            Icon = item.getProperty("Icon");
+            self.list.selectItem(idx)
+            self.focusedID = idx
+            self.playStation(Url, Icon)
+            _settings.setSetting('last_station_id', str(idx))
+        else:
+            dialog = xbmcgui.Dialog()
+            Name = item.getProperty('Name')
+            dialog.ok(Name, 'Station is not available now.')
     
     def playStation(self, Url, Icon):
-        self.list = self.getControl( STATION_LIST_ID )
         logo = self.getControl( STATION_LOGO )
         logo.setImage(Icon)
         self.player.play(Url)
@@ -206,57 +213,57 @@ class WindowBox(xbmcgui.WindowXMLDialog):
     def onFocus(self, controlID):
         pass
 
-def normalize_time(old_value, star, new_value):
-    if (value == star):
-        return new_value
-    else:
-        return old_value
+    def normalize_time(self, old_value, star, new_value):
+        if (old_value == star):
+            return new_value
+        else:
+            return old_value
 
-def check_range(start, end, value):
-    return (value >= start) & (value <= end)
+    def check_range(self, start, end, value):
+        return (value >= start) & (value <= end)
 
-def check_time(value):
-    now     = datetime.datetime.now()
+    def check_time(self, value):
+        now                 = datetime.datetime.now()
 
-    current_minute      = now.minute()
-    current_hour        = now.hour()
-    current_month_day   = now.day()
-    current_month       = now.month()
-    current_week_day    = now.weekday()
-    current_year        = now.year()
+        current_minute      = now.minute
+        current_hour        = now.hour
+        current_month_day   = now.day
+        current_month       = now.month
+        current_week_day    = now.weekday() + 1
+        current_year        = now.year
 
-    val = eval(value);
-    for t in val:
-        live_start_time = t[0]
-        live_end_time   = t[1]
+        val = eval(value);
+        for t in val:
+            live_start_time = t[0]
+            live_end_time   = t[1]
 
-        live_start_minute    = normalize_time(live_start_time[0], -1, 0)
-        live_start_hour      = normalize_time(live_start_time[1], -1, 0)
-        live_start_month_day = normalize_time(live_start_time[2], -1, 1)
-        live_start_month     = normalize_time(live_start_time[3], -1, 1)
-        live_start_week_day  = normalize_time(live_start_time[4], -1, 1)
-        live_start_year      = normalize_time(live_start_time[5], -1, 1900)
+            live_start_minute    = self.normalize_time(live_start_time[0], -1, 0)
+            live_start_hour      = self.normalize_time(live_start_time[1], -1, 0)
+            live_start_month_day = self.normalize_time(live_start_time[2], -1, 1)
+            live_start_month     = self.normalize_time(live_start_time[3], -1, 1)
+            live_start_week_day  = self.normalize_time(live_start_time[4], -1, 1)
+            live_start_year      = self.normalize_time(live_start_time[5], -1, 1900)
 
-        live_end_minute      = normalize_time(live_end_time[0], -1, 59)
-        live_end_hour        = normalize_time(live_end_time[1], -1, 23)
-        live_end_month_day   = normalize_time(live_end_time[2], -1, 31)
-        live_end_month       = normalize_time(live_end_time[3], -1, 12)
-        live_end_week_day    = normalize_time(live_end_time[4], -1, 7)
-        live_end_year        = normalize_time(live_end_time[5], -1, 3000)
+            live_end_minute      = self.normalize_time(live_end_time[0], -1, 59)
+            live_end_hour        = self.normalize_time(live_end_time[1], -1, 23)
+            live_end_month_day   = self.normalize_time(live_end_time[2], -1, 31)
+            live_end_month       = self.normalize_time(live_end_time[3], -1, 12)
+            live_end_week_day    = self.normalize_time(live_end_time[4], -1, 7)
+            live_end_year        = self.normalize_time(live_end_time[5], -1, 3000)
 
-        if ( 
-                check_range(live_start_minute   , live_end_minute   , current_minute   ) |
-                check_range(live_start_hour     , live_end_hour     , current_hour     ) |
-                check_range(live_start_month_day, live_end_month_day, current_month_day) |
-                check_range(live_start_month    , live_end_month    , current_month    ) |
-                check_range(live_start_week_day , live_end_week_day , current_week_day ) |
-                check_range(live_start_year     , live_end_year     , current_year     )):
-            return True
-    return False
+            if ( 
+                    self.check_range(live_start_minute   , live_end_minute   , current_minute   ) &
+                    self.check_range(live_start_hour     , live_end_hour     , current_hour     ) &
+                    self.check_range(live_start_month_day, live_end_month_day, current_month_day) &
+                    self.check_range(live_start_month    , live_end_month    , current_month    ) &
+                    self.check_range(live_start_week_day , live_end_week_day , current_week_day ) &
+                    self.check_range(live_start_year     , live_end_year     , current_year     )):
+                return True
+        return False
 
 # Default View
 @plugin.route('/')
-def show_homepage():
+def run():
     gui = WindowBox('skin.xml', _path, _skin, '720p');
     gui.doModal()
 

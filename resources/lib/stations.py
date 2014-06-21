@@ -32,7 +32,7 @@ def getStations(sortingKey):
                 "Icon":     "http://www.3cr.org.au/sites/default/files/images/building/3crfront_light.jpg",
                 "Name":     "3CR",
                 "Phone":    "(03) 9419 0155",
-                "Time":     "[[[0 20 4 -1 -1 -1],[0 21 4 -1 -1 -1]]]",
+                "Time":     "[[[0,20,4,-1,-1,-1],[0,21,4,-1,-1,-1]]]",
                 "Url":      "",
                 "WebPage":  "http://www.3cr.org.au/armenian"
                 },
@@ -45,7 +45,7 @@ def getStations(sortingKey):
                 "Icon":     "http://www.sbs.com.au/sales/resize/index/id/252/w/294/h/220/",
                 "Name":     "SBS Radio",
                 "Phone":    "(02) 9430 2828",
-                "Time":     "[[[[0 17 2 -1 -1 -1],[0 18 2 -1 -1 -1]],[[0 20 2 -1 -1 -1],[0 21 2 -1 -1 -1]]]]",
+                "Time":     "[[[[0,17,2,-1,-1,-1],[0,18,2,-1,-1,-1]],[[0,20,2,-1,-1,-1],[0,21,2,-1,-1,-1]]]]",
                 "Url":      "",
                 "WebPage":  "http://www.sbs.com.au/yourlanguage/armenian/"
                 },
@@ -58,7 +58,7 @@ def getStations(sortingKey):
                 "Icon":     "",
                 "Name":     "",
                 "Phone":    "+357 22862000",
-                "Time":     "[[[0 17 -1 -1 -1 -1],[0 18 -1 -1 -1 -1]]]",
+                "Time":     "[[[0,17,-1,-1,-1,-1],[0,18,-1,-1,-1,-1]]]",
                 "Url":      "",
                 "WebPage":  "http://www.cybc.com.cy"
                 },
@@ -71,7 +71,7 @@ def getStations(sortingKey):
                 "Icon":     "",
                 "Name":     "",
                 "Phone":    "361 302 809 767",
-                "Time":     "[[[-1 -1 -1 -1 -1 -1],[-1 -1 -1 -1 -1 -1]]]",
+                "Time":     "[[[-1,-1,-1,-1,-1,-1],[-1,-1,-1,-1,-1,-1]]]",
                 "Url":      "",
                 "WebPage":  ""
                 },
@@ -83,7 +83,7 @@ def getStations(sortingKey):
                 "Icon":     "",
                 "Name":     "",
                 "Phone":    "0036 20 378 47 96",
-                "Time":     "[[[-1 -1 -1 -1 -1 -1],[-1 -1 -1 -1 -1 -1]]]",
+                "Time":     "[[[-1,-1,-1,-1,-1,-1],[-1,-1,-1,-1,-1,-1]]]",
                 "Url":      "",
                 "WebPage":  "http://bolgar.radio.hu/"
                 },
@@ -95,7 +95,7 @@ def getStations(sortingKey):
                 "Icon":     "http://www.hayfm.de/wp-content/uploads/2013/03/slider-3-914x374.jpg",
                 "Name":     "Hay FM",
                 "Phone":    "",
-                "Time":     "[[[-1 -1 -1 -1 -1 -1],[-1 -1 -1 -1 -1 -1]]]",
+                "Time":     "[[[-1,-1,-1,-1,-1,-1],[-1,-1,-1,-1,-1,-1]]]",
                 "Url":      "",
                 "WebPage":  "http://www.hayfm.de/"
                 },
@@ -107,7 +107,7 @@ def getStations(sortingKey):
                 "Icon":     "http://hy.radiovaticana.va/img/h_02.gif",
                 "Name":     "Voice of Vatikan",
                 "Phone":    "",
-                "Time":     "[[[-1 -1 -1 -1 -1 -1],[-1 -1 -1 -1 -1 -1]]]",
+                "Time":     "[[[-1,-1,-1,-1,-1,-1],[-1,-1,-1,-1,-1,-1]]]",
                 "Url":      "",
                 "WebPage":  "http://www.radiovaticana.org/arm/index.asp"
                 },
@@ -119,7 +119,7 @@ def getStations(sortingKey):
                 "Icon":     "http://www.am680.com.ar/images/RM1.jpg",
                 "Name":     "Voice of Vatikan",
                 "Phone":    "",
-                "Time":     "[[[-1 -1 -1 -1 -1 -1],[-1 -1 -1 -1 -1 -1]]]",
+                "Time":     "[[[-1,-1,-1,-1,-1,-1],[-1,-1,-1,-1,-1,-1]]]",
                 "Url":      "",
                 "WebPage":  "http://www.am680.com.ar/"
                 },
@@ -131,7 +131,7 @@ def getStations(sortingKey):
                 "Icon":     "http://www.amerikayidzayn.com/App_Themes/VOA_hy-AM-VOA/img/top_logo.gif",
                 "Name":     "Voice of Amerika",
                 "Phone":    "",
-                "Time":     "[[[-1 -1 -1 -1 -1 -1],[-1 -1 -1 -1 -1 -1]]]",
+                "Time":     "[[[-1,-1,-1,-1,-1,-1],[-1,-1,-1,-1,-1,-1]]]",
                 "Url":      "",
                 "WebPage":  "http://www.amerikayidzayn.com/"
                 },
@@ -143,7 +143,7 @@ def getStations(sortingKey):
                 "Icon":     "http://www.arradio.am/images/m_01.gif",
                 "Name":     "Ar Radio Intercontinental",
                 "Phone":    "+374-10-55-11-43",
-                "Time":     "[[[-1 -1 -1 -1 -1 -1],[-1 -1 -1 -1 -1 -1]]]",
+                "Time":     "[[[-1,-1,-1,-1,-1,-1],[-1,-1,-1,-1,-1,-1]]]",
                 "Url":      "http://199.195.194.92:8029",
                 "WebPage":  "http://www.arradio.am"
                 },
@@ -155,7 +155,7 @@ def getStations(sortingKey):
                 "Icon":     "http://www.armenianbiblestudy.com/img/abslogo.png",
                 "Name":     "Armenian Bible Study",
                 "Phone":    "",
-                "Time":     "[[[-1 -1 -1 -1 -1 -1],[-1 -1 -1 -1 -1 -1]]]",
+                "Time":     "[[[-1,-1,-1,-1,-1,-1],[-1,-1,-1,-1,-1,-1]]]",
                 "Url":      "http://sc7.mystreamserver.com:8036/",
                 "WebPage":  "http://www.armenianbiblestudy.com/"
                 },
@@ -167,7 +167,7 @@ def getStations(sortingKey):
                 "Icon":     "http://bashde.org/images/logo-4e.png",
                 "Name":     "Armenian Christian Radio",
                 "Phone":    "",
-                "Time":     "[[[-1 -1 -1 -1 -1 -1],[-1 -1 -1 -1 -1 -1]]]",
+                "Time":     "[[[-1,-1,-1,-1,-1,-1],[-1,-1,-1,-1,-1,-1]]]",
                 "Url":      "http://fire.wavestreamer.com:5643",
                 "WebPage":  "http://bashde.org/"
                 },
@@ -179,7 +179,7 @@ def getStations(sortingKey):
                 "Icon":     "http://armenianradioboston.com/images/ABB-Bannerad.jpg",
                 "Name":     "Armenian Independent Broadcasting of Boston",
                 "Phone":    "+1-617-926-6268",
-                "Time":     "[[[-1 -1 -1 -1 -1 -1],[-1 -1 -1 -1 -1 -1]]]",
+                "Time":     "[[[-1,-1,-1,-1,-1,-1],[-1,-1,-1,-1,-1,-1]]]",
                 "Url":      "http://armenianradioboston.com/audio/player.swf",
                 "WebPage":  "http://armenianradioboston.com/"
                 },
@@ -191,7 +191,7 @@ def getStations(sortingKey):
                 "Icon":     "http://www.armnetradio.com/images/logosmall.png",
                 "Name":     "Armenian Net Radio",
                 "Phone":    "",
-                "Time":     "[[[-1 -1 -1 -1 -1 -1],[-1 -1 -1 -1 -1 -1]]]",
+                "Time":     "[[[-1,-1,-1,-1,-1,-1],[-1,-1,-1,-1,-1,-1]]]",
                 "Url":      "http://50.117.8.242:1126/Live",
                 "WebPage":  "http://www.armnetradio.com/"
                 },
@@ -203,7 +203,7 @@ def getStations(sortingKey):
                 "Icon":     "http://www.imarmenian.com/association2/wp-content/uploads/2011/12/ARF-Logo-Red.png",
                 "Name":     "Armenian Patriotic Radio",
                 "Phone":    "+961-3-274-847",
-                "Time":     "[[[-1 -1 -1 -1 -1 -1],[-1 -1 -1 -1 -1 -1]]]",
+                "Time":     "[[[-1,-1,-1,-1,-1,-1],[-1,-1,-1,-1,-1,-1]]]",
                 "Url":      "http://5.35.246.210:8001/stream",
                 "WebPage":  "http://radioyan.com/"
                 },
@@ -215,7 +215,7 @@ def getStations(sortingKey):
                 "Icon":     "http://www.armenianpulse.com/wp-content/themes/eGamer/images/radiopage/pulse_radio.jpg",
                 "Name":     "Armenian Pulse Radio",
                 "Phone":    "",
-                "Time":     "[[[-1 -1 -1 -1 -1 -1],[-1 -1 -1 -1 -1 -1]]]",
+                "Time":     "[[[-1,-1,-1,-1,-1,-1],[-1,-1,-1,-1,-1,-1]]]",
                 "Url":      "http://50.7.96.210:8134/",
                 "WebPage":  "http://www.armenianpulse.com/"
                 },
@@ -227,7 +227,7 @@ def getStations(sortingKey):
                 "Icon":     "http://www.armenianvoice.com/SiteImages/ArmenianVoice.jpg",
                 "Name":     "Armenian Voice",
                 "Phone":    "",
-                "Time":     "[[[-1 -1 -1 -1 -1 -1],[-1 -1 -1 -1 -1 -1]]]",
+                "Time":     "[[[-1,-1,-1,-1,-1,-1],[-1,-1,-1,-1,-1,-1]]]",
                 "Url":      "http://50.7.77.114:8111/autodj",
                 "WebPage":  "http://www.armenianvoice.com/"
                 },
@@ -239,7 +239,7 @@ def getStations(sortingKey):
                 "Icon":     "http://www.fm107.am/images/logo.jpg",
                 "Name":     "Lav Radio(FM-107)",
                 "Phone":    "+374-10-36-86-45",
-                "Time":     "[[[-1 -1 -1 -1 -1 -1],[-1 -1 -1 -1 -1 -1]]]",
+                "Time":     "[[[-1,-1,-1,-1,-1,-1],[-1,-1,-1,-1,-1,-1]]]",
                 "Url":      "http://streams4.museter.com:8218/",
                 "WebPage":  "http://www.fm107.am/"
                 },
@@ -251,7 +251,7 @@ def getStations(sortingKey):
                 "Icon":     "http://www.lavradio.am/img/big_logo.png",
                 "Name":     "Lav Radio Mix",
                 "Phone":    "",
-                "Time":     "[[[-1 -1 -1 -1 -1 -1],[-1 -1 -1 -1 -1 -1]]]",
+                "Time":     "[[[-1,-1,-1,-1,-1,-1],[-1,-1,-1,-1,-1,-1]]]",
                 "Url":      "http://195.154.181.100:8000/stream",
                 "WebPage":  "http://www.lavradio.am/"
                 },
@@ -263,7 +263,7 @@ def getStations(sortingKey):
                 "Icon":     "http://www.ermenikultur.org/wp-content/uploads/2013/10/Nor_Radyo__g_rsel.jpg",
                 "Name":     "Nor Radyo",
                 "Phone":    "",
-                "Time":     "[[[-1 -1 -1 -1 -1 -1],[-1 -1 -1 -1 -1 -1]]]",
+                "Time":     "[[[-1,-1,-1,-1,-1,-1],[-1,-1,-1,-1,-1,-1]]]",
                 "Url":      "http://norradyo.com:8000/live",
                 "WebPage":  "http://www.norradyo.com/"
                 },
@@ -275,7 +275,7 @@ def getStations(sortingKey):
                 "Icon":     "http://www.armradio.am/hy/wp-content/uploads/2012/09/logo_up_arm.png",
                 "Name":     "Public Radio of Armenia",
                 "Phone":    "+374-10-55-11-43",
-                "Time":     "[[[-1 -1 -1 -1 -1 -1],[-1 -1 -1 -1 -1 -1]]]",
+                "Time":     "[[[-1,-1,-1,-1,-1,-1],[-1,-1,-1,-1,-1,-1]]]",
                 "Url":      "http://195.154.181.100:8052/",
                 "WebPage":  "http://www.armradio.am/"
                 },
@@ -287,7 +287,7 @@ def getStations(sortingKey):
                 "Icon":     "http://votreradiosurlenet.com/player/img/radioa.gif",
                 "Name":     "Radio A",
                 "Phone":    "00-33-4-75-56-18-33",
-                "Time":     "[[[-1 -1 -1 -1 -1 -1],[-1 -1 -1 -1 -1 -1]]]",
+                "Time":     "[[[-1,-1,-1,-1,-1,-1],[-1,-1,-1,-1,-1,-1]]]",
                 "Url":      "http://91.121.62.121:7250/",
                 "WebPage":  "http://radioa.net/"
                 },
@@ -299,7 +299,7 @@ def getStations(sortingKey):
                 "Icon":     "http://www.ardzagank.com/img/logo_3.jpg",
                 "Name":     "Radio Ardzaganq",
                 "Phone":    "",
-                "Time":     "[[[-1 -1 -1 -1 -1 -1],[-1 -1 -1 -1 -1 -1]]]",
+                "Time":     "[[[-1,-1,-1,-1,-1,-1],[-1,-1,-1,-1,-1,-1]]]",
                 "Url":      "http://de1.fananoon.com:7000",
                 "WebPage":  "http://www.ardzagank.com/"
                 },
@@ -311,7 +311,7 @@ def getStations(sortingKey):
                 "Icon":     "http://www.radiofama.am/wp-content/uploads/lg8.png",
                 "Name":     "Radio Fama",
                 "Phone":    "+3741-59-70-00",
-                "Time":     "[[[-1 -1 -1 -1 -1 -1],[-1 -1 -1 -1 -1 -1]]]",
+                "Time":     "[[[-1,-1,-1,-1,-1,-1],[-1,-1,-1,-1,-1,-1]]]",
                 "Url":      "http://195.154.181.100:8036/",
                 "WebPage":  "http://radiofama.am"
                 },
@@ -323,7 +323,7 @@ def getStations(sortingKey):
                 "Icon":     "",
                 "Name":     "Radio Gayan",
                 "Phone":    "",
-                "Time":     "[[[-1 -1 -1 -1 -1 -1],[-1 -1 -1 -1 -1 -1]]]",
+                "Time":     "[[[-1,-1,-1,-1,-1,-1],[-1,-1,-1,-1,-1,-1]]]",
                 "Url":      "http://radiogayan.com:8000",
                 "WebPage":  "http://radiogayan.com/"
                 },
@@ -335,7 +335,7 @@ def getStations(sortingKey):
                 "Icon":     "http://d1i6vahw24eb07.cloudfront.net/s195991q.png",
                 "Name":     "Radio Spyurq",
                 "Phone":    "",
-                "Time":     "[[[-1 -1 -1 -1 -1 -1],[-1 -1 -1 -1 -1 -1]]]",
+                "Time":     "[[[-1,-1,-1,-1,-1,-1],[-1,-1,-1,-1,-1,-1]]]",
                 "Url":      "http://192.184.9.79:8174/",
                 "WebPage":  "http://www.radiospurk.com/"
                 },
@@ -347,7 +347,7 @@ def getStations(sortingKey):
                 "Icon":     "http://www.radioarax.com/logo.jpg",
                 "Name":     "Radio Arax",
                 "Phone":    "+598-90-09-69-09",
-                "Time":     "[[[-1 -1 -1 -1 -1 -1],[-1 -1 -1 -1 -1 -1]]]",
+                "Time":     "[[[-1,-1,-1,-1,-1,-1],[-1,-1,-1,-1,-1,-1]]]",
                 "Url":      "http://www.radioarax.com/programas/RadioArax-727-DO-20140601.mp3",
                 "WebPage":  "http://www.radioarax.com/"
                 },
@@ -359,7 +359,7 @@ def getStations(sortingKey):
                 "Icon":     "http://www.radioarc.com/images/logo-anim.gif",
                 "Name":     "Radio Arc",
                 "Phone":    "",
-                "Time":     "[[[-1 -1 -1 -1 -1 -1],[-1 -1 -1 -1 -1 -1]]]",
+                "Time":     "[[[-1,-1,-1,-1,-1,-1],[-1,-1,-1,-1,-1,-1]]]",
                 "Url":      "http://radioarc.serverroom.us:4082",
                 "WebPage":  "http://www.radioarc.com/"
                 },
@@ -371,7 +371,7 @@ def getStations(sortingKey):
                 "Icon":     "http://radioarmenia.com/radio2/images/small_logo.jpg",
                 "Name":     "Radio Armenia",
                 "Phone":    "+323-664-3365",
-                "Time":     "[[[-1 -1 -1 -1 -1 -1],[-1 -1 -1 -1 -1 -1]]]",
+                "Time":     "[[[-1,-1,-1,-1,-1,-1],[-1,-1,-1,-1,-1,-1]]]",
                 "Url":      "http://radioarmenia.com/radio2/radio.swf",
                 "WebPage":  "http://radioarmenia.com/"
                 },
@@ -383,7 +383,7 @@ def getStations(sortingKey):
                 "Icon":     "http://www.radioarmenie.com/templates/theme475/images/logo.gif",
                 "Name":     "Radio Armenie",
                 "Phone":    "04-78-49-52-74",
-                "Time":     "[[[-1 -1 -1 -1 -1 -1],[-1 -1 -1 -1 -1 -1]]]",
+                "Time":     "[[[-1,-1,-1,-1,-1,-1],[-1,-1,-1,-1,-1,-1]]]",
                 "Url":      "http://radioarmenie.relay-network.com:8032/",
                 "WebPage":  "http://www.radioarmenie.com/"
                 },
@@ -395,7 +395,7 @@ def getStations(sortingKey):
                 "Icon":     "http://radioavol.org/uploads/donates/donate1x1.png",
                 "Name":     "Radio AVOL",
                 "Phone":    "",
-                "Time":     "[[[-1 -1 -1 -1 -1 -1],[-1 -1 -1 -1 -1 -1]]]",
+                "Time":     "[[[-1,-1,-1,-1,-1,-1],[-1,-1,-1,-1,-1,-1]]]",
                 "Url":      "http://64.150.176.192:8250/stream",
                 "WebPage":  "http://radioavol.org/"
                 },
@@ -407,7 +407,7 @@ def getStations(sortingKey):
                 "Icon":     "http://www.radioaurora.am/images/white_logo.png",
                 "Name":     "Radio Avrora",
                 "Phone":    "+374-10-25-10-07",
-                "Time":     "[[[-1 -1 -1 -1 -1 -1],[-1 -1 -1 -1 -1 -1]]]",
+                "Time":     "[[[-1,-1,-1,-1,-1,-1],[-1,-1,-1,-1,-1,-1]]]",
                 "Url":      "http://www.radioaurora.am/hdvideo/",
                 "WebPage":  "http://www.radioaurora.am/"
                 },
@@ -419,7 +419,7 @@ def getStations(sortingKey):
                 "Icon":     "http://radio-aypfm.com/images/bientot_en_direct.jpg",
                 "Name":     "Radio AYP",
                 "Phone":    "01-43-53-19-90",
-                "Time":     "[[[-1 -1 -1 -1 -1 -1],[-1 -1 -1 -1 -1 -1]]]",
+                "Time":     "[[[-1,-1,-1,-1,-1,-1],[-1,-1,-1,-1,-1,-1]]]",
                 "Url":      "http://stric6.streamakaci.com/radioayp.mp3",
                 "WebPage":  "http://radio-aypfm.com/"
                 },
@@ -431,7 +431,7 @@ def getStations(sortingKey):
                 "Icon":     "http://live.mix.am/templates/live/img/2.png",
                 "Name":     "Radio Hay (starfm)",
                 "Phone":    "",
-                "Time":     "[[[-1 -1 -1 -1 -1 -1],[-1 -1 -1 -1 -1 -1]]]",
+                "Time":     "[[[-1,-1,-1,-1,-1,-1],[-1,-1,-1,-1,-1,-1]]]",
                 "Url":      "http://mix.am:8000/starfm",
                 "WebPage":  "http://live.mix.am/"
                 },
@@ -443,7 +443,7 @@ def getStations(sortingKey):
                 "Icon":     "http://live.mix.am/templates/live/img/3.png",
                 "Name":     "Radio Hay (mixfm)",
                 "Phone":    "",
-                "Time":     "[[[-1 -1 -1 -1 -1 -1],[-1 -1 -1 -1 -1 -1]]]",
+                "Time":     "[[[-1,-1,-1,-1,-1,-1],[-1,-1,-1,-1,-1,-1]]]",
                 "Url":      "http://mix.am:8000/mixfm",
                 "WebPage":  "http://live.mix.am/"
                 },
@@ -455,7 +455,7 @@ def getStations(sortingKey):
                 "Icon":     "http://live.mix.am/templates/live/img/4.png",
                 "Name":     "Radio Hay (Hay FM)",
                 "Phone":    "",
-                "Time":     "[[[-1 -1 -1 -1 -1 -1],[-1 -1 -1 -1 -1 -1]]]",
+                "Time":     "[[[-1,-1,-1,-1,-1,-1],[-1,-1,-1,-1,-1,-1]]]",
                 "Url":      "http://mix.am:8000/radiohyfm",
                 "WebPage":  "http://live.mix.am/"
                 },
@@ -467,7 +467,7 @@ def getStations(sortingKey):
                 "Icon":     "http://live.mix.am/templates/live/img/5.png",
                 "Name":     "Radio Hay (Anr)",
                 "Phone":    "",
-                "Time":     "[[[-1 -1 -1 -1 -1 -1],[-1 -1 -1 -1 -1 -1]]]",
+                "Time":     "[[[-1,-1,-1,-1,-1,-1],[-1,-1,-1,-1,-1,-1]]]",
                 "Url":      "http://mix.am:8000/anr24",
                 "WebPage":  "http://live.mix.am/"
                 },
@@ -479,7 +479,7 @@ def getStations(sortingKey):
                 "Icon":     "http://live.mix.am/templates/live/img/6.png",
                 "Name":     "Radio Hay (Smile)",
                 "Phone":    "",
-                "Time":     "[[[-1 -1 -1 -1 -1 -1],[-1 -1 -1 -1 -1 -1]]]",
+                "Time":     "[[[-1,-1,-1,-1,-1,-1],[-1,-1,-1,-1,-1,-1]]]",
                 "Url":      "http://mix.am:8000/smile",
                 "WebPage":  "http://live.mix.am/"
                 },
@@ -491,7 +491,7 @@ def getStations(sortingKey):
                 "Icon":     "",
                 "Name":     "Radio Hay (5 achok)",
                 "Phone":    "",
-                "Time":     "[[[-1 -1 -1 -1 -1 -1],[-1 -1 -1 -1 -1 -1]]]",
+                "Time":     "[[[-1,-1,-1,-1,-1,-1],[-1,-1,-1,-1,-1,-1]]]",
                 "Url":      "http://mix.am:8000/5achok",
                 "WebPage":  "http://live.mix.am/"
                 },
@@ -503,7 +503,7 @@ def getStations(sortingKey):
                 "Icon":     "",
                 "Name":     "Radio Hay(Yerevan)",
                 "Phone":    "",
-                "Time":     "[[[-1 -1 -1 -1 -1 -1],[-1 -1 -1 -1 -1 -1]]]",
+                "Time":     "[[[-1,-1,-1,-1,-1,-1],[-1,-1,-1,-1,-1,-1]]]",
                 "Url":      "http://mix.am:8000/rhyerevan",
                 "WebPage":  "http://radiohay.am/"
                 },
@@ -515,7 +515,7 @@ def getStations(sortingKey):
                 "Icon":     "http://www.josephkmusic.com/wp-content/themes/theme1418/images/logo.png",
                 "Name":     "Radio Hayeren",
                 "Phone":    "+1 818 355 0603",
-                "Time":     "[[[-1 -1 -1 -1 -1 -1],[-1 -1 -1 -1 -1 -1]]]",
+                "Time":     "[[[-1,-1,-1,-1,-1,-1],[-1,-1,-1,-1,-1,-1]]]",
                 "Url":      "http://199.189.111.28:8303/stream",
                 "WebPage":  "http://www.josephkmusic.com/"
                 },
@@ -527,7 +527,7 @@ def getStations(sortingKey):
                 "Icon":     "http://www.arm-radio.com/wp-content/uploads/2014/02/radio-jan-logo.png",
                 "Name":     "Radio Jan",
                 "Phone":    "+374-96-01-08-55",
-                "Time":     "[[[-1 -1 -1 -1 -1 -1],[-1 -1 -1 -1 -1 -1]]]",
+                "Time":     "[[[-1,-1,-1,-1,-1,-1],[-1,-1,-1,-1,-1,-1]]]",
                 "Url":      "http://streams4.museter.com:8216/",
                 "WebPage":  "http://www.radiojan.am/"
                 },
@@ -539,7 +539,7 @@ def getStations(sortingKey):
                 "Icon":     "http://radiojazz.am/wp-content/themes/ari/images/logo.png",
                 "Name":     "Radio Jazz",
                 "Phone":    "",
-                "Time":     "[[[-1 -1 -1 -1 -1 -1],[-1 -1 -1 -1 -1 -1]]]",
+                "Time":     "[[[-1,-1,-1,-1,-1,-1],[-1,-1,-1,-1,-1,-1]]]",
                 "Url":      "http://radiojazz.am/wp-content/themes/ari/mp3Player2.sw",
                 "WebPage":  "http://radiojazz.am/"
                 },
@@ -551,7 +551,7 @@ def getStations(sortingKey):
                 "Icon":     "http://radiotoot.com/eng/wp-content/uploads/2013/06/logosmall32.png",
                 "Name":     "Radio Toot",
                 "Phone":    "",
-                "Time":     "[[[-1 -1 -1 -1 -1 -1],[-1 -1 -1 -1 -1 -1]]]",
+                "Time":     "[[[-1,-1,-1,-1,-1,-1],[-1,-1,-1,-1,-1,-1]]]",
                 "Url":      "http://87.117.201.159:8110/",
                 "WebPage":  "http://radiotoot.com/"
                 },
@@ -563,7 +563,7 @@ def getStations(sortingKey):
                 "Icon":     "http://cdn9.staztic.com/app/a/991/991430/radio-sevan-live-1-0-s-156x156.jpg",
                 "Name":     "Radio Sevan",
                 "Phone":    "+961-1-567161/2/3",
-                "Time":     "[[[-1 -1 -1 -1 -1 -1],[-1 -1 -1 -1 -1 -1]]]",
+                "Time":     "[[[-1,-1,-1,-1,-1,-1],[-1,-1,-1,-1,-1,-1]]]",
                 "Url":      "http://sevan.bitwize.me:8018/",
                 "WebPage":  "http://www.radiosevan.com/"
                 },
@@ -575,7 +575,7 @@ def getStations(sortingKey):
                 "Icon":     "http://www.radiovan.am/assets/pictures/logo.png",
                 "Name":     "Radio Van",
                 "Phone":    "+374-10-54-00-01",
-                "Time":     "[[[-1 -1 -1 -1 -1 -1],[-1 -1 -1 -1 -1 -1]]]",
+                "Time":     "[[[-1,-1,-1,-1,-1,-1],[-1,-1,-1,-1,-1,-1]]]",
                 "Url":      "http://radiovan.am:8000/32_stereo",
                 "WebPage":  "http://radiovan.am"
                 },
@@ -587,7 +587,7 @@ def getStations(sortingKey):
                 "Icon":     "http://www.imarmenian.com/association2/wp-content/uploads/2011/11/radioyan-300x97.jpg",
                 "Name":     "Radio YAN ARMENIAN",
                 "Phone":    "+961-3-274-847",
-                "Time":     "[[[-1 -1 -1 -1 -1 -1],[-1 -1 -1 -1 -1 -1]]]",
+                "Time":     "[[[-1,-1,-1,-1,-1,-1],[-1,-1,-1,-1,-1,-1]]]",
                 "Url":      "http://5.35.246.210:8000/stream",
                 "WebPage":  "http://www.radioyan.com/"
                 },
@@ -599,7 +599,7 @@ def getStations(sortingKey):
                 "Icon":     "http://old.hooys.com/banasdeghzootyoon/55_P20_Dare_Zadooroghli_a.jpg",
                 "Name":     "Radio YAN FOLK",
                 "Phone":    "+961-3-274-847",
-                "Time":     "[[[-1 -1 -1 -1 -1 -1],[-1 -1 -1 -1 -1 -1]]]",
+                "Time":     "[[[-1,-1,-1,-1,-1,-1],[-1,-1,-1,-1,-1,-1]]]",
                 "Url":      "http://5.35.246.210:8002/stream",
                 "WebPage":  "http://www.radioyan.com/"
                 },
@@ -611,7 +611,7 @@ def getStations(sortingKey):
                 "Icon":     "http://radioyeraz.com/yeraz/wp-content/uploads/2013/12/radiologo.png",
                 "Name":     "Radio Yeraz",
                 "Phone":    "",
-                "Time":     "[[[-1 -1 -1 -1 -1 -1],[-1 -1 -1 -1 -1 -1]]]",
+                "Time":     "[[[-1,-1,-1,-1,-1,-1],[-1,-1,-1,-1,-1,-1]]]",
                 "Url":      "http://50.7.173.162:8233/",
                 "WebPage":  "http://radioyeraz.com/"
                 },
@@ -623,7 +623,7 @@ def getStations(sortingKey):
                 "Icon":     "http://triktrak.ca/wp-content/uploads/2011/09/triklogo31.jpg",
                 "Name":     "Trik Trak",
                 "Phone":    "",
-                "Time":     "[[[-1 -1 -1 -1 -1 -1],[-1 -1 -1 -1 -1 -1]]]",
+                "Time":     "[[[-1,-1,-1,-1,-1,-1],[-1,-1,-1,-1,-1,-1]]]",
                 "Url":      "http://64.118.88.39:8010/",
                 "WebPage":  "http://triktrak.ca/"
                 },
@@ -635,7 +635,7 @@ def getStations(sortingKey):
                 "Icon":     "http://www.vem.am/img/logo_pop.gifg",
                 "Name":     "Vem Radio",
                 "Phone":    "+374-10-54-15-95",
-                "Time":     "[[[-1 -1 -1 -1 -1 -1],[-1 -1 -1 -1 -1 -1]]]",
+                "Time":     "[[[-1,-1,-1,-1,-1,-1],[-1,-1,-1,-1,-1,-1]]]",
                 "Url":      "http://vem.am//upload/February_Musical%20pearls_1361952495544.mp3",
                 "WebPage":  "http://www.vem.am/"
                 },
@@ -647,7 +647,7 @@ def getStations(sortingKey):
                 "Icon":     "http://www.voiceofvan.net/sites/all/themes/layout6/images/header-object.png",
                 "Name":     "Voice of Van",
                 "Phone":    "+961-1-241-199 ",
-                "Time":     "[[[-1 -1 -1 -1 -1 -1],[-1 -1 -1 -1 -1 -1]]]",
+                "Time":     "[[[-1,-1,-1,-1,-1,-1],[-1,-1,-1,-1,-1,-1]]]",
                 "Url":      "http://www.voiceofvan.net/player/player.swf",
                 "WebPage":  "http://www.voiceofvan.net/"
                 },
@@ -659,7 +659,7 @@ def getStations(sortingKey):
                 "Icon":     "http://t2.gstatic.com/images?q=tbn:ANd9GcT_gI2q43Rgxs0Exa6JcZr9X3usmX5fGs2Do6_JDDmSrJ2sva3o",
                 "Name":     "Yerevan Nights",
                 "Phone":    "+1-877-220-8951",
-                "Time":     "[[[-1 -1 -1 -1 -1 -1],[-1 -1 -1 -1 -1 -1]]]",
+                "Time":     "[[[-1,-1,-1,-1,-1,-1],[-1,-1,-1,-1,-1,-1]]]",
                 "Url":      "mms://radio.yerevannights.com/YerevanNights",
                 "WebPage":  "http://www.yerevannights.com/"
                 }
