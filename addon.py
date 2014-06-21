@@ -104,7 +104,7 @@ class WindowBox(xbmcgui.WindowXMLDialog):
             idx = idx + 1;
 
         self.list.addItems( station_list )
-        self.focusedID = 0
+        self.focusedID = _last_station_id
         self.stationsCount = len(Streams)
         self.list.selectItem(self.focusedID)
         self.player = xbmc.Player(xbmc.PLAYER_CORE_AUTO)
@@ -113,20 +113,21 @@ class WindowBox(xbmcgui.WindowXMLDialog):
         else:
             self.list.selectItem(_last_focused_station_id)
    
-    def closeWindow(self):
+    def close_window(self):
         self.close()
 
     def onAction(self, action):
 
         buttonCode =  action.getButtonCode()
         actionID   =  action.getId()
+        print >> sys.stderr, "action id = " + str(actionID)
         
         if (actionID in ( \
             keys.ACTION_PREVIOUS_MENU, \
             keys.ACTION_NAV_BACK, \
             keys.ACTION_PARENT_DIR, \
             keys.KEY_BUTTON_BACK)):
-            self.closeWindow()
+            self.close_window()
         elif (actionID == keys.ACTION_SHOW_INFO):
             selItem = self.list.getSelectedItem()
             dialog  = xbmcgui.Dialog()
@@ -205,30 +206,59 @@ class WindowBox(xbmcgui.WindowXMLDialog):
     def onFocus(self, controlID):
         pass
 
-def parse_argv():
-    print >> sys.stderr, sys.argv
+def normalize_time(old_value, star, new_value):
+    if (value == star):
+        return new_value
+    else:
+        return old_value
 
-    try:
-        params = dict( arg.split( "=" ) for arg in sys.argv[ 1 ].split( "&" ) )
-    except:
-        params = {}
-    mode  = params.get( "mode", "run" )
-    value = params.get( "value","{[* * * * * *],0}" )
-    return (mode, value)
+def check_range(start, end, value):
+    return (value >= start) & (value <= end)
+
+def check_time(value):
+    now     = datetime.datetime.now()
+
+    current_minute      = now.minute()
+    current_hour        = now.hour()
+    current_month_day   = now.day()
+    current_month       = now.month()
+    current_week_day    = now.weekday()
+    current_year        = now.year()
+
+    val = eval(value);
+    for t in val:
+        live_start_time = t[0]
+        live_end_time   = t[1]
+
+        live_start_minute    = normalize_time(live_start_time[0], -1, 0)
+        live_start_hour      = normalize_time(live_start_time[1], -1, 0)
+        live_start_month_day = normalize_time(live_start_time[2], -1, 1)
+        live_start_month     = normalize_time(live_start_time[3], -1, 1)
+        live_start_week_day  = normalize_time(live_start_time[4], -1, 1)
+        live_start_year      = normalize_time(live_start_time[5], -1, 1900)
+
+        live_end_minute      = normalize_time(live_end_time[0], -1, 59)
+        live_end_hour        = normalize_time(live_end_time[1], -1, 23)
+        live_end_month_day   = normalize_time(live_end_time[2], -1, 31)
+        live_end_month       = normalize_time(live_end_time[3], -1, 12)
+        live_end_week_day    = normalize_time(live_end_time[4], -1, 7)
+        live_end_year        = normalize_time(live_end_time[5], -1, 3000)
+
+        if ( 
+                check_range(live_start_minute   , live_end_minute   , current_minute   ) |
+                check_range(live_start_hour     , live_end_hour     , current_hour     ) |
+                check_range(live_start_month_day, live_end_month_day, current_month_day) |
+                check_range(live_start_month    , live_end_month    , current_month    ) |
+                check_range(live_start_week_day , live_end_week_day , current_week_day ) |
+                check_range(live_start_year     , live_end_year     , current_year     )):
+            return True
+    return False
 
 # Default View
 @plugin.route('/')
 def show_homepage():
-    mode, value = parse_argv()
-
-    print >> sys.stderr, mode
-    print >> sys.stderr, value
-    if ("check_time" == parse_argv()):
-        return "True"
-    else:
-        gui = WindowBox('skin.xml', _path, _skin, '720p');
-        gui.doModal()
-    return
+    gui = WindowBox('skin.xml', _path, _skin, '720p');
+    gui.doModal()
 
 if __name__ == '__main__': 
     plugin.run()
