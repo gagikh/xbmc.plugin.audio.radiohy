@@ -245,6 +245,18 @@ def getStations(sortingKey):
                 },
             {
                 "Address":  "",
+                "Country":  "",
+                "Director": "",
+                "Email":    "",
+                "Icon":     "http://crazyradiyo.listen2myshow.com/bannerimages/567/93/022931984224filebaner.jpg",
+                "Name":     "Crazy Radio Armenia",
+                "Phone":    "",
+                "Time":     "[[[-1,-1,-1,-1,-1,-1],[-1,-1,-1,-1,-1,-1]]]",
+                "Url":      "",
+                "WebPage":  "http://crazyradio.do.am/"
+                },
+            {
+                "Address":  "",
                 "Country":  "Armenia",
                 "Director": "",
                 "Email":    "",
@@ -314,6 +326,18 @@ def getStations(sortingKey):
                 "Time":     "[[[-1,-1,-1,-1,-1,-1],[-1,-1,-1,-1,-1,-1]]]",
                 "Url":      "http://de1.fananoon.com:7000",
                 "WebPage":  "http://www.ardzagank.com/"
+                },
+            {
+                "Address":  "",
+                "Country":  "",
+                "Director": "",
+                "Email":    "atendimento@armeniaeterna.com.br",
+                "Icon":     "",
+                "Name":     "Radio Armenia Eterna",
+                "Phone":    "",
+                "Time":     "[[[-1,-1,-1,-1,-1,-1],[-1,-1,-1,-1,-1,-1]]]",
+                "Url":      "",
+                "WebPage":  "http://armeniaeterna.com.br/"
                 },
             {
                 "Address":  "375010, Yerevan, Tigran Mec 17",
