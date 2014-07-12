@@ -76,3 +76,7 @@ msgstr "Commencer automatiquement la lecture de la station précédemment sélec
 msgctxt "#31012"
 msgid "Time"
 msgstr "Temps"
+
+msgctxt "#31013"
+msgid "Station is not available now"
+msgstr "La station n'est pas disponible maintenant"

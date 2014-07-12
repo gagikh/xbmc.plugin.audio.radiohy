@@ -172,6 +172,18 @@ def getStations(sortingKey):
                 "WebPage":  "http://bashde.org/"
                 },
             {
+                "Address":  "Los Angeles, California",
+                "Country":  "USA",
+                "Director": "",
+                "Email":    "",
+                "Icon":     "http://armenianglobalradio.com/wp-content/themes/agrtheme/images/header1.jpg",
+                "Name":     "Armenian Global Radio",
+                "Phone":    "",
+                "Time":     "[[[-1,-1,-1,-1,-1,-1],[-1,-1,-1,-1,-1,-1]]]",
+                "Url":      "http://50.7.77.114:8304/",
+                "WebPage":  "http://armenianglobalradio.com/"
+                },
+            {
                 "Address":  "PO Box 46, Watertown, Massachusetts 02471",
                 "Country":  "USA",
                 "Director": "Yevgine Gharibian",

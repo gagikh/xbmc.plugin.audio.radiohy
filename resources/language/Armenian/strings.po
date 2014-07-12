@@ -76,3 +76,7 @@ msgstr "Ինքնաբերաբար սկել վերջին ընտրված ռադիո
 msgctxt "#31012"
 msgid "Time"
 msgstr "Ժամանակ"
+
+msgctxt "#31013"
+msgid "Station is not available now"
+msgstr "Կայանը եթերում չէ այժմ"

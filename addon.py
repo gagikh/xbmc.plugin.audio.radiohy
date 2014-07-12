@@ -193,7 +193,8 @@ class WindowBox(xbmcgui.WindowXMLDialog):
         else:
             dialog = xbmcgui.Dialog()
             Name = item.getProperty('Name')
-            dialog.ok(Name, 'Station is not available now.')
+            msg = _settings.getLocalizedString(31013)
+            dialog.ok(Name, msg)
     
     def playStation(self, Url, Icon):
         logo = self.getControl( STATION_LOGO )

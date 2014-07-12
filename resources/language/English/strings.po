@@ -77,3 +77,7 @@ msgstr "Automatically start playing from previously selected station"
 msgctxt "#31012"
 msgid "Time"
 msgstr "Time"
+
+msgctxt "#31013"
+msgid "Station is not available now"
+msgstr "Station is not available now"
