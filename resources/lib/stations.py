@@ -8,8 +8,10 @@ import operator
 #    "Url":"http://hayfm.am:8000/",
 #    "Icon":""
 #},
+
 #cityfm, http://www.cityfm.am/
-#radio vem, http://www.vem.am/
+#radio alpha
+#Armenian radio if New Jersi, http://www.armenianradionj.net/
 
 # crontab TIME format: 
 # * * * * * *
@@ -23,6 +25,19 @@ import operator
 
 def getStations(sortingKey):
     resp = [
+            {
+                # 
+                "Address":  "Yerevan, Khorenaci 15, Elite Plasa",
+                "Country":  "Armenia",
+                "Director": "Hrayr Tamrazyan",
+                "Email":    "liberty@liberty.r.am",
+                "Icon":     "http://www.azatutyun.am/App_Themes/RFE_hy-AM/img/top_logo.gif",
+                "Name":     "Azatutyun Radiokyan",
+                "Phone":    "+37410544047",
+                "Time":     "[[[-1,-1,-1,-1,-1,-1],[-1,-1,-1,-1,-1,-1]]]",
+                "Url":      "",
+                "WebPage":  "http://www.azatutyun.am/"
+                },
             {
                 # Thursday 8:00pm to 9:00pm, duration 1h
                 "Address":  "21 Smith Street Fitzroy 3065,Melbourne",
@@ -92,7 +107,7 @@ def getStations(sortingKey):
                 "Country":  "Germany",
                 "Director": "",
                 "Email":    "Aram_a@msn.com",
-                "Icon":     "http://www.hayfm.de/wp-content/uploads/2013/03/slider-3-914x374.jpg",
+                "Icon":     "http://www.hayfm.de/wp-content/uploads/2013/02/HayFM-Logo-265x90px.png",
                 "Name":     "Hay FM",
                 "Phone":    "",
                 "Time":     "[[[-1,-1,-1,-1,-1,-1],[-1,-1,-1,-1,-1,-1]]]",
@@ -129,7 +144,7 @@ def getStations(sortingKey):
                 "Director": "",
                 "Email":    "",
                 "Icon":     "http://www.amerikayidzayn.com/App_Themes/VOA_hy-AM-VOA/img/top_logo.gif",
-                "Name":     "Voice of Amerika",
+                "Name":     "Voice of America",
                 "Phone":    "",
                 "Time":     "[[[-1,-1,-1,-1,-1,-1],[-1,-1,-1,-1,-1,-1]]]",
                 "Url":      "",
@@ -365,18 +380,6 @@ def getStations(sortingKey):
                 },
             {
                 "Address":  "",
-                "Country":  "Lebanon",
-                "Director": "",
-                "Email":    "http://static.wixstatic.com/media/9badce_2edb315888ac483287408d2d6d0d3d48.jpg_srz_p_171_87_75_22_0.50_1.20_0.00_jpg_srz",
-                "Icon":     "http://d1i6vahw24eb07.cloudfront.net/s195991q.png",
-                "Name":     "Radio Spyurq",
-                "Phone":    "",
-                "Time":     "[[[-1,-1,-1,-1,-1,-1],[-1,-1,-1,-1,-1,-1]]]",
-                "Url":      "http://192.184.9.79:8174/",
-                "WebPage":  "http://www.radiospurk.com/"
-                },
-            {
-                "Address":  "",
                 "Country":  "Uruguay",
                 "Director": "",
                 "Email":    "armenia@adinet.com.uy",
@@ -580,6 +583,30 @@ def getStations(sortingKey):
                 "WebPage":  "http://radiojazz.am/"
                 },
             {
+                "Address":  "Gyumri",
+                "Country":  "Armenia",
+                "Director": "",
+                "Email":    "info@radiomariam.am",
+                "Icon":     "",
+                "Name":     "Radio Mariam",
+                "Phone":    "060 272627",
+                "Time":     "[[[-1,-1,-1,-1,-1,-1],[-1,-1,-1,-1,-1,-1]]]",
+                "Url":      "http://46.182.169.18:8010",
+                "WebPage":  "http://www.radiomariam.am"
+                },
+            {
+                "Address":  "Gyumri",
+                "Country":  "Armenia",
+                "Director": "",
+                "Email":    "",
+                "Icon":     "http://serg-music.do.am/templates/images/progress_logo.png",
+                "Name":     "Radio Minimax",
+                "Phone":    "",
+                "Time":     "[[[-1,-1,-1,-1,-1,-1],[-1,-1,-1,-1,-1,-1]]]",
+                "Url":      "",
+                "WebPage":  "http://serg-music.do.am/"
+                },
+            {
                 "Address":  "",
                 "Country":  "Armenia",
                 "Director": "",
@@ -602,6 +629,18 @@ def getStations(sortingKey):
                 "Time":     "[[[-1,-1,-1,-1,-1,-1],[-1,-1,-1,-1,-1,-1]]]",
                 "Url":      "http://sevan.bitwize.me:8018/",
                 "WebPage":  "http://www.radiosevan.com/"
+                },
+            {
+                "Address":  "",
+                "Country":  "Lebanon",
+                "Director": "",
+                "Email":    "http://static.wixstatic.com/media/9badce_2edb315888ac483287408d2d6d0d3d48.jpg_srz_p_171_87_75_22_0.50_1.20_0.00_jpg_srz",
+                "Icon":     "http://d1i6vahw24eb07.cloudfront.net/s195991q.png",
+                "Name":     "Radio Spyurq",
+                "Phone":    "",
+                "Time":     "[[[-1,-1,-1,-1,-1,-1],[-1,-1,-1,-1,-1,-1]]]",
+                "Url":      "http://192.184.9.79:8174/",
+                "WebPage":  "http://www.radiospurk.com/"
                 },
             {
                 "Address":  "Yerevan, Xandjyan 13a",
