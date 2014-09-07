@@ -727,9 +727,10 @@ def getStations(sortingKey):
                 "WebPage":  "http://www.voiceofvan.net/"
                 },
             {
+                # verified!
                 "Address":  "3200 Wilshire Blvd. Ste 902NT, Los Angeles, CA, United States 90010",
                 "Country":  "USA",
-                "Director": "",
+                "Director": "Sarkis Chakarian",
                 "Email":    "info@yerevannights.com",
                 "Icon":     "http://www.armenische-kirche.ch/wp-content/uploads/2013/02/yerevannights.jpg",
                 "Name":     "Yerevan Nights",
