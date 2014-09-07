@@ -731,7 +731,7 @@ def getStations(sortingKey):
                 "Country":  "USA",
                 "Director": "",
                 "Email":    "info@yerevannights.com",
-                "Icon":     "http://t2.gstatic.com/images?q=tbn:ANd9GcT_gI2q43Rgxs0Exa6JcZr9X3usmX5fGs2Do6_JDDmSrJ2sva3o",
+                "Icon":     "http://www.armenische-kirche.ch/wp-content/uploads/2013/02/yerevannights.jpg",
                 "Name":     "Yerevan Nights",
                 "Phone":    "+1-877-220-8951",
                 "Time":     "[[[-1,-1,-1,-1,-1,-1],[-1,-1,-1,-1,-1,-1]]]",
