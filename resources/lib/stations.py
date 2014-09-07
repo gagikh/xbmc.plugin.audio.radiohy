@@ -38,6 +38,18 @@ def getStations(sortingKey):
                 "WebPage":  "http://www.azatutyun.am/"
                 },
             {
+                "Address":  "",
+                "Country":  "Lebanon",
+                "Director": "",
+                "Email":    "radioayk@gmail.com​",
+                "Icon":     "http://d1i6vahw24eb07.cloudfront.net/s160811q.png",
+                "Name":     "Radio AYK",
+                "Phone":    "",
+                "Time":     "[[[-1,-1,-1,-1,-1,-1],[-1,-1,-1,-1,-1,-1]]]",
+                "Url":      "http://173.193.219.163:8430",
+                "WebPage":  "http://www.radioayk.com/"
+                },
+            {
                 # Thursday 8:00pm to 9:00pm, duration 1h
                 "Address":  "21 Smith Street Fitzroy 3065,Melbourne",
                 "Country":  "Australia",
