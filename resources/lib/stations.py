@@ -323,7 +323,7 @@ def getStations(sortingKey):
                 "Country":  "France",
                 "Director": "",
                 "Email":    "radio.a@wanadoo.fr",
-                "Icon":     "http://votreradiosurlenet.com/player/img/radioa.gif",
+                "Icon":     "http://radioa.net/wp-content/uploads/2013/11/cropped-Logo-Radioa1-300x169-1.png",
                 "Name":     "Radio A",
                 "Phone":    "00-33-4-75-56-18-33",
                 "Time":     "[[[-1,-1,-1,-1,-1,-1],[-1,-1,-1,-1,-1,-1]]]",
