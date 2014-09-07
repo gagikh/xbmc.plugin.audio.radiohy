@@ -26,7 +26,6 @@ import operator
 def getStations(sortingKey):
     resp = [
             {
-                # 
                 "Address":  "Yerevan, Khorenaci 15, Elite Plasa",
                 "Country":  "Armenia",
                 "Director": "Hrayr Tamrazyan",
@@ -123,7 +122,7 @@ def getStations(sortingKey):
                 "Name":     "Voice of Vatikan",
                 "Phone":    "",
                 "Time":     "[[[-1,-1,-1,-1,-1,-1],[-1,-1,-1,-1,-1,-1]]]",
-                "Url":      "",
+                "Url":      "http://www.vaticanradio-us.org/webcasting/armeno_1.mp3",
                 "WebPage":  "http://www.radiovaticana.org/arm/index.asp"
                 },
             {
@@ -132,7 +131,7 @@ def getStations(sortingKey):
                 "Director": "",
                 "Email":    "",
                 "Icon":     "http://www.am680.com.ar/images/RM1.jpg",
-                "Name":     "Voice of Vatikan",
+                "Name":     "Radio Magna",
                 "Phone":    "",
                 "Time":     "[[[-1,-1,-1,-1,-1,-1],[-1,-1,-1,-1,-1,-1]]]",
                 "Url":      "",
@@ -267,7 +266,7 @@ def getStations(sortingKey):
                 "Name":     "Crazy Radio Armenia",
                 "Phone":    "",
                 "Time":     "[[[-1,-1,-1,-1,-1,-1],[-1,-1,-1,-1,-1,-1]]]",
-                "Url":      "",
+                "Url":      "http://78.129.224.21:28285",
                 "WebPage":  "http://crazyradio.do.am/"
                 },
             {
@@ -306,7 +305,8 @@ def getStations(sortingKey):
                 "Url":      "http://norradyo.com:8000/live",
                 "WebPage":  "http://www.norradyo.com/"
                 },
-            {
+            { 
+                # verified!
                 "Address":  "Yerevan 25, Aleq Manukyan 5",
                 "Country":  "Armenia",
                 "Director": "Armen Amiryan",
