@@ -331,13 +331,14 @@ def getStations(sortingKey):
                 "WebPage":  "http://radioa.net/"
                 },
             {
+                # verified!
                 "Address":  "Frunze 13, Yerevan, Armenia",
                 "Country":  "Armenia",
-                "Director": "",
+                "Director": "Artavazd Bayatyan",
                 "Email":    "ardzagank@ardzagank.com",
                 "Icon":     "http://www.ardzagank.com/img/logo_3.jpg",
                 "Name":     "Radio Ardzaganq",
-                "Phone":    "",
+                "Phone":    "(374-10) 44-19-19",
                 "Time":     "[[[-1,-1,-1,-1,-1,-1],[-1,-1,-1,-1,-1,-1]]]",
                 "Url":      "http://de1.fananoon.com:7000",
                 "WebPage":  "http://www.ardzagank.com/"
