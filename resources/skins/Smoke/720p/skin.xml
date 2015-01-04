@@ -128,7 +128,7 @@
                             <posy>0</posy>
                             <width>217</width>
                             <height>217</height>
-                            <!--aspectratio>keep</aspectratio-->
+                            <aspectratio>keep</aspectratio>
                         </control>
                         <!--Added Button Background Border-->
                         <control type="image">
