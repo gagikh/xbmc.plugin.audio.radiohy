@@ -79,4 +79,4 @@ msgstr "Ժամանակ"
 
 msgctxt "#31013"
 msgid "Station is not available now"
-msgstr "Կայանը եթերում չէ այժմ"
+msgstr "Կայանն այժմ եթերում չէ"

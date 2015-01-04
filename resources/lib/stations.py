@@ -1,5 +1,5 @@
 
-# returns the current list of known stations
+# returns the current sorted list of known stations
 import operator
 
 # TODO: verify stations
@@ -11,7 +11,7 @@ import operator
 
 #cityfm, http://www.cityfm.am/
 #radio alpha
-#Armenian radio if New Jersi, http://www.armenianradionj.net/
+#Armenian radio of New Jersi, http://www.armenianradionj.net/
 
 # crontab TIME format: 
 # * * * * * *
@@ -41,7 +41,7 @@ def getStations(sortingKey):
                 "Address":  "",
                 "Country":  "Lebanon",
                 "Director": "",
-                "Email":    "radioayk@gmail.com​",
+                "Email":    "radioayk@gmail.com",
                 "Icon":     "http://d1i6vahw24eb07.cloudfront.net/s160811q.png",
                 "Name":     "Radio AYK",
                 "Phone":    "",
@@ -161,7 +161,8 @@ def getStations(sortingKey):
                 "Url":      "",
                 "WebPage":  "http://www.amerikayidzayn.com/"
                 },
-            { # verified
+            {
+                # verified
                 "Address":  "0025 Yerevan, Alex Manoogian 5 str",
                 "Country":  "Armenia",
                 "Director": "Armen Amiryan",
@@ -317,7 +318,7 @@ def getStations(sortingKey):
                 "Url":      "http://norradyo.com:8000/live",
                 "WebPage":  "http://www.norradyo.com/"
                 },
-            { 
+            {
                 # verified!
                 "Address":  "Yerevan 25, Aleq Manukyan 5",
                 "Country":  "Armenia",

@@ -43,20 +43,20 @@
                 <control type="image">
                     <description>StationsListBorder</description>
                     <posx>50</posx>
-                    <posy>90</posy>
+                    <posy>50</posy>
                     <width>430</width>
-                    <height>550</height>
+                    <height>570</height>
                     <texture>stations-list.png</texture>
-                    <aspectratio>keep</aspectratio>
+                    <!--aspectratio>keep</aspectratio-->
                 </control>
                 <control type="group">
-                    <posx>75</posx>
-                    <posy>140</posy>
+                    <posx>70</posx>
+                    <posy>90</posy>
                     <control type="group">
                         <animation effect="fade" reversible="true" time="300">VisibleChange</animation>
                         <control type="list" id="100">
-                            <width>390</width>
-                            <height>450</height>
+                            <width>430</width>
+                            <height>480</height>
                             <onleft>400</onleft>
                             <onright>200</onright>
                             <onup>100</onup>
@@ -65,7 +65,7 @@
                             <scrolltime>200</scrolltime>
                             <itemlayout height="32">
                                 <control type="image">
-                                    <width>375</width>
+                                    <width>390</width>
                                     <height>30</height>
                                     <posx>0</posx>
                                     <posy>0</posy>
@@ -87,7 +87,7 @@
                             </itemlayout>
                             <focusedlayout height="32">
                                 <control type="image">
-                                    <width>375</width>
+                                    <width>390</width>
                                     <height>30</height>
                                     <posx>0</posx>
                                     <posy>0</posy>
@@ -95,7 +95,7 @@
                                     <texture border="3">twc-input-focus.png</texture>
                                 </control>
                                 <control type="image">
-                                    <width>375</width>
+                                    <width>390</width>
                                     <height>30</height>
                                     <posx>0</posx>
                                     <posy>0</posy>
@@ -124,21 +124,21 @@
                         <posy>0</posy>
                         <control type="image" id="500">
                             <description>album art</description>
-                            <posx>70</posx>
+                            <posx>50</posx>
                             <posy>0</posy>
                             <width>217</width>
                             <height>217</height>
-                            <aspectratio>keep</aspectratio>
+                            <!--aspectratio>keep</aspectratio-->
                         </control>
                         <!--Added Button Background Border-->
                         <control type="image">
                             <description>ButtonBackground</description>
-                            <posx>38</posx>
-                            <posy>273</posy>
+                            <posx>50</posx>
+                            <posy>320</posy>
                             <width>550</width>
-                            <height>255</height>
+                            <height>200</height>
                             <texture>buttons-bg.png</texture>
-                            <aspectratio>keep</aspectratio>
+                            <!--aspectratio>keep</aspectratio-->
                         </control>
                         <!--END Button Background Border-->
                         <control type="label">
@@ -186,7 +186,7 @@
                             <info>MusicPlayer.Rating</info>
                         </control>
                         <control type="progress">
-                            <posx>37</posx>
+                            <posx>50</posx>
                             <posy>270</posy>
                             <width>548</width>
                             <height>20</height>
@@ -196,22 +196,22 @@
                         <control type="button" id="200">
                             <description>back</description>
                             <visible>True</visible>
-                            <posx>163</posx>
-                            <posy>350</posy>
+                            <posx>140</posx>
+                            <posy>370</posy>
                             <height>75</height>
                             <width>75</width>
                             <onleft>100</onleft>
                             <onright>300</onright>
                             <onup>100</onup>
                             <ondown>100</ondown>
-                            <aspectratio>keep</aspectratio>
+                            <!--aspectratio>keep</aspectratio-->
                             <texturefocus>back.png</texturefocus>
                             <texturenofocus>back-nofocus.png</texturenofocus>
                         </control>
                         <control type="togglebutton" id="300">
                             <description>play</description>
-                            <posx>274</posx>
-                            <posy>350</posy>
+                            <posx>270</posx>
+                            <posy>370</posy>
                             <height>75</height>
                             <width>75</width>
                             <label>-</label>
@@ -219,7 +219,7 @@
                             <onright>400</onright>
                             <onup>100</onup>
                             <ondown>100</ondown>
-                            <aspectratio>keep</aspectratio>
+                            <!--aspectratio>keep</aspectratio-->
                             <texturefocus>play.png</texturefocus>
                             <texturenofocus>play-nofocus.png</texturenofocus>
                             <usealttexture>Player.Playing</usealttexture>
@@ -229,15 +229,15 @@
                         </control>
                         <control type="button" id="400">
                             <description>skip</description>
-                            <posx>384</posx>
-                            <posy>350</posy>
+                            <posx>400</posx>
+                            <posy>370</posy>
                             <height>75</height>
                             <width>75</width>
                             <onleft>300</onleft>
                             <onright>100</onright>
                             <onup>100</onup>
                             <ondown>100</ondown>
-                            <aspectratio>keep</aspectratio>
+                            <!--aspectratio>keep</aspectratio-->
                             <texturefocus>skip.png</texturefocus>
                             <texturenofocus>skip-nofocus.png</texturenofocus>
                         </control>
