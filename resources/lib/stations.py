@@ -25,11 +25,11 @@ import operator
 
 def getStations(sortingKey):
     resp = [
-            {
+            { #"Email":    "liberty@liberty.r.am"
                 "Address":  "Yerevan, Khorenaci 15, Elite Plasa",
                 "Country":  "Armenia",
                 "Director": "Hrayr Tamrazyan",
-                "Email":    "liberty@liberty.r.am",
+                "Email":    "armenian@rferl.org",
                 "Icon":     "http://www.azatutyun.am/App_Themes/RFE_hy-AM/img/top_logo.gif",
                 "Name":     "Azatutyun Radiokyan",
                 "Phone":    "+37410544047",
@@ -452,11 +452,11 @@ def getStations(sortingKey):
                 "Url":      "http://64.150.176.192:8250/stream",
                 "WebPage":  "http://radioavol.org/"
                 },
-            {
+            { #"Email":    "radioaurora@radioaurora.am"
                 "Address":  "Yerevan, Nairi Zaryan 22, 0051",
                 "Country":  "Armenia",
                 "Director": "",
-                "Email":    "radioaurora@radioaurora.am",
+                "Email":    "radio-aurora@mail.ru",
                 "Icon":     "http://www.radioaurora.am/images/white_logo.png",
                 "Name":     "Radio Avrora",
                 "Phone":    "+374-10-25-10-07",
