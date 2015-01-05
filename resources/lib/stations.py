@@ -596,14 +596,14 @@ def getStations(sortingKey):
                 "Url":      "http://radiojazz.am/wp-content/themes/ari/mp3Player2.sw",
                 "WebPage":  "http://radiojazz.am/"
                 },
-            {
-                "Address":  "Gyumri",
+            { # verified!
+                "Address":  "Gyumri, Ghorghanyan Street 83",
                 "Country":  "Armenia",
-                "Director": "",
+                "Director": "Gayane Galoyan",
                 "Email":    "info@radiomariam.am",
-                "Icon":     "",
+                "Icon":     "http://radiomariam.am/resouces/images/Logo_RADIO_MARIAM.png",
                 "Name":     "Radio Mariam",
-                "Phone":    "060 272627",
+                "Phone":    "060-27-26-27",
                 "Time":     "[[[-1,-1,-1,-1,-1,-1],[-1,-1,-1,-1,-1,-1]]]",
                 "Url":      "http://46.182.169.18:8010",
                 "WebPage":  "http://www.radiomariam.am"
