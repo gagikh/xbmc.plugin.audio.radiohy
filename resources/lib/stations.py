@@ -648,7 +648,7 @@ def getStations(sortingKey):
                 "Address":  "",
                 "Country":  "Lebanon",
                 "Director": "",
-                "Email":    "http://static.wixstatic.com/media/9badce_2edb315888ac483287408d2d6d0d3d48.jpg_srz_p_171_87_75_22_0.50_1.20_0.00_jpg_srz",
+                "Email":    "",
                 "Icon":     "http://d1i6vahw24eb07.cloudfront.net/s195991q.png",
                 "Name":     "Radio Spyurq",
                 "Phone":    "",
