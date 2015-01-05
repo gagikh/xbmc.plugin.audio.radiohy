@@ -261,11 +261,11 @@ def getStations(sortingKey):
             {
                 "Address":  "",
                 "Country":  "",
-                "Director": "",
+                "Director": "Jack Kojekian",
                 "Email":    "info@Armenianvoice.com",
                 "Icon":     "http://www.armenianvoice.com/SiteImages/ArmenianVoice.jpg",
-                "Name":     "Armenian Voice",
-                "Phone":    "",
+                "Name":     "Armenian Voice Radio",
+                "Phone":    "011-559-776-9925",
                 "Time":     "[[[-1,-1,-1,-1,-1,-1],[-1,-1,-1,-1,-1,-1]]]",
                 "Url":      "http://50.7.77.114:8111/autodj",
                 "WebPage":  "http://www.armenianvoice.com/"
