@@ -282,29 +282,41 @@ def getStations(sortingKey):
                 "Url":      "http://78.129.224.21:28285",
                 "WebPage":  "http://crazyradio.do.am/"
                 },
-            {
+            { # check!!!!
                 "Address":  "",
                 "Country":  "Armenia",
                 "Director": "",
-                "Email":    "",
+                "Email":    "info@fm107.am",
                 "Icon":     "http://www.fm107.am/images/logo.jpg",
-                "Name":     "Lav Radio(FM-107)",
+                "Name":     "FM-107",
                 "Phone":    "+374-10-36-86-45",
                 "Time":     "[[[-1,-1,-1,-1,-1,-1],[-1,-1,-1,-1,-1,-1]]]",
-                "Url":      "http://streams4.museter.com:8218/",
-                "WebPage":  "http://www.fm107.am/"
+                "Url":      "http://streams4.museter.com:8218",
+                "WebPage":  "http://www.fm107.am"
                 },
-            {
+            { # verified!
                 "Address":  "",
                 "Country":  "Armenia",
-                "Director": "",
+                "Director": "Aghabek Margaryan",
                 "Email":    "info@lavradio.am",
-                "Icon":     "http://www.lavradio.am/img/big_logo.png",
-                "Name":     "Lav Radio Mix",
-                "Phone":    "",
+                "Icon":     "http://www.lavradio.am/img/logo_lavradio.png",
+                "Name":     "Lav Radio",
+                "Phone":    "+37455830003",
                 "Time":     "[[[-1,-1,-1,-1,-1,-1],[-1,-1,-1,-1,-1,-1]]]",
                 "Url":      "http://195.154.181.100:8000/stream",
-                "WebPage":  "http://www.lavradio.am/"
+                "WebPage":  "http://www.lavradio.am"
+                },
+            { # verified!
+                "Address":  "",
+                "Country":  "Armenia",
+                "Director": "Aghabek Margaryan",
+                "Email":    "info@lavradio.am",
+                "Icon":     "http://www.lavradio.am/img/lavradiomix.png",
+                "Name":     "Lav Radio Mix",
+                "Phone":    "+37455830003",
+                "Time":     "[[[-1,-1,-1,-1,-1,-1],[-1,-1,-1,-1,-1,-1]]]",
+                "Url":      "http://195.154.181.100:8006/stream",
+                "WebPage":  "http://www.lavradio.am"
                 },
             {
                 "Address":  "",
