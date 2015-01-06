@@ -1,0 +1,216 @@
+{
+    "backup": {
+        "uri": [
+            {
+                "hostname": "199.195.194.92", 
+                "nickname": "Ar Radio Intercontinental", 
+                "path": "", 
+                "port": "8029", 
+                "protocol": "http"
+            }, 
+            {
+                "hostname": "sc7.mystreamserver.com", 
+                "nickname": "Armenian Bible Study", 
+                "path": "", 
+                "port": "8036", 
+                "protocol": "http"
+            }, 
+            {
+                "hostname": "fire.wavestreamer.com", 
+                "nickname": "Armenian Christian Radio", 
+                "path": "", 
+                "port": "5643", 
+                "protocol": "http"
+            }, 
+            {
+                "hostname": "192.240.97.69", 
+                "nickname": "Armenian Global Radio", 
+                "path": "", 
+                "port": "9315", 
+                "protocol": "http"
+            }, 
+            {
+                "hostname": "50.117.8.242", 
+                "nickname": "Armenian Net Radio", 
+                "path": "/Live", 
+                "port": "1126", 
+                "protocol": "http"
+            }, 
+            {
+                "hostname": "50.7.96.210", 
+                "nickname": "Armenian Pulse Radio", 
+                "path": "", 
+                "port": "8134", 
+                "protocol": "http"
+            }, 
+            {
+                "hostname": "streams4.museter.com", 
+                "nickname": "FM-107", 
+                "path": "", 
+                "port": "8218", 
+                "protocol": "http"
+            }, 
+            {
+                "hostname": "195.154.181.100", 
+                "nickname": "Lav Radio", 
+                "path": "/stream", 
+                "port": "8000", 
+                "protocol": "http"
+            }, 
+            {
+                "hostname": "195.154.181.100", 
+                "nickname": "Lav Radio Mix", 
+                "path": "/stream", 
+                "port": "8006", 
+                "protocol": "http"
+            }, 
+            {
+                "hostname": "norradyo.com", 
+                "nickname": "Nor Radyo", 
+                "path": "/live", 
+                "port": "8000", 
+                "protocol": "http"
+            }, 
+            {
+                "hostname": "195.154.181.100", 
+                "nickname": "Public Radio of Armenia", 
+                "path": "", 
+                "port": "8052", 
+                "protocol": "http"
+            }, 
+            {
+                "hostname": "91.121.62.121", 
+                "nickname": "Radio A", 
+                "path": "", 
+                "port": "7250", 
+                "protocol": "http"
+            }, 
+            {
+                "hostname": "64.150.176.192", 
+                "nickname": "Radio AVOL", 
+                "path": "/stream", 
+                "port": "8250", 
+                "protocol": "http"
+            }, 
+            {
+                "hostname": "173.193.219.163", 
+                "nickname": "Radio AYK", 
+                "path": "", 
+                "port": "8430", 
+                "protocol": "http"
+            }, 
+            {
+                "hostname": "109.190.123.125", 
+                "nickname": "Radio Armenie", 
+                "path": "/stream.mp3", 
+                "port": "8000", 
+                "protocol": "http"
+            }, 
+            {
+                "hostname": "195.154.181.100", 
+                "nickname": "Radio Fama", 
+                "path": "", 
+                "port": "8036", 
+                "protocol": "http"
+            }, 
+            {
+                "hostname": "mix.am", 
+                "nickname": "Radio Hay (Anr)", 
+                "path": "/anr24", 
+                "port": "8000", 
+                "protocol": "http"
+            }, 
+            {
+                "hostname": "mix.am", 
+                "nickname": "Radio Hay (Smile)", 
+                "path": "/smile", 
+                "port": "8000", 
+                "protocol": "http"
+            }, 
+            {
+                "hostname": "mix.am", 
+                "nickname": "Radio Hay (mixfm)", 
+                "path": "/mixfm", 
+                "port": "8000", 
+                "protocol": "http"
+            }, 
+            {
+                "hostname": "mix.am", 
+                "nickname": "Radio Hay (starfm)", 
+                "path": "/starfm", 
+                "port": "8000", 
+                "protocol": "http"
+            }, 
+            {
+                "hostname": "199.189.111.28", 
+                "nickname": "Radio Hayeren", 
+                "path": "/stream", 
+                "port": "8303", 
+                "protocol": "http"
+            }, 
+            {
+                "hostname": "streams4.museter.com", 
+                "nickname": "Radio Jan", 
+                "path": "", 
+                "port": "8216", 
+                "protocol": "http"
+            }, 
+            {
+                "hostname": "46.182.169.18", 
+                "nickname": "Radio Mariam", 
+                "path": "", 
+                "port": "8010", 
+                "protocol": "http"
+            }, 
+            {
+                "hostname": "sevan.bitwize.me", 
+                "nickname": "Radio Sevan", 
+                "path": "", 
+                "port": "8018", 
+                "protocol": "http"
+            }, 
+            {
+                "hostname": "192.184.9.81", 
+                "nickname": "Radio Spyurq", 
+                "path": "/stream", 
+                "port": "8410", 
+                "protocol": "http"
+            }, 
+            {
+                "hostname": "87.117.201.159", 
+                "nickname": "Radio Toot", 
+                "path": "", 
+                "port": "8110", 
+                "protocol": "http"
+            }, 
+            {
+                "hostname": "radiovan.am", 
+                "nickname": "Radio Van", 
+                "path": "/32_stereo", 
+                "port": "8000", 
+                "protocol": "http"
+            }, 
+            {
+                "hostname": "92.51.148.140", 
+                "nickname": "Radio YAN", 
+                "path": "/stream", 
+                "port": "8001", 
+                "protocol": "http"
+            }, 
+            {
+                "hostname": "50.7.173.162", 
+                "nickname": "Radio Yeraz", 
+                "path": "", 
+                "port": "8233", 
+                "protocol": "http"
+            }, 
+            {
+                "hostname": "64.118.87.22", 
+                "nickname": "Trik Trak", 
+                "path": "", 
+                "port": "8003", 
+                "protocol": "http"
+            }
+        ]
+    }
+}

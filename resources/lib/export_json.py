@@ -29,6 +29,10 @@ urls = []
 for Station in Streams:
     emails.append(Station["Email"])
     uri = Station["Url"]
+    verified = Station['Verified']
+    if 'false' == verified:
+        continue
+
     backup = {}
     if uri:
         path = {}
