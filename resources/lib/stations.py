@@ -124,7 +124,7 @@ def getStations(sortingKey):
                 "Address":  "",
                 "Country":  "Germany",
                 "Director": "",
-                "Email":    "Aram_a@msn.com",
+                "Email":    "aram_a@msn.com",
                 "Icon":     "http://www.hayfm.de/wp-content/uploads/2013/02/HayFM-Logo-265x90px.png",
                 "Name":     "Hay FM",
                 "Phone":    "",
@@ -229,7 +229,7 @@ def getStations(sortingKey):
                 "Address":  "PO Box 46, Watertown, Massachusetts 02471",
                 "Country":  "USA",
                 "Director": "Yevgine Gharibian",
-                "Email":    "Yevgine@aol.com",
+                "Email":    "yevgine@aol.com",
                 "Icon":     "http://armenianradioboston.com/images/ABB-Bannerad.jpg",
                 "Name":     "Armenian Independent Broadcasting of Boston",
                 "Phone":    "+1-617-926-6268",
@@ -281,7 +281,7 @@ def getStations(sortingKey):
                 "Address":  "",
                 "Country":  "",
                 "Director": "Jack Kojekian",
-                "Email":    "info@Armenianvoice.com",
+                "Email":    "info@armenianvoice.com",
                 "Icon":     "http://www.armenianvoice.com/SiteImages/ArmenianVoice.jpg",
                 "Name":     "Armenian Voice Radio",
                 "Phone":    "011-559-776-9925",
@@ -810,7 +810,7 @@ def getStations(sortingKey):
                 "Time":     "[[[-1,-1,-1,-1,-1,-1],[-1,-1,-1,-1,-1,-1]]]",
                 "Url":      "mms://radio.yerevannights.com/YerevanNights",
 		"Verified": "true",
-                "WebPage":  "http://www.yerevannights.com/"
+                "WebPage":  "http://www.yerevannights.com"
                 }
             ]
     resp.sort(key=operator.itemgetter(sortingKey))

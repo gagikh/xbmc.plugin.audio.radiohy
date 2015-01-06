@@ -21,22 +21,29 @@ import json
 
 _sort_stations = 'Name'
 
-Streams = stations.getStations(_sort_stations)
+streams = stations.getStations(_sort_stations)
 emails = []
 backup = {}
 urls = []
+icons = []
 
-for Station in Streams:
-    emails.append(Station["Email"])
-    uri = Station["Url"]
-    verified = Station['Verified']
+for station in streams:
+    email = station['Email']
+    if email:
+        emails.append(email)
+    icon = station['Icon']
+    if icon:
+        icons.append(icon)
+
+    uri = station["Url"]
+    verified = station['Verified']
     if 'false' == verified:
         continue
 
     backup = {}
     if uri:
         path = {}
-        path["nickname"] = Station["Name"]
+        path["nickname"] = station["Name"]
 
         p = uri.find("://")
         protocol = uri[0:p]
@@ -74,3 +81,5 @@ for Station in Streams:
     backup["backup"] = uri
 
 print json.dumps(backup, sort_keys=True, indent=4)
+print json.dumps(emails, sort_keys=True, indent=4)
+print json.dumps(icons,  sort_keys=True, indent=4)
