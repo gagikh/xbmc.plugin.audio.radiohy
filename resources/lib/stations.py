@@ -536,7 +536,7 @@ def getStations(sortingKey):
                 "Time":     "[[[-1,-1,-1,-1,-1,-1],[-1,-1,-1,-1,-1,-1]]]",
                 "Url":      "http://mix.am:8000/starfm",
 		"Verified": "true",
-                "WebPage":  "http://mix.am/"
+                "WebPage":  "http://mix.am"
                 },
             {
                 "Address":  "",
@@ -549,7 +549,7 @@ def getStations(sortingKey):
                 "Time":     "[[[-1,-1,-1,-1,-1,-1],[-1,-1,-1,-1,-1,-1]]]",
                 "Url":      "http://mix.am:8000/mixfm",
 		"Verified": "true",
-                "WebPage":  "http://mix.am/"
+                "WebPage":  "http://mix.am"
                 },
             {
                 "Address":  "",
@@ -575,7 +575,7 @@ def getStations(sortingKey):
                 "Time":     "[[[-1,-1,-1,-1,-1,-1],[-1,-1,-1,-1,-1,-1]]]",
                 "Url":      "http://mix.am:8000/anr24",
 		"Verified": "true",
-                "WebPage":  "http://mix.am/"
+                "WebPage":  "http://mix.am"
                 },
             {
                 "Address":  "",

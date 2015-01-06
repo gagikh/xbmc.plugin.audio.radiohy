@@ -43,6 +43,15 @@ for station in streams:
     backup = {}
     if uri:
         path = {}
+        path['address'] = station['Address']
+        path['country'] = station['Country']
+        path['director']= station['Director']
+        path['email']   = station['Email']
+        path['icon']    = station['Icon']
+        path['phone']   = station['Phone']
+        path['time']    = station['Time']
+        path['webpage'] = station['WebPage']
+
         path["nickname"] = station["Name"]
 
         p = uri.find("://")
@@ -80,6 +89,10 @@ for station in streams:
 
     backup["backup"] = uri
 
-print json.dumps(backup, sort_keys=True, indent=4)
-print json.dumps(emails, sort_keys=True, indent=4)
-print json.dumps(icons,  sort_keys=True, indent=4)
+# print
+b = json.dumps(backup, sort_keys=True, indent=4)
+e = json.dumps(emails, sort_keys=True, indent=4)
+i = json.dumps(icons,  sort_keys=True, indent=4)
+
+fb = open('backup.json', 'w')
+print >> fb, b.replace('/', '\/')
