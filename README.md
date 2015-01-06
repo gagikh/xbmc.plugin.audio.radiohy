@@ -1,6 +1,6 @@
 RadioHY Addon for XBMC
 ========================
-version 1.0
+version 1.0.0
 
 ### Summary ###
 This is a plugin for [XBMC](http://xbmc.org) that enables you to listen to the
