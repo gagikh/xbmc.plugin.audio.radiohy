@@ -83,9 +83,15 @@ class WindowBox(xbmcgui.WindowXMLDialog):
             Phone   = Station['Phone']
             Time    = Station['Time']
             Url     = Station['Url']
+            Verified= Station['Verified']
             WebPage = Station['WebPage']
 
-            li = xbmcgui.ListItem(str(idx) + ") " + Name, Name)
+            if 'false' == Verified:
+                continue
+
+            order = str(idx).zfill(2)
+
+            li = xbmcgui.ListItem(order + ") " + Name, Name)
             li.setInfo('music', {'Title': Name})
 
             li.setProperty('Address',   Address)
@@ -98,7 +104,6 @@ class WindowBox(xbmcgui.WindowXMLDialog):
             li.setProperty('Url',       Url)
             li.setProperty('WebPage',   WebPage)
             li.setProperty('Time',      Time)
-
             li.setProperty('Id',        str(idx))
 
             station_list.append(li)
