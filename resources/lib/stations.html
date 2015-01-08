@@ -16,6 +16,7 @@ html, body {
     color: red;
     padding-top: 15px;
     text-align: center; 
+    font: bold;
 }
 
 .main_block {
@@ -29,10 +30,10 @@ html, body {
     float: left;
 }
 
-.radio_block:nth-child(odd) {background:#e7e7e7;}
+.radio_block:nth-child(odd)     { background:#e7e7e7; }
+.radio_block:nth-child(even)    { background:#f7f7f7; }
 
-.mix_logo {
-}
+.mix_logo {}
 
 .mix_logo_wrapper {
     height: 48px;
@@ -97,8 +98,8 @@ $(document).ready(function()
             var logo_url = e.icon;
 
             logo.style.cssText = 'background: url("' + logo_url + '")' +
-                        " no-repeat center center rgba(0, 0, 0, 0); border: 1px solid; " +
-                        " background-size: contain; float: left; height: 95%; width: 95%; t";
+                " no-repeat center center rgba(0, 0, 0, 0);border:1px solid;" +
+                " background-size:contain;float:left;height:95%;width:95%;";
             
             var txt = clone.getElementsByClassName("station_text")[0];
             txt.innerHTML = '<a href="' + e.webpage + '">' + e.nickname + '</a>'
