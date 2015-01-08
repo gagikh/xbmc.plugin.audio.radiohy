@@ -96,3 +96,4 @@ i = json.dumps(icons,  sort_keys=True, indent=4)
 
 fb = open('backup.json', 'w')
 print >> fb, b.replace('/', '\/')
+fb.close()
