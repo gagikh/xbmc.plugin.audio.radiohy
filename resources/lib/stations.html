@@ -15,12 +15,13 @@ html, body {
 .station_text {
     color: red;
     padding-top: 15px;
+    text-align: center; 
 }
 
 .main_block {
     width: 790px;
     position: absolute;
-    left: 10%;
+    left: 20%;
 }
 
 .radio_block {
@@ -39,12 +40,12 @@ html, body {
     float: left;
 }
 
-.radio_button {float:right;}
+.radio_button { float:right; }
 
 .stop {
     height: 21px;
     width: 23px;
-    background: url(http://www.myiconfinder.com/uploads/iconsets/48-48-0424923e1bfdd129567c714224d38010.png) no-repeat -21px 0px;
+    background: url(http://live.mix.am/img/on_off.png) no-repeat -21px 0px;
     margin-top: 13px;
     margin-right: 15px;
     cursor: pointer;
@@ -82,7 +83,8 @@ $(document).ready(function()
             var clone = div.cloneNode(true);
             var mpl = clone.getElementsByTagName("embed")[0];
 
-            var url = e.protocol + '://' + e.hostname + ':' + e.port + '/' + e.path;
+            var url = e.protocol + '://' + e.hostname + ':' + 
+                e.port + '/' + e.path;
             
             var str = "&autostart=1&duration=-1&viral.onpause=false&" +
                 "viral.oncomplete=false&viral.allowmenu=false&" +
@@ -99,7 +101,7 @@ $(document).ready(function()
                         " background-size: contain; float: left; height: 95%; width: 95%; t";
             
             var txt = clone.getElementsByClassName("station_text")[0];
-            txt.innerHTML = e.nickname;
+            txt.innerHTML = '<a href="' + e.webpage + '">' + e.nickname + '</a>'
 
             clone.style.cssText = '';
             rds.appendChild(clone);
@@ -138,14 +140,13 @@ $(window).load( function() {
     <div class="radio_block" id='source_div' style="visibility: hidden">
         <div class="radio_button stop">
             <div class="player">
-                <embed type="application/x-shockwave-flash" src="http://streammonster.com/sm/pl5/player.swf" style="undefined" id="mpl" name="mpl" quality="high" allowscriptaccess="always" allowfullscreen="true" flashvars="&amp;autostart=1&amp;duration=-1&amp;viral.onpause=false&amp;viral.oncomplete=false&amp;viral.allowmenu=false&amp;skin=http://streammonster.com/sm/pl5/stormtrooper.zip&amp;file=http://199.195.194.92:8029/;stream.mp3&amp;type=sound&amp;buffer='Buffering:%10%'" width="310" height="25">
+                <embed type="application/x-shockwave-flash" src="http://streammonster.com/sm/pl5/player.swf" style="undefined" id="mpl" name="mpl" quality="high" allowscriptaccess="always" allowfullscreen="true" flashvars="" width="310" height="25">
                 </div>
             </div>
             <div class="mix_logo_wrapper">
                 <div class="mix_logo"></div>
             </div>
             <div class="station_text">
-                Hello
             </div>
         </div>
     </div>
