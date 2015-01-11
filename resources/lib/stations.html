@@ -85,7 +85,7 @@ $(document).ready(function()
             var mpl = clone.getElementsByTagName("embed")[0];
 
             var url = e.protocol + '://' + e.hostname + ':' + 
-                e.port + '/' + e.path;
+                e.port + e.path;
             
             var str = "&autostart=1&duration=-1&viral.onpause=false&" +
                 "viral.oncomplete=false&viral.allowmenu=false&" +
