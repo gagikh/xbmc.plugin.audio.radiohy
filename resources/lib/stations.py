@@ -35,7 +35,7 @@ def getStations(sortingKey):
                 "Phone":    "+37410 251007",
                 "Time":     "[[[-1,-1,-1,-1,-1,-1],[-1,-1,-1,-1,-1,-1]]]",
                 "Url":      "http://radioaurora.am:8010/example0-1.aac",
-		"Verified": "true",
+		"Verified": "false",
                 "WebPage":  "http://www.radioaurora.am"
                 },
             { #"Email":    "liberty@liberty.r.am"
@@ -276,6 +276,32 @@ def getStations(sortingKey):
                 "Url":      "http://92.51.148.140:8001/stream",
 		"Verified": "true",
                 "WebPage":  "http://radioyan.com"
+                },
+            {
+                "Address":  "Maraash Street, Harboyan Building, 1203 Bourj Hammoud, Al-Metn",
+                "Country":  "Lebanon",
+                "Director": "",
+                "Email":    "radioyan@imarmenian.com",
+                "Icon":     "http://www.imarmenian.com/association2/wp-content/uploads/2011/12/ARF-Logo-Red.png",
+                "Name":     "Radio YAN PATRIOTIC",
+                "Phone":    "+961-3-274-847",
+                "Time":     "[[[-1,-1,-1,-1,-1,-1],[-1,-1,-1,-1,-1,-1]]]",
+                "Url":      "http://92.51.148.140:8002/stream",
+		"Verified": "true",
+                "WebPage":  "http://www.radioyan.com"
+                },
+            {
+                "Address":  "Maraash Street, Harboyan Building, 1203 Bourj Hammoud, Al-Metn",
+                "Country":  "Lebanon",
+                "Director": "",
+                "Email":    "radioyan@imarmenian.com",
+                "Icon":     "http://www.imarmenian.com/association2/wp-content/uploads/2011/12/ARF-Logo-Red.png",
+                "Name":     "Radio YAN GREEK",
+                "Phone":    "+961-3-274-847",
+                "Time":     "[[[-1,-1,-1,-1,-1,-1],[-1,-1,-1,-1,-1,-1]]]",
+                "Url":      "http://92.51.148.140:8003/stream",
+		"Verified": "true",
+                "WebPage":  "http://www.radioyan.com"
                 },
             {
                 "Address":  "",
@@ -732,32 +758,6 @@ def getStations(sortingKey):
                 "Url":      "http://radiovan.am:8000/32_stereo",
 		"Verified": "true",
                 "WebPage":  "http://radiovan.am"
-                },
-            {
-                "Address":  "Maraash Street, Harboyan Building, 1203 Bourj Hammoud, Al-Metn, Lebanon",
-                "Country":  "France",
-                "Director": "",
-                "Email":    "radioyan@imarmenian.com",
-                "Icon":     "http://www.imarmenian.com/association2/wp-content/uploads/2011/11/radioyan-300x97.jpg",
-                "Name":     "Radio YAN ARMENIAN",
-                "Phone":    "+961-3-274-847",
-                "Time":     "[[[-1,-1,-1,-1,-1,-1],[-1,-1,-1,-1,-1,-1]]]",
-                "Url":      "http://5.35.246.210:8000/stream",
-		"Verified": "false",
-                "WebPage":  "http://www.radioyan.com"
-                },
-            {
-                "Address":  "Maraash Street, Harboyan Building, 1203 Bourj Hammoud, Al-Metn, Lebanon",
-                "Country":  "France",
-                "Director": "",
-                "Email":    "radioyan@imarmenian.com",
-                "Icon":     "http://old.hooys.com/banasdeghzootyoon/55_P20_Dare_Zadooroghli_a.jpg",
-                "Name":     "Radio YAN FOLK",
-                "Phone":    "+961-3-274-847",
-                "Time":     "[[[-1,-1,-1,-1,-1,-1],[-1,-1,-1,-1,-1,-1]]]",
-                "Url":      "http://5.35.246.210:8002/stream",
-		"Verified": "false",
-                "WebPage":  "http://www.radioyan.com"
                 },
             {
                 "Address":  "",
