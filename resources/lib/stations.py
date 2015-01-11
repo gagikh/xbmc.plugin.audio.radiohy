@@ -25,6 +25,19 @@ import operator
 
 def getStations(sortingKey):
     resp = [
+    	   {
+                "Address":  "Yerevan, Nairi Zaryan 22, 7/9, 0051",
+                "Country":  "Armenia",
+                "Director": "",
+                "Email":    "radioaurora@radioaurora.am",
+                "Icon":     "http://www.radioaurora.am/images/white_logo.png",
+                "Name":     "Radio Aurora",
+                "Phone":    "+37410 251007",
+                "Time":     "[[[-1,-1,-1,-1,-1,-1],[-1,-1,-1,-1,-1,-1]]]",
+                "Url":      "http://radioaurora.am:8010/example0-1.aac",
+		"Verified": "true",
+                "WebPage":  "http://www.radioaurora.am"
+                },
             { #"Email":    "liberty@liberty.r.am"
                 "Address":  "Yerevan, Khorenaci 15, Elite Plasa",
                 "Country":  "Armenia",
