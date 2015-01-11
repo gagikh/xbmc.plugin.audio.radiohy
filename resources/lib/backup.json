@@ -227,21 +227,6 @@ var stations = {
                 "webpage": "http:\/\/www.radioarmenie.com"
             }, 
             {
-                "address": "Yerevan, Nairi Zaryan 22, 7\/9, 0051", 
-                "country": "Armenia", 
-                "director": "", 
-                "email": "radioaurora@radioaurora.am", 
-                "hostname": "radioaurora.am", 
-                "icon": "http:\/\/www.radioaurora.am\/images\/white_logo.png", 
-                "nickname": "Radio Aurora", 
-                "path": "\/example0-1.aac", 
-                "phone": "+37410 251007", 
-                "port": "8010", 
-                "protocol": "http", 
-                "time": "[[[-1,-1,-1,-1,-1,-1],[-1,-1,-1,-1,-1,-1]]]", 
-                "webpage": "http:\/\/www.radioaurora.am"
-            }, 
-            {
                 "address": "375010, Yerevan, Tigran Mec 17", 
                 "country": "Armenia", 
                 "director": "", 
@@ -435,6 +420,36 @@ var stations = {
                 "protocol": "http", 
                 "time": "[[[-1,-1,-1,-1,-1,-1],[-1,-1,-1,-1,-1,-1]]]", 
                 "webpage": "http:\/\/radioyan.com"
+            }, 
+            {
+                "address": "Maraash Street, Harboyan Building, 1203 Bourj Hammoud, Al-Metn", 
+                "country": "Lebanon", 
+                "director": "", 
+                "email": "radioyan@imarmenian.com", 
+                "hostname": "92.51.148.140", 
+                "icon": "http:\/\/www.imarmenian.com\/association2\/wp-content\/uploads\/2011\/12\/ARF-Logo-Red.png", 
+                "nickname": "Radio YAN GREEK", 
+                "path": "\/stream", 
+                "phone": "+961-3-274-847", 
+                "port": "8003", 
+                "protocol": "http", 
+                "time": "[[[-1,-1,-1,-1,-1,-1],[-1,-1,-1,-1,-1,-1]]]", 
+                "webpage": "http:\/\/www.radioyan.com"
+            }, 
+            {
+                "address": "Maraash Street, Harboyan Building, 1203 Bourj Hammoud, Al-Metn", 
+                "country": "Lebanon", 
+                "director": "", 
+                "email": "radioyan@imarmenian.com", 
+                "hostname": "92.51.148.140", 
+                "icon": "http:\/\/www.imarmenian.com\/association2\/wp-content\/uploads\/2011\/12\/ARF-Logo-Red.png", 
+                "nickname": "Radio YAN PATRIOTIC", 
+                "path": "\/stream", 
+                "phone": "+961-3-274-847", 
+                "port": "8002", 
+                "protocol": "http", 
+                "time": "[[[-1,-1,-1,-1,-1,-1],[-1,-1,-1,-1,-1,-1]]]", 
+                "webpage": "http:\/\/www.radioyan.com"
             }, 
             {
                 "address": "", 
