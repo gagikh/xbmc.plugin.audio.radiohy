@@ -295,7 +295,7 @@ def getStations(sortingKey):
                 "Country":  "Lebanon",
                 "Director": "",
                 "Email":    "radioyan@imarmenian.com",
-                "Icon":     "http://www.imarmenian.com/association2/wp-content/uploads/2011/12/ARF-Logo-Red.png",
+                "Icon":     "http://www.imarmenian.com/association2/wp-content/uploads/2012/09/Radio-yan-greek-logo-300x166.jpg",
                 "Name":     "Radio YAN GREEK",
                 "Phone":    "+961-3-274-847",
                 "Time":     "[[[-1,-1,-1,-1,-1,-1],[-1,-1,-1,-1,-1,-1]]]",
