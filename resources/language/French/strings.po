@@ -20,10 +20,10 @@ msgstr "Écoutez les stations de radio en ligne arméniens."
 
 msgctxt "#32001"
 msgid ""
-"With this plugin you'll be able to listen to the all Armenian radio "
+"With this script you'll be able to listen to the all Armenian radio "
 "stations that are broadcasting online."
 msgstr ""
-"Avec ce plugin, vous serez en mesure d'écouter les stations de radio arméniens qui diffusent en ligne."
+"Avec ce script, vous serez en mesure d'écouter les stations de radio arméniens qui diffusent en ligne."
 
 msgctxt "#31000"
 msgid "RadioHY"

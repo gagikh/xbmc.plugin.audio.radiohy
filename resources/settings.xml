@@ -3,14 +3,10 @@
 	<setting type="sep"/>
 	<setting id="skin" type="labelenum" label="31009"
 		values="Default|Smoke" default="Smoke"/>
-	<setting id="sort_stations" type="labelenum" label="31010"
-        values="Name|Country" default="Name"/>
+	<setting id="sort_stations" type="labelenum" label="31010" values="Name|Country" default="Name"/>
 	<setting type="sep"/>
-	<setting id="auto_start" type="bool" label="31011"
-		default="false"/>
+	<setting id="auto_start" type="bool" label="31011" default="false"/>
 	<setting type="sep"/>
-	<setting id="last_station_id" type="text" label="" visible="false"
-		default="0"/>
-	<setting id="last_focused_station_id" type="text" label="" visible="false"
-		default="0"/>
+	<setting id="last_station_id" type="text" label="" visible="false" default="0"/>
+	<setting id="last_focused_station_id" type="text" label="" visible="false" default="0"/>
 </settings>

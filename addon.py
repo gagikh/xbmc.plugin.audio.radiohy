@@ -16,22 +16,14 @@
 # You should have received a copy of the GNU General Public License
 # along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
-import xbmcplugin
-import xbmcaddon
+from xbmcswift2 import (xbmc, xbmcgui, xbmcplugin, xbmcaddon, Request, Plugin)
+import os, sys, datetime
 
-import os
-import sys
-import datetime
-
-from xbmcswift2 import xbmc, xbmcgui
-from xbmcswift2 import Plugin
-
-_settings   = xbmcaddon.Addon()
-
+_settings               = xbmcaddon.Addon()
 _id                     = _settings.getAddonInfo('id')
 _name                   = _settings.getAddonInfo('name')
 _version                = _settings.getAddonInfo('version')
-_path                   = xbmc.translatePath(_settings.getAddonInfo('path') ).decode('utf-8')
+_path                   = xbmc.translatePath("special://home/addons/" + _id)
 _lib                    = xbmc.translatePath(os.path.join( _path, 'resources', 'lib' ))
 
 _skin                   = _settings.getSetting('skin')
@@ -45,9 +37,7 @@ _last_focused_station_id= int(_settings.getSetting('last_focused_station_id'))
 _languag_name           = _settings.getSetting('language_name')
 
 sys.path.append (_lib)
-
-import keys
-import stations
+import keys, stations
 
 # <!-- 100 = list group -->
 # <!-- 200 = back -->

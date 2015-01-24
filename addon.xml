@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="plugin.audio.radiohy" name="RadioHY" version="1.0" provider-name="Gagik Hakobyan">
+<addon id="script.audio.radiohy" name="RadioHY" version="1.0" provider-name="Gagik Hakobyan">
     <requires>
-        <import addon="xbmc.python" version="2.1.0"/>
-        <import addon="service.skin.widgets" version="2.1.0"/>
-        <import addon="xbmc.gui" version="2.1.0"/>
-        <import addon="script.module.xbmcswift2" version="2.1.0"/>
+        <import addon="xbmc.python"/>
+        <import addon="xbmc.gui"/>
+        <import addon="script.module.xbmcswift2"/>
     </requires>
     <extension point="xbmc.python.pluginsource" library="addon.py">
         <provides>audio</provides>
@@ -14,14 +13,11 @@
         <summary lang="en">Listen to the Armenian radio stations online.</summary>
         <summary lang="fr">Écoutez les stations de radio en ligne arméniens.</summary>
 
-        <description lang="en">With this plugin you'll be able to listen to the all Armenian radio stations that are broadcasting online.</description>
-        <description lang="fr">Avec ce plugin, vous serez en mesure d'écouter les stations de radio arméniens qui diffusent en ligne.</description>
+        <description lang="en">With this script you'll be able to listen to the all Armenian radio stations that are broadcasting online.</description>
+        <description lang="fr">Avec ce script, vous serez en mesure d'écouter les stations de radio arméniens qui diffusent en ligne.</description>
 
         <description lang="hy">Այս ծրագրային հավելման միջոցով դուք կկարողանաք լսել հայերեն լեզվով սփռվող առցանց ռադիոհաղորդումները։</description>
             
         <email>hakgagik@yahoo.com</email>
-    </extension>
-    <extension point="xbmc.gui.skin" debugging="true" effectslowdown="0.75">
-        <res width="1920" height="1024" aspect="16:9" default="true" folder="720p"/>
     </extension>
 </addon>
