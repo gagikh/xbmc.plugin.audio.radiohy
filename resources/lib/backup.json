@@ -94,21 +94,6 @@ var stations = {
             {
                 "address": "", 
                 "country": "Armenia", 
-                "director": "", 
-                "email": "info@fm107.am", 
-                "hostname": "streams4.museter.com", 
-                "icon": "http:\/\/www.fm107.am\/images\/logo.jpg", 
-                "nickname": "FM-107", 
-                "path": "", 
-                "phone": "+374-10-36-86-45", 
-                "port": "8218", 
-                "protocol": "http", 
-                "time": "[[[-1,-1,-1,-1,-1,-1],[-1,-1,-1,-1,-1,-1]]]", 
-                "webpage": "http:\/\/www.fm107.am"
-            }, 
-            {
-                "address": "", 
-                "country": "Armenia", 
                 "director": "Aghabek Margaryan", 
                 "email": "info@lavradio.am", 
                 "hostname": "195.154.181.100", 

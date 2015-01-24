@@ -352,7 +352,7 @@ def getStations(sortingKey):
                 "Phone":    "+374-10-36-86-45",
                 "Time":     "[[[-1,-1,-1,-1,-1,-1],[-1,-1,-1,-1,-1,-1]]]",
                 "Url":      "http://streams4.museter.com:8218",
-		"Verified": "true",
+		"Verified": "false",
                 "WebPage":  "http://www.fm107.am"
                 },
             { # verified!
