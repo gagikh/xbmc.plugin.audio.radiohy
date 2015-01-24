@@ -400,7 +400,7 @@ def getStations(sortingKey):
                 "Country":  "Armenia",
                 "Director": "Armen Amiryan",
                 "Email":    "aa@arradio.am",
-                "Icon":     "http://www.armradio.am/hy/wp-content/uploads/2012/09/logo_up_arm.png",
+                "Icon":     "http://www.armradio.am/hy/wp-content/uploads/2014/10/logo_hy.png",
                 "Name":     "Public Radio of Armenia",
                 "Phone":    "+374-10-55-11-43",
                 "Time":     "[[[-1,-1,-1,-1,-1,-1],[-1,-1,-1,-1,-1,-1]]]",
