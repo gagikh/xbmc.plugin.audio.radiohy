@@ -19,6 +19,7 @@
 import stations
 import json
 import urllib2, httplib
+import socket
 
 from urlparse import urlparse
 
@@ -28,12 +29,14 @@ streams = stations.getStations(_sort_stations)
 backup = {}
 urls = []
 
-def checkAvailability(protocol, hostname, port, path):
+def checkAvailability(url):
+    if not url:
+        print " status - empty url"
+        return 1
 
-    url = protocol + "://" + hostname + ":" + port + path;
-    code = 0
+    print "analysing ", url
     try:
-        code = urllib2.urlopen(url).getcode();
+        code = urllib2.urlopen(url, None, 5).getcode();
         if 200 == code:
             return 0
         else:
@@ -45,6 +48,8 @@ def checkAvailability(protocol, hostname, port, path):
     except urllib2.URLError, e:
         print " status - ", (e.args)
     except httplib.BadStatusLine, e:
+        print " status - ", (e.args)
+    except socket.timeout, e:
         print " status - ", (e.args)
 
     return 1 
@@ -71,7 +76,6 @@ for station in streams:
         path['webpage'] = station['WebPage']
         path["nickname"]= station["Name"]
 
-        print "analysing ", uri
         req = urlparse(uri)
 
         path["protocol"] = req.scheme
@@ -83,7 +87,11 @@ for station in streams:
         else:
             path["port"] = str(req.port)
 
-        if 0 == checkAvailability(path["protocol"], path["hostname"], path["port"], path["path"]):
+        if 0 != checkAvailability(path["icon"]):
+            path["icon"] = ""
+
+        url = path["protocol"] + "://" + path["hostname"] + ":" + path["port"] + path["path"];
+        if 0 == checkAvailability(url):
             urls.append(path)
 
     uri = {}
