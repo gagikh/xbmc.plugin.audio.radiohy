@@ -34,7 +34,7 @@ def getStations(sortingKey):
                 "Name":     "Radio Aurora",
                 "Phone":    "+37410 251007",
                 "Time":     "[[[-1,-1,-1,-1,-1,-1],[-1,-1,-1,-1,-1,-1]]]",
-                "Url":      "http://radioaurora.am:8010/example0-1.aac",
+                "Url":      "http://www.radioaurora.am/hdvideo1/flowplayer.rtmp-3.2.13.swf",
                 "Verified": "false",
                 "WebPage":  "http://www.radioaurora.am"
                 },
