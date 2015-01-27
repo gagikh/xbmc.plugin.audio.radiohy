@@ -62,6 +62,21 @@ var stations = {
                 "webpage": "http:\/\/armenianglobalradio.com"
             }, 
             {
+                "address": "PO Box 46, Watertown, Massachusetts 02471", 
+                "country": "USA", 
+                "director": "Yevgine Gharibian", 
+                "email": "yevgine@aol.com", 
+                "hostname": "armenianradioboston.com", 
+                "icon": "http:\/\/armenianradioboston.com\/images\/ABB-Bannerad.jpg", 
+                "nickname": "Armenian Independent Broadcasting of Boston", 
+                "path": "\/audio\/player.swf", 
+                "phone": "+1-617-926-6268", 
+                "port": "", 
+                "protocol": "http", 
+                "time": "[[[-1,-1,-1,-1,-1,-1],[-1,-1,-1,-1,-1,-1]]]", 
+                "webpage": "http:\/\/armenianradioboston.com"
+            }, 
+            {
                 "address": "", 
                 "country": "Armenia", 
                 "director": "", 
@@ -90,6 +105,21 @@ var stations = {
                 "protocol": "http", 
                 "time": "[[[-1,-1,-1,-1,-1,-1],[-1,-1,-1,-1,-1,-1]]]", 
                 "webpage": "http:\/\/www.armenianpulse.com"
+            }, 
+            {
+                "address": "", 
+                "country": "Armenia", 
+                "director": "", 
+                "email": "info@fm107.am", 
+                "hostname": "streams4.museter.com", 
+                "icon": "http:\/\/www.fm107.am\/images\/logo.jpg", 
+                "nickname": "FM-107", 
+                "path": "", 
+                "phone": "+374-10-36-86-45", 
+                "port": "8218", 
+                "protocol": "http", 
+                "time": "[[[-1,-1,-1,-1,-1,-1],[-1,-1,-1,-1,-1,-1]]]", 
+                "webpage": "http:\/\/www.fm107.am"
             }, 
             {
                 "address": "", 
@@ -197,19 +227,64 @@ var stations = {
                 "webpage": "http:\/\/www.radioayk.com"
             }, 
             {
-                "address": "4 rue Marcellin Berthelot 69150 DECINES", 
+                "address": "41 rue des ecolses, 94140 Alfortville", 
                 "country": "France", 
                 "director": "", 
                 "email": "", 
-                "hostname": "109.190.123.125", 
-                "icon": "http:\/\/www.radioarmenie.com\/templates\/theme475\/images\/logo.gif", 
-                "nickname": "Radio Armenie", 
-                "path": "\/stream.mp3", 
-                "phone": "04-78-49-52-74", 
-                "port": "8000", 
+                "hostname": "stric6.streamakaci.com", 
+                "icon": "http:\/\/radio-aypfm.com\/images\/bientot_en_direct.jpg", 
+                "nickname": "Radio AYP", 
+                "path": "\/radioayp.mp3", 
+                "phone": "01-43-53-19-90", 
+                "port": "", 
                 "protocol": "http", 
                 "time": "[[[-1,-1,-1,-1,-1,-1],[-1,-1,-1,-1,-1,-1]]]", 
-                "webpage": "http:\/\/www.radioarmenie.com"
+                "webpage": "http:\/\/radio-aypfm.com"
+            }, 
+            {
+                "address": "", 
+                "country": "", 
+                "director": "", 
+                "email": "info@radioarc.com", 
+                "hostname": "radioarc.serverroom.us", 
+                "icon": "http:\/\/www.radioarc.com\/images\/logo-anim.gif", 
+                "nickname": "Radio Arc", 
+                "path": "", 
+                "phone": "", 
+                "port": "4082", 
+                "protocol": "http", 
+                "time": "[[[-1,-1,-1,-1,-1,-1],[-1,-1,-1,-1,-1,-1]]]", 
+                "webpage": "http:\/\/www.radioarc.com"
+            }, 
+            {
+                "address": "Yerevan, Nairi Zaryan 22, 7\/9, 0051", 
+                "country": "Armenia", 
+                "director": "", 
+                "email": "radioaurora@radioaurora.am", 
+                "hostname": "radioaurora.am", 
+                "icon": "http:\/\/www.radioaurora.am\/images\/white_logo.png", 
+                "nickname": "Radio Aurora", 
+                "path": "\/example0-1.aac", 
+                "phone": "+37410 251007", 
+                "port": "8010", 
+                "protocol": "http", 
+                "time": "[[[-1,-1,-1,-1,-1,-1],[-1,-1,-1,-1,-1,-1]]]", 
+                "webpage": "http:\/\/www.radioaurora.am"
+            }, 
+            {
+                "address": "Yerevan, Nairi Zaryan 22, 0051", 
+                "country": "Armenia", 
+                "director": "", 
+                "email": "radio-aurora@mail.ru", 
+                "hostname": "www.radioaurora.am", 
+                "icon": "http:\/\/www.radioaurora.am\/images\/white_logo.png", 
+                "nickname": "Radio Avrora", 
+                "path": "\/hdvideo", 
+                "phone": "+374-10-25-10-07", 
+                "port": "", 
+                "protocol": "http", 
+                "time": "[[[-1,-1,-1,-1,-1,-1],[-1,-1,-1,-1,-1,-1]]]", 
+                "webpage": "http:\/\/www.radioaurora.am"
             }, 
             {
                 "address": "375010, Yerevan, Tigran Mec 17", 
@@ -255,6 +330,21 @@ var stations = {
                 "protocol": "http", 
                 "time": "[[[-1,-1,-1,-1,-1,-1],[-1,-1,-1,-1,-1,-1]]]", 
                 "webpage": "http:\/\/mix.am"
+            }, 
+            {
+                "address": "", 
+                "country": "Armenia", 
+                "director": "", 
+                "email": "", 
+                "hostname": "mix.am", 
+                "icon": "", 
+                "nickname": "Radio Hay (Yerevan)", 
+                "path": "\/rhyerevan", 
+                "phone": "", 
+                "port": "8000", 
+                "protocol": "http", 
+                "time": "[[[-1,-1,-1,-1,-1,-1],[-1,-1,-1,-1,-1,-1]]]", 
+                "webpage": "http:\/\/radiohay.am"
             }, 
             {
                 "address": "", 
@@ -465,6 +555,21 @@ var stations = {
                 "protocol": "http", 
                 "time": "[[[-1,-1,-1,-1,-1,-1],[-1,-1,-1,-1,-1,-1]]]", 
                 "webpage": "http:\/\/triktrak.ca"
+            }, 
+            {
+                "address": "", 
+                "country": "Vatikan", 
+                "director": "", 
+                "email": "", 
+                "hostname": "www.vaticanradio-us.org", 
+                "icon": "http:\/\/hy.radiovaticana.va\/img\/h_02.gif", 
+                "nickname": "Voice of Vatikan", 
+                "path": "\/webcasting\/armeno_1.mp3", 
+                "phone": "", 
+                "port": "", 
+                "protocol": "http", 
+                "time": "[[[-1,-1,-1,-1,-1,-1],[-1,-1,-1,-1,-1,-1]]]", 
+                "webpage": "http:\/\/www.radiovaticana.org\/arm\/index.asp"
             }
         ]
     }

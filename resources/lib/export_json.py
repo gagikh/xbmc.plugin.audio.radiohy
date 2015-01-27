@@ -18,29 +18,47 @@
 
 import stations
 import json
+import urllib2, httplib
+
+from urlparse import urlparse
 
 _sort_stations = 'Name'
 
 streams = stations.getStations(_sort_stations)
-emails = []
 backup = {}
 urls = []
-icons = []
+
+def checkAvailability(protocol, hostname, port, path):
+
+    url = protocol + "://" + hostname + ":" + port + path;
+    code = 0
+    try:
+        code = urllib2.urlopen(url).getcode();
+        if 200 == code:
+            return 0
+        else:
+            print " status - Error code = ", (code)
+            return 1
+
+    except urllib2.HTTPError, e:
+        print " status - ", (e.code)
+    except urllib2.URLError, e:
+        print " status - ", (e.args)
+    except httplib.BadStatusLine, e:
+        print " status - ", (e.args)
+
+    return 1 
 
 for station in streams:
-    email = station['Email']
-    if email:
-        emails.append(email)
-    icon = station['Icon']
-    if icon:
-        icons.append(icon)
 
-    uri = station["Url"]
-    verified = station['Verified']
-    if 'false' == verified:
-        continue
+    # Verification will be done in XBMC version only
+    #verified = station['Verified']
+    #if 'false' == verified:
+    #    continue
 
     backup = {}
+    uri = station["Url"]
+
     if uri:
         path = {}
         path['address'] = station['Address']
@@ -51,37 +69,21 @@ for station in streams:
         path['phone']   = station['Phone']
         path['time']    = station['Time']
         path['webpage'] = station['WebPage']
+        path["nickname"]= station["Name"]
 
-        path["nickname"] = station["Name"]
+        print "analysing ", uri
+        req = urlparse(uri)
 
-        p = uri.find("://")
-        protocol = uri[0:p]
-        uri = uri[p+3:]
-        path["protocol"] = protocol
+        path["protocol"] = req.scheme
+        path["hostname"] = req.hostname
+        path["path"]     = req.path
 
-        p = uri.find(":");
-        hostname = uri[0:p]
-        uri = uri[p+1:]
-        path["hostname"] = hostname
-
-        p = uri.find("/");
-        if -1 == p:
-            port = uri
-            uri = ""
-        else:
-            port = uri[0:p]
-            uri = uri[p:]
-        
-        if port.isdigit():
-            path["port"] = port
-        else:
+        if req.port is None:
             path["port"] = ""
-            uri = port
-            port = ""
+        else:
+            path["port"] = str(req.port)
 
-        path["path"] = uri
-
-        if port:
+        if 0 == checkAvailability(path["protocol"], path["hostname"], path["port"], path["path"]):
             urls.append(path)
 
     uri = {}
@@ -91,8 +93,6 @@ for station in streams:
 
 # print
 b = json.dumps(backup, sort_keys=True, indent=4)
-e = json.dumps(emails, sort_keys=True, indent=4)
-i = json.dumps(icons,  sort_keys=True, indent=4)
 
 fb = open('backup.json', 'w')
 print >> fb, 'var stations = ' + b.replace('/', '\/')

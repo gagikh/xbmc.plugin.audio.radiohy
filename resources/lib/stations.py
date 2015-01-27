@@ -35,7 +35,7 @@ def getStations(sortingKey):
                 "Phone":    "+37410 251007",
                 "Time":     "[[[-1,-1,-1,-1,-1,-1],[-1,-1,-1,-1,-1,-1]]]",
                 "Url":      "http://radioaurora.am:8010/example0-1.aac",
-		"Verified": "false",
+                "Verified": "false",
                 "WebPage":  "http://www.radioaurora.am"
                 },
             { #"Email":    "liberty@liberty.r.am"
@@ -48,7 +48,7 @@ def getStations(sortingKey):
                 "Phone":    "+37410544047",
                 "Time":     "[[[-1,-1,-1,-1,-1,-1],[-1,-1,-1,-1,-1,-1]]]",
                 "Url":      "",
-		"Verified": "false",
+                "Verified": "false",
                 "WebPage":  "http://www.azatutyun.am"
                 },
             {
@@ -61,7 +61,7 @@ def getStations(sortingKey):
                 "Phone":    "",
                 "Time":     "[[[-1,-1,-1,-1,-1,-1],[-1,-1,-1,-1,-1,-1]]]",
                 "Url":      "http://173.193.219.163:8430",
-		"Verified": "true",
+                "Verified": "true",
                 "WebPage":  "http://www.radioayk.com"
                 },
             {
@@ -75,7 +75,7 @@ def getStations(sortingKey):
                 "Phone":    "(03) 9419 0155",
                 "Time":     "[[[0,20,4,-1,-1,-1],[0,21,4,-1,-1,-1]]]",
                 "Url":      "",
-		"Verified": "false",
+                "Verified": "false",
                 "WebPage":  "http://www.3cr.org.au/armenian"
                 },
             {
@@ -89,7 +89,7 @@ def getStations(sortingKey):
                 "Phone":    "(02) 9430 2828",
                 "Time":     "[[[[0,17,2,-1,-1,-1],[0,18,2,-1,-1,-1]],[[0,20,2,-1,-1,-1],[0,21,2,-1,-1,-1]]]]",
                 "Url":      "",
-		"Verified": "false",
+                "Verified": "false",
                 "WebPage":  "http://www.sbs.com.au/yourlanguage/armenian"
                 },
             {
@@ -103,7 +103,7 @@ def getStations(sortingKey):
                 "Phone":    "+357 22862000",
                 "Time":     "[[[0,17,-1,-1,-1,-1],[0,18,-1,-1,-1,-1]]]",
                 "Url":      "",
-		"Verified": "false",
+                "Verified": "false",
                 "WebPage":  "http://www.cybc.com.cy"
                 },
             {
@@ -117,7 +117,7 @@ def getStations(sortingKey):
                 "Phone":    "361 302 809 767",
                 "Time":     "[[[-1,-1,-1,-1,-1,-1],[-1,-1,-1,-1,-1,-1]]]",
                 "Url":      "",
-		"Verified": "false",
+                "Verified": "false",
                 "WebPage":  ""
                 },
             {
@@ -130,7 +130,7 @@ def getStations(sortingKey):
                 "Phone":    "0036 20 378 47 96",
                 "Time":     "[[[-1,-1,-1,-1,-1,-1],[-1,-1,-1,-1,-1,-1]]]",
                 "Url":      "",
-		"Verified": "false",
+                "Verified": "false",
                 "WebPage":  "http://bolgar.radio.hu"
                 },
             {
@@ -143,7 +143,7 @@ def getStations(sortingKey):
                 "Phone":    "",
                 "Time":     "[[[-1,-1,-1,-1,-1,-1],[-1,-1,-1,-1,-1,-1]]]",
                 "Url":      "",
-		"Verified": "false",
+                "Verified": "false",
                 "WebPage":  "http://www.hayfm.de"
                 },
             {
@@ -156,7 +156,7 @@ def getStations(sortingKey):
                 "Phone":    "",
                 "Time":     "[[[-1,-1,-1,-1,-1,-1],[-1,-1,-1,-1,-1,-1]]]",
                 "Url":      "http://www.vaticanradio-us.org/webcasting/armeno_1.mp3",
-		"Verified": "false",
+                "Verified": "false",
                 "WebPage":  "http://www.radiovaticana.org/arm/index.asp"
                 },
             {
@@ -169,7 +169,7 @@ def getStations(sortingKey):
                 "Phone":    "",
                 "Time":     "[[[-1,-1,-1,-1,-1,-1],[-1,-1,-1,-1,-1,-1]]]",
                 "Url":      "",
-		"Verified": "false",
+                "Verified": "false",
                 "WebPage":  "http://www.am680.com.ar/"
                 },
             {
@@ -182,7 +182,7 @@ def getStations(sortingKey):
                 "Phone":    "",
                 "Time":     "[[[-1,-1,-1,-1,-1,-1],[-1,-1,-1,-1,-1,-1]]]",
                 "Url":      "",
-		"Verified": "false",
+                "Verified": "false",
                 "WebPage":  "http://www.amerikayidzayn.com/"
                 },
             {
@@ -196,7 +196,7 @@ def getStations(sortingKey):
                 "Phone":    "+374-10-55-11-43",
                 "Time":     "[[[-1,-1,-1,-1,-1,-1],[-1,-1,-1,-1,-1,-1]]]",
                 "Url":      "http://199.195.194.92:8029",
-		"Verified": "true",
+                "Verified": "true",
                 "WebPage":  "http://www.arradio.am"
                 },
             {
@@ -209,7 +209,7 @@ def getStations(sortingKey):
                 "Phone":    "",
                 "Time":     "[[[-1,-1,-1,-1,-1,-1],[-1,-1,-1,-1,-1,-1]]]",
                 "Url":      "http://sc7.mystreamserver.com:8036",
-		"Verified": "true",
+                "Verified": "true",
                 "WebPage":  "http://www.armenianbiblestudy.com"
                 },
             {
@@ -222,7 +222,7 @@ def getStations(sortingKey):
                 "Phone":    "",
                 "Time":     "[[[-1,-1,-1,-1,-1,-1],[-1,-1,-1,-1,-1,-1]]]",
                 "Url":      "http://fire.wavestreamer.com:5643",
-		"Verified": "true",
+                "Verified": "true",
                 "WebPage":  "http://bashde.org"
                 },
             {
@@ -235,7 +235,7 @@ def getStations(sortingKey):
                 "Phone":    "",
                 "Time":     "[[[-1,-1,-1,-1,-1,-1],[-1,-1,-1,-1,-1,-1]]]",
                 "Url":      "http://192.240.97.69:9315",
-		"Verified": "true",
+                "Verified": "true",
                 "WebPage":  "http://armenianglobalradio.com"
                 },
             {
@@ -248,7 +248,7 @@ def getStations(sortingKey):
                 "Phone":    "+1-617-926-6268",
                 "Time":     "[[[-1,-1,-1,-1,-1,-1],[-1,-1,-1,-1,-1,-1]]]",
                 "Url":      "http://armenianradioboston.com/audio/player.swf",
-		"Verified": "false",
+                "Verified": "false",
                 "WebPage":  "http://armenianradioboston.com"
                 },
             {
@@ -261,7 +261,7 @@ def getStations(sortingKey):
                 "Phone":    "",
                 "Time":     "[[[-1,-1,-1,-1,-1,-1],[-1,-1,-1,-1,-1,-1]]]",
                 "Url":      "http://50.117.8.242:1126/Live",
-		"Verified": "true",
+                "Verified": "true",
                 "WebPage":  "http://www.armnetradio.com"
                 },
             {
@@ -274,7 +274,7 @@ def getStations(sortingKey):
                 "Phone":    "+961-3-274-847",
                 "Time":     "[[[-1,-1,-1,-1,-1,-1],[-1,-1,-1,-1,-1,-1]]]",
                 "Url":      "http://92.51.148.140:8001/stream",
-		"Verified": "true",
+                "Verified": "true",
                 "WebPage":  "http://radioyan.com"
                 },
             {
@@ -287,7 +287,7 @@ def getStations(sortingKey):
                 "Phone":    "+961-3-274-847",
                 "Time":     "[[[-1,-1,-1,-1,-1,-1],[-1,-1,-1,-1,-1,-1]]]",
                 "Url":      "http://92.51.148.140:8002/stream",
-		"Verified": "true",
+                "Verified": "true",
                 "WebPage":  "http://www.radioyan.com"
                 },
             {
@@ -300,7 +300,7 @@ def getStations(sortingKey):
                 "Phone":    "+961-3-274-847",
                 "Time":     "[[[-1,-1,-1,-1,-1,-1],[-1,-1,-1,-1,-1,-1]]]",
                 "Url":      "http://92.51.148.140:8003/stream",
-		"Verified": "true",
+                "Verified": "true",
                 "WebPage":  "http://www.radioyan.com"
                 },
             {
@@ -313,7 +313,7 @@ def getStations(sortingKey):
                 "Phone":    "",
                 "Time":     "[[[-1,-1,-1,-1,-1,-1],[-1,-1,-1,-1,-1,-1]]]",
                 "Url":      "http://50.7.96.210:8134",
-		"Verified": "true",
+                "Verified": "true",
                 "WebPage":  "http://www.armenianpulse.com"
                 },
             {
@@ -326,7 +326,7 @@ def getStations(sortingKey):
                 "Phone":    "011-559-776-9925",
                 "Time":     "[[[-1,-1,-1,-1,-1,-1],[-1,-1,-1,-1,-1,-1]]]",
                 "Url":      "",
-		"Verified": "false",
+                "Verified": "false",
                 "WebPage":  "http://www.armenianvoice.com"
                 },
             {
@@ -339,7 +339,7 @@ def getStations(sortingKey):
                 "Phone":    "",
                 "Time":     "[[[-1,-1,-1,-1,-1,-1],[-1,-1,-1,-1,-1,-1]]]",
                 "Url":      "",
-		"Verified": "false",
+                "Verified": "false",
                 "WebPage":  "http://crazyradio.do.am"
                 },
             { # check!!!!
@@ -352,7 +352,7 @@ def getStations(sortingKey):
                 "Phone":    "+374-10-36-86-45",
                 "Time":     "[[[-1,-1,-1,-1,-1,-1],[-1,-1,-1,-1,-1,-1]]]",
                 "Url":      "http://streams4.museter.com:8218",
-		"Verified": "false",
+                "Verified": "false",
                 "WebPage":  "http://www.fm107.am"
                 },
             { # verified!
@@ -365,7 +365,7 @@ def getStations(sortingKey):
                 "Phone":    "+37455830003",
                 "Time":     "[[[-1,-1,-1,-1,-1,-1],[-1,-1,-1,-1,-1,-1]]]",
                 "Url":      "http://195.154.181.100:8000/stream",
-		"Verified": "true",
+                "Verified": "true",
                 "WebPage":  "http://www.lavradio.am"
                 },
             { # verified!
@@ -378,7 +378,7 @@ def getStations(sortingKey):
                 "Phone":    "+37455830003",
                 "Time":     "[[[-1,-1,-1,-1,-1,-1],[-1,-1,-1,-1,-1,-1]]]",
                 "Url":      "http://195.154.181.100:8006/stream",
-		"Verified": "true",
+                "Verified": "true",
                 "WebPage":  "http://www.lavradio.am"
                 },
             {
@@ -391,7 +391,7 @@ def getStations(sortingKey):
                 "Phone":    "",
                 "Time":     "[[[-1,-1,-1,-1,-1,-1],[-1,-1,-1,-1,-1,-1]]]",
                 "Url":      "http://norradyo.com:8000/live",
-		"Verified": "true",
+                "Verified": "true",
                 "WebPage":  "http://www.norradyo.com"
                 },
             {
@@ -405,7 +405,7 @@ def getStations(sortingKey):
                 "Phone":    "+374-10-55-11-43",
                 "Time":     "[[[-1,-1,-1,-1,-1,-1],[-1,-1,-1,-1,-1,-1]]]",
                 "Url":      "http://195.154.181.100:8052",
-		"Verified": "true",
+                "Verified": "true",
                 "WebPage":  "http://www.armradio.am"
                 },
             {
@@ -418,7 +418,7 @@ def getStations(sortingKey):
                 "Phone":    "00-33-4-75-56-18-33",
                 "Time":     "[[[-1,-1,-1,-1,-1,-1],[-1,-1,-1,-1,-1,-1]]]",
                 "Url":      "http://91.121.62.121:7250",
-		"Verified": "true",
+                "Verified": "true",
                 "WebPage":  "http://radioa.net"
                 },
             {
@@ -431,7 +431,7 @@ def getStations(sortingKey):
                 "Phone":    "(374-10) 44-19-19",
                 "Time":     "[[[-1,-1,-1,-1,-1,-1],[-1,-1,-1,-1,-1,-1]]]",
                 "Url":      "",
-		"Verified": "false",
+                "Verified": "false",
                 "WebPage":  "http://www.ardzagank.com"
                 },
             {
@@ -444,7 +444,7 @@ def getStations(sortingKey):
                 "Phone":    "",
                 "Time":     "[[[-1,-1,-1,-1,-1,-1],[-1,-1,-1,-1,-1,-1]]]",
                 "Url":      "",
-		"Verified": "false",
+                "Verified": "false",
                 "WebPage":  "http://armeniaeterna.com.br"
                 },
             {
@@ -457,7 +457,7 @@ def getStations(sortingKey):
                 "Phone":    "+3741-59-70-00",
                 "Time":     "[[[-1,-1,-1,-1,-1,-1],[-1,-1,-1,-1,-1,-1]]]",
                 "Url":      "http://195.154.181.100:8036",
-		"Verified": "true",
+                "Verified": "true",
                 "WebPage":  "http://radiofama.am"
                 },
             {
@@ -470,7 +470,7 @@ def getStations(sortingKey):
                 "Phone":    "",
                 "Time":     "[[[-1,-1,-1,-1,-1,-1],[-1,-1,-1,-1,-1,-1]]]",
                 "Url":      "http://radiogayan.com:8000",
-		"Verified": "false",
+                "Verified": "false",
                 "WebPage":  "http://radiogayan.com"
                 },
             {
@@ -483,7 +483,7 @@ def getStations(sortingKey):
                 "Phone":    "+598-90-09-69-09",
                 "Time":     "[[[-1,-1,-1,-1,-1,-1],[-1,-1,-1,-1,-1,-1]]]",
                 "Url":      "http://www.radioarax.com/programas/RadioArax-727-DO-20140601.mp3",
-		"Verified": "false",
+                "Verified": "false",
                 "WebPage":  "http://www.radioarax.com/"
                 },
             {
@@ -496,7 +496,7 @@ def getStations(sortingKey):
                 "Phone":    "",
                 "Time":     "[[[-1,-1,-1,-1,-1,-1],[-1,-1,-1,-1,-1,-1]]]",
                 "Url":      "http://radioarc.serverroom.us:4082",
-		"Verified": "false",
+                "Verified": "false",
                 "WebPage":  "http://www.radioarc.com"
                 },
             {
@@ -509,7 +509,7 @@ def getStations(sortingKey):
                 "Phone":    "+323-664-3365",
                 "Time":     "[[[-1,-1,-1,-1,-1,-1],[-1,-1,-1,-1,-1,-1]]]",
                 "Url":      "http://radioarmenia.com/radio2/radio.swf",
-		"Verified": "false",
+                "Verified": "false",
                 "WebPage":  "http://radioarmenia.com"
                 },
             {
@@ -522,7 +522,7 @@ def getStations(sortingKey):
                 "Phone":    "04-78-49-52-74",
                 "Time":     "[[[-1,-1,-1,-1,-1,-1],[-1,-1,-1,-1,-1,-1]]]",
                 "Url":      "http://109.190.123.125:8000/stream.mp3",
-		"Verified": "true",
+                "Verified": "true",
                 "WebPage":  "http://www.radioarmenie.com"
                 },
             {
@@ -535,7 +535,7 @@ def getStations(sortingKey):
                 "Phone":    "",
                 "Time":     "[[[-1,-1,-1,-1,-1,-1],[-1,-1,-1,-1,-1,-1]]]",
                 "Url":      "http://64.150.176.192:8250/stream",
-		"Verified": "true",
+                "Verified": "true",
                 "WebPage":  "http://radioavol.org"
                 },
             { #"Email":    "radioaurora@radioaurora.am"
@@ -548,7 +548,7 @@ def getStations(sortingKey):
                 "Phone":    "+374-10-25-10-07",
                 "Time":     "[[[-1,-1,-1,-1,-1,-1],[-1,-1,-1,-1,-1,-1]]]",
                 "Url":      "http://www.radioaurora.am/hdvideo",
-		"Verified": "false",
+                "Verified": "false",
                 "WebPage":  "http://www.radioaurora.am"
                 },
             {
@@ -561,7 +561,7 @@ def getStations(sortingKey):
                 "Phone":    "01-43-53-19-90",
                 "Time":     "[[[-1,-1,-1,-1,-1,-1],[-1,-1,-1,-1,-1,-1]]]",
                 "Url":      "http://stric6.streamakaci.com/radioayp.mp3",
-		"Verified": "true",
+                "Verified": "true",
                 "WebPage":  "http://radio-aypfm.com"
                 },
             {
@@ -574,7 +574,7 @@ def getStations(sortingKey):
                 "Phone":    "",
                 "Time":     "[[[-1,-1,-1,-1,-1,-1],[-1,-1,-1,-1,-1,-1]]]",
                 "Url":      "http://mix.am:8000/starfm",
-		"Verified": "true",
+                "Verified": "true",
                 "WebPage":  "http://mix.am"
                 },
             {
@@ -587,7 +587,7 @@ def getStations(sortingKey):
                 "Phone":    "",
                 "Time":     "[[[-1,-1,-1,-1,-1,-1],[-1,-1,-1,-1,-1,-1]]]",
                 "Url":      "http://mix.am:8000/mixfm",
-		"Verified": "true",
+                "Verified": "true",
                 "WebPage":  "http://mix.am"
                 },
             {
@@ -600,7 +600,7 @@ def getStations(sortingKey):
                 "Phone":    "",
                 "Time":     "[[[-1,-1,-1,-1,-1,-1],[-1,-1,-1,-1,-1,-1]]]",
                 "Url":      "http://live.mix.am:8000/radiohyfm",
-		"Verified": "false",
+                "Verified": "false",
                 "WebPage":  "http://mix.am"
                 },
             {
@@ -613,7 +613,7 @@ def getStations(sortingKey):
                 "Phone":    "",
                 "Time":     "[[[-1,-1,-1,-1,-1,-1],[-1,-1,-1,-1,-1,-1]]]",
                 "Url":      "http://mix.am:8000/anr24",
-		"Verified": "true",
+                "Verified": "true",
                 "WebPage":  "http://mix.am"
                 },
             {
@@ -626,7 +626,7 @@ def getStations(sortingKey):
                 "Phone":    "",
                 "Time":     "[[[-1,-1,-1,-1,-1,-1],[-1,-1,-1,-1,-1,-1]]]",
                 "Url":      "http://mix.am:8000/smile",
-		"Verified": "true",
+                "Verified": "true",
                 "WebPage":  "http://mix.am"
                 },
             {
@@ -639,7 +639,7 @@ def getStations(sortingKey):
                 "Phone":    "",
                 "Time":     "[[[-1,-1,-1,-1,-1,-1],[-1,-1,-1,-1,-1,-1]]]",
                 "Url":      "http://mix.am:8000/5achok",
-		"Verified": "false",
+                "Verified": "false",
                 "WebPage":  "http://mix.am"
                 },
             {
@@ -652,7 +652,7 @@ def getStations(sortingKey):
                 "Phone":    "",
                 "Time":     "[[[-1,-1,-1,-1,-1,-1],[-1,-1,-1,-1,-1,-1]]]",
                 "Url":      "http://mix.am:8000/rhyerevan",
-		"Verified": "false",
+                "Verified": "false",
                 "WebPage":  "http://radiohay.am"
                 },
             {
@@ -665,7 +665,7 @@ def getStations(sortingKey):
                 "Phone":    "+1 818 355 0603",
                 "Time":     "[[[-1,-1,-1,-1,-1,-1],[-1,-1,-1,-1,-1,-1]]]",
                 "Url":      "http://199.189.111.28:8303/stream",
-		"Verified": "true",
+                "Verified": "true",
                 "WebPage":  "http://www.josephkmusic.com"
                 },
             {
@@ -678,7 +678,7 @@ def getStations(sortingKey):
                 "Phone":    "+374-96-01-08-55",
                 "Time":     "[[[-1,-1,-1,-1,-1,-1],[-1,-1,-1,-1,-1,-1]]]",
                 "Url":      "http://streams4.museter.com:8216",
-		"Verified": "true",
+                "Verified": "true",
                 "WebPage":  "http://www.radiojan.am"
                 },
             {
@@ -691,7 +691,7 @@ def getStations(sortingKey):
                 "Phone":    "",
                 "Time":     "[[[-1,-1,-1,-1,-1,-1],[-1,-1,-1,-1,-1,-1]]]",
                 "Url":      "http://radiojazz.am/wp-content/themes/ari/mp3Player2.sw",
-		"Verified": "false",
+                "Verified": "false",
                 "WebPage":  "http://radiojazz.am"
                 },
             { # verified!
@@ -704,7 +704,7 @@ def getStations(sortingKey):
                 "Phone":    "060-27-26-27",
                 "Time":     "[[[-1,-1,-1,-1,-1,-1],[-1,-1,-1,-1,-1,-1]]]",
                 "Url":      "http://46.182.169.18:8010",
-		"Verified": "true",
+                "Verified": "true",
                 "WebPage":  "http://www.radiomariam.am"
                 },
             {
@@ -717,7 +717,7 @@ def getStations(sortingKey):
                 "Phone":    "",
                 "Time":     "[[[-1,-1,-1,-1,-1,-1],[-1,-1,-1,-1,-1,-1]]]",
                 "Url":      "http://87.117.201.159:8110",
-		"Verified": "true",
+                "Verified": "true",
                 "WebPage":  "http://radiotoot.com"
                 },
             {
@@ -730,7 +730,7 @@ def getStations(sortingKey):
                 "Phone":    "+961-1-567161/2/3",
                 "Time":     "[[[-1,-1,-1,-1,-1,-1],[-1,-1,-1,-1,-1,-1]]]",
                 "Url":      "http://sevan.bitwize.me:8018",
-		"Verified": "true",
+                "Verified": "true",
                 "WebPage":  "http://www.radiosevan.com"
                 },
             {
@@ -743,7 +743,7 @@ def getStations(sortingKey):
                 "Phone":    "",
                 "Time":     "[[[-1,-1,-1,-1,-1,-1],[-1,-1,-1,-1,-1,-1]]]",
                 "Url":      "http://192.184.9.81:8410/stream",
-		"Verified": "true",
+                "Verified": "true",
                 "WebPage":  "http://www.radiospurk.com"
                 },
             {
@@ -756,7 +756,7 @@ def getStations(sortingKey):
                 "Phone":    "+374-10-54-00-01",
                 "Time":     "[[[-1,-1,-1,-1,-1,-1],[-1,-1,-1,-1,-1,-1]]]",
                 "Url":      "http://radiovan.am:8000/32_stereo",
-		"Verified": "true",
+                "Verified": "true",
                 "WebPage":  "http://radiovan.am"
                 },
             {
@@ -769,7 +769,7 @@ def getStations(sortingKey):
                 "Phone":    "",
                 "Time":     "[[[-1,-1,-1,-1,-1,-1],[-1,-1,-1,-1,-1,-1]]]",
                 "Url":      "http://50.7.173.162:8233",
-		"Verified": "true",
+                "Verified": "true",
                 "WebPage":  "http://radioyeraz.com"
                 },
             {
@@ -782,7 +782,7 @@ def getStations(sortingKey):
                 "Phone":    "",
                 "Time":     "[[[-1,-1,-1,-1,-1,-1],[-1,-1,-1,-1,-1,-1]]]",
                 "Url":      "http://64.118.87.22:8003",
-		"Verified": "true",
+                "Verified": "true",
                 "WebPage":  "http://triktrak.ca"
                 },
             {
@@ -795,7 +795,7 @@ def getStations(sortingKey):
                 "Phone":    "+374-10-54-15-95",
                 "Time":     "[[[-1,-1,-1,-1,-1,-1],[-1,-1,-1,-1,-1,-1]]]",
                 "Url":      "http://vem.am//upload/February_Musical%20pearls_1361952495544.mp3",
-		"Verified": "false",
+                "Verified": "false",
                 "WebPage":  "http://www.vem.am/"
                 },
             {
@@ -808,7 +808,7 @@ def getStations(sortingKey):
                 "Phone":    "+961-1-241-199 ",
                 "Time":     "[[[-1,-1,-1,-1,-1,-1],[-1,-1,-1,-1,-1,-1]]]",
                 "Url":      "http://www.voiceofvan.net/player/player.swf",
-		"Verified": "false",
+                "Verified": "false",
                 "WebPage":  "http://www.voiceofvan.net/"
                 },
             {
@@ -822,7 +822,7 @@ def getStations(sortingKey):
                 "Phone":    "+1-877-220-8951",
                 "Time":     "[[[-1,-1,-1,-1,-1,-1],[-1,-1,-1,-1,-1,-1]]]",
                 "Url":      "mms://radio.yerevannights.com/YerevanNights",
-		"Verified": "true",
+                "Verified": "true",
                 "WebPage":  "http://www.yerevannights.com"
                 }
             ]
