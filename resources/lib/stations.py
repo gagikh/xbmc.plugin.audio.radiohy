@@ -538,19 +538,6 @@ def getStations(sortingKey):
                 "Verified": "true",
                 "WebPage":  "http://radioavol.org"
                 },
-            { #"Email":    "radioaurora@radioaurora.am"
-                "Address":  "Yerevan, Nairi Zaryan 22, 0051",
-                "Country":  "Armenia",
-                "Director": "",
-                "Email":    "radio-aurora@mail.ru",
-                "Icon":     "http://www.radioaurora.am/images/white_logo.png",
-                "Name":     "Radio Avrora",
-                "Phone":    "+374-10-25-10-07",
-                "Time":     "[[[-1,-1,-1,-1,-1,-1],[-1,-1,-1,-1,-1,-1]]]",
-                "Url":      "http://www.radioaurora.am/hdvideo",
-                "Verified": "false",
-                "WebPage":  "http://www.radioaurora.am"
-                },
             {
                 "Address":  "41 rue des ecolses, 94140 Alfortville",
                 "Country":  "France",
@@ -573,7 +560,7 @@ def getStations(sortingKey):
                 "Name":     "Radio Hay (starfm)",
                 "Phone":    "",
                 "Time":     "[[[-1,-1,-1,-1,-1,-1],[-1,-1,-1,-1,-1,-1]]]",
-                "Url":      "http://mix.am:8000/starfm",
+                "Url":      "http://live.mix.am:8000/starfm",
                 "Verified": "true",
                 "WebPage":  "http://mix.am"
                 },
@@ -586,7 +573,7 @@ def getStations(sortingKey):
                 "Name":     "Radio Hay (mixfm)",
                 "Phone":    "",
                 "Time":     "[[[-1,-1,-1,-1,-1,-1],[-1,-1,-1,-1,-1,-1]]]",
-                "Url":      "http://mix.am:8000/mixfm",
+                "Url":      "http://live.mix.am:8000/mixfm",
                 "Verified": "true",
                 "WebPage":  "http://mix.am"
                 },
@@ -612,7 +599,7 @@ def getStations(sortingKey):
                 "Name":     "Radio Hay (Anr)",
                 "Phone":    "",
                 "Time":     "[[[-1,-1,-1,-1,-1,-1],[-1,-1,-1,-1,-1,-1]]]",
-                "Url":      "http://mix.am:8000/anr24",
+                "Url":      "http://live.mix.am:8000/anr24",
                 "Verified": "true",
                 "WebPage":  "http://mix.am"
                 },
@@ -625,7 +612,7 @@ def getStations(sortingKey):
                 "Name":     "Radio Hay (Smile)",
                 "Phone":    "",
                 "Time":     "[[[-1,-1,-1,-1,-1,-1],[-1,-1,-1,-1,-1,-1]]]",
-                "Url":      "http://mix.am:8000/smile",
+                "Url":      "http://live.mix.am:8000/smile",
                 "Verified": "true",
                 "WebPage":  "http://mix.am"
                 },
@@ -638,7 +625,7 @@ def getStations(sortingKey):
                 "Name":     "Radio Hay (5 achok)",
                 "Phone":    "",
                 "Time":     "[[[-1,-1,-1,-1,-1,-1],[-1,-1,-1,-1,-1,-1]]]",
-                "Url":      "http://mix.am:8000/5achok",
+                "Url":      "http://live.mix.am:8000/5achok",
                 "Verified": "false",
                 "WebPage":  "http://mix.am"
                 },
@@ -651,7 +638,7 @@ def getStations(sortingKey):
                 "Name":     "Radio Hay (Yerevan)",
                 "Phone":    "",
                 "Time":     "[[[-1,-1,-1,-1,-1,-1],[-1,-1,-1,-1,-1,-1]]]",
-                "Url":      "http://mix.am:8000/rhyerevan",
+                "Url":      "http://live.mix.am:8000/rhyerevan",
                 "Verified": "false",
                 "WebPage":  "http://radiohay.am"
                 },
