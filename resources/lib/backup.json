@@ -675,6 +675,21 @@ var stations = {
                 "protocol": "http", 
                 "time": "[[[-1,-1,-1,-1,-1,-1],[-1,-1,-1,-1,-1,-1]]]", 
                 "webpage": "http:\/\/www.yerevannights.com"
+            }, 
+            {
+                "address": "Beirut", 
+                "country": "Lebanon", 
+                "director": "", 
+                "email": "info@yeridasartoutiantsayn.com", 
+                "hostname": "64.150.176.192", 
+                "icon": "http:\/\/yeridasartoutiantsayne.com\/img\/background\/top_banner.png", 
+                "nickname": "Yeridasartoutyan Tsayny", 
+                "path": "\/live", 
+                "phone": "", 
+                "port": "8280", 
+                "protocol": "http", 
+                "time": "[[[-1,-1,-1,-1,-1,-1],[-1,-1,-1,-1,-1,-1]]]", 
+                "webpage": "http:\/\/yeridasartoutiantsayne.com\/"
             }
         ]
     }

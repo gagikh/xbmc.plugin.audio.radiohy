@@ -12,6 +12,8 @@ import operator
 #cityfm, http://www.cityfm.am/
 #radio alpha
 #Armenian radio of New Jersi, http://www.armenianradionj.net/
+#radiomayak
+#"Name":     "Lounge Radio Yerevan",
 
 # crontab TIME format: 
 # * * * * * *
@@ -25,6 +27,19 @@ import operator
 
 def getStations(sortingKey):
     resp = [
+    	   {
+                "Address":  "Beirut",
+                "Country":  "Lebanon",
+                "Director": "",
+                "Email":    "info@yeridasartoutiantsayn.com",
+                "Icon":     "http://yeridasartoutiantsayne.com/img/background/top_banner.png",
+                "Name":     "Yeridasartoutyan Tsayny",
+                "Phone":    "",
+                "Time":     "[[[-1,-1,-1,-1,-1,-1],[-1,-1,-1,-1,-1,-1]]]",
+                "Url":      "http://64.150.176.192:8280/live",
+                "Verified": "true",
+                "WebPage":  "http://yeridasartoutiantsayne.com/"
+                },
     	   {
                 "Address":  "Yerevan, Nairi Zaryan 22, 7/9, 0051",
                 "Country":  "Armenia",
