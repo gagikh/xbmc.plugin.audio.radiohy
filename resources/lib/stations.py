@@ -28,6 +28,32 @@ import operator
 def getStations(sortingKey):
     resp = [
     	   {
+                "Address":  "",
+                "Country":  "",
+                "Director": "",
+                "Email":    "",
+                "Icon":     "",
+                "Name":     "",
+                "Phone":    "",
+                "Time":     "[[[-1,-1,-1,-1,-1,-1],[-1,-1,-1,-1,-1,-1]]]",
+                "Url":      "",
+                "Verified": "",
+                "WebPage":  ""
+                },
+    	   {
+                "Address":  "",
+                "Country":  "",
+                "Director": "Kegham Depoyan",
+                "Email":    "info@radioarev.com",
+                "Icon":     "http://www.radioarev.com/images/logo/radioarev.png",
+                "Name":     "Radio Arev",
+                "Phone":    "+9613466270",
+                "Time":     "[[[-1,-1,-1,-1,-1,-1],[-1,-1,-1,-1,-1,-1]]]",
+                "Url":      "http://69.64.92.79:8234",
+                "Verified": "true",
+                "WebPage":  "http://www.radioarev.com"
+                },
+    	   {
                 "Address":  "Beirut",
                 "Country":  "Lebanon",
                 "Director": "",

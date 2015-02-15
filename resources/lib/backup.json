@@ -289,6 +289,21 @@ var stations = {
             {
                 "address": "", 
                 "country": "", 
+                "director": "Kegham Depoyan", 
+                "email": "info@radioarev.com", 
+                "hostname": "69.64.92.79", 
+                "icon": "http:\/\/www.radioarev.com\/images\/logo\/radioarev.png", 
+                "nickname": "Radio Arev", 
+                "path": "", 
+                "phone": "+9613466270", 
+                "port": "8234", 
+                "protocol": "http", 
+                "time": "[[[-1,-1,-1,-1,-1,-1],[-1,-1,-1,-1,-1,-1]]]", 
+                "webpage": "http:\/\/www.radioarev.com"
+            }, 
+            {
+                "address": "", 
+                "country": "", 
                 "director": "", 
                 "email": "info@armenianmusic.com", 
                 "hostname": "radioarmenia.com", 
