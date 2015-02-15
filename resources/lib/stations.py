@@ -330,6 +330,19 @@ def getStations(sortingKey):
                 "WebPage":  "http://www.armenianvoice.com"
                 },
             {
+                "Address":  "Yerevan, Qochar 21",
+                "Country":  "Armenia",
+                "Director": "",
+                "Email":    "impulse@impulse.am",
+                "Icon":     "http://www.lratvakan.am/img/logo.png",
+                "Name":     "Lratvakan Radio",
+                "Phone":    "+374 60 37 12 73",
+                "Time":     "[[[-1,-1,-1,-1,-1,-1],[-1,-1,-1,-1,-1,-1]]]",
+                "Url":      "http://212.34.233.78:8000/live",
+                "Verified": "true",
+                "WebPage":  "http://www.lratvakan.am/"
+                },
+            {
                 "Address":  "",
                 "Country":  "",
                 "Director": "",

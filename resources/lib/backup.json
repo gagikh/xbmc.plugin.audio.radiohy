@@ -167,6 +167,21 @@ var stations = {
                 "webpage": "http:\/\/www.lavradio.am"
             }, 
             {
+                "address": "Yerevan, Qochar 21", 
+                "country": "Armenia", 
+                "director": "", 
+                "email": "impulse@impulse.am", 
+                "hostname": "212.34.233.78", 
+                "icon": "http:\/\/www.lratvakan.am\/img\/logo.png", 
+                "nickname": "Lratvakan Radio", 
+                "path": "\/live", 
+                "phone": "+374 60 37 12 73", 
+                "port": "8000", 
+                "protocol": "http", 
+                "time": "[[[-1,-1,-1,-1,-1,-1],[-1,-1,-1,-1,-1,-1]]]", 
+                "webpage": "http:\/\/www.lratvakan.am\/"
+            }, 
+            {
                 "address": "", 
                 "country": "Turkey", 
                 "director": "", 
