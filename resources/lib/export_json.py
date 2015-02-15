@@ -31,27 +31,35 @@ urls = []
 
 def checkAvailability(url):
     if not url:
+        print "error while analysing ", url
         print " status - empty url"
         return 1
 
-    print "analysing ", url
+    #print "analysing ", url
     try:
-        code = urllib2.urlopen(url, None, 5).getcode();
+        hdr = { 'User-Agent' : 'Python Browser' };
+        req = urllib2.Request(url, headers=hdr)
+
+        code = urllib2.urlopen(req, timeout=5).getcode();
         if 200 == code:
             return 0
         else:
+            print "error while urlopen ", url
             print " status - Error code = ", (code)
             return 1
 
     except urllib2.HTTPError, e:
+        print "http error while analysing ", url
         print " status - ", (e.code)
     except urllib2.URLError, e:
+        print "url error while analysing ", url
         print " status - ", (e.args)
     except httplib.BadStatusLine, e:
+        print "bad status line error while analysing ", url
         print " status - ", (e.args)
     except socket.timeout, e:
+        print "timeout error while analysing ", url
         print " status - ", (e.args)
-
     return 1 
 
 for station in streams:
@@ -90,7 +98,10 @@ for station in streams:
         if 0 != checkAvailability(path["icon"]):
             path["icon"] = ""
 
-        url = path["protocol"] + "://" + path["hostname"] + ":" + path["port"] + path["path"];
+        if path["port"]:
+            url = path["protocol"] + "://" + path["hostname"] + ":" + path["port"] + path["path"];
+        else:
+            url = path["protocol"] + "://" + path["hostname"] + path["path"];
         if 0 == checkAvailability(url):
             urls.append(path)
 
