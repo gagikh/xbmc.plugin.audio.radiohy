@@ -7,7 +7,7 @@ var stations = {
                 "director": "Armen Amiryan", 
                 "email": "aa@arradio.am", 
                 "hostname": "199.195.194.92", 
-                "icon": "https:\/\/www.arradio.am\/images\/m_01.gif", 
+                "icon": "http:\/\/www.arradio.am\/images\/m_01.gif", 
                 "nickname": "Ar Radio Intercontinental", 
                 "path": "", 
                 "phone": "+374-10-55-11-43", 
