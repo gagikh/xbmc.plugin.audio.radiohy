@@ -795,7 +795,7 @@ def getStations(sortingKey):
                 "Name":     "Yerevan Nights",
                 "Phone":    "+1-877-220-8951",
                 "Time":     "[[[-1,-1,-1,-1,-1,-1],[-1,-1,-1,-1,-1,-1]]]",
-                "Url":      "http://radio.yerevannights.com:81/YerevanNights",
+                "Url":      "http://icecast.yerevannights.com:80/YerevanNights",
                 "Verified": "true",
                 "WebPage":  "http://www.yerevannights.com"
                 }
