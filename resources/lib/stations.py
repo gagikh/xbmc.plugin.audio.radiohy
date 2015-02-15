@@ -325,8 +325,8 @@ def getStations(sortingKey):
                 "Name":     "Armenian Voice Radio",
                 "Phone":    "011-559-776-9925",
                 "Time":     "[[[-1,-1,-1,-1,-1,-1],[-1,-1,-1,-1,-1,-1]]]",
-                "Url":      "",
-                "Verified": "false",
+                "Url":      "http://50.7.76.250:8764/stream",
+                "Verified": "true",
                 "WebPage":  "http://www.armenianvoice.com"
                 },
             {
