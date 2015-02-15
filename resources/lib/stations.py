@@ -578,7 +578,7 @@ def getStations(sortingKey):
                 "WebPage":  "http://mix.am"
                 },
             {
-                "Address":  "",
+                "Address":  "Stepanakert",
                 "Country":  "Armenia",
                 "Director": "",
                 "Email":    "",
@@ -586,7 +586,7 @@ def getStations(sortingKey):
                 "Name":     "Radio Hay (Hay FM)",
                 "Phone":    "",
                 "Time":     "[[[-1,-1,-1,-1,-1,-1],[-1,-1,-1,-1,-1,-1]]]",
-                "Url":      "http://live.mix.am:8000/radiohyfm",
+                "Url":      "http://live.mix.am:8000/radiohayfm",
                 "Verified": "false",
                 "WebPage":  "http://mix.am"
                 },
@@ -614,19 +614,6 @@ def getStations(sortingKey):
                 "Time":     "[[[-1,-1,-1,-1,-1,-1],[-1,-1,-1,-1,-1,-1]]]",
                 "Url":      "http://live.mix.am:8000/smile",
                 "Verified": "true",
-                "WebPage":  "http://mix.am"
-                },
-            {
-                "Address":  "",
-                "Country":  "Armenia",
-                "Director": "",
-                "Email":    "",
-                "Icon":     "",
-                "Name":     "Radio Hay (5 achok)",
-                "Phone":    "",
-                "Time":     "[[[-1,-1,-1,-1,-1,-1],[-1,-1,-1,-1,-1,-1]]]",
-                "Url":      "http://live.mix.am:8000/5achok",
-                "Verified": "false",
                 "WebPage":  "http://mix.am"
                 },
             {
@@ -777,7 +764,7 @@ def getStations(sortingKey):
                 "Country":  "Armenia",
                 "Director": "",
                 "Email":    "",
-                "Icon":     "http://www.vem.am/img/logo_pop.gifg",
+                "Icon":     "http://www.vem.am/img/logo_pop.gif",
                 "Name":     "Vem Radio",
                 "Phone":    "+374-10-54-15-95",
                 "Time":     "[[[-1,-1,-1,-1,-1,-1],[-1,-1,-1,-1,-1,-1]]]",
@@ -794,7 +781,7 @@ def getStations(sortingKey):
                 "Name":     "Voice of Van",
                 "Phone":    "+961-1-241-199 ",
                 "Time":     "[[[-1,-1,-1,-1,-1,-1],[-1,-1,-1,-1,-1,-1]]]",
-                "Url":      "http://www.voiceofvan.net/player/player.swf",
+                "Url":      "http://23.92.21.22/vovan.mp3",
                 "Verified": "false",
                 "WebPage":  "http://www.voiceofvan.net/"
                 },
@@ -808,7 +795,7 @@ def getStations(sortingKey):
                 "Name":     "Yerevan Nights",
                 "Phone":    "+1-877-220-8951",
                 "Time":     "[[[-1,-1,-1,-1,-1,-1],[-1,-1,-1,-1,-1,-1]]]",
-                "Url":      "mms://radio.yerevannights.com/YerevanNights",
+                "Url":      "http://radio.yerevannights.com:81/YerevanNights",
                 "Verified": "true",
                 "WebPage":  "http://www.yerevannights.com"
                 }

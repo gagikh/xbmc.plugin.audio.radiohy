@@ -332,6 +332,21 @@ var stations = {
                 "webpage": "http:\/\/mix.am"
             }, 
             {
+                "address": "Stepanakert", 
+                "country": "Armenia", 
+                "director": "", 
+                "email": "", 
+                "hostname": "live.mix.am", 
+                "icon": "http:\/\/live.mix.am\/templates\/live\/img\/4.png", 
+                "nickname": "Radio Hay (Hay FM)", 
+                "path": "\/radiohayfm", 
+                "phone": "", 
+                "port": "8000", 
+                "protocol": "http", 
+                "time": "[[[-1,-1,-1,-1,-1,-1],[-1,-1,-1,-1,-1,-1]]]", 
+                "webpage": "http:\/\/mix.am"
+            }, 
+            {
                 "address": "", 
                 "country": "Armenia", 
                 "director": "", 
@@ -577,7 +592,7 @@ var stations = {
                 "director": "", 
                 "email": "", 
                 "hostname": "vem.am", 
-                "icon": "", 
+                "icon": "http:\/\/www.vem.am\/img\/logo_pop.gif", 
                 "nickname": "Vem Radio", 
                 "path": "\/\/upload\/February_Musical%20pearls_1361952495544.mp3", 
                 "phone": "+374-10-54-15-95", 
@@ -591,10 +606,10 @@ var stations = {
                 "country": "Lebanon", 
                 "director": "", 
                 "email": "", 
-                "hostname": "www.voiceofvan.net", 
+                "hostname": "23.92.21.22", 
                 "icon": "http:\/\/www.voiceofvan.net\/sites\/all\/themes\/layout6\/images\/header-object.png", 
                 "nickname": "Voice of Van", 
-                "path": "\/player\/player.swf", 
+                "path": "\/vovan.mp3", 
                 "phone": "+961-1-241-199 ", 
                 "port": "", 
                 "protocol": "http", 
@@ -615,6 +630,21 @@ var stations = {
                 "protocol": "http", 
                 "time": "[[[-1,-1,-1,-1,-1,-1],[-1,-1,-1,-1,-1,-1]]]", 
                 "webpage": "http:\/\/www.radiovaticana.org\/arm\/index.asp"
+            }, 
+            {
+                "address": "3200 Wilshire Blvd. Ste 902NT, Los Angeles, CA, United States 90010", 
+                "country": "USA", 
+                "director": "Sarkis Chakarian", 
+                "email": "info@yerevannights.com", 
+                "hostname": "radio.yerevannights.com", 
+                "icon": "http:\/\/www.armenische-kirche.ch\/wp-content\/uploads\/2013\/02\/yerevannights.jpg", 
+                "nickname": "Yerevan Nights", 
+                "path": "\/YerevanNights", 
+                "phone": "+1-877-220-8951", 
+                "port": "81", 
+                "protocol": "http", 
+                "time": "[[[-1,-1,-1,-1,-1,-1],[-1,-1,-1,-1,-1,-1]]]", 
+                "webpage": "http:\/\/www.yerevannights.com"
             }
         ]
     }
