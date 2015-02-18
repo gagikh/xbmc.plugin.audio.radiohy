@@ -14,6 +14,7 @@ import operator
 #Armenian radio of New Jersi, http://www.armenianradionj.net/
 #radiomayak
 #"Name":     "Lounge Radio Yerevan",
+#"http://www.acabc.ca/radio-show"
 
 # crontab TIME format: 
 # * * * * * *
@@ -42,7 +43,7 @@ def getStations(sortingKey):
                 },
     	   {
                 "Address":  "",
-                "Country":  "",
+                "Country":  "Lebanon",
                 "Director": "Kegham Depoyan",
                 "Email":    "info@radioarev.com",
                 "Icon":     "http://www.radioarev.com/images/logo/radioarev.png",
@@ -75,8 +76,8 @@ def getStations(sortingKey):
                 "Name":     "Radio Aurora",
                 "Phone":    "+37410 251007",
                 "Time":     "[[[-1,-1,-1,-1,-1,-1],[-1,-1,-1,-1,-1,-1]]]",
-                "Url":      "http://www.radioaurora.am/hdvideo1/flowplayer.rtmp-3.2.13.swf",
-                "Verified": "false",
+                "Url":      "http://95.140.200.246:8000/mp3_96",
+                "Verified": "true",
                 "WebPage":  "http://www.radioaurora.am"
                 },
             { #"Email":    "liberty@liberty.r.am"
@@ -641,7 +642,7 @@ def getStations(sortingKey):
                 "Phone":    "",
                 "Time":     "[[[-1,-1,-1,-1,-1,-1],[-1,-1,-1,-1,-1,-1]]]",
                 "Url":      "http://live.mix.am:8000/radiohayfm",
-                "Verified": "false",
+                "Verified": "true",
                 "WebPage":  "http://mix.am"
                 },
             {
@@ -836,7 +837,7 @@ def getStations(sortingKey):
                 "Phone":    "+961-1-241-199 ",
                 "Time":     "[[[-1,-1,-1,-1,-1,-1],[-1,-1,-1,-1,-1,-1]]]",
                 "Url":      "http://23.92.21.22/vovan.mp3",
-                "Verified": "false",
+                "Verified": "true",
                 "WebPage":  "http://www.voiceofvan.net/"
                 },
             {
