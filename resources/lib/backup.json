@@ -114,7 +114,7 @@ var stations = {
                 "hostname": "50.7.76.250", 
                 "icon": "http:\/\/www.armenianvoice.com\/SiteImages\/ArmenianVoice.jpg", 
                 "nickname": "Armenian Voice Radio", 
-                "path": "\/stream", 
+                "path": "\/autodj", 
                 "phone": "011-559-776-9925", 
                 "port": "8764", 
                 "protocol": "http", 
