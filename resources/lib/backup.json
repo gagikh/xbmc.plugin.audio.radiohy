@@ -13,7 +13,7 @@ var stations = {
                 "phone": "+374-10-55-11-43", 
                 "port": "8029", 
                 "protocol": "http", 
-                "time": "[[[-1,-1,-1,-1,-1,-1],[-1,-1,-1,-1,-1,-1]]]", 
+                "schedule": "* * * * *", 
                 "webpage": "http:\/\/www.arradio.am"
             }, 
             {
@@ -28,7 +28,7 @@ var stations = {
                 "phone": "", 
                 "port": "8036", 
                 "protocol": "http", 
-                "time": "[[[-1,-1,-1,-1,-1,-1],[-1,-1,-1,-1,-1,-1]]]", 
+                "schedule": "* * * * *", 
                 "webpage": "http:\/\/www.armenianbiblestudy.com"
             }, 
             {
@@ -43,7 +43,7 @@ var stations = {
                 "phone": "", 
                 "port": "5643", 
                 "protocol": "http", 
-                "time": "[[[-1,-1,-1,-1,-1,-1],[-1,-1,-1,-1,-1,-1]]]", 
+                "schedule": "* * * * *", 
                 "webpage": "http:\/\/bashde.org"
             }, 
             {
@@ -58,7 +58,7 @@ var stations = {
                 "phone": "", 
                 "port": "9315", 
                 "protocol": "http", 
-                "time": "[[[-1,-1,-1,-1,-1,-1],[-1,-1,-1,-1,-1,-1]]]", 
+                "schedule": "* * * * *", 
                 "webpage": "http:\/\/armenianglobalradio.com"
             }, 
             {
@@ -73,7 +73,7 @@ var stations = {
                 "phone": "+1-617-926-6268", 
                 "port": "", 
                 "protocol": "http", 
-                "time": "[[[-1,-1,-1,-1,-1,-1],[-1,-1,-1,-1,-1,-1]]]", 
+                "schedule": "* * * * *", 
                 "webpage": "http:\/\/armenianradioboston.com"
             }, 
             {
@@ -88,7 +88,7 @@ var stations = {
                 "phone": "", 
                 "port": "1126", 
                 "protocol": "http", 
-                "time": "[[[-1,-1,-1,-1,-1,-1],[-1,-1,-1,-1,-1,-1]]]", 
+                "schedule": "* * * * *", 
                 "webpage": "http:\/\/www.armnetradio.com"
             }, 
             {
@@ -103,7 +103,7 @@ var stations = {
                 "phone": "", 
                 "port": "8134", 
                 "protocol": "http", 
-                "time": "[[[-1,-1,-1,-1,-1,-1],[-1,-1,-1,-1,-1,-1]]]", 
+                "schedule": "* * * * *", 
                 "webpage": "http:\/\/www.armenianpulse.com"
             }, 
             {
@@ -118,7 +118,7 @@ var stations = {
                 "phone": "011-559-776-9925", 
                 "port": "8764", 
                 "protocol": "http", 
-                "time": "[[[-1,-1,-1,-1,-1,-1],[-1,-1,-1,-1,-1,-1]]]", 
+                "schedule": "* * * * *", 
                 "webpage": "http:\/\/www.armenianvoice.com"
             }, 
             {
@@ -133,7 +133,7 @@ var stations = {
                 "phone": "+374-10-36-86-45", 
                 "port": "8218", 
                 "protocol": "http", 
-                "time": "[[[-1,-1,-1,-1,-1,-1],[-1,-1,-1,-1,-1,-1]]]", 
+                "schedule": "* * * * *", 
                 "webpage": "http:\/\/www.fm107.am"
             }, 
             {
@@ -148,7 +148,7 @@ var stations = {
                 "phone": "+37455830003", 
                 "port": "8000", 
                 "protocol": "http", 
-                "time": "[[[-1,-1,-1,-1,-1,-1],[-1,-1,-1,-1,-1,-1]]]", 
+                "schedule": "* * * * *", 
                 "webpage": "http:\/\/www.lavradio.am"
             }, 
             {
@@ -163,7 +163,7 @@ var stations = {
                 "phone": "+37455830003", 
                 "port": "8006", 
                 "protocol": "http", 
-                "time": "[[[-1,-1,-1,-1,-1,-1],[-1,-1,-1,-1,-1,-1]]]", 
+                "schedule": "* * * * *", 
                 "webpage": "http:\/\/www.lavradio.am"
             }, 
             {
@@ -178,7 +178,7 @@ var stations = {
                 "phone": "+374 60 37 12 73", 
                 "port": "8000", 
                 "protocol": "http", 
-                "time": "[[[-1,-1,-1,-1,-1,-1],[-1,-1,-1,-1,-1,-1]]]", 
+                "schedule": "* * * * *", 
                 "webpage": "http:\/\/www.lratvakan.am\/"
             }, 
             {
@@ -193,7 +193,7 @@ var stations = {
                 "phone": "", 
                 "port": "8000", 
                 "protocol": "http", 
-                "time": "[[[-1,-1,-1,-1,-1,-1],[-1,-1,-1,-1,-1,-1]]]", 
+                "schedule": "* * * * *", 
                 "webpage": "http:\/\/www.norradyo.com"
             }, 
             {
@@ -208,7 +208,7 @@ var stations = {
                 "phone": "+374-10-55-11-43", 
                 "port": "8052", 
                 "protocol": "http", 
-                "time": "[[[-1,-1,-1,-1,-1,-1],[-1,-1,-1,-1,-1,-1]]]", 
+                "schedule": "* * * * *", 
                 "webpage": "http:\/\/www.armradio.am"
             }, 
             {
@@ -223,23 +223,8 @@ var stations = {
                 "phone": "00-33-4-75-56-18-33", 
                 "port": "7250", 
                 "protocol": "http", 
-                "time": "[[[-1,-1,-1,-1,-1,-1],[-1,-1,-1,-1,-1,-1]]]", 
+                "schedule": "* * * * *", 
                 "webpage": "http:\/\/radioa.net"
-            }, 
-            {
-                "address": "", 
-                "country": "Lebanon", 
-                "director": "", 
-                "email": "info@radioavol.org", 
-                "hostname": "64.150.176.192", 
-                "icon": "http:\/\/radioavol.org\/uploads\/donates\/donate1x1.png", 
-                "nickname": "Radio AVOL", 
-                "path": "\/stream", 
-                "phone": "", 
-                "port": "8250", 
-                "protocol": "http", 
-                "time": "[[[-1,-1,-1,-1,-1,-1],[-1,-1,-1,-1,-1,-1]]]", 
-                "webpage": "http:\/\/radioavol.org"
             }, 
             {
                 "address": "", 
@@ -253,7 +238,7 @@ var stations = {
                 "phone": "", 
                 "port": "8430", 
                 "protocol": "http", 
-                "time": "[[[-1,-1,-1,-1,-1,-1],[-1,-1,-1,-1,-1,-1]]]", 
+                "schedule": "* * * * *", 
                 "webpage": "http:\/\/www.radioayk.com"
             }, 
             {
@@ -268,7 +253,7 @@ var stations = {
                 "phone": "01-43-53-19-90", 
                 "port": "", 
                 "protocol": "http", 
-                "time": "[[[-1,-1,-1,-1,-1,-1],[-1,-1,-1,-1,-1,-1]]]", 
+                "schedule": "* * * * *", 
                 "webpage": "http:\/\/radio-aypfm.com"
             }, 
             {
@@ -283,7 +268,7 @@ var stations = {
                 "phone": "+598-90-09-69-09", 
                 "port": "", 
                 "protocol": "http", 
-                "time": "[[[-1,-1,-1,-1,-1,-1],[-1,-1,-1,-1,-1,-1]]]", 
+                "schedule": "* * * * *", 
                 "webpage": "http:\/\/www.radioarax.com\/"
             }, 
             {
@@ -298,7 +283,7 @@ var stations = {
                 "phone": "+9613466270", 
                 "port": "8234", 
                 "protocol": "http", 
-                "time": "[[[-1,-1,-1,-1,-1,-1],[-1,-1,-1,-1,-1,-1]]]", 
+                "schedule": "* * * * *", 
                 "webpage": "http:\/\/www.radioarev.com"
             }, 
             {
@@ -313,7 +298,7 @@ var stations = {
                 "phone": "+323-664-3365", 
                 "port": "", 
                 "protocol": "http", 
-                "time": "[[[-1,-1,-1,-1,-1,-1],[-1,-1,-1,-1,-1,-1]]]", 
+                "schedule": "* * * * *", 
                 "webpage": "http:\/\/radioarmenia.com"
             }, 
             {
@@ -322,13 +307,13 @@ var stations = {
                 "director": "", 
                 "email": "", 
                 "hostname": "109.190.123.125", 
-                "icon": "http:\/\/www.radioarmenie.com\/templates\/theme475\/images\/logo.gif", 
+                "icon": "", 
                 "nickname": "Radio Armenie", 
                 "path": "\/stream.mp3", 
                 "phone": "04-78-49-52-74", 
                 "port": "8000", 
                 "protocol": "http", 
-                "time": "[[[-1,-1,-1,-1,-1,-1],[-1,-1,-1,-1,-1,-1]]]", 
+                "schedule": "* * * * *", 
                 "webpage": "http:\/\/www.radioarmenie.com"
             }, 
             {
@@ -343,7 +328,7 @@ var stations = {
                 "phone": "+37410 251007", 
                 "port": "8000", 
                 "protocol": "http", 
-                "time": "[[[-1,-1,-1,-1,-1,-1],[-1,-1,-1,-1,-1,-1]]]", 
+                "schedule": "* * * * *", 
                 "webpage": "http:\/\/www.radioaurora.am"
             }, 
             {
@@ -358,7 +343,7 @@ var stations = {
                 "phone": "+3741-59-70-00", 
                 "port": "8036", 
                 "protocol": "http", 
-                "time": "[[[-1,-1,-1,-1,-1,-1],[-1,-1,-1,-1,-1,-1]]]", 
+                "schedule": "* * * * *", 
                 "webpage": "http:\/\/radiofama.am"
             }, 
             {
@@ -373,7 +358,7 @@ var stations = {
                 "phone": "", 
                 "port": "8000", 
                 "protocol": "http", 
-                "time": "[[[-1,-1,-1,-1,-1,-1],[-1,-1,-1,-1,-1,-1]]]", 
+                "schedule": "* * * * *", 
                 "webpage": "http:\/\/mix.am"
             }, 
             {
@@ -388,7 +373,7 @@ var stations = {
                 "phone": "", 
                 "port": "8000", 
                 "protocol": "http", 
-                "time": "[[[-1,-1,-1,-1,-1,-1],[-1,-1,-1,-1,-1,-1]]]", 
+                "schedule": "* * * * *", 
                 "webpage": "http:\/\/mix.am"
             }, 
             {
@@ -403,7 +388,7 @@ var stations = {
                 "phone": "", 
                 "port": "8000", 
                 "protocol": "http", 
-                "time": "[[[-1,-1,-1,-1,-1,-1],[-1,-1,-1,-1,-1,-1]]]", 
+                "schedule": "* * * * *", 
                 "webpage": "http:\/\/mix.am"
             }, 
             {
@@ -418,7 +403,7 @@ var stations = {
                 "phone": "", 
                 "port": "8000", 
                 "protocol": "http", 
-                "time": "[[[-1,-1,-1,-1,-1,-1],[-1,-1,-1,-1,-1,-1]]]", 
+                "schedule": "* * * * *", 
                 "webpage": "http:\/\/radiohay.am"
             }, 
             {
@@ -433,7 +418,7 @@ var stations = {
                 "phone": "", 
                 "port": "8000", 
                 "protocol": "http", 
-                "time": "[[[-1,-1,-1,-1,-1,-1],[-1,-1,-1,-1,-1,-1]]]", 
+                "schedule": "* * * * *", 
                 "webpage": "http:\/\/mix.am"
             }, 
             {
@@ -448,7 +433,7 @@ var stations = {
                 "phone": "", 
                 "port": "8000", 
                 "protocol": "http", 
-                "time": "[[[-1,-1,-1,-1,-1,-1],[-1,-1,-1,-1,-1,-1]]]", 
+                "schedule": "* * * * *", 
                 "webpage": "http:\/\/mix.am"
             }, 
             {
@@ -463,7 +448,7 @@ var stations = {
                 "phone": "+1 818 355 0603", 
                 "port": "8303", 
                 "protocol": "http", 
-                "time": "[[[-1,-1,-1,-1,-1,-1],[-1,-1,-1,-1,-1,-1]]]", 
+                "schedule": "* * * * *", 
                 "webpage": "http:\/\/www.josephkmusic.com"
             }, 
             {
@@ -478,7 +463,7 @@ var stations = {
                 "phone": "+374-96-01-08-55", 
                 "port": "8216", 
                 "protocol": "http", 
-                "time": "[[[-1,-1,-1,-1,-1,-1],[-1,-1,-1,-1,-1,-1]]]", 
+                "schedule": "* * * * *", 
                 "webpage": "http:\/\/www.radiojan.am"
             }, 
             {
@@ -493,7 +478,7 @@ var stations = {
                 "phone": "060-27-26-27", 
                 "port": "8010", 
                 "protocol": "http", 
-                "time": "[[[-1,-1,-1,-1,-1,-1],[-1,-1,-1,-1,-1,-1]]]", 
+                "schedule": "* * * * *", 
                 "webpage": "http:\/\/www.radiomariam.am"
             }, 
             {
@@ -508,7 +493,7 @@ var stations = {
                 "phone": "+961-1-567161\/2\/3", 
                 "port": "8018", 
                 "protocol": "http", 
-                "time": "[[[-1,-1,-1,-1,-1,-1],[-1,-1,-1,-1,-1,-1]]]", 
+                "schedule": "* * * * *", 
                 "webpage": "http:\/\/www.radiosevan.com"
             }, 
             {
@@ -523,7 +508,7 @@ var stations = {
                 "phone": "", 
                 "port": "8410", 
                 "protocol": "http", 
-                "time": "[[[-1,-1,-1,-1,-1,-1],[-1,-1,-1,-1,-1,-1]]]", 
+                "schedule": "* * * * *", 
                 "webpage": "http:\/\/www.radiospurk.com"
             }, 
             {
@@ -538,7 +523,7 @@ var stations = {
                 "phone": "", 
                 "port": "8110", 
                 "protocol": "http", 
-                "time": "[[[-1,-1,-1,-1,-1,-1],[-1,-1,-1,-1,-1,-1]]]", 
+                "schedule": "* * * * *", 
                 "webpage": "http:\/\/radiotoot.com"
             }, 
             {
@@ -553,7 +538,7 @@ var stations = {
                 "phone": "+374-10-54-00-01", 
                 "port": "8000", 
                 "protocol": "http", 
-                "time": "[[[-1,-1,-1,-1,-1,-1],[-1,-1,-1,-1,-1,-1]]]", 
+                "schedule": "* * * * *", 
                 "webpage": "http:\/\/radiovan.am"
             }, 
             {
@@ -568,7 +553,7 @@ var stations = {
                 "phone": "+961-3-274-847", 
                 "port": "8001", 
                 "protocol": "http", 
-                "time": "[[[-1,-1,-1,-1,-1,-1],[-1,-1,-1,-1,-1,-1]]]", 
+                "schedule": "* * * * *", 
                 "webpage": "http:\/\/radioyan.com"
             }, 
             {
@@ -583,7 +568,7 @@ var stations = {
                 "phone": "+961-3-274-847", 
                 "port": "8003", 
                 "protocol": "http", 
-                "time": "[[[-1,-1,-1,-1,-1,-1],[-1,-1,-1,-1,-1,-1]]]", 
+                "schedule": "* * * * *", 
                 "webpage": "http:\/\/www.radioyan.com"
             }, 
             {
@@ -598,7 +583,7 @@ var stations = {
                 "phone": "+961-3-274-847", 
                 "port": "8002", 
                 "protocol": "http", 
-                "time": "[[[-1,-1,-1,-1,-1,-1],[-1,-1,-1,-1,-1,-1]]]", 
+                "schedule": "* * * * *", 
                 "webpage": "http:\/\/www.radioyan.com"
             }, 
             {
@@ -613,7 +598,7 @@ var stations = {
                 "phone": "", 
                 "port": "8233", 
                 "protocol": "http", 
-                "time": "[[[-1,-1,-1,-1,-1,-1],[-1,-1,-1,-1,-1,-1]]]", 
+                "schedule": "* * * * *", 
                 "webpage": "http:\/\/radioyeraz.com"
             }, 
             {
@@ -628,7 +613,7 @@ var stations = {
                 "phone": "", 
                 "port": "8003", 
                 "protocol": "http", 
-                "time": "[[[-1,-1,-1,-1,-1,-1],[-1,-1,-1,-1,-1,-1]]]", 
+                "schedule": "* * * * *", 
                 "webpage": "http:\/\/triktrak.ca"
             }, 
             {
@@ -643,7 +628,7 @@ var stations = {
                 "phone": "+374-10-54-15-95", 
                 "port": "", 
                 "protocol": "http", 
-                "time": "[[[-1,-1,-1,-1,-1,-1],[-1,-1,-1,-1,-1,-1]]]", 
+                "schedule": "* * * * *", 
                 "webpage": "http:\/\/www.vem.am\/"
             }, 
             {
@@ -658,7 +643,7 @@ var stations = {
                 "phone": "+961-1-241-199 ", 
                 "port": "", 
                 "protocol": "http", 
-                "time": "[[[-1,-1,-1,-1,-1,-1],[-1,-1,-1,-1,-1,-1]]]", 
+                "schedule": "* * * * *", 
                 "webpage": "http:\/\/www.voiceofvan.net\/"
             }, 
             {
@@ -666,14 +651,14 @@ var stations = {
                 "country": "Vatikan", 
                 "director": "", 
                 "email": "", 
-                "hostname": "www.vaticanradio-us.org", 
-                "icon": "http:\/\/hy.radiovaticana.va\/img\/h_02.gif", 
+                "hostname": "vatican.ic.llnwd.net", 
+                "icon": "http:\/\/hy.radiovaticana.va\/Modules\/Presentation\/Styles\/images-common\/layout\/logo-rv-up-bar.png", 
                 "nickname": "Voice of Vatikan", 
-                "path": "\/webcasting\/armeno_1.mp3", 
+                "path": "\/stream\/vatican_vatican01", 
                 "phone": "", 
                 "port": "", 
                 "protocol": "http", 
-                "time": "[[[-1,-1,-1,-1,-1,-1],[-1,-1,-1,-1,-1,-1]]]", 
+                "schedule": "15 12 * * *", 
                 "webpage": "http:\/\/www.radiovaticana.org\/arm\/index.asp"
             }, 
             {
@@ -688,7 +673,7 @@ var stations = {
                 "phone": "+1-877-220-8951", 
                 "port": "80", 
                 "protocol": "http", 
-                "time": "[[[-1,-1,-1,-1,-1,-1],[-1,-1,-1,-1,-1,-1]]]", 
+                "schedule": "* * * * *", 
                 "webpage": "http:\/\/www.yerevannights.com"
             }, 
             {
@@ -703,7 +688,7 @@ var stations = {
                 "phone": "", 
                 "port": "8280", 
                 "protocol": "http", 
-                "time": "[[[-1,-1,-1,-1,-1,-1],[-1,-1,-1,-1,-1,-1]]]", 
+                "schedule": "* * * * *", 
                 "webpage": "http:\/\/yeridasartoutiantsayne.com\/"
             }
         ]

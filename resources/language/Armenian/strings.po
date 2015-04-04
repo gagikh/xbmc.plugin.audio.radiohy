@@ -74,7 +74,7 @@ msgid "Automatically start playing from previously selected station"
 msgstr "Ինքնաբերաբար սկել վերջին ընտրված ռադիոկայանից"
 
 msgctxt "#31012"
-msgid "Time"
+msgid "Schedule"
 msgstr "Ժամանակ"
 
 msgctxt "#31013"

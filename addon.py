@@ -71,7 +71,7 @@ class WindowBox(xbmcgui.WindowXMLDialog):
             Icon    = Station['Icon']
             Name    = Station['Name']
             Phone   = Station['Phone']
-            Time    = Station['Time']
+            Schedule= Station['Schedule']
             Url     = Station['Url']
             Verified= Station['Verified']
             WebPage = Station['WebPage']
@@ -93,7 +93,7 @@ class WindowBox(xbmcgui.WindowXMLDialog):
             li.setProperty('Phone',     Phone)
             li.setProperty('Url',       Url)
             li.setProperty('WebPage',   WebPage)
-            li.setProperty('Time',      Time)
+            li.setProperty('Schedule',      Schedule)
             li.setProperty('Id',        str(idx))
 
             station_list.append(li)
@@ -134,7 +134,7 @@ class WindowBox(xbmcgui.WindowXMLDialog):
             Name    = selItem.getProperty('Name')
             Phone   = selItem.getProperty('Phone')
             WebPage = selItem.getProperty('WebPage')
-            Time    = selItem.getProperty('Time')
+            Schedule    = selItem.getProperty('Schedule')
             
             emailStr    = _settings.getLocalizedString(31002)
             countryStr  = _settings.getLocalizedString(31003)
@@ -149,7 +149,7 @@ class WindowBox(xbmcgui.WindowXMLDialog):
                     "\n" + phoneStr   + ": " + Phone + \
                     "\n" + directorStr+ ": " + Director + \
                     "\n" + webStr     + ": " + WebPage + \
-                    "\n" + timeStr    + ": " + Time;
+                    "\n" + timeStr    + ": " + Schedule;
             dialog.ok(Name, info)
         else:
             selItem = self.list.getSelectedItem()
@@ -175,7 +175,7 @@ class WindowBox(xbmcgui.WindowXMLDialog):
     def runPlayer(self, idx):
         idx = self.wrapID(idx, self.stationsCount)
         item = self.list.getListItem(idx)
-        value = item.getProperty('Time')
+        value = item.getProperty('Schedule')
         flag = self.check_time(value)
 
         if flag:
@@ -219,6 +219,7 @@ class WindowBox(xbmcgui.WindowXMLDialog):
         return (value >= start) & (value <= end)
 
     def check_time(self, value):
+        return True
         now                 = datetime.datetime.now()
 
         current_minute      = now.minute

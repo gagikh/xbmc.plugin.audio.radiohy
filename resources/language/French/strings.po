@@ -74,7 +74,7 @@ msgid "Automatically start playing from previously selected station"
 msgstr "Commencer automatiquement la lecture de la station précédemment sélectionnée"
 
 msgctxt "#31012"
-msgid "Time"
+msgid "Schedule"
 msgstr "Temps"
 
 msgctxt "#31013"

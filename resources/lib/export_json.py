@@ -80,7 +80,7 @@ for station in streams:
         path['email']   = station['Email']
         path['icon']    = station['Icon']
         path['phone']   = station['Phone']
-        path['time']    = station['Time']
+        path['schedule']= station['Schedule']
         path['webpage'] = station['WebPage']
         path["nickname"]= station["Name"]
 
