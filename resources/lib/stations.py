@@ -565,11 +565,11 @@ def getStations(sortingKey):
                 "Country":  "France",
                 "Director": "",
                 "Email":    "",
-                "Icon":     "http://www.radioarmenie.com/templates/theme475/images/logo.gif",
+                "Icon":     "http://www.radioarmenie.com/images/logo-long.png",
                 "Name":     "Radio Armenie",
                 "Phone":    "04-78-49-52-74",
                 "Schedule": "* * * * *",
-                "Url":      "http://109.190.123.125:8000/stream.mp3",
+                "Url":      "http://direct.radioarmenie.com:9029/stream",
                 "Verified": "true",
                 "WebPage":  "http://www.radioarmenie.com"
                 },
@@ -582,7 +582,7 @@ def getStations(sortingKey):
                 "Name":     "Radio AVOL",
                 "Phone":    "",
                 "Schedule": "* * * * *",
-                "Url":      "http://64.150.176.192:8250/stream",
+                "Url":      "http://199.189.111.28:8209/stream",
                 "Verified": "true",
                 "WebPage":  "http://radioavol.org"
                 },
@@ -721,7 +721,7 @@ def getStations(sortingKey):
                 "Country":  "Armenia",
                 "Director": "Gayane Galoyan",
                 "Email":    "info@radiomariam.am",
-                "Icon":     "http://radiomariam.am/resouces/images/Logo_RADIO_MARIAM.png",
+                "Icon":     "http://radiomariam.am/wp-content/uploads/2015/05/logo-300x60.png",
                 "Name":     "Radio Mariam",
                 "Phone":    "060-27-26-27",
                 "Schedule": "* * * * *",
@@ -734,13 +734,13 @@ def getStations(sortingKey):
                 "Country":  "Armenia",
                 "Director": "",
                 "Email":    "",
-                "Icon":     "http://radiotoot.com/eng/wp-content/uploads/2013/06/logosmall32.png",
+                "Icon":     "http://toottv.com/eng/wp-content/uploads/2015/02/Toot-Site-Final.png",
                 "Name":     "Radio Toot",
                 "Phone":    "",
                 "Schedule": "* * * * *",
                 "Url":      "http://87.117.201.159:8110",
                 "Verified": "true",
-                "WebPage":  "http://radiotoot.com"
+                "WebPage":  "http://toottv.com"
                 },
             {
                 "Address":  "Beirut, Khatchadurian Street, Khederlarian Building, Ground Floor",
