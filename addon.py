@@ -103,7 +103,8 @@ class WindowBox(xbmcgui.WindowXMLDialog):
         self.focusedID = _last_station_id
         self.stationsCount = len(Streams)
         self.list.selectItem(self.focusedID)
-        self.player = xbmc.Player(xbmc.PLAYER_CORE_AUTO)
+        #self.player = xbmc.Player(xbmc.PLAYER_CORE_AUTO)
+        self.player = xbmc.Player()
         if (_auto_start):
             self.runPlayer(_last_station_id)
         else:
