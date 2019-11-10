@@ -65,7 +65,7 @@ def getStations(sortingKey):
                 "Country":  "Armenia",
                 "Director": "",
                 "Email":    "radioaurora@radioaurora.am",
-                "Icon":     "http://www.radioaurora.am/images/white_logo.png",
+                "Icon":     "http://www.radioaurora.am/wp-content/themes/auroratwo/images/logo_1.png",
                 "Name":     "Radio Aurora",
                 "Phone":    "+37410 251007",
                 "Schedule": "* * * * *",
@@ -131,7 +131,7 @@ def getStations(sortingKey):
                 "Country":  "Armenia",
                 "Director": "Aghabek Margaryan",
                 "Email":    "info@lavradio.am",
-                "Icon":     "http://www.lavradio.am/img/logo_lavradio.png",
+                "Icon":     "http://www.lavradio.am/wp-content/uploads/2017/02/logo-1.png",
                 "Name":     "Lav Radio Mix",
                 "Phone":    "+37455830003",
                 "Schedule": "* * * * *",
@@ -178,19 +178,6 @@ def getStations(sortingKey):
                 "Url":      "http://37.252.79.131:8000/stream",
                 "Verified": "true",
                 "WebPage":  "http://www.armradio.am"
-                },
-            {
-                "Address":  "375010, Yerevan, Tigran Mec 17",
-                "Country":  "Armenia",
-                "Director": "",
-                "Email":    "",
-                "Icon":     "http://www.radiofama.am/wp-content/uploads/lg8.png",
-                "Name":     "Radio Fama",
-                "Phone":    "+3741-59-70-00",
-                "Schedule": "* * * * *",
-                "Url":      "http://195.154.181.100:8036",
-                "Verified": "false",
-                "WebPage":  "http://radiofama.am"
                 },
             {
                 "Address":  "4 rue Marcellin Berthelot 69150 DECINES",
@@ -256,19 +243,6 @@ def getStations(sortingKey):
                 "Url":      "http://s7.voscast.com:10258/stream",
                 "Verified": "true",
                 "WebPage":  "http://www.radiojan.am"
-                },
-            { # verified!
-                "Address":  "Gyumri, Ghorghanyan Street 83",
-                "Country":  "Armenia",
-                "Director": "Gayane Galoyan",
-                "Email":    "info@radiomariam.am",
-                "Icon":     "http://www.radiomariam.am/resources/radiomariam/images/logo_white.png",
-                "Name":     "Radio Mariam",
-                "Phone":    "060-27-26-27",
-                "Schedule": "* * * * *",
-                "Url":      "http://46.182.169.18:8010",
-                "Verified": "false",
-                "WebPage":  "http://www.radiomariam.am"
                 },
             {
                 "Address":  "Beirut, Khatchadurian Street, Khederlarian Building, Ground Floor",
