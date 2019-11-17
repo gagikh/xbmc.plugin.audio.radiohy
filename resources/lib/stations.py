@@ -50,6 +50,34 @@ def getStations(sortingKey):
                 "WebPage":  "https://www.1tv.am/hy/"
                 },
     	   {
+                "Address":  "Yerevan",
+                "Country":  "Armenia",
+                "Director": "",
+                "Email":    "",
+                "Icon":     "https://www.kentron.tv/images/logo.png",
+                "Name":     "Kentron",
+                "Phone":    "",
+                "Schedule": "* * * * *",
+                "Url":      "http://163.172.7.56/hls-live/livepkgr/_definst_/klive/klivestream.m3u8",
+                "Verified": "true",
+                "Video":    "true",
+                "WebPage":  "https://www.kentron.tv/"
+                },
+    	   {
+                "Address":  "Moscow",
+                "Country":  "Russia",
+                "Director": "",
+                "Email":    "",
+                "Icon":     "https://russia.tv/i/logo/standart-russia1.png",
+                "Name":     "Rossia 1",
+                "Phone":    "",
+                "Schedule": "* * * * *",
+                "Url":      "http://uiptv.do.am/1ufc/000000002/playlist.m3u8",
+                "Verified": "true",
+                "Video":    "true",
+                "WebPage":  "https://russia.tv/"
+                },
+    	   {
                 "Address":  "",
                 "Country":  "Lebanon",
                 "Director": "Kegham Depoyan",
