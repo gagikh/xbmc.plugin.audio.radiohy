@@ -93,7 +93,7 @@ class WindowBox(xbmcgui.WindowXMLDialog):
             li.setProperty('Phone',     Phone)
             li.setProperty('Url',       Url)
             li.setProperty('WebPage',   WebPage)
-            li.setProperty('Schedule',      Schedule)
+            li.setProperty('Schedule',  Schedule)
             li.setProperty('Id',        str(idx))
 
             station_list.append(li)
@@ -135,7 +135,7 @@ class WindowBox(xbmcgui.WindowXMLDialog):
             Name    = selItem.getProperty('Name')
             Phone   = selItem.getProperty('Phone')
             WebPage = selItem.getProperty('WebPage')
-            Schedule    = selItem.getProperty('Schedule')
+            Schedule= selItem.getProperty('Schedule')
             
             emailStr    = _settings.getLocalizedString(31002)
             countryStr  = _settings.getLocalizedString(31003)

@@ -35,6 +35,19 @@ def getStations(sortingKey):
                 "WebPage":  ""
                 },
     	   {
+                "Address":  "Երևան, Նորք 0047, Գ․ Հովսեփյան փող., 26 շենք",
+                "Country":  "Armenia",
+                "Director": "",
+                "Email":    "support@armtv.com",
+                "Icon":     "https://www.1tv.am/img/fb-share.png",
+                "Name":     "H1",
+                "Phone":    "",
+                "Schedule": "* * * * *",
+                "Url":      "https://amtv1.livestreamingcdn.com/am1abr/index.m3u8",
+                "Verified": "true",
+                "WebPage":  "https://www.1tv.am/hy/"
+                },
+    	   {
                 "Address":  "",
                 "Country":  "Lebanon",
                 "Director": "Kegham Depoyan",
