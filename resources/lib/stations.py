@@ -125,10 +125,10 @@ def getStations(sortingKey):
                 "Director": "",
                 "Email":    "",
                 "Icon":     "",
-                "Name":     "H3",
+                "Name":     "H2",
                 "Phone":    "",
                 "Schedule": "* * * * *",
-                "Url":      "http://5.63.160.25:8080/h3",
+                "Url":      "http://5.63.160.25:8080/h2",
                 "Verified": "true",
                 "Video":    "true",
                 "WebPage":  ""
@@ -142,7 +142,7 @@ def getStations(sortingKey):
                 "Name":     "Kentron",
                 "Phone":    "",
                 "Schedule": "* * * * *",
-                "Url":      "http://163.172.7.56/hls-live/livepkgr/_definst_/klive/klivestream.m3u8",
+                "Url":      "http://5.63.160.25:8080/kentron",
                 "Verified": "true",
                 "Video":    "true",
                 "WebPage":  "https://www.kentron.tv/"
