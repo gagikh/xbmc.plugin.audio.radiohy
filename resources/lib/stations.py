@@ -32,10 +32,11 @@ def getStations(sortingKey):
                 "Schedule": "* * * * *",
                 "Url":      "",
                 "Verified": "",
+                "Video":    "false",
                 "WebPage":  ""
                 },
     	   {
-                "Address":  "Երևան, Նորք 0047, Գ․ Հովսեփյան փող., 26 շենք",
+                "Address":  "Yerevan",
                 "Country":  "Armenia",
                 "Director": "",
                 "Email":    "support@armtv.com",
@@ -45,6 +46,7 @@ def getStations(sortingKey):
                 "Schedule": "* * * * *",
                 "Url":      "https://amtv1.livestreamingcdn.com/am1abr/index.m3u8",
                 "Verified": "true",
+                "Video":    "true",
                 "WebPage":  "https://www.1tv.am/hy/"
                 },
     	   {
@@ -58,6 +60,7 @@ def getStations(sortingKey):
                 "Schedule": "* * * * *",
                 "Url":      "http://64.150.176.42:8013/stream",
                 "Verified": "true",
+                "Video":    "false",
                 "WebPage":  "http://www.radioarev.com"
                 },
     	   {
@@ -71,6 +74,7 @@ def getStations(sortingKey):
                 "Schedule": "* * * * *",
                 "Url":      "http://199.189.111.28:8023/stream",
                 "Verified": "true",
+                "Video":    "false",
                 "WebPage":  "http://yeridasartoutiantsayne.com/"
                 },
     	   {
@@ -84,6 +88,7 @@ def getStations(sortingKey):
                 "Schedule": "* * * * *",
                 "Url":      "http://138.201.84.106:8050",
                 "Verified": "true",
+                "Video":    "false",
                 "WebPage":  "http://www.radioaurora.am"
                 },
             {
@@ -97,6 +102,7 @@ def getStations(sortingKey):
                 "Schedule": "* * * * *",
                 "Url":      "http://s3.streammonster.com:8117/stream",
                 "Verified": "true",
+                "Video":    "false",
                 "WebPage":  "http://www.radioayk.com"
                 },
             {
@@ -111,6 +117,7 @@ def getStations(sortingKey):
                 "Schedule": "* * * * *",
                 "Url":      "http://199.195.194.92:8029",
                 "Verified": "true",
+                "Video":    "false",
                 "WebPage":  "http://www.yerevanfm.am/"
                 },
             {
@@ -124,6 +131,7 @@ def getStations(sortingKey):
                 "Schedule": "* * * * *",
                 "Url":      "https://streams.radio.co/sa0bf8ec29/listen",
                 "Verified": "true",
+                "Video":    "false",
                 "WebPage":  "http://bashde.org"
                 },
             {
@@ -137,6 +145,7 @@ def getStations(sortingKey):
                 "Schedule": "* * * * *",
                 "Url":      "http://212.34.233.78:8000/live",
                 "Verified": "true",
+                "Video":    "false",
                 "WebPage":  "http://www.lratvakan.am/"
                 },
             { # verified!
@@ -150,6 +159,7 @@ def getStations(sortingKey):
                 "Schedule": "* * * * *",
                 "Url":      "http://163.172.7.220:8006/stream",
                 "Verified": "true",
+                "Video":    "false",
                 "WebPage":  "http://www.lavradio.am"
                 },
             { # verified!
@@ -163,6 +173,7 @@ def getStations(sortingKey):
                 "Schedule": "* * * * *",
                 "Url":      "http://163.172.7.220:8000/stream",
                 "Verified": "true",
+                "Video":    "false",
                 "WebPage":  "http://www.lavradio.am"
                 },
             {
@@ -176,6 +187,7 @@ def getStations(sortingKey):
                 "Schedule": "* * * * *",
                 "Url":      "http://norradyo.com:8000/live",
                 "Verified": "true",
+                "Video":    "false",
                 "WebPage":  "http://www.norradyo.com"
                 },
             {
@@ -190,6 +202,7 @@ def getStations(sortingKey):
                 "Schedule": "* * * * *",
                 "Url":      "http://37.252.79.131:8000/stream",
                 "Verified": "true",
+                "Video":    "false",
                 "WebPage":  "http://www.armradio.am"
                 },
             {
@@ -203,6 +216,7 @@ def getStations(sortingKey):
                 "Schedule": "* * * * *",
                 "Url":      "http://direct.radioarmenie.com:9029/stream",
                 "Verified": "true",
+                "Video":    "false",
                 "WebPage":  "http://www.radioarmenie.com"
                 },
             {
@@ -216,6 +230,7 @@ def getStations(sortingKey):
                 "Schedule": "* * * * *",
                 "Url":      "http://199.189.111.28:8209/stream",
                 "Verified": "true",
+                "Video":    "false",
                 "WebPage":  "http://radioavol.org"
                 },
             {
@@ -229,6 +244,7 @@ def getStations(sortingKey):
                 "Schedule": "* * * * *",
                 "Url":      "http://stric6.streamakaci.com/radioayp.mp3",
                 "Verified": "true",
+                "Video":    "false",
                 "WebPage":  "http://radio-aypfm.com"
                 },
             {
@@ -242,6 +258,7 @@ def getStations(sortingKey):
                 "Schedule": "* * * * *",
                 "Url":      "http://51.158.21.33:8000/radiohay",
                 "Verified": "false",
+                "Video":    "false",
                 "WebPage":  "http://radiohay.am"
                 },
             {
@@ -255,6 +272,7 @@ def getStations(sortingKey):
                 "Schedule": "* * * * *",
                 "Url":      "http://s7.voscast.com:10258/stream",
                 "Verified": "true",
+                "Video":    "false",
                 "WebPage":  "http://www.radiojan.am"
                 },
             {
@@ -268,6 +286,7 @@ def getStations(sortingKey):
                 "Schedule": "* * * * *",
                 "Url":      "http://sevan.bitwize.me:8018",
                 "Verified": "true",
+                "Video":    "false",
                 "WebPage":  "http://www.radiosevan.com"
                 },
             {
@@ -281,6 +300,7 @@ def getStations(sortingKey):
                 "Schedule": "* * * * *",
                 "Url":      "http://manager1.creativradio.pro:2690/stream",
                 "Verified": "true",
+                "Video":    "false",
                 "WebPage":  "http://www.radiospurk.com"
                 },
             {
@@ -294,6 +314,7 @@ def getStations(sortingKey):
                 "Schedule": "* * * * *",
                 "Url":      "https://stream.radiovan.fm:8000/96_stereo",
                 "Verified": "true",
+                "Video":    "false",
                 "WebPage":  "http://radiovan.am"
                 },
             {
@@ -307,6 +328,7 @@ def getStations(sortingKey):
                 "Schedule": "* * * * *",
                 "Url":      "http://149.255.59.164:8008/stream",
                 "Verified": "true",
+                "Video":    "false",
                 "WebPage":  "http://radioyeraz.com"
                 },
             {
@@ -320,6 +342,7 @@ def getStations(sortingKey):
                 "Schedule": "* * * * *",
                 "Url":      "http://64.118.87.22:8003",
                 "Verified": "true",
+                "Video":    "false",
                 "WebPage":  "http://triktrak.ca"
                 },
             {
@@ -333,6 +356,7 @@ def getStations(sortingKey):
                 "Schedule": "* * * * *",
                 "Url":      "http://vem.am//upload/February_Musical%20pearls_1361952495544.mp3",
                 "Verified": "false",
+                "Video":    "false",
                 "WebPage":  "http://www.vem.am/"
                 },
             {
@@ -346,6 +370,7 @@ def getStations(sortingKey):
                 "Schedule": "* * * * *",
                 "Url":      "http://23.92.21.22/vovan.mp3",
                 "Verified": "true",
+                "Video":    "false",
                 "WebPage":  "http://www.voiceofvan.net/"
                 },
             {
@@ -360,6 +385,7 @@ def getStations(sortingKey):
                 "Schedule":"* * * * *",
                 "Url":      "http://icecast.yerevannights.com:80/YerevanNights",
                 "Verified": "true",
+                "Video":    "false",
                 "WebPage":  "http://www.yerevannights.com"
                 }
             ]
