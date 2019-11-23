@@ -191,6 +191,20 @@ def getStations(sortingKey):
                 },
     	   {
                 "Address":  "",
+                "Country":  "Rossia",
+                "Director": "",
+                "Email":    "",
+                "Icon":     "https://cdn.ntvplus.ru/files/image/02/30/86/-channel!xwg.png",
+                "Name":     "Kinohit",
+                "Phone":    "",
+                "Schedule": "* * * * *",
+                "Url":      "http://178.124.183.5/hls/HDOHSSZQCP/variant.m3u8",
+                "Verified": "true",
+                "Video":    "true",
+                "WebPage":  ""
+                },
+    	   {
+                "Address":  "",
                 "Country":  "Lebanon",
                 "Director": "Kegham Depoyan",
                 "Email":    "info@radioarev.com",
