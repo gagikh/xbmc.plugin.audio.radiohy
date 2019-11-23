@@ -2,6 +2,21 @@ var stations = {
     "backup": {
         "uri": [
             {
+                "address": "Yerevan", 
+                "country": "Armenia", 
+                "director": "", 
+                "email": "", 
+                "hostname": "5.63.160.25", 
+                "icon": "https:\/\/vignette.wikia.nocookie.net\/logopedia\/images\/9\/9c\/Atvnew.png", 
+                "nickname": "ATV", 
+                "path": "\/atv", 
+                "phone": "", 
+                "port": "8080", 
+                "protocol": "http", 
+                "schedule": "* * * * *", 
+                "webpage": "atv.am"
+            }, 
+            {
                 "address": "0025 Yerevan, Alex Manoogian 5 str", 
                 "country": "Armenia", 
                 "director": "Armen Amiryan", 
@@ -17,6 +32,36 @@ var stations = {
                 "webpage": "http:\/\/www.yerevanfm.am\/"
             }, 
             {
+                "address": "Yerevan", 
+                "country": "Armenia", 
+                "director": "", 
+                "email": "", 
+                "hostname": "5.63.160.25", 
+                "icon": "", 
+                "nickname": "Ararat", 
+                "path": "\/ararat", 
+                "phone": "", 
+                "port": "8080", 
+                "protocol": "http", 
+                "schedule": "* * * * *", 
+                "webpage": "atv.am"
+            }, 
+            {
+                "address": "Yerevan", 
+                "country": "Armenia", 
+                "director": "", 
+                "email": "", 
+                "hostname": "5.63.160.25", 
+                "icon": "https:\/\/armeniatv.am\/pics\/logo_1.png", 
+                "nickname": "Armenia", 
+                "path": "\/armenia", 
+                "phone": "", 
+                "port": "8080", 
+                "protocol": "http", 
+                "schedule": "* * * * *", 
+                "webpage": "http:\/\/www.armenia.tv\/"
+            }, 
+            {
                 "address": "405 Waltham St. Lexington, MA 02421-7954", 
                 "country": "USA", 
                 "director": "", 
@@ -30,6 +75,51 @@ var stations = {
                 "protocol": "https", 
                 "schedule": "* * * * *", 
                 "webpage": "http:\/\/bashde.org"
+            }, 
+            {
+                "address": "Yerevan", 
+                "country": "Armenia", 
+                "director": "", 
+                "email": "", 
+                "hostname": "5.63.160.25", 
+                "icon": "http:\/\/www.armnewstv.am\/wp-content\/uploads\/2015\/06\/logo.png", 
+                "nickname": "Armnews", 
+                "path": "\/armnews", 
+                "phone": "", 
+                "port": "8080", 
+                "protocol": "http", 
+                "schedule": "* * * * *", 
+                "webpage": "https:\/\/www.armnewstv.am\/"
+            }, 
+            {
+                "address": "Yerevan", 
+                "country": "Armenia", 
+                "director": "", 
+                "email": "", 
+                "hostname": "5.63.160.25", 
+                "icon": "", 
+                "nickname": "H2", 
+                "path": "\/h2", 
+                "phone": "", 
+                "port": "8080", 
+                "protocol": "http", 
+                "schedule": "* * * * *", 
+                "webpage": ""
+            }, 
+            {
+                "address": "Yerevan", 
+                "country": "Armenia", 
+                "director": "", 
+                "email": "", 
+                "hostname": "5.63.160.25", 
+                "icon": "https:\/\/www.kentron.tv\/images\/logo.png", 
+                "nickname": "Kentron", 
+                "path": "\/kentron", 
+                "phone": "", 
+                "port": "8080", 
+                "protocol": "http", 
+                "schedule": "* * * * *", 
+                "webpage": "https:\/\/www.kentron.tv\/"
             }, 
             {
                 "address": "", 
@@ -257,6 +347,36 @@ var stations = {
                 "webpage": "http:\/\/radioyeraz.com"
             }, 
             {
+                "address": "Moscow", 
+                "country": "Russia", 
+                "director": "", 
+                "email": "", 
+                "hostname": "uiptv.do.am", 
+                "icon": "https:\/\/russia.tv\/i\/logo\/standart-russia1.png", 
+                "nickname": "Rossia 1", 
+                "path": "\/1ufc\/000000002\/playlist.m3u8", 
+                "phone": "", 
+                "port": "", 
+                "protocol": "http", 
+                "schedule": "* * * * *", 
+                "webpage": "https:\/\/russia.tv\/"
+            }, 
+            {
+                "address": "Yerevan", 
+                "country": "Armenia", 
+                "director": "", 
+                "email": "", 
+                "hostname": "5.63.160.25", 
+                "icon": "https:\/\/www.shanttv.com\/css\/images\/logo.svg", 
+                "nickname": "Shant", 
+                "path": "\/shant", 
+                "phone": "", 
+                "port": "8080", 
+                "protocol": "http", 
+                "schedule": "* * * * *", 
+                "webpage": "https:\/\/www.shanttv.com"
+            }, 
+            {
                 "address": "", 
                 "country": "", 
                 "director": "", 
@@ -300,21 +420,6 @@ var stations = {
                 "protocol": "http", 
                 "schedule": "* * * * *", 
                 "webpage": "http:\/\/www.voiceofvan.net\/"
-            }, 
-            {
-                "address": "3200 Wilshire Blvd. Ste 902NT, Los Angeles, CA, United States 90010", 
-                "country": "USA", 
-                "director": "Sarkis Chakarian", 
-                "email": "info@yerevannights.com", 
-                "hostname": "icecast.yerevannights.com", 
-                "icon": "http:\/\/www.armenische-kirche.ch\/wp-content\/uploads\/2013\/02\/yerevannights.jpg", 
-                "nickname": "Yerevan Nights", 
-                "path": "\/YerevanNights", 
-                "phone": "+1-877-220-8951", 
-                "port": "80", 
-                "protocol": "http", 
-                "schedule": "* * * * *", 
-                "webpage": "http:\/\/www.yerevannights.com"
             }, 
             {
                 "address": "Beirut", 
