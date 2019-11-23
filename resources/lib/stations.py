@@ -163,6 +163,20 @@ def getStations(sortingKey):
                 },
     	   {
                 "Address":  "",
+                "Country":  "",
+                "Director": "",
+                "Email":    "",
+                "Icon":     "https://assets.nationalgeographic.com/styleguide/stable/logos/ng-logo-2fl.svg",
+                "Name":     "National geographic",
+                "Phone":    "",
+                "Schedule": "* * * * *",
+                "Url":      "http://livecdnh1.tvanywhere.ae/hls/nat_geo/05.m3u8",
+                "Verified": "true",
+                "Video":    "true",
+                "WebPage":  "https://www.nationalgeographic.com/"
+                },
+    	   {
+                "Address":  "",
                 "Country":  "Lebanon",
                 "Director": "Kegham Depoyan",
                 "Email":    "info@radioarev.com",
