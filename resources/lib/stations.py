@@ -149,7 +149,7 @@ def getStations(sortingKey):
                 },
     	   {
                 "Address":  "",
-                "Country":  "",
+                "Country":  "USA",
                 "Director": "",
                 "Email":    "",
                 "Icon":     "https://assets.nationalgeographic.com/styleguide/stable/logos/ng-logo-2fl.svg",
@@ -163,7 +163,7 @@ def getStations(sortingKey):
                 },
     	   {
                 "Address":  "",
-                "Country":  "",
+                "Country":  "Russia",
                 "Director": "",
                 "Email":    "",
                 "Icon":     "https://www.ntv.ru/docs/logos/rastr_rgb.tif",
@@ -177,7 +177,7 @@ def getStations(sortingKey):
                 },
     	   {
                 "Address":  "",
-                "Country":  "",
+                "Country":  "USA",
                 "Director": "",
                 "Email":    "",
                 "Icon":     "https://cdn.ntvplus.ru/files/image/01/18/68/-channel!3a7.png",
