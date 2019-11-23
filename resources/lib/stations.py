@@ -177,6 +177,20 @@ def getStations(sortingKey):
                 },
     	   {
                 "Address":  "",
+                "Country":  "",
+                "Director": "",
+                "Email":    "",
+                "Icon":     "https://www.ntv.ru/docs/logos/rastr_rgb.tif",
+                "Name":     "NTV",
+                "Phone":    "",
+                "Schedule": "* * * * *",
+                "Url":      "http://93.115.137.166/hls/ntvm.m3u8",
+                "Verified": "true",
+                "Video":    "true",
+                "WebPage":  ""
+                },
+    	   {
+                "Address":  "",
                 "Country":  "Lebanon",
                 "Director": "Kegham Depoyan",
                 "Email":    "info@radioarev.com",
