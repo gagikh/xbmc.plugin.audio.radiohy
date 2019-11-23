@@ -191,6 +191,20 @@ def getStations(sortingKey):
                 },
     	   {
                 "Address":  "",
+                "Country":  "",
+                "Director": "",
+                "Email":    "",
+                "Icon":     "https://cdn.ntvplus.ru/files/image/01/18/68/-channel!3a7.png",
+                "Name":     "Sony Sci Fi",
+                "Phone":    "",
+                "Schedule": "* * * * *",
+                "Url":      "http://178.124.183.12/hls/EDVYQYGHF8/bw2000000/playlist.m3u8",
+                "Verified": "true",
+                "Video":    "true",
+                "WebPage":  ""
+                },
+    	   {
+                "Address":  "",
                 "Country":  "Lebanon",
                 "Director": "Kegham Depoyan",
                 "Email":    "info@radioarev.com",
