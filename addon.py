@@ -16,7 +16,7 @@
 # You should have received a copy of the GNU General Public License
 # along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
-from xbmcswift2 import (xbmc, xbmcgui, xbmcplugin, xbmcaddon, Request, Plugin)
+from xbmcswift2 import (xbmc, xbmcgui, xbmcaddon, Plugin)
 import os, sys, datetime
 
 _settings               = xbmcaddon.Addon()
@@ -58,11 +58,15 @@ class WindowBox(xbmcgui.WindowXMLDialog):
     def onInit(self):
         self.list = self.getControl( STATION_LIST_ID )
 
-        items = []
+        #items = []
         station_list = []
         Streams = stations.getStations(_sort_stations)
         idx = 0
 
+        audio_playlist = xbmc.PlayList( xbmc.PLAYLIST_AUDIO )
+        video_playlist = xbmc.PlayList( xbmc.PLAYLIST_VIDEO )
+        audio_playlist.clear()
+        video_playlist.clear()
         for Station in Streams:
             Address = Station['Address']
             Country = Station['Country']
@@ -98,9 +102,18 @@ class WindowBox(xbmcgui.WindowXMLDialog):
             li.setProperty('Id',        str(idx))
             li.setProperty('Video',     Video)
 
+            xlistitem = xbmcgui.ListItem(Name, iconImage=Icon, path=Url)
+            if ("true" == Video):
+                xlistitem.setInfo( "video", { "Title": Name } )
+                video_playlist.add(Url, xlistitem)
+            else:
+                xlistitem.setInfo( "audio", { "Title": Name } )
+                audio_playlist.add(Url, xlistitem)
+
             station_list.append(li)
             idx = idx + 1;
 
+        
         self.list.addItems( station_list )
         self.focusedID = _last_station_id
         self.stationsCount = len(Streams)
@@ -117,7 +130,7 @@ class WindowBox(xbmcgui.WindowXMLDialog):
 
     def onAction(self, action):
 
-        buttonCode =  action.getButtonCode()
+        #buttonCode =  action.getButtonCode()
         actionID   =  action.getId()
         
         if (actionID in ( \
@@ -130,7 +143,7 @@ class WindowBox(xbmcgui.WindowXMLDialog):
             selItem = self.list.getSelectedItem()
             dialog  = xbmcgui.Dialog()
 
-            Address = selItem.getProperty('Address')
+            #Address = selItem.getProperty('Address')
             Country = selItem.getProperty('Country')
             Director= selItem.getProperty('Director')
             Email   = selItem.getProperty('Email')
@@ -141,7 +154,7 @@ class WindowBox(xbmcgui.WindowXMLDialog):
             
             emailStr    = _settings.getLocalizedString(31002)
             countryStr  = _settings.getLocalizedString(31003)
-            addressStr  = _settings.getLocalizedString(31004)
+            #addressStr  = _settings.getLocalizedString(31004)
             phoneStr    = _settings.getLocalizedString(31005)
             directorStr = _settings.getLocalizedString(31006)
             webStr      = _settings.getLocalizedString(31007)
@@ -184,9 +197,10 @@ class WindowBox(xbmcgui.WindowXMLDialog):
         if flag:
             Url = item.getProperty("Url");
             Icon = item.getProperty("Icon");
+            Video = item.getProperty("Video")
             self.list.selectItem(idx)
             self.focusedID = idx
-            self.playStation(Url, Icon)
+            self.playStation(Url, Icon, "true" == Video)
             _settings.setSetting('last_station_id', str(idx))
         else:
             dialog = xbmcgui.Dialog()
@@ -194,10 +208,10 @@ class WindowBox(xbmcgui.WindowXMLDialog):
             msg = _settings.getLocalizedString(31013)
             dialog.ok(Name, msg)
     
-    def playStation(self, Url, Icon):
+    def playStation(self, Url, Icon, isVideo):
         logo = self.getControl( STATION_LOGO )
         logo.setImage(Icon)
-        self.player.play(Url)
+        self.player.play(Url, "", isVideo)
 
     def wrapID(self, idx, n):
         resp = 0;
