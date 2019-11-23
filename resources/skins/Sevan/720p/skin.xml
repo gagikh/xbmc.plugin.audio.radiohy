@@ -37,7 +37,7 @@
                     <posy>00</posy>
                     <width>1280</width>
                     <height>720</height>
-                    <texture border="20,10,10,30">panel.png</texture>
+                    <texture border="20,10,10,30">panel.jpg</texture>
                     <aspectratio>stretch</aspectratio>
                 </control>
                 <control type="image">
