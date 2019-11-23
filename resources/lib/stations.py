@@ -22,20 +22,6 @@ import operator
 def getStations(sortingKey):
     resp = [
     	   {
-                "Address":  "",
-                "Country":  "",
-                "Director": "",
-                "Email":    "",
-                "Icon":     "",
-                "Name":     "",
-                "Phone":    "",
-                "Schedule": "* * * * *",
-                "Url":      "",
-                "Verified": "",
-                "Video":    "false",
-                "WebPage":  ""
-                },
-    	   {
                 "Address":  "Yerevan",
                 "Country":  "Armenia",
                 "Director": "",

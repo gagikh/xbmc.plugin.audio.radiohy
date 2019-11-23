@@ -75,6 +75,7 @@ class WindowBox(xbmcgui.WindowXMLDialog):
             Url     = Station['Url']
             Verified= Station['Verified']
             WebPage = Station['WebPage']
+            Video   = Station['Video']
 
             if 'false' == Verified:
                 continue
@@ -95,6 +96,7 @@ class WindowBox(xbmcgui.WindowXMLDialog):
             li.setProperty('WebPage',   WebPage)
             li.setProperty('Schedule',  Schedule)
             li.setProperty('Id',        str(idx))
+            li.setProperty('Video',     Video)
 
             station_list.append(li)
             idx = idx + 1;
