@@ -17,6 +17,7 @@
 # along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 from xbmcswift2 import (xbmc, xbmcgui, xbmcaddon, Plugin)
+
 import os, sys, datetime
 
 _settings               = xbmcaddon.Addon()
@@ -62,9 +63,11 @@ class WindowBox(xbmcgui.WindowXMLDialog):
         station_list = []
         Streams = stations.getStations(_sort_stations)
         idx = 0
-
-        audio_playlist = xbmc.PlayList( xbmc.PLAYLIST_AUDIO )
-        video_playlist = xbmc.PlayList( xbmc.PLAYLIST_VIDEO )
+ 
+	print (xbmc.PLAYLIST_VIDEO)
+	print (xbmc.PLAYLIST_MUSIC)
+        audio_playlist = xbmc.PlayList(xbmc.PLAYLIST_MUSIC)
+        video_playlist = xbmc.PlayList(xbmc.PLAYLIST_VIDEO)
         audio_playlist.clear()
         video_playlist.clear()
         for Station in Streams:
