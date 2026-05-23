@@ -1,4 +1,4 @@
-#!/usr/bin/env python
+#!/usr/bin/env python3
 
 # -*- coding: UTF-8 -*-
 # Copyright 2014 Gagik Hakobyan
@@ -16,103 +16,102 @@
 # You should have received a copy of the GNU General Public License
 # along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
-import stations
+import http.client
 import json
-import urllib2, httplib
 import socket
+from pathlib import Path
+import urllib.error
+import urllib.request
+from urllib.parse import urlparse
 
-from urlparse import urlparse
+import stations
 
-_sort_stations = 'Name'
 
-streams = stations.getStations(_sort_stations)
-backup = {}
-urls = []
-
-def checkAvailability(url):
+def check_availability(url):
+    """Checks the availability of a given URL."""
     if not url:
-        print "error while analysing ", url
-        print " status - empty url"
+        # print('  - Empty URL, skipping availability check.')
         return 1
 
-    #print "analysing ", url
     try:
-        hdr = { 'User-Agent' : 'Python Browser' };
-        req = urllib2.Request(url, headers=hdr)
+        req = urllib.request.Request(url, headers={'User-Agent': 'Python Browser'})
+        with urllib.request.urlopen(req, timeout=5) as response:
+            code = response.getcode()
+            # Optionally, check content type for streams
+            # content_type = response.info().get_content_type()
+            # if not content_type.startswith(('audio/', 'video/', 'application/vnd.apple.mpegurl')):
+            #     print(f'  - URL {url} returned non-streamable content type: {content_type}')
+            #     return 1
 
-        code = urllib2.urlopen(req, timeout=5).getcode();
-        if 200 == code:
+        if 200 <= code < 300:
             return 0
-        else:
-            print "error while urlopen ", url
-            print " status - Error code = ", (code)
-            return 1
 
-    except urllib2.HTTPError, e:
-        print "http error while analysing ", url
-        print " status - ", (e.code)
-    except urllib2.URLError, e:
-        print "url error while analysing ", url
-        print " status - ", (e.args)
-    except httplib.BadStatusLine, e:
-        print "bad status line error while analysing ", url
-        print " status - ", (e.args)
-    except socket.timeout, e:
-        print "timeout error while analysing ", url
-        print " status - ", (e.args)
-    return 1 
+        print(f'  - URL {url} returned HTTP status code: {code}')
+        return 1
+    except urllib.error.HTTPError as exc:
+        print('http error while analysing ', url)
+        print(' status - ', exc.code)
+    except urllib.error.URLError as exc:
+        print('url error while analysing ', url)
+        print(' status - ', exc.args)
+    except http.client.BadStatusLine as exc:
+        print('bad status line error while analysing ', url)
+        print(' status - ', exc.args)
+    except socket.timeout as exc:
+        # This is the error you observed in the Kodi log
+        print(f'  - Timeout error for URL {url}: {exc.args}')
+        print('timeout error while analysing ', url)
+        print(' status - ', exc.args)
 
-for station in streams:
+    return 1
 
-    # Verification will be done in XBMC version only
-    #verified = station['Verified']
-    #if 'false' == verified:
-    #    continue
 
-    backup = {}
-    uri = station["Url"]
+def main():
+    streams = stations.getStations('Name')
+    urls = []
 
-    if uri:
-        path = {}
-        path['address'] = station['Address']
-        path['country'] = station['Country']
-        path['director']= station['Director']
-        path['email']   = station['Email']
-        path['icon']    = station['Icon']
-        path['phone']   = station['Phone']
-        path['schedule']= station['Schedule']
-        path['webpage'] = station['WebPage']
-        path["nickname"]= station["Name"]
+    for station in streams:
+        print(f"Checking station: {station['Name']}")
+        uri = station['Url']
+
+        if not uri:
+            continue
 
         req = urlparse(uri)
 
-        path["protocol"] = req.scheme
-        path["hostname"] = req.hostname
-        path["path"]     = req.path
+        path = {
+            'address': station['Address'],
+            'country': station['Country'],
+            'director': station['Director'],
+            'email': station['Email'],
+            'icon': station['Icon'],
+            'phone': station['Phone'],
+            'schedule': station['Schedule'],
+            'webpage': station['WebPage'],
+            'nickname': station['Name'],
+            'protocol': req.scheme,
+            'hostname': req.hostname,
+            'path': req.path,
+            'port': '' if req.port is None else str(req.port),
+        }
 
-        if req.port is None:
-            path["port"] = ""
-        else:
-            path["port"] = str(req.port)
+        print(f"  - Checking icon availability for {path['icon']}")
+        if check_availability(path['icon']) != 0:
+            path['icon'] = ''
 
-        if 0 != checkAvailability(path["icon"]):
-            path["icon"] = ""
-
-        if path["port"]:
-            url = path["protocol"] + "://" + path["hostname"] + ":" + path["port"] + path["path"];
-        else:
-            url = path["protocol"] + "://" + path["hostname"] + path["path"];
-        if 0 == checkAvailability(url):
+        print(f"  - Checking stream availability for {uri}")
+        if check_availability(uri) == 0:
             urls.append(path)
+            print(f"  - Station '{station['Name']}' is VERIFIED.")
+        else:
+            print(f"  - Station '{station['Name']}' is NOT VERIFIED.")
 
-    uri = {}
-    uri["uri"] = urls
+    backup = {'backup': {'uri': urls}}
+    output = json.dumps(backup, sort_keys=True, indent=4)
+    output_path = Path(__file__).resolve().parent / 'verified_stations_backup.json'
+    output_path.write_text(output, encoding='utf-8')
+    print(f"\nExported {len(urls)} verified stations to {output_path.name}")
 
-    backup["backup"] = uri
 
-# print
-b = json.dumps(backup, sort_keys=True, indent=4)
-
-fb = open('backup.json', 'w')
-print >> fb, 'var stations = ' + b.replace('/', '\/')
-fb.close()
+if __name__ == '__main__':
+    main()

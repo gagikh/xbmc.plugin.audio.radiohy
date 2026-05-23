@@ -1,1 +1,2 @@
-1.0.0 Added the initial working version.
+4.0.0 Added the initial working version.
+5.0.0 Port to the newest kodi version, updated stations list
