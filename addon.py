@@ -174,8 +174,11 @@ class WindowBox(xbmcgui.WindowXMLDialog):
             Url   = item.getProperty("Url")
             Icon  = item.getProperty("Icon")
             Video = item.getProperty("Video")
+            Name  = item.getProperty("Name")
             self.list.selectItem(idx)
             self.focusedID = idx
+            self.setProperty('PlayingStationId', str(idx))
+            self.setProperty('PlayingStationName', Name)
             self.playStation(Url, Icon, "true" == Video)
             _settings.setSetting('last_station_id', str(idx))
         else:

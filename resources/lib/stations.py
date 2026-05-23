@@ -323,7 +323,7 @@ def getStations(sortingKey):
                 "Country":  "Armenia",
                 "Director": "",
                 "Email":    "radiovan@radiovan.am",
-                "Icon":     "https://www.radiovan.fm/css/images/radiovan.svg",
+                "Icon":     "https://radiovan.fm/css/images/radiovan.svg",
                 "Name":     "Radio Van",
                 "Phone":    "+374-10-54-00-01",
                 "Schedule": "* * * * *",
