@@ -17,12 +17,25 @@ Stations to add / complete
 [ ] Horovel Radio               - find stream and details - stream nok
 [x] Radio Jan USA               - DONE: stream https://s4.voscast.com:8865/stream
 
-[ ] Europa Plus Armenia         - find stream and details
+[x] Europa Plus Armenia         - DONE: stream https://de.auroramedia.am/europaplus
 [ ] Русское Радио Armenia       - find stream and details
 [x] Avto Radio                  - DONE: stream https://de.auroramedia.am/autoradio
 [x] Radio Kavkaz                - DONE: stream https://stream.zeno.fm/y4b9z1qbya3uv
 [x] Radio AYK                   - DONE: stream http://64.150.176.42:8117/;listen.mp3
 
+[x] Radio Arevik                - DONE: added (distinct from Radio Arev), stream pending (armradio.am JS-only player)
+[ ] Radio Mshakuyt              - added with no stream (armradio.am JS-only player, stream not found)
+[ ] Im Radio                    - added with no stream (armradio.am JS-only player, stream not found)
+[x] Ar Radio Intercontinental   - DONE: stream https://eu1.stream4cast.com/proxy/arradioi/stream
+[x] ARF Radio                   - DONE: stream https://237.185.153.160.host.secureserver.net/proxy/radioyan2/stream
+[x] Journews Radio              - DONE: stream https://stream.zeno.fm/xdbg45c3afhvv
+[ ] Radio Avol                  - find stream and details - stream nok
+[ ] Mig FM                      - not working, asks password
+[ ] Ширакі Հanраyin Radio       - not working
+[ ] Radio Arax                  - https://radioarax.com/ - find stream and details
+
 Reference pages:
   https://onlineradiobox.com/am/
   https://onlineradiobox.com/am/?cs=am.lav&p=1
+  https://radoxo.com/armenia
+  https://fmstream.org/index.php?c=ARM&n=0

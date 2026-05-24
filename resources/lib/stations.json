@@ -2,6 +2,36 @@
     "backup": {
         "uri": [
             {
+                "address": "Rue Maraash, Bourj Hammoud",
+                "country": "Lebanon",
+                "director": "",
+                "email": "",
+                "hostname": "237.185.153.160.host.secureserver.net",
+                "icon": "https://radioyan.com/arf-radio/wp-content/uploads/2021/06/cropped-radioyanpatriotic.png",
+                "nickname": "ARF Radio",
+                "path": "/proxy/radioyan2/stream",
+                "phone": "+961 3 274 847",
+                "port": "",
+                "protocol": "https",
+                "schedule": "* * * * *",
+                "webpage": "https://radioyan.com/arf-radio/"
+            },
+            {
+                "address": "0025 Yerevan, Alex Manoogian 5 str",
+                "country": "Armenia",
+                "director": "",
+                "email": "",
+                "hostname": "eu1.stream4cast.com",
+                "icon": "https://www.arradio.am/images/lan_01.png",
+                "nickname": "Ar Radio Intercontinental",
+                "path": "/proxy/arradioi/stream",
+                "phone": "+374 10 551143",
+                "port": "",
+                "protocol": "https",
+                "schedule": "* * * * *",
+                "webpage": "https://www.arradio.am/"
+            },
+            {
                 "address": "405 Waltham St. Lexington, MA 02421-7954",
                 "country": "USA",
                 "director": "",
@@ -90,6 +120,21 @@
                 "protocol": "https",
                 "schedule": "* * * * *",
                 "webpage": "http://www.lavradio.am"
+            },
+            {
+                "address": "",
+                "country": "Armenia",
+                "director": "",
+                "email": "",
+                "hostname": "de.auroramedia.am",
+                "icon": "",
+                "nickname": "Europa Plus Armenia",
+                "path": "/europaplus",
+                "phone": "",
+                "port": "",
+                "protocol": "https",
+                "schedule": "* * * * *",
+                "webpage": "https://europaplus.am/"
             },
             {
                 "address": "Yerevan, Antarnain Street 188/16",
