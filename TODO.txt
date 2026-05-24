@@ -9,7 +9,7 @@ Stations to add / complete
 [ ] NSHKHAR                     - find stream and details, Artsakh radio, down now
 [ ] Radio Muzofan               - find stream and details
 [ ] Online Radio Armenia        - find stream and details
-[ ] Radio Mir Armenia           - find stream and details
+[x] Radio Mir Armenia           - added (93.7 FM Yerevan, radiomir.fm)
 [ ] Radio Sputnik Armenia       - already added, stream URL missing (Brotli-compressed JS blocked auto-detection)
 
 [ ] Arm News FM                 - FM 106.9 Yerevan - armnews.fm - info@armnews.fm - +37410 368645

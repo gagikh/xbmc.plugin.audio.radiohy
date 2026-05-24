@@ -122,20 +122,6 @@ def getStations(sortingKey):
                 "WebPage":  "http://www.yerevanfm.am/"
                 },
             {
-                "Address":  "405 Waltham St. Lexington, MA 02421-7954",
-                "Country":  "USA",
-                "Director": "",
-                "Email":    "info@bashde.org",
-                "Icon":     "https://cdn.onlineradiobox.com/img/logo/5/43015.v2.png",
-                "Name":     "Armenian Christian Radio",
-                "Phone":    "",
-                "Schedule": "* * * * *",
-                "Url":      "http://streams.radio.co/sa0bf8ec29/listen",
-                "Verified": "true",
-                "Video":    "false",
-                "WebPage":  "http://bashde.org"
-                },
-            {
                 "Address":  "Yerevan, Qochar 21",
                 "Country":  "Armenia",
                 "Director": "",
@@ -628,20 +614,6 @@ def getStations(sortingKey):
                 "WebPage":  "https://www.radioayk.com/"
                 },
             {
-                "Address":  "0025 Yerevan, Alex Manoogian 5 str",
-                "Country":  "Armenia",
-                "Director": "",
-                "Email":    "",
-                "Icon":     "https://cdn.onlineradiobox.com/img/l/9/72209.v5.png",
-                "Name":     "Ar Radio Intercontinental",
-                "Phone":    "+374 10 551143",
-                "Schedule": "* * * * *",
-                "Url":      "http://eu1.stream4cast.com/proxy/arradioi/stream",
-                "Verified": "true",
-                "Video":    "false",
-                "WebPage":  "https://www.arradio.am/"
-                },
-            {
                 "Address":  "Rue Maraash, Bourj Hammoud",
                 "Country":  "Lebanon",
                 "Director": "",
@@ -752,20 +724,6 @@ def getStations(sortingKey):
                 "Verified": "false",
                 "Video":    "false",
                 "WebPage":  "https://armenia.101.ru"
-                },
-            {
-                "Address":  "",
-                "Country":  "France",
-                "Director": "",
-                "Email":    "",
-                "Icon":     "https://www.radio.net/300/aypfm.png",
-                "Name":     "AYP FM",
-                "Phone":    "01 43 53 19 90",
-                "Schedule": "* * * * *",
-                "Url":      "http://stric6.streamakaci.com/radioayp.mp3",
-                "Verified": "true",
-                "Video":    "false",
-                "WebPage":  "https://radio-aypfm.com/"
                 },
             {
                 "Address":  "",
@@ -906,6 +864,20 @@ def getStations(sortingKey):
                 "Verified": "true",
                 "Video":    "false",
                 "WebPage":  "https://armenianbiblestudy.com/radio/"
+                },
+            {
+                "Address":  "Yerevan 93.7 FM",
+                "Country":  "Armenia",
+                "Director": "",
+                "Email":    "",
+                "Icon":     "https://top-radio.ru/assets/image/radio/180/radiomir.jpg",
+                "Name":     "Radio MIR Armenia",
+                "Phone":    "",
+                "Schedule": "* * * * *",
+                "Url":      "http://46.162.206.108:8000/live.mp3",
+                "Verified": "true",
+                "Video":    "false",
+                "WebPage":  "https://radiomir.fm/regions/armeniya"
                 }
             ]
     if sortingKey not in ("Name", "Country", "Video"):

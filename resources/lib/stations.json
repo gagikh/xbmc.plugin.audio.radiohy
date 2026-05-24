@@ -12,26 +12,6 @@
                 "webpage": "https://radioyan.com/arf-radio/"
             },
             {
-                "country": "France",
-                "hostname": "stric6.streamakaci.com",
-                "icon": "https://www.radio.net/300/aypfm.png",
-                "nickname": "AYP FM",
-                "path": "/radioayp.mp3",
-                "port": "",
-                "protocol": "http",
-                "webpage": "https://radio-aypfm.com/"
-            },
-            {
-                "country": "Armenia",
-                "hostname": "eu1.stream4cast.com",
-                "icon": "https://cdn.onlineradiobox.com/img/l/9/72209.v5.png",
-                "nickname": "Ar Radio Intercontinental",
-                "path": "/proxy/arradioi/stream",
-                "port": "",
-                "protocol": "http",
-                "webpage": "https://www.arradio.am/"
-            },
-            {
                 "country": "USA",
                 "hostname": "ssl.nexuscast.com",
                 "icon": "https://armenianbiblestudy.com/wp-content/uploads/2021/07/ABS-Logo.png",
@@ -40,16 +20,6 @@
                 "port": "8082",
                 "protocol": "https",
                 "webpage": "https://armenianbiblestudy.com/radio/"
-            },
-            {
-                "country": "USA",
-                "hostname": "streams.radio.co",
-                "icon": "https://cdn.onlineradiobox.com/img/logo/5/43015.v2.png",
-                "nickname": "Armenian Christian Radio",
-                "path": "/sa0bf8ec29/listen",
-                "port": "",
-                "protocol": "http",
-                "webpage": "http://bashde.org"
             },
             {
                 "country": "Armenia",
@@ -380,6 +350,16 @@
                 "port": "",
                 "protocol": "http",
                 "webpage": "https://zeno.fm/radio/radio-kavkaz/"
+            },
+            {
+                "country": "Armenia",
+                "hostname": "46.162.206.108",
+                "icon": "https://top-radio.ru/assets/image/radio/180/radiomir.jpg",
+                "nickname": "Radio MIR Armenia",
+                "path": "/live.mp3",
+                "port": "8000",
+                "protocol": "http",
+                "webpage": "https://radiomir.fm/regions/armeniya"
             },
             {
                 "country": "Armenia",

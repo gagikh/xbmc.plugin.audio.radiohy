@@ -26,13 +26,21 @@ from urllib.parse import urlparse
 
 import stations
 
+# Many station sites (e.g. Cloudflare) block generic/script UAs but work in a browser.
+_CHECK_HEADERS = {
+    'User-Agent': (
+        'Mozilla/5.0 (Windows NT 10.0; Win64; x64) '
+        'AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36'
+    ),
+}
+
 
 def check_availability(url):
     if not url:
         return False
 
     try:
-        req = urllib.request.Request(url, headers={'User-Agent': 'Python Browser'})
+        req = urllib.request.Request(url, headers=_CHECK_HEADERS)
         with urllib.request.urlopen(req, timeout=5) as response:
             code = response.getcode()
 
