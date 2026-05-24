@@ -332,6 +332,20 @@ def getStations(sortingKey):
                 "Verified": "true",
                 "Video":    "false",
                 "WebPage":  "http://www.yerevannights.com"
+                },
+            {
+                "Address":  "",
+                "Country":  "Armenia",
+                "Director": "",
+                "Email":    "",
+                "Icon":     "https://www.chanson.am/img/logo.png",
+                "Name":     "Chanson AM",
+                "Phone":    "",
+                "Schedule": "* * * * *",
+                "Url":      "https://eu.stream4cast.com/proxy/ulissesm/stream",
+                "Verified": "true",
+                "Video":    "false",
+                "WebPage":  "https://www.chanson.am/"
                 }
             ]
     if sortingKey not in ("Name", "Country", "Video"):
