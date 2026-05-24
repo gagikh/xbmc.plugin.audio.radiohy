@@ -12,6 +12,9 @@ Stations to add / complete
 [ ] Radio Mir Armenia           - find stream and details
 [ ] Radio Sputnik Armenia       - already added, stream URL missing (Brotli-compressed JS blocked auto-detection)
 
+[ ] Arm News FM                 - FM 106.9 Yerevan - armnews.fm - info@armnews.fm - +37410 368645
+[x] Radio Hyestars              - Armenian diaspora LA - radiohyestars.com
+
 [ ] Radio Spurk                 - find stream and details - stream nok
 [ ] Horovel Radio               - find stream and details - stream nok
 
