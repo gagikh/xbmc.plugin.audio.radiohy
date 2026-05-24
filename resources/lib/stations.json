@@ -17,6 +17,21 @@
                 "webpage": "http://bashde.org"
             },
             {
+                "address": "405 Waltham St. Lexington, MA 02421-7953",
+                "country": "USA",
+                "director": "",
+                "email": "setrag@bashde.org",
+                "hostname": "streams.radio.co",
+                "icon": "https://images.squarespace-cdn.com/content/v1/5803decb8419c2e5958aefc1/39f9708f-a54a-4e41-b76d-d18b81710d16/46409866_763017380715794_5630126075452325888_n.png?format=1500w",
+                "nickname": "Bashde",
+                "path": "/sa0bf8ec29/listen",
+                "phone": "",
+                "port": "",
+                "protocol": "https",
+                "schedule": "* * * * *",
+                "webpage": "https://bashde.org/"
+            },
+            {
                 "address": "",
                 "country": "Armenia",
                 "director": "",
@@ -197,6 +212,21 @@
                 "webpage": "http://www.radioaurora.am"
             },
             {
+                "address": "375010 Yerevan, Tigran Mets 17",
+                "country": "Armenia",
+                "director": "",
+                "email": "",
+                "hostname": "eu.stream4cast.com",
+                "icon": "https://www.radiofama.am/wp-content/uploads/lg8.png",
+                "nickname": "Radio Fama",
+                "path": "/proxy/rmirzakh/stream",
+                "phone": "+3741 59 70 00",
+                "port": "",
+                "protocol": "https",
+                "schedule": "* * * * *",
+                "webpage": "https://www.radiofama.am/"
+            },
+            {
                 "address": "",
                 "country": "Armenia",
                 "director": "",
@@ -225,6 +255,21 @@
                 "protocol": "http",
                 "schedule": "* * * * *",
                 "webpage": "http://www.radiojan.am"
+            },
+            {
+                "address": "22a Nairi Zaryan St, Yerevan, Armenia",
+                "country": "Armenia",
+                "director": "",
+                "email": "info@radiojazzfm.am",
+                "hostname": "de.auroramedia.am",
+                "icon": "https://radiojazzfm.am/img/core-img/logo2.png",
+                "nickname": "Radio Jazz FM",
+                "path": "/jazz.mp3",
+                "phone": "",
+                "port": "",
+                "protocol": "https",
+                "schedule": "* * * * *",
+                "webpage": "https://radiojazzfm.am/en/home"
             },
             {
                 "address": "",

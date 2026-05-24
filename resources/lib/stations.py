@@ -374,6 +374,62 @@ def getStations(sortingKey):
                 "Verified": "true",
                 "Video":    "false",
                 "WebPage":  "https://www.radiomarshall.am/"
+                },
+            {
+                "Address":  "405 Waltham St. Lexington, MA 02421-7953",
+                "Country":  "USA",
+                "Director": "",
+                "Email":    "setrag@bashde.org",
+                "Icon":     "https://images.squarespace-cdn.com/content/v1/5803decb8419c2e5958aefc1/39f9708f-a54a-4e41-b76d-d18b81710d16/46409866_763017380715794_5630126075452325888_n.png?format=1500w",
+                "Name":     "Bashde",
+                "Phone":    "",
+                "Schedule": "* * * * *",
+                "Url":      "https://streams.radio.co/sa0bf8ec29/listen",
+                "Verified": "true",
+                "Video":    "false",
+                "WebPage":  "https://bashde.org/"
+                },
+            {
+                "Address":  "22a Nairi Zaryan St, Yerevan, Armenia",
+                "Country":  "Armenia",
+                "Director": "",
+                "Email":    "info@radiojazzfm.am",
+                "Icon":     "https://radiojazzfm.am/img/core-img/logo2.png",
+                "Name":     "Radio Jazz FM",
+                "Phone":    "",
+                "Schedule": "* * * * *",
+                "Url":      "https://de.auroramedia.am/jazz.mp3",
+                "Verified": "true",
+                "Video":    "false",
+                "WebPage":  "https://radiojazzfm.am/en/home"
+                },
+            {
+                "Address":  "375010 Yerevan, Tigran Mets 17",
+                "Country":  "Armenia",
+                "Director": "",
+                "Email":    "",
+                "Icon":     "https://www.radiofama.am/wp-content/uploads/lg8.png",
+                "Name":     "Radio Fama",
+                "Phone":    "+3741 59 70 00",
+                "Schedule": "* * * * *",
+                "Url":      "https://eu.stream4cast.com/proxy/rmirzakh/stream",
+                "Verified": "true",
+                "Video":    "false",
+                "WebPage":  "https://www.radiofama.am/"
+                },
+            {
+                "Address":  "80 Bigelow Ave, Watertown, MA 02472",
+                "Country":  "USA",
+                "Director": "",
+                "Email":    "manager@hairenik.com",
+                "Icon":     "https://hairenik.wpengine.com/wp-content/uploads/2014/10/haireniklogo2.png",
+                "Name":     "Hairenik Radio",
+                "Phone":    "+1-617-926-3974",
+                "Schedule": "* * * * *",
+                "Url":      "https://streaming.radio.co/sb64369622/listen",
+                "Verified": "true",
+                "Video":    "false",
+                "WebPage":  "https://hairenik.com/"
                 }
             ]
     if sortingKey not in ("Name", "Country", "Video"):
