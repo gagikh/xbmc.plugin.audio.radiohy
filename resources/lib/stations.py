@@ -514,6 +514,20 @@ def getStations(sortingKey):
                 "Verified": "false",
                 "Video":    "false",
                 "WebPage":  "https://arm.sputniknews.ru/radio/"
+                },
+            {
+                "Address":  "",
+                "Country":  "USA",
+                "Director": "",
+                "Email":    "",
+                "Icon":     "https://radio.mwvhost.com/storage/images/StreamLogo/logo_1764370067.png",
+                "Name":     "Radio Jan USA",
+                "Phone":    "+1 818 712-1211",
+                "Schedule": "* * * * *",
+                "Url":      "https://s4.voscast.com:8865/stream",
+                "Verified": "true",
+                "Video":    "false",
+                "WebPage":  "https://www.radiojan.com/"
                 }
             ]
     if sortingKey not in ("Name", "Country", "Video"):

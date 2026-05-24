@@ -42,6 +42,9 @@ def check_availability(url):
         print(f'  - URL {url} returned HTTP status code: {code}')
         return False
     except urllib.error.HTTPError as exc:
+        # 401 means the server is up but requires auth headers (e.g. Zeno.fm streams) — treat as available
+        if exc.code == 401:
+            return True
         print(f'  - HTTP error for {url}: {exc.code}')
     except urllib.error.URLError as exc:
         print(f'  - URL error for {url}: {exc.reason}')

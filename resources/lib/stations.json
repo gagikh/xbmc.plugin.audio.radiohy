@@ -257,6 +257,21 @@
                 "webpage": "http://www.radioaurora.am"
             },
             {
+                "address": "",
+                "country": "Armenia",
+                "director": "",
+                "email": "",
+                "hostname": "stream.zeno.fm",
+                "icon": "https://proxy.zeno.fm/content/stations/agxzfnplbm8tc3RhdHNyMgsSCkF1dGhDbGllbnQYgICInriwuAgMCxIOU3RhdGlvblByb2ZpbGUYgICI3rCdqAsMogEEemVubw/image/?u=1711575067000",
+                "nickname": "Radio Azalia",
+                "path": "/bvd0260v7hhvv",
+                "phone": "",
+                "port": "",
+                "protocol": "https",
+                "schedule": "* * * * *",
+                "webpage": "https://zeno.fm/radio/azalia/"
+            },
+            {
                 "address": "375010 Yerevan, Tigran Mets 17",
                 "country": "Armenia",
                 "director": "",
@@ -300,6 +315,21 @@
                 "protocol": "http",
                 "schedule": "* * * * *",
                 "webpage": "http://www.radiojan.am"
+            },
+            {
+                "address": "",
+                "country": "USA",
+                "director": "",
+                "email": "",
+                "hostname": "s4.voscast.com",
+                "icon": "https://radio.mwvhost.com/storage/images/StreamLogo/logo_1764370067.png",
+                "nickname": "Radio Jan USA",
+                "path": "/stream",
+                "phone": "+1 818 712-1211",
+                "port": "8865",
+                "protocol": "https",
+                "schedule": "* * * * *",
+                "webpage": "https://www.radiojan.com/"
             },
             {
                 "address": "22a Nairi Zaryan St, Yerevan, Armenia",
