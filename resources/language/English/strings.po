@@ -28,7 +28,7 @@ msgstr ""
 
 msgctxt "#31000"
 msgid "RadioHY"
-msgstr "RaduoHY"
+msgstr "RadioHY"
 
 msgctxt "#31001"
 msgid "Name"

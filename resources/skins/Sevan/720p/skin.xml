@@ -38,11 +38,11 @@
                     <aspectratio>stretch</aspectratio>
                 </control>
 
-                <!-- Left dark panel -->
+                <!-- Left dark panel (blue tint) -->
                 <control type="image">
                     <posx>0</posx><posy>0</posy>
                     <width>530</width><height>720</height>
-                    <texture colordiffuse="E0060A10">1px-black.png</texture>
+                    <texture colordiffuse="E0040C1A">1px-black.png</texture>
                 </control>
 
                 <!-- Station list -->
@@ -67,11 +67,11 @@
                                     <width>510</width><height>1</height>
                                     <texture colordiffuse="22FFFFFF">1px-black.png</texture>
                                 </control>
-                                <!-- Playing: green left bar -->
+                                <!-- Playing: cyan left bar -->
                                 <control type="image">
                                     <posx>0</posx><posy>0</posy>
                                     <width>4</width><height>57</height>
-                                    <texture border="2" colordiffuse="FF00BB55">twc-input-nofocus.png</texture>
+                                    <texture border="2" colordiffuse="FF00AADD">twc-input-nofocus.png</texture>
                                     <visible>String.IsEqual(ListItem.Property(Id),Window.Property(PlayingStationId))</visible>
                                 </control>
                                 <!-- Logo -->
@@ -81,13 +81,13 @@
                                     <aspectratio>keep</aspectratio>
                                     <texture>$INFO[ListItem.Property(Icon)]</texture>
                                 </control>
-                                <!-- Name: green if playing -->
+                                <!-- Name: cyan if playing -->
                                 <control type="label">
                                     <posx>64</posx><posy>9</posy>
                                     <width>438</width><height>26</height>
                                     <font>font12</font>
                                     <aligny>center</aligny>
-                                    <textcolor>FF00CC66</textcolor>
+                                    <textcolor>FF00CCEE</textcolor>
                                     <align>left</align>
                                     <info>ListItem.Label2</info>
                                     <visible>String.IsEqual(ListItem.Property(Id),Window.Property(PlayingStationId))</visible>
@@ -115,19 +115,19 @@
                             </itemlayout>
 
                             <focusedlayout height="58">
-                                <!-- Focus highlight (dark red) -->
+                                <!-- Focus highlight (dark blue) -->
                                 <control type="image">
                                     <posx>0</posx><posy>0</posy>
                                     <width>510</width><height>57</height>
                                     <visible>Control.HasFocus(100)</visible>
-                                    <texture border="3" colordiffuse="EE7A1010">twc-input-nofocus.png</texture>
+                                    <texture border="3" colordiffuse="EE103060">twc-input-nofocus.png</texture>
                                 </control>
                                 <!-- Dim when list unfocused -->
                                 <control type="image">
                                     <posx>0</posx><posy>0</posy>
                                     <width>510</width><height>57</height>
                                     <visible>!Control.HasFocus(100)</visible>
-                                    <texture border="3" colordiffuse="AA404040">twc-input-nofocus.png</texture>
+                                    <texture border="3" colordiffuse="AA304050">twc-input-nofocus.png</texture>
                                 </control>
                                 <!-- Row separator -->
                                 <control type="image">
@@ -135,11 +135,11 @@
                                     <width>510</width><height>1</height>
                                     <texture colordiffuse="33FFFFFF">1px-black.png</texture>
                                 </control>
-                                <!-- Playing: green left bar -->
+                                <!-- Playing: cyan left bar -->
                                 <control type="image">
                                     <posx>0</posx><posy>0</posy>
                                     <width>4</width><height>57</height>
-                                    <texture border="2" colordiffuse="FF00BB55">twc-input-nofocus.png</texture>
+                                    <texture border="2" colordiffuse="FF00AADD">twc-input-nofocus.png</texture>
                                     <visible>String.IsEqual(ListItem.Property(Id),Window.Property(PlayingStationId))</visible>
                                 </control>
                                 <!-- Logo -->
@@ -180,16 +180,16 @@
                     <posx>550</posx>
                     <posy>0</posy>
 
-                    <!-- Playing station name (green, top) -->
+                    <!-- Playing station name (cyan, top) -->
                     <control type="label">
                         <posx>30</posx><posy>18</posy>
                         <width>680</width><height>36</height>
                         <font>font13</font>
                         <style>bold</style>
-                        <textcolor>FF00CC66</textcolor>
+                        <textcolor>FF00CCEE</textcolor>
                         <align>left</align>
                         <scroll>true</scroll>
-                        <visible>Player.HasMedia</visible>
+                        <visible>Window.Property(PlayingStationId)</visible>
                         <info>Window.Property(PlayingStationName)</info>
                     </control>
 
@@ -235,7 +235,7 @@
                         <onright>300</onright>
                         <onup>100</onup>
                         <ondown>100</ondown>
-                        <texturefocus colordiffuse="EE9B1A1A">twc-input-nofocus.png</texturefocus>
+                        <texturefocus colordiffuse="EE1A3A8A">twc-input-nofocus.png</texturefocus>
                         <texturenofocus colordiffuse="44FFFFFF">twc-input-nofocus.png</texturenofocus>
                         <label>|◄</label>
                         <font>font16</font>
@@ -254,7 +254,7 @@
                         <onright>400</onright>
                         <onup>100</onup>
                         <ondown>100</ondown>
-                        <texturefocus colordiffuse="EE9B1A1A">twc-input-nofocus.png</texturefocus>
+                        <texturefocus colordiffuse="EE1A3A8A">twc-input-nofocus.png</texturefocus>
                         <texturenofocus colordiffuse="44FFFFFF">twc-input-nofocus.png</texturenofocus>
                         <alttexturefocus colordiffuse="EE1A6B1A">twc-input-nofocus.png</alttexturefocus>
                         <alttexturenofocus colordiffuse="6600BB44">twc-input-nofocus.png</alttexturenofocus>
@@ -292,7 +292,7 @@
                         <onright>100</onright>
                         <onup>100</onup>
                         <ondown>100</ondown>
-                        <texturefocus colordiffuse="EE9B1A1A">twc-input-nofocus.png</texturefocus>
+                        <texturefocus colordiffuse="EE1A3A8A">twc-input-nofocus.png</texturefocus>
                         <texturenofocus colordiffuse="44FFFFFF">twc-input-nofocus.png</texturenofocus>
                         <label>►|</label>
                         <font>font16</font>

@@ -65,20 +65,6 @@ def getStations(sortingKey):
                 "WebPage":  "http://www.radioaurora.am"
                 },
             {
-                "Address":  "",
-                "Country":  "Lebanon",
-                "Director": "",
-                "Email":    "radioayk@gmail.com",
-                "Icon":     "https://static.wixstatic.com/media/b1dfa3_be9e61c7b63b9cafdaa5275c3285ca55.png",
-                "Name":     "Radio AYK",
-                "Phone":    "",
-                "Schedule": "* * * * *",
-                "Url":      "http://64.150.176.42:8117/;listen.mp3",
-                "Verified": "false",
-                "Video":    "false",
-                "WebPage":  "http://www.radioayk.com"
-                },
-            {
                 # verified
                 "Address":  "0025 Yerevan, Alex Manoogian 5 str",
                 "Country":  "Armenia",
@@ -192,20 +178,6 @@ def getStations(sortingKey):
                 "WebPage":  "http://www.lavradio.am"
                 },
             {
-                "Address":  "",
-                "Country":  "Turkey",
-                "Director": "",
-                "Email":    "info@norradyo.com",
-                "Icon":     "http://www.ermenikultur.org/wp-content/uploads/2013/10/Nor_Radyo__g_rsel.jpg",
-                "Name":     "Nor Radyo",
-                "Phone":    "",
-                "Schedule": "* * * * *",
-                "Url":      "http://norradyo.com:8000/live",
-                "Verified": "false",
-                "Video":    "false",
-                "WebPage":  "http://www.norradyo.com"
-                },
-            {
                 # verified!
                 "Address":  "Yerevan 25, Aleq Manukyan 5",
                 "Country":  "Armenia",
@@ -233,20 +205,6 @@ def getStations(sortingKey):
                 "Verified": "true",
                 "Video":    "false",
                 "WebPage":  "http://www.radioarmenie.com"
-                },
-            {
-                "Address":  "",
-                "Country":  "Lebanon",
-                "Director": "",
-                "Email":    "info@radioavol.org",
-                "Icon":     "http://www.arm-radio.com/wp-content/uploads/2016/07/radio-avol.png",
-                "Name":     "Radio AVOL",
-                "Phone":    "",
-                "Schedule": "* * * * *",
-                "Url":      "http://199.189.111.28:8209/stream",
-                "Verified": "false",
-                "Video":    "false",
-                "WebPage":  "http://radioavol.org"
                 },
             {
                 "Address":  "41 rue des ecolses, 94140 Alfortville",
@@ -289,34 +247,6 @@ def getStations(sortingKey):
                 "Verified": "true",
                 "Video":    "false",
                 "WebPage":  "http://www.radiojan.am"
-                },
-            {
-                "Address":  "Beirut, Khatchadurian Street, Khederlarian Building, Ground Floor",
-                "Country":  "Lebanon",
-                "Director": "",
-                "Email":    "",
-                "Icon":     "http://www.radiosevan.com/resources/radiosevan/css/images/logo.png",
-                "Name":     "Radio Sevan",
-                "Phone":    "+961-1-567161/2/3",
-                "Schedule": "* * * * *",
-                "Url":      "http://sevan.bitwize.me:8018",
-                "Verified": "false",
-                "Video":    "false",
-                "WebPage":  "http://www.radiosevan.com"
-                },
-            {
-                "Address":  "",
-                "Country":  "Lebanon",
-                "Director": "",
-                "Email":    "",
-                "Icon":     "http://static.wixstatic.com/media/9badce_2edb315888ac483287408d2d6d0d3d48.jpg_srz_p_171_87_75_22_0.50_1.20_0.00_jpg_srz",
-                "Name":     "Radio Spyurq",
-                "Phone":    "",
-                "Schedule": "* * * * *",
-                "Url":      "http://manager1.creativradio.pro:2690/stream",
-                "Verified": "false",
-                "Video":    "false",
-                "WebPage":  "http://www.radiospurk.com"
                 },
             {
                 "Address":  "Yerevan, Xandjyan 13a",

@@ -28,42 +28,29 @@ import stations
 
 
 def check_availability(url):
-    """Checks the availability of a given URL."""
     if not url:
-        # print('  - Empty URL, skipping availability check.')
-        return 1
+        return False
 
     try:
         req = urllib.request.Request(url, headers={'User-Agent': 'Python Browser'})
         with urllib.request.urlopen(req, timeout=5) as response:
             code = response.getcode()
-            # Optionally, check content type for streams
-            # content_type = response.info().get_content_type()
-            # if not content_type.startswith(('audio/', 'video/', 'application/vnd.apple.mpegurl')):
-            #     print(f'  - URL {url} returned non-streamable content type: {content_type}')
-            #     return 1
 
         if 200 <= code < 300:
-            return 0
+            return True
 
         print(f'  - URL {url} returned HTTP status code: {code}')
-        return 1
+        return False
     except urllib.error.HTTPError as exc:
-        print('http error while analysing ', url)
-        print(' status - ', exc.code)
+        print(f'  - HTTP error for {url}: {exc.code}')
     except urllib.error.URLError as exc:
-        print('url error while analysing ', url)
-        print(' status - ', exc.args)
+        print(f'  - URL error for {url}: {exc.reason}')
     except http.client.BadStatusLine as exc:
-        print('bad status line error while analysing ', url)
-        print(' status - ', exc.args)
-    except socket.timeout as exc:
-        # This is the error you observed in the Kodi log
-        print(f'  - Timeout error for URL {url}: {exc.args}')
-        print('timeout error while analysing ', url)
-        print(' status - ', exc.args)
+        print(f'  - Bad status line for {url}: {exc}')
+    except socket.timeout:
+        print(f'  - Timeout for {url}')
 
-    return 1
+    return False
 
 
 def main():
@@ -96,11 +83,11 @@ def main():
         }
 
         print(f"  - Checking icon availability for {path['icon']}")
-        if check_availability(path['icon']) != 0:
+        if not check_availability(path['icon']):
             path['icon'] = ''
 
         print(f"  - Checking stream availability for {uri}")
-        if check_availability(uri) == 0:
+        if check_availability(uri):
             urls.append(path)
             print(f"  - Station '{station['Name']}' is VERIFIED.")
         else:

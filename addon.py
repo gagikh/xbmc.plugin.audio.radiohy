@@ -18,6 +18,7 @@
 
 import os
 import sys
+import threading
 
 import xbmc
 import xbmcgui
@@ -28,17 +29,14 @@ _version                = _settings.getAddonInfo('version')
 _path                   = os.path.dirname(os.path.abspath(__file__))
 _lib                    = os.path.join(_path, 'resources', 'lib')
 
-_skin                   = _settings.getSetting('skin')
-_format                 = _settings.getSetting('format')
-_thumbnail_artwork      = _settings.getSetting('thumbnail_artwork')
-_sort_stations          = _settings.getSetting('sort_stations')
+_skin                    = _settings.getSetting('skin')
+_sort_stations           = _settings.getSetting('sort_stations')
 
-_auto_start             = _settings.getSetting('auto_start') == "true"
-_last_station_id        = int(_settings.getSetting('last_station_id'))
-_last_focused_station_id= int(_settings.getSetting('last_focused_station_id'))
-_language_name          = _settings.getSetting('language_name')
+_auto_start              = _settings.getSetting('auto_start') == "true"
+_last_station_id         = int(_settings.getSetting('last_station_id'))
+_last_focused_station_id = int(_settings.getSetting('last_focused_station_id'))
 
-sys.path.append(_lib)
+sys.path.insert(0, _lib)
 import keys, stations
 
 # <!-- 100 = list group -->
@@ -49,7 +47,6 @@ import keys, stations
 
 STATION_LIST_ID = 100
 BACK_BUTTON_ID  = 200
-PLAY_BUTTON_ID  = 300
 NEXT_BUTTON_ID  = 400
 STATION_LOGO    = 500
 
@@ -63,9 +60,6 @@ class WindowBox(xbmcgui.WindowXMLDialog):
         idx = 0
 
         for Station in Streams:
-            if 'false' == Station['Verified']:
-                continue
-
             Name    = Station['Name']
             order   = str(idx).zfill(2)
 
@@ -93,6 +87,7 @@ class WindowBox(xbmcgui.WindowXMLDialog):
         self.focusedID = self.clamp_station_index(_last_station_id)
 
         self.player = xbmc.Player()
+        self._play_gen = 0
 
         if self.stationsCount == 0:
             return
@@ -146,7 +141,7 @@ class WindowBox(xbmcgui.WindowXMLDialog):
             _settings.setSetting('last_focused_station_id', idx)
 
     def onClick(self, controlID):
-        flag = 1
+        should_play = True
         idx = 0
         if STATION_LIST_ID == controlID:
             selItem = self.list.getSelectedItem()
@@ -156,9 +151,9 @@ class WindowBox(xbmcgui.WindowXMLDialog):
         elif NEXT_BUTTON_ID == controlID:
             idx = self.focusedID + 1
         else:
-            flag = 0
+            should_play = False
 
-        if flag:
+        if should_play:
             self.runPlayer(idx)
 
     def runPlayer(self, idx):
@@ -190,8 +185,18 @@ class WindowBox(xbmcgui.WindowXMLDialog):
     def playStation(self, Url, Icon, isVideo):
         logo = self.getControl(STATION_LOGO)
         logo.setImage(Icon)
+        self.player.stop()
+        self._play_gen += 1
+        gen = self._play_gen
         li = xbmcgui.ListItem(path=Url)
-        self.player.play(Url, li, isVideo)
+
+        def _play():
+            if gen == self._play_gen:
+                self.player.play(Url, li, isVideo)
+
+        t = threading.Thread(target=_play)
+        t.daemon = True
+        t.start()
 
     def wrapID(self, idx, n):
         if idx < 0:
