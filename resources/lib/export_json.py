@@ -71,13 +71,8 @@ def main():
         req = urlparse(uri)
 
         path = {
-            'address': station['Address'],
             'country': station['Country'],
-            'director': station['Director'],
-            'email': station['Email'],
             'icon': station['Icon'],
-            'phone': station['Phone'],
-            'schedule': station['Schedule'],
             'webpage': station['WebPage'],
             'nickname': station['Name'],
             'protocol': req.scheme,
@@ -90,6 +85,10 @@ def main():
             if not check_availability(path['icon']):
                 print(f"[ICON] {station['Name']} — broken icon, cleared")
                 path['icon'] = ''
+
+        if path['webpage']:
+            if not check_availability(path['webpage']):
+                print(f"[WEB]  {station['Name']} — broken webpage: {path['webpage']}")
 
         if check_availability(uri):
             urls.append(path)

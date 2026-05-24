@@ -2,18 +2,17 @@ Stations to add / complete
 ==========================
 
 [ ] Carnival Night              - find stream and details - not working
-[ ] Nor Radyo                   - find stream and details - not working
+[ ] Nor Radyo                   - added (Turkey, norradyo.com), stream not found
 [ ] Радио Импульс               - check if same as existing "Lratvakan Radio" or separate station
 [ ] Radio Menq                  - find stream and details - stream not ok
 [ ] AW Abovyan                  - find stream and details
-[ ] NSHKHAR                     - find stream and details
+[ ] NSHKHAR                     - find stream and details, Artsakh radio, down now
 [ ] Radio Muzofan               - find stream and details
 [ ] Online Radio Armenia        - find stream and details
 [ ] Radio Mir Armenia           - find stream and details
 [ ] Radio Sputnik Armenia       - already added, stream URL missing (Brotli-compressed JS blocked auto-detection)
 
 [ ] Arm News FM                 - FM 106.9 Yerevan - armnews.fm - info@armnews.fm - +37410 368645
-[x] Radio Hyestars              - Armenian diaspora LA - radiohyestars.com
 
 [ ] Radio Spurk                 - find stream and details - stream nok
 [ ] Horovel Radio               - find stream and details - stream nok
@@ -24,11 +23,13 @@ Stations to add / complete
 [ ] Azatutyun                   - find stream and details
 [ ] Sevan                       - https://www.sevan.live/en - coming soon
 
-[ ] Hayazgi Dzayn               - added (Lebanon), stream not found
 [ ] Hye Jams Radio              - added (USA), stream not found (iHeartRadio only)
-[ ] City FM                     - added (Armenia, fm106.am), stream not found
+[ ] City FM                     - added (Armenia, fm106.am / cityfm.am), stream not working
+[ ] Radio Alpha                 - https://play.radioplayer.org/en/live/MDUxfjEwNQ - find stream and details
+[ ] Armenian Radio NJ           - weekly show Sun 2-4 PM on WSOU 89.5 FM - https://armenianradionj.net/ (NY/NJ)
+[ ] Lounge Radio Yerevan        - not working - find stream and details
 [ ] Mig FM                      - added (Armenia, Vanadzor), stream not found
-[ ] Radio Van                   - stream dead (radiovan.fm server offline), need alternative
+[ ] Radio Van                   - stream dead (radiovan.fm server online but no broadcast), need alternative
 [ ] 101.ru Armenia              - stream dead (msk1.101.ru:8000 refused), need alternative
 
 Reference pages:

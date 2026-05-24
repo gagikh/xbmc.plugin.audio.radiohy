@@ -2,20 +2,6 @@
 # returns the current sorted list of known stations
 import operator
 
-# TODO: verify stations
-#{
-#    "Name":"HayFM",
-#    "Url":"http://hayfm.am:8000/",
-#    "Icon":""
-#},
-
-#cityfm, http://www.cityfm.am/
-#radio alpha
-#Armenian Radio NJ (weekly show Sun 2-4 PM on WSOU 89.5 FM): https://armenianradionj.net/
-#radiomayak
-#"Name":     "Lounge Radio Yerevan",
-#"http://www.acabc.ca/radio-show"
-
 # crontab TIME format: 
 # MIN HOUR DOM MON DOW CMD - "* * * * *"
 
@@ -31,10 +17,10 @@ def getStations(sortingKey):
                 "Name":     "Radio Arev",
                 "Phone":    "+961-3-466270",
                 "Schedule": "* * * * *",
-                "Url":      "https://cast6.asurahosting.com/proxy/radioare/stream",
+                "Url":      "http://cast6.asurahosting.com/proxy/radioare/stream",
                 "Verified": "true",
                 "Video":    "false",
-                "WebPage":  "http://www.radioarev.com"
+                "WebPage":  "https://www.radioarev.com/radio.html"
                 },
     	   {
                 "Address":  "Beirut",
@@ -48,7 +34,7 @@ def getStations(sortingKey):
                 "Url":      "http://65.108.98.93:8123/stream",
                 "Verified": "true",
                 "Video":    "false",
-                "WebPage":  "http://yeridasartoutiantsayne.com/"
+                "WebPage":  "https://yeridasartoutiantsayne.com/"
                 },
     	   {
                 "Address":  "0052 Nairi Zaryan str 22a, Yerevan, Armenia",
@@ -59,7 +45,7 @@ def getStations(sortingKey):
                 "Name":     "Radio Aurora",
                 "Phone":    "+37410 251007",
                 "Schedule": "* * * * *",
-                "Url":      "https://de.auroramedia.am/aurora.mp3",
+                "Url":      "http://de.auroramedia.am/aurora.mp3",
                 "Verified": "true",
                 "Video":    "false",
                 "WebPage":  "http://www.radioaurora.am"
@@ -130,7 +116,7 @@ def getStations(sortingKey):
                 "Name":     "Yerevan FM",
                 "Phone":    "+374-10-55-11-43",
                 "Schedule": "* * * * *",
-                "Url":      "https://eu1.stream4cast.com/proxy/arradioi/stream",
+                "Url":      "http://eu1.stream4cast.com/proxy/arradioi/stream",
                 "Verified": "true",
                 "Video":    "false",
                 "WebPage":  "http://www.yerevanfm.am/"
@@ -144,7 +130,7 @@ def getStations(sortingKey):
                 "Name":     "Armenian Christian Radio",
                 "Phone":    "",
                 "Schedule": "* * * * *",
-                "Url":      "https://streams.radio.co/sa0bf8ec29/listen",
+                "Url":      "http://streams.radio.co/sa0bf8ec29/listen",
                 "Verified": "true",
                 "Video":    "false",
                 "WebPage":  "http://bashde.org"
@@ -172,7 +158,7 @@ def getStations(sortingKey):
                 "Name":     "Energy FM",
                 "Phone":    "",
                 "Schedule": "* * * * *",
-                "Url":      "https://eu.stream4cast.com/proxy/energyfm/stream",
+                "Url":      "http://eu.stream4cast.com/proxy/energyfm/stream",
                 "Verified": "true",
                 "Video":    "false",
                 "WebPage":  "http://www.lavradio.am"
@@ -186,7 +172,7 @@ def getStations(sortingKey):
                 "Name":     "XFM Radio",
                 "Phone":    "",
                 "Schedule": "* * * * *",
-                "Url":      "https://eu.stream4cast.com/proxy/xfmradio/stream",
+                "Url":      "http://eu.stream4cast.com/proxy/xfmradio/stream",
                 "Verified": "true",
                 "Video":    "false",
                 "WebPage":  "http://www.lavradio.am"
@@ -200,7 +186,7 @@ def getStations(sortingKey):
                 "Name":     "MFM Music Radio",
                 "Phone":    "",
                 "Schedule": "* * * * *",
-                "Url":      "https://eu.stream4cast.com/proxy/mfmradio/stream",
+                "Url":      "http://eu.stream4cast.com/proxy/mfmradio/stream",
                 "Verified": "true",
                 "Video":    "false",
                 "WebPage":  "http://www.lavradio.am"
@@ -214,7 +200,7 @@ def getStations(sortingKey):
                 "Name":     "Lav Radio Mix",
                 "Phone":    "+37455830003",
                 "Schedule": "* * * * *",
-                "Url":      "https://eu.stream4cast.com/proxy/lavradiomix/stream",
+                "Url":      "http://eu.stream4cast.com/proxy/lavradiomix/stream",
                 "Verified": "true",
                 "Video":    "false",
                 "WebPage":  "http://www.lavradio.am"
@@ -228,7 +214,7 @@ def getStations(sortingKey):
                 "Name":     "Lav Radio",
                 "Phone":    "+37455830003",
                 "Schedule": "* * * * *",
-                "Url":      "https://eu.stream4cast.com/proxy/lavradio/stream",
+                "Url":      "http://eu.stream4cast.com/proxy/lavradio/stream",
                 "Verified": "true",
                 "Video":    "false",
                 "WebPage":  "http://www.lavradio.am"
@@ -243,7 +229,7 @@ def getStations(sortingKey):
                 "Name":     "Public Radio of Armenia",
                 "Phone":    "+374-10-55-11-43",
                 "Schedule": "* * * * *",
-                "Url":      "https://eu1.stream4cast.com/proxy/publicra/stream",
+                "Url":      "http://eu1.stream4cast.com/proxy/publicra/stream",
                 "Verified": "true",
                 "Video":    "false",
                 "WebPage":  "http://www.armradio.am"
@@ -341,7 +327,7 @@ def getStations(sortingKey):
                 "Name":     "Trik Trak",
                 "Phone":    "",
                 "Schedule": "* * * * *",
-                "Url":      "https://cast3.my-control-panel.com/proxy/triktrak/stream",
+                "Url":      "http://cast3.my-control-panel.com/proxy/triktrak/stream",
                 "Verified": "true",
                 "Video":    "false",
                 "WebPage":  "http://triktrak.ca"
@@ -355,7 +341,7 @@ def getStations(sortingKey):
                 "Name":     "Vem Radio",
                 "Phone":    "+374-10-54-88-70",
                 "Schedule": "* * * * *",
-                "Url":      "https://eu1.stream4cast.com/proxy/vemradio/stream",
+                "Url":      "http://eu1.stream4cast.com/proxy/vemradio/stream",
                 "Verified": "true",
                 "Video":    "false",
                 "WebPage":  "http://www.vem.am/"
@@ -369,7 +355,7 @@ def getStations(sortingKey):
                 "Name":     "Voice of Van",
                 "Phone":    "+961-1-241272",
                 "Schedule": "* * * * *",
-                "Url":      "https://vovan.s3ming.com/vovan.mp3",
+                "Url":      "http://vovan.s3ming.com/vovan.mp3",
                 "Verified": "true",
                 "Video":    "false",
                 "WebPage":  "http://www.voiceofvan.net/"
@@ -398,7 +384,7 @@ def getStations(sortingKey):
                 "Name":     "Chanson AM",
                 "Phone":    "",
                 "Schedule": "* * * * *",
-                "Url":      "https://eu.stream4cast.com/proxy/ulissesm/stream",
+                "Url":      "http://eu.stream4cast.com/proxy/ulissesm/stream",
                 "Verified": "true",
                 "Video":    "false",
                 "WebPage":  "https://www.chanson.am/"
@@ -412,7 +398,7 @@ def getStations(sortingKey):
                 "Name":     "Kiss FM",
                 "Phone":    "",
                 "Schedule": "* * * * *",
-                "Url":      "https://ok.ru/video/664807546380",
+                "Url":      "http://ok.ru/video/664807546380",
                 "Verified": "true",
                 "Video":    "false",
                 "WebPage":  "https://kissfm.am/en/home"
@@ -426,7 +412,7 @@ def getStations(sortingKey):
                 "Name":     "Radio Marshall",
                 "Phone":    "+374 11 540 840",
                 "Schedule": "* * * * *",
-                "Url":      "https://eu.stream4cast.com/proxy/marshallfm/stream",
+                "Url":      "http://eu.stream4cast.com/proxy/marshallfm/stream",
                 "Verified": "true",
                 "Video":    "false",
                 "WebPage":  "https://www.radiomarshall.am/"
@@ -440,7 +426,7 @@ def getStations(sortingKey):
                 "Name":     "Bashde",
                 "Phone":    "",
                 "Schedule": "* * * * *",
-                "Url":      "https://streams.radio.co/sa0bf8ec29/listen",
+                "Url":      "http://streams.radio.co/sa0bf8ec29/listen",
                 "Verified": "true",
                 "Video":    "false",
                 "WebPage":  "https://bashde.org/"
@@ -454,7 +440,7 @@ def getStations(sortingKey):
                 "Name":     "Radio Jazz FM",
                 "Phone":    "",
                 "Schedule": "* * * * *",
-                "Url":      "https://de.auroramedia.am/jazz.mp3",
+                "Url":      "http://de.auroramedia.am/jazz.mp3",
                 "Verified": "true",
                 "Video":    "false",
                 "WebPage":  "https://radiojazzfm.am/en/home"
@@ -468,7 +454,7 @@ def getStations(sortingKey):
                 "Name":     "Radio Fama",
                 "Phone":    "+3741 59 70 00",
                 "Schedule": "* * * * *",
-                "Url":      "https://eu.stream4cast.com/proxy/rmirzakh/stream",
+                "Url":      "http://eu.stream4cast.com/proxy/rmirzakh/stream",
                 "Verified": "true",
                 "Video":    "false",
                 "WebPage":  "https://www.radiofama.am/"
@@ -482,7 +468,7 @@ def getStations(sortingKey):
                 "Name":     "Hairenik Radio",
                 "Phone":    "+1-617-926-3974",
                 "Schedule": "* * * * *",
-                "Url":      "https://streaming.radio.co/sb64369622/listen",
+                "Url":      "http://streaming.radio.co/sb64369622/listen",
                 "Verified": "true",
                 "Video":    "false",
                 "WebPage":  "https://hairenik.com/"
@@ -496,7 +482,7 @@ def getStations(sortingKey):
                 "Name":     "Radio Mariam",
                 "Phone":    "+374 93 72 33 32",
                 "Schedule": "* * * * *",
-                "Url":      "https://live.radiomariam.am/RadioMariam",
+                "Url":      "http://live.radiomariam.am/RadioMariam",
                 "Verified": "true",
                 "Video":    "false",
                 "WebPage":  "https://www.radiomariam.am/"
@@ -510,7 +496,7 @@ def getStations(sortingKey):
                 "Name":     "FM 105.5",
                 "Phone":    "+374 10 560000",
                 "Schedule": "* * * * *",
-                "Url":      "https://audio.cloudrad.io/3745421d/live",
+                "Url":      "http://audio.cloudrad.io/3745421d/live",
                 "Verified": "true",
                 "Video":    "false",
                 "WebPage":  "https://1055.am/"
@@ -538,7 +524,7 @@ def getStations(sortingKey):
                 "Name":     "Radio YAN",
                 "Phone":    "",
                 "Schedule": "* * * * *",
-                "Url":      "https://237.185.153.160.host.secureserver.net/proxy/radioyan1/stream",
+                "Url":      "http://237.185.153.160.host.secureserver.net/proxy/radioyan1/stream",
                 "Verified": "true",
                 "Video":    "false",
                 "WebPage":  "https://www.radioyan.com/"
@@ -552,7 +538,7 @@ def getStations(sortingKey):
                 "Name":     "Radio Azalia",
                 "Phone":    "",
                 "Schedule": "* * * * *",
-                "Url":      "https://stream.zeno.fm/bvd0260v7hhvv",
+                "Url":      "http://stream.zeno.fm/bvd0260v7hhvv",
                 "Verified": "true",
                 "Video":    "false",
                 "WebPage":  "https://zeno.fm/radio/azalia/"
@@ -594,7 +580,7 @@ def getStations(sortingKey):
                 "Name":     "Radio Van Gyumri",
                 "Phone":    "+374 95 194344",
                 "Schedule": "* * * * *",
-                "Url":      "https://a13.asurahosting.com/listen/radio_van_gyumri/radio.mp3",
+                "Url":      "http://a13.asurahosting.com/listen/radio_van_gyumri/radio.mp3",
                 "Verified": "true",
                 "Video":    "false",
                 "WebPage":  "https://radiovangyumri.am/"
@@ -608,7 +594,7 @@ def getStations(sortingKey):
                 "Name":     "Avto Radio",
                 "Phone":    "",
                 "Schedule": "* * * * *",
-                "Url":      "https://de.auroramedia.am/autoradio",
+                "Url":      "http://de.auroramedia.am/autoradio",
                 "Verified": "true",
                 "Video":    "false",
                 "WebPage":  "https://autoradio.am/"
@@ -622,7 +608,7 @@ def getStations(sortingKey):
                 "Name":     "Radio Kavkaz",
                 "Phone":    "",
                 "Schedule": "* * * * *",
-                "Url":      "https://stream.zeno.fm/y4b9z1qbya3uv",
+                "Url":      "http://stream.zeno.fm/y4b9z1qbya3uv",
                 "Verified": "true",
                 "Video":    "false",
                 "WebPage":  "https://zeno.fm/radio/radio-kavkaz/"
@@ -650,7 +636,7 @@ def getStations(sortingKey):
                 "Name":     "Ar Radio Intercontinental",
                 "Phone":    "+374 10 551143",
                 "Schedule": "* * * * *",
-                "Url":      "https://eu1.stream4cast.com/proxy/arradioi/stream",
+                "Url":      "http://eu1.stream4cast.com/proxy/arradioi/stream",
                 "Verified": "true",
                 "Video":    "false",
                 "WebPage":  "https://www.arradio.am/"
@@ -664,7 +650,7 @@ def getStations(sortingKey):
                 "Name":     "ARF Radio",
                 "Phone":    "+961 3 274 847",
                 "Schedule": "* * * * *",
-                "Url":      "https://237.185.153.160.host.secureserver.net/proxy/radioyan2/stream",
+                "Url":      "http://237.185.153.160.host.secureserver.net/proxy/radioyan2/stream",
                 "Verified": "true",
                 "Video":    "false",
                 "WebPage":  "https://radioyan.com/arf-radio/"
@@ -678,7 +664,7 @@ def getStations(sortingKey):
                 "Name":     "Europa Plus Armenia",
                 "Phone":    "",
                 "Schedule": "* * * * *",
-                "Url":      "https://de.auroramedia.am/europaplus",
+                "Url":      "http://de.auroramedia.am/europaplus",
                 "Verified": "true",
                 "Video":    "false",
                 "WebPage":  ""
@@ -734,7 +720,7 @@ def getStations(sortingKey):
                 "Name":     "Journews Radio",
                 "Phone":    "",
                 "Schedule": "* * * * *",
-                "Url":      "https://stream.zeno.fm/dvodr8cuwc5uv",
+                "Url":      "http://stream.zeno.fm/dvodr8cuwc5uv",
                 "Verified": "true",
                 "Video":    "false",
                 "WebPage":  "https://journews.am/"
@@ -748,7 +734,7 @@ def getStations(sortingKey):
                 "Name":     "Hayazgi Dzayn",
                 "Phone":    "",
                 "Schedule": "* * * * *",
-                "Url":      "https://c7.radioboss.fm:18299/stream",
+                "Url":      "http://c7.radioboss.fm:18299/stream",
                 "Verified": "true",
                 "Video":    "false",
                 "WebPage":  ""
@@ -776,7 +762,7 @@ def getStations(sortingKey):
                 "Name":     "AYP FM",
                 "Phone":    "01 43 53 19 90",
                 "Schedule": "* * * * *",
-                "Url":      "https://stric6.streamakaci.com/radioayp.mp3",
+                "Url":      "http://stric6.streamakaci.com/radioayp.mp3",
                 "Verified": "true",
                 "Video":    "false",
                 "WebPage":  "https://radio-aypfm.com/"
@@ -790,7 +776,7 @@ def getStations(sortingKey):
                 "Name":     "Belgahay",
                 "Phone":    "+32 483 327 229",
                 "Schedule": "* * * * *",
-                "Url":      "https://streamer.radio.co/sa1357f891/listen",
+                "Url":      "http://streamer.radio.co/sa1357f891/listen",
                 "Verified": "true",
                 "Video":    "false",
                 "WebPage":  "https://belgahay.be/"
@@ -818,7 +804,7 @@ def getStations(sortingKey):
                 "Name":     "Русское Радио Армения",
                 "Phone":    "+374 10 58 58 50",
                 "Schedule": "* * * * *",
-                "Url":      "https://rusradioreg.webcaramba.com/yerevan.rusradio128.mp3",
+                "Url":      "http://rusradioreg.webcaramba.com/yerevan.rusradio128.mp3",
                 "Verified": "true",
                 "Video":    "false",
                 "WebPage":  "https://rusradio.am/"
@@ -846,7 +832,7 @@ def getStations(sortingKey):
                 "Name":     "Radio Hyestars",
                 "Phone":    "",
                 "Schedule": "* * * * *",
-                "Url":      "https://cast3.asurahosting.com//proxy/meesya/stream",
+                "Url":      "http://cast3.asurahosting.com/proxy/meesya/stream",
                 "Verified": "true",
                 "Video":    "false",
                 "WebPage":  "https://www.radiohyestars.com/"
@@ -860,7 +846,7 @@ def getStations(sortingKey):
                 "Name":     "LA Armenian Radio",
                 "Phone":    "",
                 "Schedule": "* * * * *",
-                "Url":      "https://cast.thiff.com/proxy/laarmeni?mp=/stream",
+                "Url":      "http://cast.thiff.com/proxy/laarmeni?mp=/stream",
                 "Verified": "true",
                 "Video":    "false",
                 "WebPage":  "https://www.laarmenianradio.com/"
@@ -874,7 +860,7 @@ def getStations(sortingKey):
                 "Name":     "Сити-ФМ Ереван 106.0",
                 "Phone":    "+374 10 538087",
                 "Schedule": "* * * * *",
-                "Url":      "https://icecast-rian.cdnvideo.ru/voicearm1",
+                "Url":      "http://icecast-rian.cdnvideo.ru/voicearm1",
                 "Verified": "true",
                 "Video":    "false",
                 "WebPage":  "https://fm106.am/"
@@ -892,6 +878,20 @@ def getStations(sortingKey):
                 "Verified": "true",
                 "Video":    "false",
                 "WebPage":  "https://radioroks.am/"
+                },
+            {
+                "Address":  "",
+                "Country":  "Turkey",
+                "Director": "",
+                "Email":    "",
+                "Icon":     "https://www.norradyo.com/wp-content/uploads/2025/12/cropped-nor-radyo-logo.jpg",
+                "Name":     "Nor Radyo",
+                "Phone":    "",
+                "Schedule": "* * * * *",
+                "Url":      "",
+                "Verified": "false",
+                "Video":    "false",
+                "WebPage":  "https://www.norradyo.com/"
                 }
             ]
     if sortingKey not in ("Name", "Country", "Video"):
