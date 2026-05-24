@@ -62,7 +62,6 @@ def main():
     urls = []
 
     for station in streams:
-        print(f"Checking station: {station['Name']}")
         uri = station['Url']
 
         if not uri:
@@ -86,15 +85,17 @@ def main():
             'port': '' if req.port is None else str(req.port),
         }
 
-        print(f"  - Checking icon availability for {path['icon']}")
         if not check_availability(path['icon']):
+            print(f"Checking station: {station['Name']}")
+            print(f"  - Checking icon availability for {path['icon']}")
             path['icon'] = ''
 
-        print(f"  - Checking stream availability for {uri}")
+        #print(f"  - Checking stream availability for {uri}")
         if check_availability(uri):
             urls.append(path)
-            print(f"  - Station '{station['Name']}' is VERIFIED.")
+            #print(f"  - Station '{station['Name']}' is VERIFIED.")
         else:
+            print(f"Checking station: {station['Name']}")
             print(f"  - Station '{station['Name']}' is NOT VERIFIED.")
 
     output = json.dumps({'backup': {'uri': urls}}, sort_keys=True, indent=4)

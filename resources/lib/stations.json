@@ -17,12 +17,27 @@
                 "webpage": "https://radioyan.com/arf-radio/"
             },
             {
+                "address": "",
+                "country": "France",
+                "director": "",
+                "email": "",
+                "hostname": "stric6.streamakaci.com",
+                "icon": "https://www.radio.net/300/aypfm.png",
+                "nickname": "AYP FM",
+                "path": "/radioayp.mp3",
+                "phone": "01 43 53 19 90",
+                "port": "",
+                "protocol": "https",
+                "schedule": "* * * * *",
+                "webpage": "https://radio-aypfm.com/"
+            },
+            {
                 "address": "0025 Yerevan, Alex Manoogian 5 str",
                 "country": "Armenia",
                 "director": "",
                 "email": "",
                 "hostname": "eu1.stream4cast.com",
-                "icon": "https://www.arradio.am/images/lan_01.png",
+                "icon": "https://cdn.onlineradiobox.com/img/l/9/72209.v5.png",
                 "nickname": "Ar Radio Intercontinental",
                 "path": "/proxy/arradioi/stream",
                 "phone": "+374 10 551143",
@@ -93,6 +108,21 @@
             },
             {
                 "address": "",
+                "country": "Belgium",
+                "director": "",
+                "email": "belgahay@gmail.com",
+                "hostname": "streamer.radio.co",
+                "icon": "https://usercontent.one/wp/belgahay.be/wp-content/uploads/2022/10/belgahay-logo-web-1.png",
+                "nickname": "Belgahay",
+                "path": "/sa1357f891/listen",
+                "phone": "+32 483 327 229",
+                "port": "",
+                "protocol": "https",
+                "schedule": "* * * * *",
+                "webpage": "https://belgahay.be/"
+            },
+            {
+                "address": "",
                 "country": "Armenia",
                 "director": "",
                 "email": "",
@@ -134,7 +164,7 @@
                 "port": "",
                 "protocol": "https",
                 "schedule": "* * * * *",
-                "webpage": "https://europaplus.am/"
+                "webpage": ""
             },
             {
                 "address": "Yerevan, Antarnain Street 188/16",
@@ -171,6 +201,21 @@
                 "country": "Armenia",
                 "director": "",
                 "email": "",
+                "hostname": "stream.zeno.fm",
+                "icon": "https://journews.am/wp-content/uploads/2021/09/LOGO-3.png",
+                "nickname": "Journews Radio",
+                "path": "/dvodr8cuwc5uv",
+                "phone": "",
+                "port": "",
+                "protocol": "https",
+                "schedule": "* * * * *",
+                "webpage": "https://journews.am/"
+            },
+            {
+                "address": "",
+                "country": "Armenia",
+                "director": "",
+                "email": "",
                 "hostname": "ok.ru",
                 "icon": "https://kissfm.am/ui/img/logo.png",
                 "nickname": "Kiss FM",
@@ -180,6 +225,21 @@
                 "protocol": "https",
                 "schedule": "* * * * *",
                 "webpage": "https://kissfm.am/en/home"
+            },
+            {
+                "address": "Los Angeles, California",
+                "country": "USA",
+                "director": "",
+                "email": "laarmenianradio@yahoo.com",
+                "hostname": "cast.thiff.com",
+                "icon": "",
+                "nickname": "LA Armenian Radio",
+                "path": "/proxy/laarmeni",
+                "phone": "",
+                "port": "",
+                "protocol": "https",
+                "schedule": "* * * * *",
+                "webpage": "https://www.laarmenianradio.com/"
             },
             {
                 "address": "",
@@ -407,6 +467,21 @@
                 "webpage": "https://radiojazzfm.am/en/home"
             },
             {
+                "address": "",
+                "country": "Armenia",
+                "director": "",
+                "email": "",
+                "hostname": "stream.zeno.fm",
+                "icon": "https://proxy.zeno.fm/content/stations/6bf108f4-9add-495b-8eac-a9164270d38b/image/?u=1730141126000",
+                "nickname": "Radio Kavkaz",
+                "path": "/y4b9z1qbya3uv",
+                "phone": "",
+                "port": "",
+                "protocol": "https",
+                "schedule": "* * * * *",
+                "webpage": "https://zeno.fm/radio/radio-kavkaz/"
+            },
+            {
                 "address": "Yerevan, Lvovyan 1",
                 "country": "Armenia",
                 "director": "",
@@ -435,6 +510,21 @@
                 "protocol": "https",
                 "schedule": "* * * * *",
                 "webpage": "https://www.radiomarshall.am/"
+            },
+            {
+                "address": "0052 Nairi Zaryan str 22a, Yerevan",
+                "country": "Armenia",
+                "director": "",
+                "email": "",
+                "hostname": "am.radioaurora.am",
+                "icon": "https://radioroks.am/images/logo.jpg",
+                "nickname": "Radio Roks",
+                "path": "/roks.mp3",
+                "phone": "8077",
+                "port": "8010",
+                "protocol": "http",
+                "schedule": "* * * * *",
+                "webpage": "https://radioroks.am/"
             },
             {
                 "address": "Gyumri Railway Station 2 Floor",
@@ -585,6 +675,21 @@
                 "protocol": "http",
                 "schedule": "* * * * *",
                 "webpage": "http://yeridasartoutiantsayne.com/"
+            },
+            {
+                "address": "Yerevan, Khandjyan Street 13a",
+                "country": "Armenia",
+                "director": "",
+                "email": "info@rusradio.am",
+                "hostname": "rusradioreg.webcaramba.com",
+                "icon": "https://rusradio.am/assets/images/logo.png",
+                "nickname": "\u0420\u0443\u0441\u0441\u043a\u043e\u0435 \u0420\u0430\u0434\u0438\u043e \u0410\u0440\u043c\u0435\u043d\u0438\u044f",
+                "path": "/yerevan.rusradio128.mp3",
+                "phone": "+374 10 58 58 50",
+                "port": "",
+                "protocol": "https",
+                "schedule": "* * * * *",
+                "webpage": "https://rusradio.am/"
             }
         ]
     }
