@@ -346,6 +346,20 @@ def getStations(sortingKey):
                 "Verified": "true",
                 "Video":    "false",
                 "WebPage":  "https://www.chanson.am/"
+                },
+            {
+                "Address":  "",
+                "Country":  "Armenia",
+                "Director": "",
+                "Email":    "",
+                "Icon":     "https://kissfm.am/ui/img/logo.png",
+                "Name":     "Kiss FM",
+                "Phone":    "",
+                "Schedule": "* * * * *",
+                "Url":      "https://ok.ru/video/664807546380",
+                "Verified": "true",
+                "Video":    "false",
+                "WebPage":  "https://kissfm.am/en/home"
                 }
             ]
     if sortingKey not in ("Name", "Country", "Video"):

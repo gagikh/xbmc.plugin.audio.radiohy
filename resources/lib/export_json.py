@@ -93,9 +93,8 @@ def main():
         else:
             print(f"  - Station '{station['Name']}' is NOT VERIFIED.")
 
-    backup = {'backup': {'uri': urls}}
-    output = json.dumps(backup, sort_keys=True, indent=4)
-    output_path = Path(__file__).resolve().parent / 'verified_stations_backup.json'
+    output = json.dumps({'backup': {'uri': urls}}, sort_keys=True, indent=4)
+    output_path = Path(__file__).resolve().parent / 'station.json'
     output_path.write_text(output, encoding='utf-8')
     print(f"\nExported {len(urls)} verified stations to {output_path.name}")
 
