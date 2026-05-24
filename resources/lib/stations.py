@@ -444,6 +444,76 @@ def getStations(sortingKey):
                 "Verified": "true",
                 "Video":    "false",
                 "WebPage":  "https://www.radiomariam.am/"
+                },
+            {
+                "Address":  "Yerevan, Antarnain Street 188/16",
+                "Country":  "Armenia",
+                "Director": "",
+                "Email":    "office@1055.am",
+                "Icon":     "https://1055.am/wp-content/uploads/2019/02/Logo-1055-spitak-tarer1.png",
+                "Name":     "FM 105.5",
+                "Phone":    "+374 10 560000",
+                "Schedule": "* * * * *",
+                "Url":      "https://audio.cloudrad.io/3745421d/live",
+                "Verified": "true",
+                "Video":    "false",
+                "WebPage":  "https://1055.am/"
+                },
+            {
+                "Address":  "",
+                "Country":  "Armenia",
+                "Director": "",
+                "Email":    "",
+                "Icon":     "https://armgospelradio.com/images/logo_blue_1.png",
+                "Name":     "Armenian Gospel Radio",
+                "Phone":    "+374 94 222 173",
+                "Schedule": "* * * * *",
+                "Url":      "http://s8.myradiostream.com/15554/listen.mp3",
+                "Verified": "true",
+                "Video":    "false",
+                "WebPage":  "https://armgospelradio.com/"
+                },
+            {
+                "Address":  "Yerevan, Armenia",
+                "Country":  "Armenia",
+                "Director": "",
+                "Email":    "",
+                "Icon":     "https://www.radioyan.com/wp-content/uploads/2015/09/radioyanlight-190-60.png",
+                "Name":     "Radio YAN",
+                "Phone":    "",
+                "Schedule": "* * * * *",
+                "Url":      "https://237.185.153.160.host.secureserver.net/proxy/radioyan1/stream",
+                "Verified": "true",
+                "Video":    "false",
+                "WebPage":  "https://www.radioyan.com/"
+                },
+            {
+                "Address":  "",
+                "Country":  "Armenia",
+                "Director": "",
+                "Email":    "",
+                "Icon":     "https://proxy.zeno.fm/content/stations/agxzfnplbm8tc3RhdHNyMgsSCkF1dGhDbGllbnQYgICInriwuAgMCxIOU3RhdGlvblByb2ZpbGUYgICI3rCdqAsMogEEemVubw/image/?u=1711575067000",
+                "Name":     "Radio Azalia",
+                "Phone":    "",
+                "Schedule": "* * * * *",
+                "Url":      "https://stream.zeno.fm/bvd0260v7hhvv",
+                "Verified": "true",
+                "Video":    "false",
+                "WebPage":  "https://zeno.fm/radio/azalia/"
+                },
+            {
+                "Address":  "",
+                "Country":  "Armenia",
+                "Director": "",
+                "Email":    "",
+                "Icon":     "",
+                "Name":     "Radio Sputnik Armenia",
+                "Phone":    "",
+                "Schedule": "* * * * *",
+                "Url":      "",
+                "Verified": "false",
+                "Video":    "false",
+                "WebPage":  "https://arm.sputniknews.ru/radio/"
                 }
             ]
     if sortingKey not in ("Name", "Country", "Video"):

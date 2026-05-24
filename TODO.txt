@@ -1,0 +1,19 @@
+Stations to add / complete
+==========================
+
+[ ] Carnival Night              - find stream and details
+[ ] Nor Radyo                   - find stream and details
+[ ] Радио Импульс               - check if same as existing "Lratvakan Radio" or separate station
+[ ] Radio Menq                  - find stream and details
+[ ] IMusic.am-jammin            - find stream and details
+[ ] AW Abovyan                  - find stream and details
+[ ] NSHKHAR                     - find stream and details
+[ ] Radio Muzofan               - find stream and details
+[ ] Online Radio Armenia        - find stream and details
+[ ] Radio Mir Armenia           - find stream and details
+[ ] Radio Van Gyumri FM 97.9   - find stream and details (different from existing Radio Van)
+[ ] Radio Sputnik Armenia       - already added, stream URL missing (Brotli-compressed JS blocked auto-detection)
+
+Reference pages:
+  https://onlineradiobox.com/am/
+  https://onlineradiobox.com/am/?cs=am.lav&p=1

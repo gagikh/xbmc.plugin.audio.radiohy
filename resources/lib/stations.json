@@ -17,6 +17,21 @@
                 "webpage": "http://bashde.org"
             },
             {
+                "address": "",
+                "country": "Armenia",
+                "director": "",
+                "email": "",
+                "hostname": "s8.myradiostream.com",
+                "icon": "https://armgospelradio.com/images/logo_blue_1.png",
+                "nickname": "Armenian Gospel Radio",
+                "path": "/15554/listen.mp3",
+                "phone": "+374 94 222 173",
+                "port": "",
+                "protocol": "http",
+                "schedule": "* * * * *",
+                "webpage": "https://armgospelradio.com/"
+            },
+            {
                 "address": "405 Waltham St. Lexington, MA 02421-7953",
                 "country": "USA",
                 "director": "",
@@ -60,6 +75,21 @@
                 "protocol": "https",
                 "schedule": "* * * * *",
                 "webpage": "http://www.lavradio.am"
+            },
+            {
+                "address": "Yerevan, Antarnain Street 188/16",
+                "country": "Armenia",
+                "director": "",
+                "email": "office@1055.am",
+                "hostname": "audio.cloudrad.io",
+                "icon": "https://1055.am/wp-content/uploads/2019/02/Logo-1055-spitak-tarer1.png",
+                "nickname": "FM 105.5",
+                "path": "/3745421d/live",
+                "phone": "+374 10 560000",
+                "port": "",
+                "protocol": "https",
+                "schedule": "* * * * *",
+                "webpage": "https://1055.am/"
             },
             {
                 "address": "80 Bigelow Ave, Watertown, MA 02472",
@@ -315,6 +345,21 @@
                 "protocol": "https",
                 "schedule": "* * * * *",
                 "webpage": "https://www.radiomarshall.am/"
+            },
+            {
+                "address": "Yerevan, Armenia",
+                "country": "Armenia",
+                "director": "",
+                "email": "",
+                "hostname": "237.185.153.160.host.secureserver.net",
+                "icon": "https://www.radioyan.com/wp-content/uploads/2015/09/radioyanlight-190-60.png",
+                "nickname": "Radio YAN",
+                "path": "/proxy/radioyan1/stream",
+                "phone": "",
+                "port": "",
+                "protocol": "https",
+                "schedule": "* * * * *",
+                "webpage": "https://www.radioyan.com/"
             },
             {
                 "address": "",
