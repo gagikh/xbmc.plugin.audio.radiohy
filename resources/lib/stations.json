@@ -228,6 +228,21 @@
             },
             {
                 "address": "",
+                "country": "Armenia",
+                "director": "",
+                "email": "info@radiomarshall.am",
+                "hostname": "eu.stream4cast.com",
+                "icon": "https://www.radiomarshall.am/images/logo.png",
+                "nickname": "Radio Marshall",
+                "path": "/proxy/marshallfm/stream",
+                "phone": "+374 11 540 840",
+                "port": "",
+                "protocol": "https",
+                "schedule": "* * * * *",
+                "webpage": "https://www.radiomarshall.am/"
+            },
+            {
+                "address": "",
                 "country": "",
                 "director": "",
                 "email": "radioyan@imarmenian.com",

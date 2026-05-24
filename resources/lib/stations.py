@@ -360,6 +360,20 @@ def getStations(sortingKey):
                 "Verified": "true",
                 "Video":    "false",
                 "WebPage":  "https://kissfm.am/en/home"
+                },
+            {
+                "Address":  "",
+                "Country":  "Armenia",
+                "Director": "",
+                "Email":    "info@radiomarshall.am",
+                "Icon":     "https://www.radiomarshall.am/images/logo.png",
+                "Name":     "Radio Marshall",
+                "Phone":    "+374 11 540 840",
+                "Schedule": "* * * * *",
+                "Url":      "https://eu.stream4cast.com/proxy/marshallfm/stream",
+                "Verified": "true",
+                "Video":    "false",
+                "WebPage":  "https://www.radiomarshall.am/"
                 }
             ]
     if sortingKey not in ("Name", "Country", "Video"):
