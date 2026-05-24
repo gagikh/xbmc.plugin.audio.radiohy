@@ -892,6 +892,20 @@ def getStations(sortingKey):
                 "Verified": "false",
                 "Video":    "false",
                 "WebPage":  "https://www.norradyo.com/"
+                },
+            {
+                "Address":  "Southern California",
+                "Country":  "USA",
+                "Director": "",
+                "Email":    "",
+                "Icon":     "https://armenianbiblestudy.com/wp-content/uploads/2021/07/ABS-Logo.png",
+                "Name":     "Armenian Bible Study",
+                "Phone":    "",
+                "Schedule": "* * * * *",
+                "Url":      "https://ssl.nexuscast.com:8082/stream?type=http",
+                "Verified": "true",
+                "Video":    "false",
+                "WebPage":  "https://armenianbiblestudy.com/radio/"
                 }
             ]
     if sortingKey not in ("Name", "Country", "Video"):

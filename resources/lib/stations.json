@@ -33,6 +33,16 @@
             },
             {
                 "country": "USA",
+                "hostname": "ssl.nexuscast.com",
+                "icon": "https://armenianbiblestudy.com/wp-content/uploads/2021/07/ABS-Logo.png",
+                "nickname": "Armenian Bible Study",
+                "path": "/stream",
+                "port": "8082",
+                "protocol": "https",
+                "webpage": "https://armenianbiblestudy.com/radio/"
+            },
+            {
+                "country": "USA",
                 "hostname": "streams.radio.co",
                 "icon": "https://cdn.onlineradiobox.com/img/logo/5/43015.v2.png",
                 "nickname": "Armenian Christian Radio",
