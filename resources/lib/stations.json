@@ -49,6 +49,21 @@
             {
                 "address": "",
                 "country": "Armenia",
+                "director": "",
+                "email": "",
+                "hostname": "ok.ru",
+                "icon": "https://kissfm.am/ui/img/logo.png",
+                "nickname": "Kiss FM",
+                "path": "/video/664807546380",
+                "phone": "",
+                "port": "",
+                "protocol": "https",
+                "schedule": "* * * * *",
+                "webpage": "https://kissfm.am/en/home"
+            },
+            {
+                "address": "",
+                "country": "Armenia",
                 "director": "Aghabek Margaryan",
                 "email": "info@lavradio.am",
                 "hostname": "eu.stream4cast.com",
