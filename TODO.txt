@@ -25,6 +25,8 @@ Stations to add / complete
 [ ] Hye Jams Radio              - added (USA), stream not found (iHeartRadio only)
 [ ] City FM                     - added (Armenia, fm106.am), stream not found
 [ ] Mig FM                      - added (Armenia, Vanadzor), stream not found
+[ ] Radio Van                   - stream dead (radiovan.fm server offline), need alternative
+[ ] 101.ru Armenia              - stream dead (msk1.101.ru:8000 refused), need alternative
 
 Reference pages:
   https://onlineradiobox.com/am/

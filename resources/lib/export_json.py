@@ -65,6 +65,7 @@ def main():
         uri = station['Url']
 
         if not uri:
+            print(f"[SKIP] {station['Name']} — no stream URL")
             continue
 
         req = urlparse(uri)
@@ -85,18 +86,15 @@ def main():
             'port': '' if req.port is None else str(req.port),
         }
 
-        if not check_availability(path['icon']):
-            print(f"Checking station: {station['Name']}")
-            print(f"  - Checking icon availability for {path['icon']}")
-            path['icon'] = ''
+        if path['icon']:
+            if not check_availability(path['icon']):
+                print(f"[ICON] {station['Name']} — broken icon, cleared")
+                path['icon'] = ''
 
-        #print(f"  - Checking stream availability for {uri}")
         if check_availability(uri):
             urls.append(path)
-            #print(f"  - Station '{station['Name']}' is VERIFIED.")
         else:
-            print(f"Checking station: {station['Name']}")
-            print(f"  - Station '{station['Name']}' is NOT VERIFIED.")
+            print(f"[FAIL] {station['Name']} — {uri}")
 
     output = json.dumps({'backup': {'uri': urls}}, sort_keys=True, indent=4)
     output_path = Path(__file__).resolve().parent / 'stations.json'

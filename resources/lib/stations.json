@@ -198,6 +198,21 @@
             },
             {
                 "address": "",
+                "country": "Lebanon",
+                "director": "",
+                "email": "",
+                "hostname": "c7.radioboss.fm",
+                "icon": "https://www.radio.net/300/hayazgidzayn.png",
+                "nickname": "Hayazgi Dzayn",
+                "path": "/stream",
+                "phone": "",
+                "port": "18299",
+                "protocol": "https",
+                "schedule": "* * * * *",
+                "webpage": ""
+            },
+            {
+                "address": "",
                 "country": "Armenia",
                 "director": "",
                 "email": "",
@@ -337,7 +352,7 @@
                 "director": "Kegham Depoyan",
                 "email": "info@radioarev.com",
                 "hostname": "cast6.asurahosting.com",
-                "icon": "",
+                "icon": "https://static-media.streema.com/media/cache/14/34/14344378802ae3e87cb33f8f8c090f7d.png",
                 "nickname": "Radio Arev",
                 "path": "/proxy/radioare/stream",
                 "phone": "+961-3-466270",
@@ -373,6 +388,51 @@
                 "phone": "+37410 251007",
                 "port": "",
                 "protocol": "https",
+                "schedule": "* * * * *",
+                "webpage": "http://www.radioaurora.am"
+            },
+            {
+                "address": "0052 Nairi Zaryan str 22a, Yerevan, Armenia",
+                "country": "Armenia",
+                "director": "",
+                "email": "radioaurora@radioaurora.am",
+                "hostname": "am.radioaurora.am",
+                "icon": "https://radioaurora.am/ui/img/logo.png",
+                "nickname": "Radio Aurora Ser1",
+                "path": "/ser1.mp3",
+                "phone": "+37410 251007",
+                "port": "8010",
+                "protocol": "http",
+                "schedule": "* * * * *",
+                "webpage": "http://www.radioaurora.am"
+            },
+            {
+                "address": "0052 Nairi Zaryan str 22a, Yerevan, Armenia",
+                "country": "Armenia",
+                "director": "",
+                "email": "radioaurora@radioaurora.am",
+                "hostname": "am.radioaurora.am",
+                "icon": "https://radioaurora.am/ui/img/logo.png",
+                "nickname": "Radio Aurora Ser2",
+                "path": "/ser2.mp3",
+                "phone": "+37410 251007",
+                "port": "8010",
+                "protocol": "http",
+                "schedule": "* * * * *",
+                "webpage": "http://www.radioaurora.am"
+            },
+            {
+                "address": "0052 Nairi Zaryan str 22a, Yerevan, Armenia",
+                "country": "Armenia",
+                "director": "",
+                "email": "radioaurora@radioaurora.am",
+                "hostname": "am.radioaurora.am",
+                "icon": "https://radioaurora.am/ui/img/logo.png",
+                "nickname": "Radio Aurora Ser3",
+                "path": "/ser3.mp3",
+                "phone": "+37410 251007",
+                "port": "8010",
+                "protocol": "http",
                 "schedule": "* * * * *",
                 "webpage": "http://www.radioaurora.am"
             },
@@ -510,6 +570,21 @@
                 "protocol": "https",
                 "schedule": "* * * * *",
                 "webpage": "https://www.radiomarshall.am/"
+            },
+            {
+                "address": "0052 Nairi Zaryan str 22a, Yerevan, Armenia",
+                "country": "Armenia",
+                "director": "",
+                "email": "radioaurora@radioaurora.am",
+                "hostname": "am.radioaurora.am",
+                "icon": "https://radioaurora.am/ui/img/logo.png",
+                "nickname": "Radio Monte Carlo Armenia",
+                "path": "/montecarlo.mp3",
+                "phone": "+37410 251007",
+                "port": "8010",
+                "protocol": "http",
+                "schedule": "* * * * *",
+                "webpage": "http://www.radioaurora.am"
             },
             {
                 "address": "0052 Nairi Zaryan str 22a, Yerevan",
@@ -690,6 +765,21 @@
                 "protocol": "https",
                 "schedule": "* * * * *",
                 "webpage": "https://rusradio.am/"
+            },
+            {
+                "address": "Northern Prospekt 1, Yerevan",
+                "country": "Armenia",
+                "director": "",
+                "email": "info@cityfm.am",
+                "hostname": "icecast-rian.cdnvideo.ru",
+                "icon": "https://onlineradiobox.ru/media180/cityfm.webp",
+                "nickname": "\u0421\u0438\u0442\u0438-\u0424\u041c \u0415\u0440\u0435\u0432\u0430\u043d 106.0",
+                "path": "/voicearm1",
+                "phone": "+374 10 538087",
+                "port": "",
+                "protocol": "https",
+                "schedule": "* * * * *",
+                "webpage": "https://fm106.am/"
             }
         ]
     }
