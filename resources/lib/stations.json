@@ -62,6 +62,21 @@
                 "webpage": "http://www.lavradio.am"
             },
             {
+                "address": "80 Bigelow Ave, Watertown, MA 02472",
+                "country": "USA",
+                "director": "",
+                "email": "manager@hairenik.com",
+                "hostname": "streaming.radio.co",
+                "icon": "https://hairenik.wpengine.com/wp-content/uploads/2014/10/haireniklogo2.png",
+                "nickname": "Hairenik Radio",
+                "path": "/sb64369622/listen",
+                "phone": "+1-617-926-3974",
+                "port": "",
+                "protocol": "https",
+                "schedule": "* * * * *",
+                "webpage": "https://hairenik.com/"
+            },
+            {
                 "address": "",
                 "country": "Armenia",
                 "director": "",
