@@ -287,6 +287,21 @@
                 "webpage": "https://radiojazzfm.am/en/home"
             },
             {
+                "address": "Yerevan, Lvovyan 1",
+                "country": "Armenia",
+                "director": "",
+                "email": "info@radiomariam.am",
+                "hostname": "live.radiomariam.am",
+                "icon": "https://www.radiomariam.am/resources/radiomariam/images/logo_white.png",
+                "nickname": "Radio Mariam",
+                "path": "/RadioMariam",
+                "phone": "+374 93 72 33 32",
+                "port": "",
+                "protocol": "https",
+                "schedule": "* * * * *",
+                "webpage": "https://www.radiomariam.am/"
+            },
+            {
                 "address": "",
                 "country": "Armenia",
                 "director": "",
@@ -345,6 +360,21 @@
                 "protocol": "https",
                 "schedule": "* * * * *",
                 "webpage": "http://www.vem.am/"
+            },
+            {
+                "address": "Center Shaghzoyan, 2nd Floor, Bourj Hammoud, Metn, Lebanon",
+                "country": "Lebanon",
+                "director": "",
+                "email": "info@voiceofvan.net",
+                "hostname": "vovan.s3ming.com",
+                "icon": "https://www.voiceofvan.net/backend/uploads/setting/1723180428.png",
+                "nickname": "Voice of Van",
+                "path": "/vovan.mp3",
+                "phone": "+961-1-241272",
+                "port": "",
+                "protocol": "https",
+                "schedule": "* * * * *",
+                "webpage": "http://www.voiceofvan.net/"
             },
             {
                 "address": "",

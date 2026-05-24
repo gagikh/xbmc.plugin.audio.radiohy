@@ -45,8 +45,9 @@ def check_availability(url):
         print(f'  - HTTP error for {url}: {exc.code}')
     except urllib.error.URLError as exc:
         print(f'  - URL error for {url}: {exc.reason}')
-    except http.client.BadStatusLine as exc:
-        print(f'  - Bad status line for {url}: {exc}')
+    except http.client.BadStatusLine:
+        # HTTP/0.9 icecast servers respond without a proper status line — treat as available
+        return True
     except socket.timeout:
         print(f'  - Timeout for {url}')
 

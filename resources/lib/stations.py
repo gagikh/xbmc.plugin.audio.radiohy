@@ -430,6 +430,20 @@ def getStations(sortingKey):
                 "Verified": "true",
                 "Video":    "false",
                 "WebPage":  "https://hairenik.com/"
+                },
+            {
+                "Address":  "Yerevan, Lvovyan 1",
+                "Country":  "Armenia",
+                "Director": "",
+                "Email":    "info@radiomariam.am",
+                "Icon":     "https://www.radiomariam.am/resources/radiomariam/images/logo_white.png",
+                "Name":     "Radio Mariam",
+                "Phone":    "+374 93 72 33 32",
+                "Schedule": "* * * * *",
+                "Url":      "https://live.radiomariam.am/RadioMariam",
+                "Verified": "true",
+                "Video":    "false",
+                "WebPage":  "https://www.radiomariam.am/"
                 }
             ]
     if sortingKey not in ("Name", "Country", "Video"):
