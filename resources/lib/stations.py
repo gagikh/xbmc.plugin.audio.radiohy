@@ -528,6 +528,62 @@ def getStations(sortingKey):
                 "Verified": "true",
                 "Video":    "false",
                 "WebPage":  "https://www.radiojan.com/"
+                },
+            {
+                "Address":  "Gyumri Railway Station 2 Floor",
+                "Country":  "Armenia",
+                "Director": "",
+                "Email":    "radiovan.gyumri1@gmail.com",
+                "Icon":     "https://radiovangyumri.am/wp-content/uploads/2022/05/0079photo_2025-10-29_03-48-28-e1761695728581.jpg",
+                "Name":     "Radio Van Gyumri",
+                "Phone":    "+374 95 194344",
+                "Schedule": "* * * * *",
+                "Url":      "https://a13.asurahosting.com/listen/radio_van_gyumri/radio.mp3",
+                "Verified": "true",
+                "Video":    "false",
+                "WebPage":  "https://radiovangyumri.am/"
+                },
+            {
+                "Address":  "",
+                "Country":  "Armenia",
+                "Director": "",
+                "Email":    "",
+                "Icon":     "https://autoradio.am/images/LOGO%20Autoradio.png",
+                "Name":     "Avto Radio",
+                "Phone":    "",
+                "Schedule": "* * * * *",
+                "Url":      "https://de.auroramedia.am/autoradio",
+                "Verified": "true",
+                "Video":    "false",
+                "WebPage":  "https://autoradio.am/"
+                },
+            {
+                "Address":  "",
+                "Country":  "Armenia",
+                "Director": "",
+                "Email":    "",
+                "Icon":     "https://proxy.zeno.fm/content/stations/6bf108f4-9add-495b-8eac-a9164270d38b/image/?u=1730141126000",
+                "Name":     "Radio Kavkaz",
+                "Phone":    "",
+                "Schedule": "* * * * *",
+                "Url":      "https://stream.zeno.fm/y4b9z1qbya3uv",
+                "Verified": "true",
+                "Video":    "false",
+                "WebPage":  "https://zeno.fm/radio/radio-kavkaz/"
+                },
+            {
+                "Address":  "",
+                "Country":  "UAE",
+                "Director": "",
+                "Email":    "radioayk@gmail.com",
+                "Icon":     "https://static.wixstatic.com/media/b1dfa3_be9e61c7b63b9cafdaa5275c3285ca55.png/v1/crop/x_4,y_0,w_321,h_126/fill/w_365,h_140,al_c,lg_1,q_85,enc_avif,quality_auto/RADIO-AYK-HTML-WEB-LOGO.png",
+                "Name":     "Radio AYK",
+                "Phone":    "",
+                "Schedule": "* * * * *",
+                "Url":      "http://64.150.176.42:8117/;listen.mp3",
+                "Verified": "true",
+                "Video":    "false",
+                "WebPage":  "https://www.radioayk.com/"
                 }
             ]
     if sortingKey not in ("Name", "Country", "Video"):

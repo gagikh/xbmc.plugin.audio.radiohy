@@ -10,12 +10,18 @@ Stations to add / complete
 [ ] Radio Muzofan               - find stream and details
 [ ] Online Radio Armenia        - find stream and details
 [ ] Radio Mir Armenia           - find stream and details
-[ ] Radio Van Gyumri FM 97.9   - find stream and details (different from existing Radio Van)
+[x] Radio Van Gyumri FM 97.9   - DONE: stream https://a13.asurahosting.com/listen/radio_van_gyumri/radio.mp3
 [ ] Radio Sputnik Armenia       - already added, stream URL missing (Brotli-compressed JS blocked auto-detection)
 
 [ ] Radio Spurk                  - find stream and details - stream nok
 [ ] Horovel Radio               - find stream and details - stream nok
-[ ] Radio Jan USA               - find stream and details (may differ from existing Radio Jan)
+[x] Radio Jan USA               - DONE: stream https://s4.voscast.com:8865/stream
+
+[ ] Europa Plus Armenia         - find stream and details
+[ ] Русское Радио Armenia       - find stream and details
+[x] Avto Radio                  - DONE: stream https://de.auroramedia.am/autoradio
+[x] Radio Kavkaz                - DONE: stream https://stream.zeno.fm/y4b9z1qbya3uv
+[x] Radio AYK                   - DONE: stream http://64.150.176.42:8117/;listen.mp3
 
 Reference pages:
   https://onlineradiobox.com/am/

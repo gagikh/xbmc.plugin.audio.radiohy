@@ -32,6 +32,21 @@
                 "webpage": "https://armgospelradio.com/"
             },
             {
+                "address": "",
+                "country": "Armenia",
+                "director": "",
+                "email": "",
+                "hostname": "de.auroramedia.am",
+                "icon": "https://autoradio.am/images/LOGO%20Autoradio.png",
+                "nickname": "Avto Radio",
+                "path": "/autoradio",
+                "phone": "",
+                "port": "",
+                "protocol": "https",
+                "schedule": "* * * * *",
+                "webpage": "https://autoradio.am/"
+            },
+            {
                 "address": "405 Waltham St. Lexington, MA 02421-7953",
                 "country": "USA",
                 "director": "",
@@ -375,6 +390,21 @@
                 "protocol": "https",
                 "schedule": "* * * * *",
                 "webpage": "https://www.radiomarshall.am/"
+            },
+            {
+                "address": "Gyumri Railway Station 2 Floor",
+                "country": "Armenia",
+                "director": "",
+                "email": "radiovan.gyumri1@gmail.com",
+                "hostname": "a13.asurahosting.com",
+                "icon": "https://radiovangyumri.am/wp-content/uploads/2022/05/0079photo_2025-10-29_03-48-28-e1761695728581.jpg",
+                "nickname": "Radio Van Gyumri",
+                "path": "/listen/radio_van_gyumri/radio.mp3",
+                "phone": "+374 95 194344",
+                "port": "",
+                "protocol": "https",
+                "schedule": "* * * * *",
+                "webpage": "https://radiovangyumri.am/"
             },
             {
                 "address": "Yerevan, Armenia",
