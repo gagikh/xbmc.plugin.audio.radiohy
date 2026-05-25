@@ -866,6 +866,20 @@ def getStations(sortingKey):
                 "WebPage":  "https://armenianbiblestudy.com/radio/"
                 },
             {
+                "Address":  "Yerevan, Armenia",
+                "Country":  "Armenia",
+                "Director": "",
+                "Email":    "loveradioyerevan@gmail.com",
+                "Icon":     "https://cdn.onlineradiobox.com/img/l/8/68078.v4.png",
+                "Name":     "Love Radio",
+                "Phone":    "+374 55 787041",
+                "Schedule": "* * * * *",
+                "Url":      "https://loveradio.streamingmedia.it/play",
+                "Verified": "true",
+                "Video":    "false",
+                "WebPage":  ""
+                },
+            {
                 "Address":  "Yerevan 93.7 FM",
                 "Country":  "Armenia",
                 "Director": "",
@@ -878,6 +892,20 @@ def getStations(sortingKey):
                 "Verified": "true",
                 "Video":    "false",
                 "WebPage":  "https://radiomir.fm/regions/armeniya"
+                },
+            {
+                "Address":  "32 rue Pompéry, 26500 Bourg-Lès-Valence",
+                "Country":  "France",
+                "Director": "",
+                "Email":    "radio.a@wanadoo.fr",
+                "Icon":     "https://radioa.net/wp-content/uploads/2021/06/cropped-Radio-A-cover-2018-300x108.jpeg",
+                "Name":     "Radio A 97.8",
+                "Phone":    "+33 4 75 56 18 33",
+                "Schedule": "* * * * *",
+                "Url":      "http://stream.votreradiosurlenet.eu/radioa.mp3",
+                "Verified": "true",
+                "Video":    "false",
+                "WebPage":  "https://radioa.net/"
                 }
             ]
     if sortingKey not in ("Name", "Country", "Video"):

@@ -173,6 +173,16 @@
             },
             {
                 "country": "Armenia",
+                "hostname": "loveradio.streamingmedia.it",
+                "icon": "https://cdn.onlineradiobox.com/img/l/8/68078.v4.png",
+                "nickname": "Love Radio",
+                "path": "/play",
+                "port": "",
+                "protocol": "https",
+                "webpage": ""
+            },
+            {
+                "country": "Armenia",
                 "hostname": "212.34.233.78",
                 "icon": "https://www.lratvakan.am/media/company/logo/corporate-logo_IAoQCpL.png",
                 "nickname": "Lratvakan Radio",
@@ -200,6 +210,16 @@
                 "port": "",
                 "protocol": "http",
                 "webpage": "http://www.armradio.am"
+            },
+            {
+                "country": "France",
+                "hostname": "stream.votreradiosurlenet.eu",
+                "icon": "https://radioa.net/wp-content/uploads/2021/06/cropped-Radio-A-cover-2018-300x108.jpeg",
+                "nickname": "Radio A 97.8",
+                "path": "/radioa.mp3",
+                "port": "",
+                "protocol": "http",
+                "webpage": "https://radioa.net/"
             },
             {
                 "country": "France",
