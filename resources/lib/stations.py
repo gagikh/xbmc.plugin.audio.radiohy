@@ -9,13 +9,13 @@ def getStations(sortingKey):
     resp = [
 
     	   {
-                "Address":  "",
-                "Country":  "Lebanon",
+                "Address":  "Almelo, Netherlands 7606TJ",
+                "Country":  "Netherlands",
                 "Director": "Kegham Depoyan",
                 "Email":    "info@radioarev.com",
                 "Icon":     "https://static-media.streema.com/media/cache/14/34/14344378802ae3e87cb33f8f8c090f7d.png",
                 "Name":     "Radio Arev",
-                "Phone":    "+961-3-466270",
+                "Phone":    "+961 3 466 270",
                 "Schedule": "* * * * *",
                 "Url":      "http://cast6.asurahosting.com/proxy/radioare/stream",
                 "Verified": "true",
