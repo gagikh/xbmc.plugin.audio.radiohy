@@ -306,7 +306,7 @@ def getStations(sortingKey):
                 },
             {
                 "Address":  "",
-                "Country":  "",
+                "Country":  "Canada",
                 "Director": "",
                 "Email":    "",
                 "Icon":     "https://triktrak.ca/wp-content/uploads/2015/07/Triktrak_LOGO_small.png",
@@ -629,7 +629,7 @@ def getStations(sortingKey):
                 },
             {
                 "Address":  "",
-                "Country":  "Armenia",
+                "Country":  "Russia",
                 "Director": "",
                 "Email":    "",
                 "Icon":     "",
