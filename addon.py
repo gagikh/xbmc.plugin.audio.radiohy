@@ -26,10 +26,11 @@ import xbmcplugin
 import xbmcaddon
 import xbmcvfs
 
-_addon  = xbmcaddon.Addon()
-_handle = int(sys.argv[1])
-_url    = sys.argv[0]
-_lib    = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'resources', 'lib')
+_addon   = xbmcaddon.Addon()
+_handle  = int(sys.argv[1])
+_url     = sys.argv[0]
+_lib     = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'resources', 'lib')
+_fanart  = xbmcvfs.translatePath(_addon.getAddonInfo('fanart'))
 
 sys.path.insert(0, _lib)
 import stations as _stations
@@ -68,7 +69,7 @@ def _station_item(station, favorites):
     stream_url = station.get('Url', '')
 
     li = xbmcgui.ListItem(name, country)
-    li.setArt({'thumb': icon, 'icon': icon})
+    li.setArt({'thumb': icon, 'icon': icon, 'fanart': _fanart})
     li.getMusicInfoTag().setTitle(name)
     li.setProperty('IsPlayable', 'true')
 
@@ -100,7 +101,7 @@ def main_menu():
     items = []
     for label, icon, url in entries:
         li = xbmcgui.ListItem(label)
-        li.setArt({'icon': icon, 'thumb': icon})
+        li.setArt({'icon': icon, 'thumb': icon, 'fanart': _fanart})
         items.append((url, li, True))
 
     xbmcplugin.addDirectoryItems(_handle, items)
@@ -135,7 +136,7 @@ def list_by_country():
     items = []
     for country in sorted(buckets):
         li = xbmcgui.ListItem(f'{country}  ({len(buckets[country])})')
-        li.setArt({'icon': 'DefaultMusicArtists.png'})
+        li.setArt({'icon': 'DefaultMusicArtists.png', 'fanart': _fanart})
         items.append((_plugin_url(action='country', country=country), li, True))
 
     xbmcplugin.addDirectoryItems(_handle, items)
@@ -221,7 +222,7 @@ def play_station(params):
     name       = params.get('name', '')
     icon       = params.get('icon', '')
 
-    xbmc.log(f'[RadioHY] play: {name!r} -> {stream_url!r}', xbmc.LOGINFO)
+    xbmc.log(f'[RadioHY] play: {name!r} -> {stream_url!r}', xbmc.LOGDEBUG)
 
     li = xbmcgui.ListItem(name, path=stream_url)
     li.setArt({'thumb': icon})
