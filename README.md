@@ -1,15 +1,16 @@
-RadioHY Addon for XBMC
-========================
-version 4.0.0
+RadioHY Addon for Kodi
+======================
+version 5.0.0
 
 ### Summary ###
-This is a script for [XBMC](http://xbmc.org) that enables you to listen to the
-Armenian radio stations that are broadcasting online.
+This is a plugin for [Kodi](https://kodi.tv) that enables you to listen to Armenian radio stations broadcasting online. It includes 64 stations from Armenia, USA, Lebanon, France, and other countries.
 
 ### Setup/Installation ###
-The script should be available in the official XBMC addon repository. You can
-install it within XBMC.
+Install the zip package through Kodi's Add-on browser: *Add-ons → Install from zip file*.
 
-Contact: <hakgagik@yahoo.com> or hakgagik on Skype.
+### License ###
+GPL v3
+
+Contact: <hakgagik@yahoo.com>
 
 Special thanks to developers of [Pandora](https://github.com/rivy/xbmc-script.audio.pandora) and [RadioMA](https://github.com/apolikamixitos/xbmc.plugin.audio.radioma) plugins.

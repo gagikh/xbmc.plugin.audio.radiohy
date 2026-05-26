@@ -9,11 +9,9 @@ Stations to add / complete
 [ ] NSHKHAR                     - find stream and details, Artsakh radio, down now
 [ ] Radio Muzofan               - find stream and details
 [ ] Online Radio Armenia        - find stream and details
-[x] Radio Mir Armenia           - added (93.7 FM Yerevan, radiomir.fm)
 [ ] Radio Sputnik Armenia       - already added, stream URL missing (Brotli-compressed JS blocked auto-detection)
 
 [ ] Arm News FM                 - FM 106.9 Yerevan - armnews.fm - info@armnews.fm - +37410 368645
-
 [ ] Radio Spurk                 - find stream and details - stream nok
 [ ] Horovel Radio               - find stream and details - stream nok
 
@@ -24,13 +22,16 @@ Stations to add / complete
 [ ] Sevan                       - https://www.sevan.live/en - coming soon
 
 [ ] Hye Jams Radio              - added (USA), stream not found (iHeartRadio only)
-[ ] City FM                     - added (Armenia, fm106.am / cityfm.am), stream not working
+[ ] City FM                     - added (Armenia, fm106.am / cityfm.am), stream added (http://icecast-rian.cdnvideo.ru/voicearm1), needs verification
 [ ] Radio Alpha                 - https://play.radioplayer.org/en/live/MDUxfjEwNQ - find stream and details
 [ ] Armenian Radio NJ           - weekly show Sun 2-4 PM on WSOU 89.5 FM - https://armenianradionj.net/ (NY/NJ)
 [ ] Lounge Radio Yerevan        - not working - find stream and details
 [ ] Mig FM                      - added (Armenia, Vanadzor), stream not found
 [ ] Radio Van                   - stream dead (radiovan.fm server online but no broadcast), need alternative
 [ ] 101.ru Armenia              - stream dead (msk1.101.ru:8000 refused), need alternative
+
+
+Check https://top-radio.ru/erevan/evropa-plyus
 
 Reference pages:
   https://onlineradiobox.com/am/
