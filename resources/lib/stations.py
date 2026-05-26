@@ -502,8 +502,8 @@ def getStations(sortingKey):
                 "WebPage":  "https://armgospelradio.com/"
                 },
             {
-                "Address":  "Yerevan, Armenia",
-                "Country":  "Armenia",
+                "Address":  "Beirut, Lebanon",
+                "Country":  "Lebanon",
                 "Director": "",
                 "Email":    "",
                 "Icon":     "https://www.radioyan.com/wp-content/uploads/2015/09/radioyanlight-190-60.png",
@@ -877,7 +877,7 @@ def getStations(sortingKey):
                 "Url":      "https://loveradio.streamingmedia.it/play",
                 "Verified": "true",
                 "Video":    "false",
-                "WebPage":  ""
+                "WebPage":  "http://www.loveradio.am"
                 },
             {
                 "Address":  "Yerevan 93.7 FM",

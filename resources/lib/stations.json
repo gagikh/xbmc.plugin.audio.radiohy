@@ -179,7 +179,7 @@
                 "path": "/play",
                 "port": "",
                 "protocol": "https",
-                "webpage": ""
+                "webpage": "http://www.loveradio.am"
             },
             {
                 "country": "Armenia",
@@ -432,7 +432,7 @@
                 "webpage": "https://radiovangyumri.am/"
             },
             {
-                "country": "Armenia",
+                "country": "Lebanon",
                 "hostname": "237.185.153.160.host.secureserver.net",
                 "icon": "https://www.radioyan.com/wp-content/uploads/2015/09/radioyanlight-190-60.png",
                 "nickname": "Radio YAN",
