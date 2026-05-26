@@ -291,18 +291,18 @@ def getStations(sortingKey):
                 "WebPage":  "http://radiovan.am"
                 },
             {
-                "Address":  "",
-                "Country":  "",
+                "Address":  "Aleppo, Syria",
+                "Country":  "Syria",
                 "Director": "",
-                "Email":    "radioyan@imarmenian.com",
+                "Email":    "radioyeraz@gmail.com",
                 "Icon":     "https://www.haykakanmusic.com/images/radio-yeraz.jpg",
                 "Name":     "Radio Yeraz",
-                "Phone":    "",
+                "Phone":    "+374 55 285009",
                 "Schedule": "* * * * *",
                 "Url":      "http://149.255.60.194:8008/stream",
                 "Verified": "true",
                 "Video":    "false",
-                "WebPage":  "http://radioyeraz.com"
+                "WebPage":  "https://www.radioyeraz.com"
                 },
             {
                 "Address":  "",

@@ -442,14 +442,14 @@
                 "webpage": "https://www.radioyan.com/"
             },
             {
-                "country": "",
+                "country": "Syria",
                 "hostname": "149.255.60.194",
                 "icon": "https://www.haykakanmusic.com/images/radio-yeraz.jpg",
                 "nickname": "Radio Yeraz",
                 "path": "/stream",
                 "port": "8008",
                 "protocol": "http",
-                "webpage": "http://radioyeraz.com"
+                "webpage": "https://www.radioyeraz.com"
             },
             {
                 "country": "",
