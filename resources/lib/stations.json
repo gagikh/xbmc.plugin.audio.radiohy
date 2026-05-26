@@ -16,7 +16,7 @@
                 "hostname": "ssl.nexuscast.com",
                 "icon": "https://armenianbiblestudy.com/wp-content/uploads/2021/07/ABS-Logo.png",
                 "nickname": "Armenian Bible Study",
-                "path": "/stream",
+                "path": "/stream?type=http",
                 "port": "8082",
                 "protocol": "https",
                 "webpage": "https://armenianbiblestudy.com/radio/"
@@ -146,7 +146,7 @@
                 "hostname": "cast.thiff.com",
                 "icon": "",
                 "nickname": "LA Armenian Radio",
-                "path": "/proxy/laarmeni",
+                "path": "/proxy/laarmeni?mp=/stream",
                 "port": "",
                 "protocol": "http",
                 "webpage": "https://www.laarmenianradio.com/"

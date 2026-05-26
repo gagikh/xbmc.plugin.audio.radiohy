@@ -85,7 +85,7 @@ def main():
             'nickname': station['Name'],
             'protocol': req.scheme,
             'hostname': req.hostname,
-            'path': req.path,
+            'path': (req.path + '?' + req.query) if req.query else req.path,
             'port': '' if req.port is None else str(req.port),
         }
 
