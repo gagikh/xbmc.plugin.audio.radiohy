@@ -384,7 +384,7 @@ def getStations(sortingKey):
                 "Name":     "Kiss FM",
                 "Phone":    "",
                 "Schedule": "* * * * *",
-                "Url":      "http://ok.ru/video/664807546380",
+                "Url":      "http://de.auroramedia.am/kissfm.mp3",
                 "Verified": "true",
                 "Video":    "false",
                 "WebPage":  "https://kissfm.am/en/home"

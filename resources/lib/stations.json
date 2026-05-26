@@ -133,10 +133,10 @@
             },
             {
                 "country": "Armenia",
-                "hostname": "ok.ru",
+                "hostname": "de.auroramedia.am",
                 "icon": "https://kissfm.am/ui/img/logo.png",
                 "nickname": "Kiss FM",
-                "path": "/video/664807546380",
+                "path": "/kissfm.mp3",
                 "port": "",
                 "protocol": "http",
                 "webpage": "https://kissfm.am/en/home"
