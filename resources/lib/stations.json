@@ -292,14 +292,14 @@
                 "webpage": "http://www.radioaurora.am"
             },
             {
-                "country": "Armenia",
-                "hostname": "stream.zeno.fm",
-                "icon": "https://proxy.zeno.fm/content/stations/agxzfnplbm8tc3RhdHNyMgsSCkF1dGhDbGllbnQYgICInriwuAgMCxIOU3RhdGlvblByb2ZpbGUYgICI3rCdqAsMogEEemVubw/image/?u=1711575067000",
-                "nickname": "Radio Azalia",
-                "path": "/bvd0260v7hhvv",
-                "port": "",
-                "protocol": "http",
-                "webpage": "https://zeno.fm/radio/azalia/"
+                "country": "Iran",
+                "hostname": "live.iranradio.ir",
+                "icon": "https://iranradio.ir/assets/img/logo.png",
+                "nickname": "IranRadio Armenian",
+                "path": "/live-hy.mp3",
+                "port": "8040",
+                "protocol": "https",
+                "webpage": "https://iranradio.ir/hy/"
             },
             {
                 "country": "Armenia",
