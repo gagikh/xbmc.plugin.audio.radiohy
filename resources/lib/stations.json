@@ -434,7 +434,7 @@
             {
                 "country": "Armenia",
                 "hostname": "a13.asurahosting.com",
-                "icon": "https://radiovangyumri.am/wp-content/uploads/2022/05/0079photo_2025-10-29_03-48-28-e1761695728581.jpg",
+                "icon": "https://cdn.onlineradiobox.com/img/l/1/147411.v8.png",
                 "nickname": "Radio Van Gyumri",
                 "path": "/listen/radio_van_gyumri/radio.mp3",
                 "port": "",
@@ -501,17 +501,7 @@
                 "protocol": "http",
                 "webpage": "http://www.lavradio.am"
             },
-            {
-                "country": "Armenia",
-                "hostname": "stream.radiovan.fm",
-                "icon": "https://radiovan.fm/css/images/ico.png",
-                "nickname": "Radio Van",
-                "path": "/stream/index.m3u8",
-                "port": "",
-                "protocol": "http",
-                "webpage": "https://radiovan.fm/"
-            },
-            {
+{
                 "country": "Armenia",
                 "hostname": "eu1.stream4cast.com",
                 "icon": "https://cdn-profiles.tunein.com/s347439/images/logog.png?t=1",
