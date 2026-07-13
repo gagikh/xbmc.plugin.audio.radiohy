@@ -233,12 +233,12 @@
             },
             {
                 "country": "UAE",
-                "hostname": "s3.streammonster.com",
+                "hostname": "listen.streamaudio.co",
                 "icon": "https://static.wixstatic.com/media/b1dfa3_3cf52443085543d190c668a642f241f0~mv2.png",
                 "nickname": "Radio AYK",
-                "path": "/;",
-                "port": "8117",
-                "protocol": "http",
+                "path": "/proxy/radioayk/stream",
+                "port": "",
+                "protocol": "https",
                 "webpage": "https://www.radioayk.com"
             },
             {
@@ -301,17 +301,7 @@
                 "protocol": "http",
                 "webpage": "http://www.radioaurora.am"
             },
-            {
-                "country": "Lebanon",
-                "hostname": "cast3.my-control-panel.com",
-                "icon": "",
-                "nickname": "Radio Avol",
-                "path": "/stream",
-                "port": "7768",
-                "protocol": "https",
-                "webpage": "https://www.radioavol.net"
-            },
-            {
+{
                 "country": "Iran",
                 "hostname": "live.iranradio.ir",
                 "icon": "https://iranradio.ir/assets/img/logo.png",
