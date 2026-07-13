@@ -232,6 +232,16 @@
                 "webpage": "http://radio-aypfm.com"
             },
             {
+                "country": "UAE",
+                "hostname": "s3.streammonster.com",
+                "icon": "https://static.wixstatic.com/media/b1dfa3_3cf52443085543d190c668a642f241f0~mv2.png",
+                "nickname": "Radio AYK",
+                "path": "/;",
+                "port": "8117",
+                "protocol": "http",
+                "webpage": "https://www.radioayk.com"
+            },
+            {
                 "country": "Netherlands",
                 "hostname": "cast6.asurahosting.com",
                 "icon": "https://static-media.streema.com/media/cache/14/34/14344378802ae3e87cb33f8f8c090f7d.png",
@@ -290,6 +300,16 @@
                 "port": "8010",
                 "protocol": "http",
                 "webpage": "http://www.radioaurora.am"
+            },
+            {
+                "country": "Lebanon",
+                "hostname": "cast3.my-control-panel.com",
+                "icon": "",
+                "nickname": "Radio Avol",
+                "path": "/stream",
+                "port": "7768",
+                "protocol": "https",
+                "webpage": "https://www.radioavol.net"
             },
             {
                 "country": "Iran",
