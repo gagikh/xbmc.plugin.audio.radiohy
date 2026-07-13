@@ -503,6 +503,16 @@
             },
             {
                 "country": "Armenia",
+                "hostname": "stream.radiovan.fm",
+                "icon": "https://radiovan.fm/css/images/ico.png",
+                "nickname": "Radio Van",
+                "path": "/stream/index.m3u8",
+                "port": "",
+                "protocol": "http",
+                "webpage": "https://radiovan.fm/"
+            },
+            {
+                "country": "Armenia",
                 "hostname": "eu1.stream4cast.com",
                 "icon": "https://cdn-profiles.tunein.com/s347439/images/logog.png?t=1",
                 "nickname": "Yerevan FM",
