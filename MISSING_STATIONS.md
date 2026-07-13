@@ -39,6 +39,56 @@ Stations found during research but not yet added to `stations.json`.
 | Luys TV | Armenia | `http://luyse.mediatriple.net/luystv/luystv.smil/playlist.m3u8` | http://www.luys.tv |
 | Radio Van | Armenia | `http://stream.radiovan.fm/stream/index.m3u8` | https://radiovan.fm | — stream was down at time of check |
 
+## Time-slotted Armenian programs (not 24/7)
+
+These are Armenian-language programs on mainstream stations — stream is the host station's feed, not always in Armenian.
+
+### USA
+
+| Program | Station | City | Schedule | Stream |
+|---|---|---|---|---|
+| Hye Oozh | KFSR 90.7 FM | Fresno, CA | Sat 9:00 AM–12:00 PM PT | https://kfsr.org |
+| All Things Armenian | KFSR 90.7 FM | Fresno, CA | Sat 12:00–1:00 PM PT | https://kfsr.org |
+| Armenian Radio Hour of NJ | WSOU 89.5 FM | South Orange, NJ | Sun 2:00–4:00 PM ET | https://www.iheart.com/live/wsou-895-fm-5252/ |
+| Armenian Radio Hour | WARA 1320 AM | Attleboro, MA | Sun 9:00–10:00 AM ET | https://www.wararadio.com/listen.html |
+| Armenian Radio | WJCU 88.7 FM | Cleveland, OH | Sun 5:00–7:00 PM ET | https://www.wjcu.org/player |
+| Armenian Radio | RUSA FM 105.1 HD2 | New York, NY | Fri 3:30–5:00 PM ET | https://rusa.fm/en/watch-live |
+| Armenian Radio Program | WNZK 690 AM | Detroit, MI | Sun 6:00–7:00 PM ET | https://onlineradiobox.com/us/wnzk690680am/ |
+
+### Canada
+
+| Program | Station | City | Schedule | Stream |
+|---|---|---|---|---|
+| Armenian Variety Show | CFRO 100.5 FM | Vancouver, BC | Tue 6:00–7:00 PM PT / Fri 8:00–9:00 AM PT | https://coopradio.radioapp.ca/ |
+
+### Australia
+
+| Program | Station | City | Schedule | Stream |
+|---|---|---|---|---|
+| SBS Armenian | SBS Radio 1 | Nationwide | Tue 6:00–7:00 PM AEST (live) / Sun 6:00–7:00 PM AEST (repeat) | https://www.sbs.com.au/audio/radio/sbs1 |
+
+### Cyprus
+
+| Program | Station | City | Schedule | Stream |
+|---|---|---|---|---|
+| Armenian Daily News | RIK Radio 2 | Nicosia (nationwide) | Daily 5:15 PM EET | https://radio.rik.cy/live-radio/rik-2/ |
+
+### Uruguay
+
+| Program | Station | City | Schedule | Stream |
+|---|---|---|---|---|
+| Audición Gomidas | CX4 Radio Rural 610 AM | Montevideo | Mon–Fri 8:00–9:00 PM / Sat–Sun 1:00–3:00 PM UYT | https://radiorural.uy |
+
+> Oldest Armenian diaspora radio program in the world — on air since 1935 (90 years in 2025).
+
+### France
+
+| Program | Station | City | Schedule | Stream |
+|---|---|---|---|---|
+| Arménice | RCF Nice Côte d'Azur | Nice | Tue 1:30 PM / Sat 9:20 AM CET | https://rcf.fr |
+
+---
+
 ## How to find a hidden stream URL
 
 1. Open the station's website in Chrome
