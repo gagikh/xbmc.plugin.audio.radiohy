@@ -11,7 +11,6 @@ Stations found during research but not yet added to `stations.json`.
 | Sputnik Armenia | Armenia | https://armeniasputnik.am | Stream hidden behind radioplayer.ru — open DevTools > Network while playing |
 | Nor Radyo | Turkey | https://norradyo.com | Armenian/Turkish community radio — stream not exposed on site or zeno.fm |
 | Azatutyun (RFE/RL) | Armenia | https://www.azatutyun.am | Radio Free Europe Armenian service — site returns 403 |
-| Radio MIR Armenia | Armenia | https://radiomir.fm/regions/armeniya | Old stream `http://46.162.206.108:8000/live.mp3` is dead — open DevTools > Network on their site to find new URL |
 | Im Radio | Armenia | https://imradio.armradio.am | Official youth channel of Public Radio of Armenia — behind armradio.am player |
 | Radio Arevik | Armenia | https://en.armradio.am | Children's channel of Public Radio of Armenia — behind armradio.am player |
 | Radio Culture | Armenia | https://mshakuyt.armradio.am | Culture/classical channel of Public Radio of Armenia — behind armradio.am player |

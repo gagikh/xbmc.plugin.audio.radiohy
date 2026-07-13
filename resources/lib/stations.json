@@ -383,12 +383,12 @@
             },
             {
                 "country": "Armenia",
-                "hostname": "46.162.206.108",
+                "hostname": "icecast-mirtv.cdnvideo.ru",
                 "icon": "https://top-radio.ru/assets/image/radio/180/radiomir.jpg",
                 "nickname": "Radio MIR Armenia",
-                "path": "/live.mp3",
-                "port": "8000",
-                "protocol": "http",
+                "path": "/radio_mir_256",
+                "port": "",
+                "protocol": "https",
                 "webpage": "https://radiomir.fm/regions/armeniya"
             },
             {
